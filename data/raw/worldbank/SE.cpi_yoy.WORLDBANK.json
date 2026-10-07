@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2025",
+   "value": 0.679869285243995,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2024",
+   "value": 2.83581658224034,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2023",
+   "value": 8.5486248974891,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2022",
+   "value": 8.36929098869189,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2021",
+   "value": 2.16319736447143,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2020",
+   "value": 0.497367318853572,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2019",
+   "value": 1.78415097403835,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2018",
+   "value": 1.95353530127028,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2017",
+   "value": 1.79449904665599,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2016",
+   "value": 0.984269244577992,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2015",
+   "value": -0.0467847449832812,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2014",
+   "value": -0.179638494114635,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2013",
+   "value": -0.044292970148682,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2012",
+   "value": 0.888377506923735,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2011",
+   "value": 2.9611507382214,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2010",
+   "value": 1.15798802715626,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2009",
+   "value": -0.494460544378051,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2008",
+   "value": 3.43704910602875,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2007",
+   "value": 2.21216883436733,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2006",
+   "value": 1.36021468627693,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2005",
+   "value": 0.453170852576138,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2004",
+   "value": 0.373659828721824,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2003",
+   "value": 1.92565534892383,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2002",
+   "value": 2.15848213589266,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2001",
+   "value": 2.40595834145436,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2000",
+   "value": 0.899143734041715,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1999",
+   "value": 0.462175756339138,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1998",
+   "value": -0.267132668354971,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1997",
+   "value": 0.658410256243526,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1996",
+   "value": 0.533131978766238,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1995",
+   "value": 2.455148578184,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1994",
+   "value": 2.15813800724629,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1993",
+   "value": 4.72817304626049,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1992",
+   "value": 2.37436725111881,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1991",
+   "value": 9.44462732944189,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1990",
+   "value": 10.3665533879493,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1989",
+   "value": 6.44327587426603,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1988",
+   "value": 5.8248986843944,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1987",
+   "value": 4.18857151771368,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1986",
+   "value": 4.23591011089791,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1985",
+   "value": 7.37257458126243,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1984",
+   "value": 8.04424238994429,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1983",
+   "value": 8.8730215236321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1982",
+   "value": 8.58918509047119,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1981",
+   "value": 12.1039385302599,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1980",
+   "value": 13.7063223649005,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1979",
+   "value": 7.20978617047804,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1978",
+   "value": 9.99526541717736,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1977",
+   "value": 11.4418051091076,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1976",
+   "value": 10.2492246529784,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1975",
+   "value": 9.77987398822576,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1974",
+   "value": 9.91172530113231,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1973",
+   "value": 6.71799739819354,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1972",
+   "value": 6.00738969862494,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1971",
+   "value": 7.39554113837643,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1970",
+   "value": 7.01635885100763,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1969",
+   "value": 2.69199458555708,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1968",
+   "value": 1.94312582473228,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1967",
+   "value": 4.28931922993319,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1966",
+   "value": 6.40480825348423,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1965",
+   "value": 5.01277129643838,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1964",
+   "value": 3.38766231088349,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1963",
+   "value": 2.87174034485767,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1962",
+   "value": 4.76619721905826,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1961",
+   "value": 2.15797310981961,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "FP.CPI.TOTL.ZG",
+    "value": "Inflation, consumer prices (annual %)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1960",
+   "value": 4.14177915090215,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  }
+ ]
+]

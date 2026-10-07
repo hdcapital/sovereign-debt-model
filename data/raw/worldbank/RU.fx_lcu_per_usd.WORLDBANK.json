@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2024",
+   "value": 92.5524,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2023",
+   "value": 85.1620083333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2022",
+   "value": 68.4849416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2021",
+   "value": 73.65435,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2020",
+   "value": 72.1049083333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2019",
+   "value": 64.7376583333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2018",
+   "value": 62.6681333333334,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2017",
+   "value": 58.3428011851719,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2016",
+   "value": 67.0559333333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2015",
+   "value": 60.9376501088951,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2014",
+   "value": 38.3782071444168,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2013",
+   "value": 31.8371436402813,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2012",
+   "value": 30.8398313519917,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2011",
+   "value": 29.3823413709302,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2010",
+   "value": 30.3679153383059,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2009",
+   "value": 31.7403583333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2008",
+   "value": 24.852875,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2007",
+   "value": 25.5808453675404,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2006",
+   "value": 27.1909583333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2005",
+   "value": 28.2844416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2004",
+   "value": 28.8137416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2003",
+   "value": 30.692025,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2002",
+   "value": 31.3484833333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2001",
+   "value": 29.168525,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2000",
+   "value": 28.1291666666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1999",
+   "value": 24.6199,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1998",
+   "value": 9.70508333333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1997",
+   "value": 5.78483333333334,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1996",
+   "value": 5.12083333333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1995",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1994",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1993",
+   "value": 0.991666666666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1992",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1991",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1990",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1989",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1988",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1987",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1986",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1985",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1984",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1983",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1982",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1981",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1980",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1979",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1978",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1977",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1976",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1975",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1974",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1973",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1972",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1971",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1970",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1969",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1968",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1967",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1966",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1965",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1964",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1963",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1962",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1961",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1960",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  }
+ ]
+]

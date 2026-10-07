@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2024",
+   "value": 1.08826065542142,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2023",
+   "value": 1.36999748425191,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2022",
+   "value": 1.29388501735187,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2021",
+   "value": 0.599603850816015,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2020",
+   "value": 0.717276175046039,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2019",
+   "value": 0.995626486976558,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2018",
+   "value": 1.17995242573436,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2017",
+   "value": 1.10187739829132,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2016",
+   "value": 1.24709535764118,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2015",
+   "value": 1.48525109138435,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2014",
+   "value": 1.63024054133959,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2013",
+   "value": 2.06842294086436,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2012",
+   "value": 2.27796315244097,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2011",
+   "value": 2.9518481939025,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2010",
+   "value": 2.71420288797226,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2009",
+   "value": 3.27346565084029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2008",
+   "value": 3.6574831710897,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2007",
+   "value": 3.95283856434492,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2006",
+   "value": 4.31234305582384,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2005",
+   "value": 4.40208566462703,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2004",
+   "value": 4.72961435198996,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2003",
+   "value": 5.25296252663675,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2002",
+   "value": 7.52486631647753,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2001",
+   "value": 6.54490241594973,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2000",
+   "value": 7.83888710199665,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1999",
+   "value": 9.35398129689956,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1998",
+   "value": 10.3404203350153,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1997",
+   "value": 12.2760611262363,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1996",
+   "value": 12.3066759928499,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1995",
+   "value": 12.2289749981329,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1994",
+   "value": 17.3135964912281,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1993",
+   "value": 13.5668411478635,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1992",
+   "value": 9.8373011321744,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1991",
+   "value": 10,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1990",
+   "value": 10.6080034638379,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1989",
+   "value": 9.99586481711214,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1988",
+   "value": 11.2205882352941,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1987",
+   "value": 14.5329901837976,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1986",
+   "value": 17.6218106668786,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1985",
+   "value": 21.4777171895966,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1984",
+   "value": 19.4988860546963,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1983",
+   "value": 17.7082185238253,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1982",
+   "value": 11.4849187935035,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1981",
+   "value": 11.1194309247473,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1980",
+   "value": 7.76974564926372,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1979",
+   "value": 5.28306417722279,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1978",
+   "value": 4.47462010992564,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1977",
+   "value": 3.85025218441429,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1976",
+   "value": 3.36100260416667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1975",
+   "value": 3.9906103286385,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1974",
+   "value": 3.41124447252053,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1973",
+   "value": 3.24822695035461,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1972",
+   "value": 2.99383180382127,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1971",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1970",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1969",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1968",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1967",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1966",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1965",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1964",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1963",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1962",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1961",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.XPN.INTP.RV.ZS",
+    "value": "Interest payments (% of revenue)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1960",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  }
+ ]
+]

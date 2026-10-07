@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2025",
+   "value": 9.82070570950185,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2024",
+   "value": 10.5676364344775,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2023",
+   "value": 10.6101612965536,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2022",
+   "value": 10.114251277564,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2021",
+   "value": 8.57656671607378,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2020",
+   "value": 9.21030902842085,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2019",
+   "value": 9.45834916666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2018",
+   "value": 8.69251833333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2017",
+   "value": 8.54886083333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2016",
+   "value": 8.56199166666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2015",
+   "value": 8.43484083333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2014",
+   "value": 6.860785,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2013",
+   "value": 6.51397166666666,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2012",
+   "value": 6.77501583333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2011",
+   "value": 6.49354333333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2010",
+   "value": 7.20752416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2009",
+   "value": 7.65381916666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2008",
+   "value": 6.59109916666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2007",
+   "value": 6.75877,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2006",
+   "value": 7.37824916666666,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2005",
+   "value": 7.47308833333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2004",
+   "value": 7.34888666666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2003",
+   "value": 8.08630416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2002",
+   "value": 9.73712333333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2001",
+   "value": 10.3291358333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2000",
+   "value": 9.16224416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1999",
+   "value": 8.26242833333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1998",
+   "value": 7.94986816666666,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1997",
+   "value": 7.63489416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1996",
+   "value": 6.70595583333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1995",
+   "value": 7.13326833333334,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1994",
+   "value": 7.71597,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1993",
+   "value": 7.78342666666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1992",
+   "value": 5.82383333333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1991",
+   "value": 6.04746666666666,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1990",
+   "value": 5.91879,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1989",
+   "value": 6.44687583333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1988",
+   "value": 6.12715,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1987",
+   "value": 6.34044166666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1986",
+   "value": 7.12358333333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1985",
+   "value": 8.60392499966667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1984",
+   "value": 8.27179999941666,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1983",
+   "value": 7.66710833233333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1982",
+   "value": 6.28260833233333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1981",
+   "value": 5.06344166566667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1980",
+   "value": 4.229574999,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1979",
+   "value": 4.28708333233333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1978",
+   "value": 4.518474999,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1977",
+   "value": 4.48164166566666,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1976",
+   "value": 4.35589166566667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1975",
+   "value": 4.15219166566667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1974",
+   "value": 4.439424999,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1973",
+   "value": 4.367249999,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1972",
+   "value": 4.76241666566667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1971",
+   "value": 5.12590524750269,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1970",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1969",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1968",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1967",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1966",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1965",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1964",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1963",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1962",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1961",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1960",
+   "value": 5.17321000417321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  }
+ ]
+]

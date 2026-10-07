@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2025",
+   "value": 1240.85125,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2024",
+   "value": 914.694883333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2023",
+   "value": 296.258041666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2022",
+   "value": 130.61655,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2021",
+   "value": 94.9907416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2020",
+   "value": 70.5391666666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2019",
+   "value": 48.1478916666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2018",
+   "value": 28.0949916666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2017",
+   "value": 16.5627069251411,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2016",
+   "value": 14.7581750873396,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2015",
+   "value": 9.23318552472429,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2014",
+   "value": 8.07527599281334,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2013",
+   "value": 5.45935266465704,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2012",
+   "value": 4.53693436018746,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2011",
+   "value": 4.11013957621326,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2010",
+   "value": 3.8962951544705,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2009",
+   "value": 3.71010683052328,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2008",
+   "value": 3.14416455988456,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2007",
+   "value": 3.09564884920635,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2006",
+   "value": 3.05431333333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2005",
+   "value": 2.9036575,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2004",
+   "value": 2.92330081890332,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2003",
+   "value": 2.90062916666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2002",
+   "value": 3.06325666666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2001",
+   "value": 0.9995,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "2000",
+   "value": 0.9995,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1999",
+   "value": 0.9995,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1998",
+   "value": 0.9995,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1997",
+   "value": 0.9995,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1996",
+   "value": 0.9996625,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1995",
+   "value": 0.99975,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1994",
+   "value": 0.999008333333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1993",
+   "value": 0.998945833333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1992",
+   "value": 0.990641666666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1991",
+   "value": 0.953554416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1990",
+   "value": 0.487589083333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1989",
+   "value": 0.0423339608333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1988",
+   "value": 0.000875260416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1987",
+   "value": 0.000214429833333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1986",
+   "value": 9.43031666666667e-05,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1985",
+   "value": 6.01809e-05,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1984",
+   "value": 6.7649116666e-06,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1983",
+   "value": 1.05299574995841e-06,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1982",
+   "value": 2.59225333333263e-07,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1981",
+   "value": 4.40269166666725e-08,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1980",
+   "value": 1.83715833333225e-08,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1979",
+   "value": 1.31696666666408e-08,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1978",
+   "value": 7.95749999999583e-09,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1977",
+   "value": 4.07633333332834e-09,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1976",
+   "value": 1.39983333333167e-09,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1975",
+   "value": 3.65749999995e-10,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1974",
+   "value": 4.999999999e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1973",
+   "value": 4.999999999e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1972",
+   "value": 4.999999999e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1971",
+   "value": 4.52166666566667e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1970",
+   "value": 3.79166666566667e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1969",
+   "value": 3.5e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1968",
+   "value": 3.5e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1967",
+   "value": 3.33424999999917e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1966",
+   "value": 2.09149999999667e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1965",
+   "value": 1.69566666666417e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1964",
+   "value": 1.40391666666167e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1963",
+   "value": 1.3871666666625e-11,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1962",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1961",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "AR",
+    "value": "Argentina"
+   },
+   "countryiso3code": "ARG",
+   "date": "1960",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  }
+ ]
+]

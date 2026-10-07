@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2025",
+   "value": 74195224037.4302,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2024",
+   "value": 62569356006.7168,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2023",
+   "value": 60862760991.0537,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2022",
+   "value": 64288785008.4922,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2021",
+   "value": 62053165556.5423,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2020",
+   "value": 58260344659.2008,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2019",
+   "value": 55509629819.8897,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2018",
+   "value": 60566144400.5195,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2017",
+   "value": 62191481193.5854,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2016",
+   "value": 59361642625.4786,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2015",
+   "value": 58098544752.6552,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2014",
+   "value": 62579168750.6963,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2013",
+   "value": 65363359246.0776,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2012",
+   "value": 52245310612.4755,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2011",
+   "value": 50213891950.8524,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2010",
+   "value": 48246149255.6655,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2009",
+   "value": 47255415701.1354,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2008",
+   "value": 29727344091.6924,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2007",
+   "value": 31033035734.4712,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2006",
+   "value": 28017219694.0134,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2005",
+   "value": 24867578418.1736,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2004",
+   "value": 24768805295.0333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2003",
+   "value": 22168538425.3524,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2002",
+   "value": 19170723588.9644,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2001",
+   "value": 15625206244.7363,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2000",
+   "value": 16498728321.8885,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1999",
+   "value": 16749337014.9286,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1998",
+   "value": 15457236697.6273,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1997",
+   "value": 12195506285.5058,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1996",
+   "value": 20843371292.358,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1995",
+   "value": 25869764854.6977,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1994",
+   "value": 25579504410.2307,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1993",
+   "value": 21420634045.1913,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1992",
+   "value": 24646790230.1686,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1991",
+   "value": 20477292580.9968,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1990",
+   "value": 20324328881.439,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1989",
+   "value": 11992849969.076,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1988",
+   "value": 10981551557.1996,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1987",
+   "value": 11112081838.9299,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1986",
+   "value": 8922761484.31062,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1985",
+   "value": 7777877858.87517,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1984",
+   "value": 5715950280.51136,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1983",
+   "value": 6348959344.78422,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1982",
+   "value": 6285248817.83952,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1981",
+   "value": 6013375320.54551,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1980",
+   "value": 6995886855.43518,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1979",
+   "value": 6621022419.20473,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1978",
+   "value": 5479529145.95039,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1977",
+   "value": 4392816298.95279,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1976",
+   "value": 3035642596.73134,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1975",
+   "value": 3650634590.11819,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1974",
+   "value": 2566836971.55321,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1973",
+   "value": 2934153065.61738,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1972",
+   "value": 1733083776.44481,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1971",
+   "value": 1144687007.38369,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1970",
+   "value": 774815766.875111,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1969",
+   "value": 696993134.695452,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1968",
+   "value": 859632541.836128,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1967",
+   "value": 841824518.78406,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1966",
+   "value": 1028422000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1965",
+   "value": 972237520,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1964",
+   "value": 965188000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1963",
+   "value": 757918680,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1962",
+   "value": 801886970,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1961",
+   "value": 731316450,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1960",
+   "value": 505439200,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  }
+ ]
+]

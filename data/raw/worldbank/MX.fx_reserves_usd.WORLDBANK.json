@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2025",
+   "value": 256178680249.028,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2024",
+   "value": 232035392464.815,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2023",
+   "value": 214316827085.02,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2022",
+   "value": 201118689946.087,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2021",
+   "value": 207799490381.042,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2020",
+   "value": 199069188921.046,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2019",
+   "value": 183056094117.556,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2018",
+   "value": 176390278595.584,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2017",
+   "value": 175469669183.544,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2016",
+   "value": 177973637254.61,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2015",
+   "value": 177596632552.624,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2014",
+   "value": 195681624545.922,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2013",
+   "value": 180200033349.658,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2012",
+   "value": 167075785316.037,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2011",
+   "value": 149208113907.362,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2010",
+   "value": 120584016515.123,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2009",
+   "value": 99888815494.3453,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2008",
+   "value": 95299838182.8513,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2007",
+   "value": 87208175923.3125,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2006",
+   "value": 76329367204.2543,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2005",
+   "value": 74109703346.0659,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2004",
+   "value": 64201699862.8694,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2003",
+   "value": 59026700311.4513,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2002",
+   "value": 50671452144.9585,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2001",
+   "value": 44804667773.015,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "2000",
+   "value": 35577279053.6649,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1999",
+   "value": 31828401325.2095,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1998",
+   "value": 31863181979.6295,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1997",
+   "value": 28852477361.1884,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1996",
+   "value": 19526913035.8727,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1995",
+   "value": 17045558632.9877,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1994",
+   "value": 6441390536.10355,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1993",
+   "value": 25298703698.2609,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1992",
+   "value": 19171357434.3236,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1991",
+   "value": 18052066981.6101,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1990",
+   "value": 10216845193.6425,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1989",
+   "value": 6740245010.71088,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1988",
+   "value": 6326668369.94167,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1987",
+   "value": 13691985453.9268,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1986",
+   "value": 6673540003.12227,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1985",
+   "value": 5678880167.02442,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1984",
+   "value": 8018704802.99307,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1983",
+   "value": 4793446679.03658,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1982",
+   "value": 1777613441.72025,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1981",
+   "value": 4971260746.35438,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1980",
+   "value": 4175319837.11204,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1979",
+   "value": 3087692135.1823,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1978",
+   "value": 2269381532.86607,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1977",
+   "value": 1938338554.76707,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1976",
+   "value": 1403804526.58856,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1975",
+   "value": 1896784592.90344,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1974",
+   "value": 1920866299.91621,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1973",
+   "value": 1679817084.57653,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1972",
+   "value": 1296684257.07604,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1971",
+   "value": 981458344.777804,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1970",
+   "value": 756033730,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1969",
+   "value": 663370800,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1968",
+   "value": 689436600,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1967",
+   "value": 586953600,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1966",
+   "value": 564571660,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1965",
+   "value": 538031680,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1964",
+   "value": 587594480,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1963",
+   "value": 548302680,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1962",
+   "value": 427198020,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1961",
+   "value": 413480000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "MX",
+    "value": "Mexico"
+   },
+   "countryiso3code": "MEX",
+   "date": "1960",
+   "value": 444341600,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  }
+ ]
+]

@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2025",
+   "value": 0.88496895841236,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2024",
+   "value": 0.923889546117607,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2023",
+   "value": 0.924839558470698,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2022",
+   "value": 0.949623753156941,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2021",
+   "value": 0.84549413889045,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2020",
+   "value": 0.875506396987998,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2019",
+   "value": 0.893276257067409,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2018",
+   "value": 0.846772667108111,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2017",
+   "value": 0.885205508269372,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2016",
+   "value": 0.903421436257263,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2015",
+   "value": 0.901296423367096,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2014",
+   "value": 0.752728196932603,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2013",
+   "value": 0.752945122701996,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2012",
+   "value": 0.778338120416812,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2011",
+   "value": 0.718413898653317,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2010",
+   "value": 0.754308990105961,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2009",
+   "value": 0.716957702016136,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2008",
+   "value": 0.679922680042729,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2007",
+   "value": 0.729672399984083,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2006",
+   "value": 0.796432730949102,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2005",
+   "value": 0.803800192161442,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2004",
+   "value": 0.803921647747618,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2003",
+   "value": 0.88404792718493,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2002",
+   "value": 1.05755899623965,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2001",
+   "value": 1.11653308564462,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2000",
+   "value": 365.398560833333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1999",
+   "value": 305.646604166667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1998",
+   "value": 295.529105,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1997",
+   "value": 273.057853333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1996",
+   "value": 240.7115425,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1995",
+   "value": 231.662735833333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1994",
+   "value": 242.6028175,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1993",
+   "value": 229.249843333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1992",
+   "value": 190.62425,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1991",
+   "value": 182.266416666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1990",
+   "value": 158.513916666667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1989",
+   "value": 162.416583333333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1988",
+   "value": 141.8605,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1987",
+   "value": 135.4295,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1986",
+   "value": 139.981166666583,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1985",
+   "value": 138.119083333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1984",
+   "value": 112.716583333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1983",
+   "value": 88.0642499995,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1982",
+   "value": 66.80316666575,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1981",
+   "value": 55.4084166656667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1980",
+   "value": 42.6165833323333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1979",
+   "value": 37.0384166656667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1978",
+   "value": 36.7454166656667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1977",
+   "value": 36.8384166656667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1976",
+   "value": 36.5175833323333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1975",
+   "value": 32.051325,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1974",
+   "value": 30.000300003,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1973",
+   "value": 29.625225002,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1972",
+   "value": 30.000300003,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1971",
+   "value": 30.0000000289151,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1970",
+   "value": 30.000000029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1969",
+   "value": 30.000000029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1968",
+   "value": 30.000000029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1967",
+   "value": 30.000000029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1966",
+   "value": 30.000000029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1965",
+   "value": 30.000000029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1964",
+   "value": 30.000000029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1963",
+   "value": 30.000000029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1962",
+   "value": 30.000000029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1961",
+   "value": 30.0000500246667,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  },
+  {
+   "indicator": {
+    "id": "PA.NUS.FCRF",
+    "value": "Official exchange rate (LCU per US$, period average)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1960",
+   "value": 30.000300003,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 2
+  }
+ ]
+]

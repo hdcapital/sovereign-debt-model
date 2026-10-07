@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2025",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2024",
+   "value": 17.8500676833114,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2023",
+   "value": 18.7312788319232,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2022",
+   "value": 19.2810466629119,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2021",
+   "value": 21.0287512612177,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2020",
+   "value": 22.992021036968,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2019",
+   "value": 17.2760484379376,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2018",
+   "value": 16.1685789853238,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2017",
+   "value": 16.3253741158845,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2016",
+   "value": 14.2417395793548,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2015",
+   "value": 13.5407657768558,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2014",
+   "value": 11.2004612827286,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2013",
+   "value": 9.06725564048848,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2012",
+   "value": 8.55140859340356,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2011",
+   "value": 8.64108194430582,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2010",
+   "value": 9.09810564473106,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2009",
+   "value": 8.69786633503919,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2008",
+   "value": 6.49528743788997,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2007",
+   "value": 7.15843011658404,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2006",
+   "value": 9.89107286046746,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2005",
+   "value": 16.6608684477983,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2004",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2003",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2002",
+   "value": 41.3527168644107,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2001",
+   "value": 48.9836153351704,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "2000",
+   "value": 62.1488888669576,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1999",
+   "value": 100.744137724205,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1998",
+   "value": 143.948999533393,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1997",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1996",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1995",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1994",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1993",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1992",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1991",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1990",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1989",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1988",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1987",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1986",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1985",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1984",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1983",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1982",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1981",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1980",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1979",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1978",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1977",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1976",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1975",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1974",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1973",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1972",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1971",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1970",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1969",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1968",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1967",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1966",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1965",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1964",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1963",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1962",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1961",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  },
+  {
+   "indicator": {
+    "id": "GC.DOD.TOTL.GD.ZS",
+    "value": "Central government debt, total (% of GDP)"
+   },
+   "country": {
+    "id": "RU",
+    "value": "Russian Federation"
+   },
+   "countryiso3code": "RUS",
+   "date": "1960",
+   "value": null,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 1
+  }
+ ]
+]

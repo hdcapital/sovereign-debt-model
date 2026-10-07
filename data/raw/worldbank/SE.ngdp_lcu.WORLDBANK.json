@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2025",
+   "value": 6570039000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2024",
+   "value": 6391596000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2023",
+   "value": 6143187000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2022",
+   "value": 5816415000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2021",
+   "value": 5417760000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2020",
+   "value": 5012855000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2019",
+   "value": 5021382000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2018",
+   "value": 4777837000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2017",
+   "value": 4575114000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2016",
+   "value": 4392801000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2015",
+   "value": 4230936000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2014",
+   "value": 3963666000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2013",
+   "value": 3804976000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2012",
+   "value": 3724495000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2011",
+   "value": 3704817000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2010",
+   "value": 3551514000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2009",
+   "value": 3324135000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2008",
+   "value": 3391873000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2007",
+   "value": 3312135000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2006",
+   "value": 3117499000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2005",
+   "value": 2927127000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2004",
+   "value": 2825986000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2003",
+   "value": 2701410000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2002",
+   "value": 2603427000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2001",
+   "value": 2504784000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "2000",
+   "value": 2408775000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1999",
+   "value": 2266528000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1998",
+   "value": 2153527000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1997",
+   "value": 2048059000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1996",
+   "value": 1957814000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1995",
+   "value": 1904951000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1994",
+   "value": 1764642000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1993",
+   "value": 1655098000000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1992",
+   "value": 1653428736000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1991",
+   "value": 1655995782000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1990",
+   "value": 1547568376000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1989",
+   "value": 1403053934000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1988",
+   "value": 1266410079000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1987",
+   "value": 1158672061000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1986",
+   "value": 1070533680000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1985",
+   "value": 980483962000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1984",
+   "value": 901982263000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1983",
+   "value": 803988281000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1982",
+   "value": 717565474000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1981",
+   "value": 655704839000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1980",
+   "value": 600121309000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1979",
+   "value": 528202992000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1978",
+   "value": 471238583000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1977",
+   "value": 422757317000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1976",
+   "value": 388687921000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1975",
+   "value": 343657799000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1974",
+   "value": 292634747000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1973",
+   "value": 259063183000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1972",
+   "value": 232801225000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1971",
+   "value": 212756380000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1970",
+   "value": 196774181000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1969",
+   "value": 175719989000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1968",
+   "value": 161807003000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1967",
+   "value": 152479756000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1966",
+   "value": 140477056000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1965",
+   "value": 129143746000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1964",
+   "value": 117356808000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1963",
+   "value": 105234123000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1962",
+   "value": 97225658000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1961",
+   "value": 89649769000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "NY.GDP.MKTP.CN",
+    "value": "GDP (current LCU)"
+   },
+   "country": {
+    "id": "SE",
+    "value": "Sweden"
+   },
+   "countryiso3code": "SWE",
+   "date": "1960",
+   "value": 82409628000,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  }
+ ]
+]

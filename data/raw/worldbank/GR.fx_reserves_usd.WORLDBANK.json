@@ -1,0 +1,1068 @@
+[
+ {
+  "page": 1,
+  "pages": 1,
+  "per_page": 1000,
+  "total": 66,
+  "sourceid": "2",
+  "lastupdated": "2026-07-13"
+ },
+ [
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2025",
+   "value": 24047515202.452,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2024",
+   "value": 15221750195.0005,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2023",
+   "value": 13608620628.7708,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2022",
+   "value": 12061425398.4158,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2021",
+   "value": 14447242598.1807,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2020",
+   "value": 11931180004.6485,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2019",
+   "value": 8507452886.82209,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2018",
+   "value": 7578500698.89502,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2017",
+   "value": 7803722132.38225,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2016",
+   "value": 6851247713.21209,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2015",
+   "value": 6027606781.10376,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2014",
+   "value": 6236284818.73247,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2013",
+   "value": 5763071364.05671,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2012",
+   "value": 7255024354.91007,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2011",
+   "value": 6743416891.38217,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2010",
+   "value": 6352405963.38906,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2009",
+   "value": 5486122597.59939,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2008",
+   "value": 3489670238.03477,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2007",
+   "value": 3647605325.12089,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2006",
+   "value": 2849953559.42375,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2005",
+   "value": 2287009892.67273,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2004",
+   "value": 2707782609.03229,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2003",
+   "value": 5801377074.94914,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2002",
+   "value": 9431530975.46333,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2001",
+   "value": 6244166654.25855,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "2000",
+   "value": 14594006578.5544,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1999",
+   "value": 19352094677.8738,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1998",
+   "value": 18501070728.0752,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1997",
+   "value": 13652307050.7874,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1996",
+   "value": 18782300412.3394,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1995",
+   "value": 16118557930.3879,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1994",
+   "value": 15809339689.2247,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1993",
+   "value": 9135322990.04867,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1992",
+   "value": 5937644102.6132,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1991",
+   "value": 6400005237.09394,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1990",
+   "value": 4721071253.78782,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1989",
+   "value": 4584865249.954,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1988",
+   "value": 5012214144.75986,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1987",
+   "value": 4299295460.50873,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1986",
+   "value": 2811792216.69663,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1985",
+   "value": 2216191386.64323,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1984",
+   "value": 2220066693.69714,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1983",
+   "value": 2380722491.85029,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1982",
+   "value": 2630216481.26957,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1981",
+   "value": 2553564855.57045,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1980",
+   "value": 3606607178.04871,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1979",
+   "value": 3292536813.64208,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1978",
+   "value": 2157055983.29951,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1977",
+   "value": 1476777090.22437,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1976",
+   "value": 1268118820.87712,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1975",
+   "value": 1291435721.84633,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1974",
+   "value": 1454967385.07359,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1973",
+   "value": 1291978636.34366,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1972",
+   "value": 1125644543.55379,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1971",
+   "value": 534814270.994878,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1970",
+   "value": 318014730,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1969",
+   "value": 317766800,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1968",
+   "value": 349516700,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1967",
+   "value": 286873600,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1966",
+   "value": 273284990,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1965",
+   "value": 250520560,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1964",
+   "value": 281585440,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1963",
+   "value": 292161880,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1962",
+   "value": 286669630,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1961",
+   "value": 267482900,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  },
+  {
+   "indicator": {
+    "id": "FI.RES.TOTL.CD",
+    "value": "Total reserves (includes gold, current US$)"
+   },
+   "country": {
+    "id": "GR",
+    "value": "Greece"
+   },
+   "countryiso3code": "GRC",
+   "date": "1960",
+   "value": 242101200,
+   "unit": "",
+   "obs_status": "",
+   "decimal": 0
+  }
+ ]
+]
