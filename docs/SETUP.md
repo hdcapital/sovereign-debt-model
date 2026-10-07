@@ -18,7 +18,7 @@ and `make dashboard` work offline.
 | Key | Needed for | Where to get it |
 |---|---|---|
 | `FRED_API_KEY` | optional: FRED JSON API instead of the keyless CSV export | https://fred.stlouisfed.org/docs/api/api_key.html (free, instant) |
-| `ANTHROPIC_API_KEY` | `make report` (narrative) | https://console.anthropic.com/settings/keys |
+| `ANTHROPIC_API_KEY` | `make report` (narrative) | https://console.anthropic.com/settings/keys; create it inside a workspace, or also set `ANTHROPIC_WORKSPACE_ID` (console → Settings → Workspaces) for an organisation-level key |
 
 ## 3. Gmail (two minutes, app password)
 

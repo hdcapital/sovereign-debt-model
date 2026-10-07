@@ -182,7 +182,9 @@ def call_claude(system: str, user: str) -> str:
     import anthropic
 
     cfg = load_report_config()["narrative"]
-    client = anthropic.Anthropic()
+    # an organisation-level key must name the workspace it bills to
+    workspace = os.environ.get("ANTHROPIC_WORKSPACE_ID", "").strip()
+    client = anthropic.Anthropic(default_headers={"anthropic-workspace-id": workspace} if workspace else None)
     with client.messages.stream(
         model=cfg["model"],
         max_tokens=int(cfg.get("max_tokens", 16000)),
@@ -223,10 +225,15 @@ def generate_report(use_api: bool = True, label: str | None = None) -> tuple[obj
     QUARTERLY_DIR.mkdir(parents=True, exist_ok=True)
     OUTBOX.mkdir(parents=True, exist_ok=True)
     (OUTBOX / f"prompt-{label}.md").write_text(f"# SYSTEM\n\n{system}\n\n# USER\n\n{user}", encoding="utf-8")
+    text = None
+    why = "ANTHROPIC_API_KEY not set" if use_api else "--no-api"
     if use_api and os.environ.get("ANTHROPIC_API_KEY"):
-        text = call_claude(system, user)
-    else:
-        why = "ANTHROPIC_API_KEY not set" if use_api else "--no-api"
+        try:
+            text = call_claude(system, user)
+        except Exception as e:  # noqa: BLE001 - the email must still go out, with the failure in it
+            why = f"Claude call failed: {type(e).__name__}: {str(e)[:300]}"
+            log.error("report: %s", why)
+    if text is None:
         log.warning("report: %s; writing placeholder with the assembled prompt in reports/outbox/", why)
         text = (
             f"## TL;DR\n\n- Placeholder report for {label}: the narrative was not generated ({why}).\n"
