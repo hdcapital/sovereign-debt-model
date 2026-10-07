@@ -50,6 +50,10 @@ ones are asked first.
   union members, auction tails outside the US, reserves outside pegs) are neither shown nor
   counted as missing (`sdm.indicators.applicability`).
 
+- **Email transport: Gmail app password over SMTP, OAuth kept as fallback.** The brief asked
+  for the Gmail API with OAuth; the owner chose the app-password route for simplicity on
+  2026-10-07. `GMAIL_APP_PASSWORD` selects SMTP; without it the OAuth path runs.
+
 ## Phase 1 (2026-10-07)
 
 - **Package layout.** The brief names `src/collect/`, `src/indicators/`, `src/backtest/`,

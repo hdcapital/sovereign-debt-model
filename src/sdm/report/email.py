@@ -1,8 +1,13 @@
-"""Send the quarterly (or monthly alert) email through the Gmail API with OAuth2.
+"""Send the quarterly (or monthly alert) email from your Gmail account.
 
-Credentials: .secrets/credentials.json (OAuth client, from Google Cloud) and
-.secrets/token.json (user token, created on first interactive run). In CI both come from
-secrets via the GMAIL_CREDENTIALS_JSON / GMAIL_TOKEN_JSON environment variables.
+Two transports, picked automatically:
+
+* **App password over SMTP** (simplest): set ``GMAIL_APP_PASSWORD`` (the 16-character
+  password from Google Account -> Security -> 2-Step Verification -> App passwords) and
+  optionally ``GMAIL_USER`` (defaults to the owner email in config/report.yaml).
+* **Gmail API with OAuth2** (fallback when no app password is set): .secrets/credentials.json
+  and .secrets/token.json, or in CI the GMAIL_CREDENTIALS_JSON / GMAIL_TOKEN_JSON variables.
+
 --dry-run writes the complete RFC 822 message to reports/outbox/ instead of sending.
 """
 
@@ -13,6 +18,7 @@ import json
 import logging
 import mimetypes
 import os
+import smtplib
 from datetime import date
 from email.message import EmailMessage
 from pathlib import Path
@@ -76,6 +82,16 @@ def _credentials() -> object:
     return creds
 
 
+def _send_smtp(msg: EmailMessage, user: str, app_password: str) -> str:
+    """Gmail SMTP with an app password. Returns the message id Gmail assigned, if any."""
+    msg.replace_header("From", user) if msg["From"] else msg.__setitem__("From", user)
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465, timeout=60) as smtp:
+        smtp.login(user, app_password.replace(" ", ""))
+        smtp.send_message(msg)
+    log.info("sent via SMTP as %s", user)
+    return msg.get("Message-ID", "sent")
+
+
 def send(msg: EmailMessage, dry_run: bool) -> Path | str:
     if dry_run:
         OUTBOX.mkdir(parents=True, exist_ok=True)
@@ -84,6 +100,10 @@ def send(msg: EmailMessage, dry_run: bool) -> Path | str:
         path.write_bytes(bytes(msg))
         log.info("dry run: wrote %s (%d KB)", path, path.stat().st_size // 1024)
         return path
+    app_password = os.environ.get("GMAIL_APP_PASSWORD", "").strip()
+    if app_password:
+        user = os.environ.get("GMAIL_USER", "").strip() or load_report_config()["owner_email"]
+        return _send_smtp(msg, user, app_password)
     from googleapiclient.discovery import build
 
     service = build("gmail", "v1", credentials=_credentials(), cache_discovery=False)

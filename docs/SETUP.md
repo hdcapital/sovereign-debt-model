@@ -20,42 +20,29 @@ and `make dashboard` work offline.
 | `FRED_API_KEY` | optional: FRED JSON API instead of the keyless CSV export | https://fred.stlouisfed.org/docs/api/api_key.html (free, instant) |
 | `ANTHROPIC_API_KEY` | `make report` (narrative) | https://console.anthropic.com/settings/keys |
 
-## 3. Gmail, one-time (about ten minutes)
+## 3. Gmail (two minutes, app password)
 
-The monitor sends mail as you, to you, through the Gmail API with OAuth. No app passwords.
+1. Your Google account needs 2-Step Verification on: https://myaccount.google.com/security.
+2. Open https://myaccount.google.com/apppasswords, type a name such as `sovereign-debt-monitor`,
+   click Create. Google shows a 16-character password once; copy it (spaces do not matter).
+3. Locally: put it in `.env` as `GMAIL_APP_PASSWORD=xxxx xxxx xxxx xxxx`. Then
+   `.venv/bin/sdm email --dry-run` (writes `reports/outbox/*.eml`, no send) and
+   `.venv/bin/sdm email` (real send to the owner address).
+4. GitHub: repository → Settings → Secrets and variables → Actions → New repository secret,
+   name `GMAIL_APP_PASSWORD`, value the 16 characters. Add `ANTHROPIC_API_KEY` the same way
+   (and optionally `GMAIL_USER` if the sending account is not the owner address, and `FRED_API_KEY`).
 
-1. **Create a Google Cloud project.** https://console.cloud.google.com → project picker →
-   *New project* → name it `sovereign-debt-monitor` → Create.
-2. **Enable the Gmail API.** In that project: *APIs & Services → Library* → search
-   "Gmail API" → Enable.
-3. **Configure the OAuth consent screen.** *APIs & Services → OAuth consent screen*
-   (Google now calls this *Google Auth Platform → Branding/Audience*):
-   - User type: **External**. App name: `Sovereign Debt Monitor`. Support email: yours.
-   - Audience: leave the app in **Testing** and add `danielconorsims@gmail.com` as a test
-     user. (Publishing is not needed; testing mode is fine for a single user. Note: in
-     testing mode refresh tokens expire after 7 days *unless* the app's publishing status is
-     set to "In production". If the token keeps expiring, click *Publish app*; no
-     verification is required for the `gmail.send` scope used by a single user, Google only
-     shows a warning screen once.)
-   - Scopes: add `https://www.googleapis.com/auth/gmail.send`.
-4. **Create credentials.** *APIs & Services → Credentials → Create credentials → OAuth
-   client ID* → Application type **Desktop app** → name `sdm-local` → Create → **Download
-   JSON**. Save it as `.secrets/credentials.json` in the repo (gitignored).
-5. **Authorise once, on your machine:**
-   ```
-   .venv/bin/sdm email --dry-run      # sanity: writes reports/outbox/*.eml, no Google call
-   .venv/bin/sdm email                # opens a browser, you approve, token saved to .secrets/token.json
-   ```
-   The first real send is the one in phase 7 of the build; after that the token refreshes
-   itself.
-6. **GitHub Actions.** Copy the two files into repository secrets so the scheduled runs can
-   send: *Settings → Secrets and variables → Actions → New repository secret*:
-   - `GMAIL_CREDENTIALS_JSON` = the full contents of `.secrets/credentials.json`
-   - `GMAIL_TOKEN_JSON` = the full contents of `.secrets/token.json`
-   - `ANTHROPIC_API_KEY`, and optionally `FRED_API_KEY`.
+If an app password ever stops working, Google has either turned off 2-Step Verification
+or revoked it; create a new one. The OAuth route below is the alternative if your Google
+Workspace admin blocks app passwords.
 
-   When the token is refreshed in CI the new refresh token is not written back to the
-   secret (refresh tokens do not rotate for Google desktop clients, so this is fine).
+### Alternative: Gmail API with OAuth
+
+Create a Google Cloud project, enable the Gmail API, configure the consent screen (External,
+yourself as test user, scope `gmail.send`), create a Desktop OAuth client and save its JSON as
+`.secrets/credentials.json`. Run `.venv/bin/sdm email` once; the browser flow saves
+`.secrets/token.json`. In GitHub add `GMAIL_CREDENTIALS_JSON` and `GMAIL_TOKEN_JSON` with the
+full contents of each file. The sender uses OAuth only when `GMAIL_APP_PASSWORD` is unset.
 
 ## 4. Schedules
 
