@@ -280,6 +280,7 @@ countries:
     inflation_target: 3.0
     fiscal_year_start_month: 1
     regime_history:
+      - {from: 1976-09-01, to: 1982-12-20, regime: pegged, note: "fixed peso, then dual-rate managed peso after Feb/Aug-1982 devaluations"}
       - {from: 1988-01-01, to: 1994-12-20, regime: pegged, note: "crawling peg / band"}
 
   GR:
