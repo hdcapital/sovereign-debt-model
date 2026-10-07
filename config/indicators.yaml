@@ -1,0 +1,94 @@
+# Indicator parameters. Everything a judgement call lives here, not in code.
+# See docs/INDICATORS.md for definitions and docs/DECISIONS.md for why.
+
+version: 1
+
+frequency: Q            # all indicators are quarterly
+resample:
+  # how each source frequency becomes quarterly (applied in src/sdm/collect/base.py)
+  daily:   {rule: last, note: "quarter-end value for prices/yields; mean for policy rates flagged per series"}
+  monthly: {rule: last}
+  annual:  {rule: step, max_ffill_periods: 1, note: "annual value placed at Q4; carried at most one quarter; never interpolated silently"}
+max_forward_fill_periods: 1   # global guard: never forward-fill more than one period
+
+trajectory:
+  r_effective:
+    numerator: interest_paid_4q_sum
+    denominator_lag_quarters: 4            # debt stock at t-4
+  g_nominal:
+    window_quarters: 4
+  g_trend:
+    method: rolling_mean
+    window_quarters: 40                    # 10y trailing mean of 4q nominal growth
+  marginal_yield:
+    # issuance-weighted blend. Where a country has no issuance mix data we fall back to 10y.
+    default_weights: {y2: 0.4, y10: 0.6}
+    use_issuance_mix_where_available: true
+  forward_r:
+    horizon_years: 5
+    rollover_rule: "1 / avg_maturity_years of the stock reprices per year, plus all new deficit issuance"
+  debt_projection:
+    horizon_years: 10
+
+captivity:
+  # Composite 0-100. Each component is first mapped to 0-100 via `scale` (linear clip),
+  # then combined with these weights. Weights must sum to 1.
+  weights:
+    domestic_share: 0.30
+    central_bank_share: 0.20
+    avg_maturity: 0.20
+    reserve_niip: 0.15
+    bill_linker_share: 0.15        # entered as (100 - scaled share): short/linked debt frees holders
+  scale:
+    domestic_share:     {lo: 30, hi: 95}       # % of debt held by residents
+    central_bank_share: {lo: 0,  hi: 50}       # % held by the central bank
+    avg_maturity:       {lo: 2,  hi: 15}       # years
+    reserve_niip:       {lo: -100, hi: 50}     # NIIP % GDP; reserve currency gets `reserve_currency_score` instead
+    bill_linker_share:  {lo: 0,  hi: 50}       # bills + linkers, % of marketable debt
+  reserve_currency_score: 100                  # US: the world is the captive holder
+  reserve_currency_partial_score: 65           # EA aggregate
+  # Who controls the central bank. Multiplies the central_bank_share component.
+  central_bank_control_credit:
+    own: 1.0
+    shared: 0.5
+    none: 0.0
+
+quadrant:
+  unsustainable:
+    forward_r_minus_g_5y_gt: 0.0        # percentage points
+    primary_balance_gdp_lt: 0.0         # % GDP, 4q rolling (surplus positive)
+  captive:
+    captivity_score_gt: 60
+
+pressure:
+  term_premium_proxy:
+    prefer: "ACM/Kim-Wright where available (US); else 10y - 2y, labelled proxy"
+  issuance_shortening_window_quarters: 8
+  fx_window_months: 12
+  cb_balance_sheet_change_window_quarters: 4
+
+# Thresholds used by the backtest lead-time test and the dashboard threshold lines.
+# `direction` says which side is the warning side.
+thresholds:
+  debt_gdp:                   {value: 90,   direction: above}
+  primary_balance_gdp:        {value: 0,    direction: below}
+  r_minus_g:                  {value: 0,    direction: above}
+  avg_coupon_gap:             {value: 0,    direction: above}
+  forward_r_minus_g_5y:       {value: 0,    direction: above}
+  captivity_score:            {value: 60,   direction: below}    # low captivity = holders free = warning
+  foreign_share:              {value: 40,   direction: above}
+  bill_share:                 {value: 25,   direction: above}
+  policy_rate_minus_inflation: {value: 0,   direction: below}
+  breakeven_10y:              {value: 3.0,  direction: above}
+  term_premium_proxy:         {value: 1.5,  direction: above}
+  cb_holdings_change_4q:      {value: 0,    direction: above}
+  issuance_shortening:        {value: 3,    direction: above}
+  fx_vs_usd_12m:              {value: -10,  direction: below}
+  fx_broad_reer_12m:          {value: -10,  direction: below}
+  gold_local_ccy_12m:         {value: 20,   direction: above}
+  spread_to_anchor_bp:        {value: 200,  direction: above}
+  target2_balance_gdp:        {value: -20,  direction: below}
+
+monthly_alert:
+  sigma_threshold: 1.5        # email if any indicator moves > 1.5 sigma (of its 5y monthly changes)
+  sigma_window_months: 60

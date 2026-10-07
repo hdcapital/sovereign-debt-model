@@ -1,0 +1,31 @@
+version: 1
+
+owner_email: danielconorsims@gmail.com
+subject_template: "Sovereign Debt Monitor — {period}"      # period = YYYY-Qn
+
+narrative:
+  provider: anthropic
+  model: claude-sonnet-5-5         # most recent Sonnet at build time; see docs/DECISIONS.md
+  max_tokens: 8000
+  temperature: 0.3
+  system_prompt_file: docs/MODEL.md
+  instructions_file: prompts/report_instructions.md
+  history_quarters: 8
+  target_words: [1500, 2500]
+
+schedule:
+  quarterly_cron: "0 6 15 1,4,7,10 *"     # 06:00 UTC on 15 Jan/Apr/Jul/Oct
+  monthly_cron:   "0 6 15 * *"            # 06:00 UTC on the 15th (quarterly run supersedes on those months)
+
+outputs:
+  quarterly_dir: reports/quarterly
+  dashboard_dir: reports/dashboard
+  outbox_dir: reports/outbox
+  backtest_dir: reports/backtest
+
+email:
+  attachments:
+    - reports/dashboard/latest.html
+    - data/clean/indicators_latest.csv
+  include_data_issues_section: true     # stale/broken series are always listed; never silently use old data
+  stale_after_days: 120

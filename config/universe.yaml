@@ -1,0 +1,316 @@
+# Country universe and monetary regime.
+#
+# tiers.core           -> full indicator set, quarterly report, dashboard.
+# tiers.backtest_only  -> used only to calibrate thresholds; never in the report
+#                         except as calibration references.
+#
+# monetary_regime values: sovereign_float | currency_union_member | pegged | dollarised
+# The model's core claim ("can always pay nominally") holds only for sovereign_float.
+# `regime_history` records regime changes so the backtest uses the regime in force at
+# the event date; the top-level `monetary_regime` is the current one.
+#
+# central_bank_control: own | shared | none  -> credit applied to the central-bank
+# component of the captivity score (weights in config/indicators.yaml).
+#
+# pressure_gauge: currency (floaters) | spread (union members, pegs: spread to anchor
+# plus TARGET2 where applicable).
+
+version: 1
+
+tiers:
+  core: [US, GB, JP, AU, CA, CH, EA, DE, FR, IT, NL]
+  backtest_only: [AR, TR, RU, BR, MX, GR, SE]
+  # Episodes of core countries used only for calibration. Referenced by data/events.csv.
+  backtest_episodes:
+    - {id: IT-1992, country: IT, window: [1990-01-01, 1997-12-31], regime: pegged, note: "ERM lira, Sep-1992 exit, 1992-97 consolidation"}
+    - {id: CA-1994, country: CA, window: [1992-01-01, 1998-12-31], regime: sovereign_float, note: "1994-95 bond/currency pressure, Feb-1995 budget, successful consolidation"}
+    - {id: GB-1976, country: GB, window: [1973-01-01, 1979-12-31], regime: sovereign_float, note: "sterling crisis, IMF standby Dec-1976"}
+
+countries:
+  US:
+    name: United States
+    iso3: USA
+    currency: USD
+    tier: core
+    monetary_regime: sovereign_float
+    central_bank: Federal Reserve
+    central_bank_control: own
+    reserve_currency: true          # the world is the captive holder
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 2.0
+    fiscal_year_start_month: 10
+
+  GB:
+    name: United Kingdom
+    iso3: GBR
+    currency: GBP
+    tier: core
+    monetary_regime: sovereign_float
+    central_bank: Bank of England
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 2.0
+    fiscal_year_start_month: 4
+    regime_history:
+      - {from: 1990-10-08, to: 1992-09-16, regime: pegged, note: "ERM"}
+
+  JP:
+    name: Japan
+    iso3: JPN
+    currency: JPY
+    tier: core
+    monetary_regime: sovereign_float
+    central_bank: Bank of Japan
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 2.0
+    fiscal_year_start_month: 4
+
+  AU:
+    name: Australia
+    iso3: AUS
+    currency: AUD
+    tier: core
+    monetary_regime: sovereign_float
+    central_bank: Reserve Bank of Australia
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 2.5            # 2-3% band midpoint
+    fiscal_year_start_month: 7
+
+  CA:
+    name: Canada
+    iso3: CAN
+    currency: CAD
+    tier: core
+    monetary_regime: sovereign_float
+    central_bank: Bank of Canada
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 2.0
+    fiscal_year_start_month: 4
+
+  CH:
+    name: Switzerland
+    iso3: CHE
+    currency: CHF
+    tier: core
+    monetary_regime: sovereign_float
+    central_bank: Swiss National Bank
+    central_bank_control: own
+    reserve_currency: false          # safe-haven, but not a reserve currency in the US sense
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 1.0            # "below 2%" -> treat 0-2 band midpoint
+    fiscal_year_start_month: 1
+
+  EA:
+    name: Euro area (aggregate)
+    iso3: EMU
+    currency: EUR
+    tier: core
+    monetary_regime: sovereign_float   # the bloc as a whole can print; members cannot
+    central_bank: European Central Bank
+    central_bank_control: own
+    reserve_currency: false            # partial; second reserve currency
+    reserve_currency_partial: true
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 2.0
+    fiscal_year_start_month: 1
+    is_bloc: true
+    members: [DE, FR, IT, NL]          # members we track; bloc-level data is from ECB/Eurostat
+
+  DE:
+    name: Germany
+    iso3: DEU
+    currency: EUR
+    tier: core
+    monetary_regime: currency_union_member
+    central_bank: European Central Bank
+    central_bank_control: shared
+    reserve_currency: false
+    pressure_gauge: spread
+    anchor: DE                        # Germany is the anchor; its own spread is zero by construction
+    bloc: EA
+    inflation_target: 2.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1979-03-13, to: 1998-12-31, regime: sovereign_float, note: "DM, EMS anchor"}
+
+  FR:
+    name: France
+    iso3: FRA
+    currency: EUR
+    tier: core
+    monetary_regime: currency_union_member
+    central_bank: European Central Bank
+    central_bank_control: shared
+    reserve_currency: false
+    pressure_gauge: spread
+    anchor: DE
+    bloc: EA
+    inflation_target: 2.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1979-03-13, to: 1998-12-31, regime: pegged, note: "franc in EMS/ERM"}
+
+  IT:
+    name: Italy
+    iso3: ITA
+    currency: EUR
+    tier: core
+    monetary_regime: currency_union_member
+    central_bank: European Central Bank
+    central_bank_control: shared
+    reserve_currency: false
+    pressure_gauge: spread
+    anchor: DE
+    bloc: EA
+    inflation_target: 2.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1979-03-13, to: 1992-09-17, regime: pegged, note: "lira in ERM"}
+      - {from: 1992-09-17, to: 1996-11-25, regime: sovereign_float, note: "post-ERM float"}
+      - {from: 1996-11-25, to: 1998-12-31, regime: pegged, note: "ERM re-entry"}
+
+  NL:
+    name: Netherlands
+    iso3: NLD
+    currency: EUR
+    tier: core
+    monetary_regime: currency_union_member
+    central_bank: European Central Bank
+    central_bank_control: shared
+    reserve_currency: false
+    pressure_gauge: spread
+    anchor: DE
+    bloc: EA
+    inflation_target: 2.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1979-03-13, to: 1998-12-31, regime: pegged, note: "guilder hard-pegged to DM"}
+
+  # ---------------------------------------------------------------- backtest only
+  AR:
+    name: Argentina
+    iso3: ARG
+    currency: ARS
+    tier: backtest_only
+    monetary_regime: sovereign_float   # managed, with capital controls since 2019
+    central_bank: BCRA
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: null
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1991-04-01, to: 2002-01-06, regime: pegged, note: "Convertibility (currency board, 1:1 USD)"}
+
+  TR:
+    name: Turkey
+    iso3: TUR
+    currency: TRY
+    tier: backtest_only
+    monetary_regime: sovereign_float
+    central_bank: CBRT
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 5.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 2000-01-01, to: 2001-02-22, regime: pegged, note: "crawling peg, IMF program"}
+
+  RU:
+    name: Russia
+    iso3: RUS
+    currency: RUB
+    tier: backtest_only
+    monetary_regime: sovereign_float
+    central_bank: Bank of Russia
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 4.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1995-07-01, to: 1998-08-17, regime: pegged, note: "ruble corridor / crawling band"}
+      - {from: 1998-08-17, to: 2014-11-10, regime: pegged, note: "managed band vs basket"}
+
+  BR:
+    name: Brazil
+    iso3: BRA
+    currency: BRL
+    tier: backtest_only
+    monetary_regime: sovereign_float
+    central_bank: Banco Central do Brasil
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 3.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1994-07-01, to: 1999-01-15, regime: pegged, note: "Real Plan crawling peg"}
+
+  MX:
+    name: Mexico
+    iso3: MEX
+    currency: MXN
+    tier: backtest_only
+    monetary_regime: sovereign_float
+    central_bank: Banco de Mexico
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 3.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1988-01-01, to: 1994-12-20, regime: pegged, note: "crawling peg / band"}
+
+  GR:
+    name: Greece
+    iso3: GRC
+    currency: EUR
+    tier: backtest_only
+    monetary_regime: currency_union_member
+    central_bank: European Central Bank
+    central_bank_control: shared
+    reserve_currency: false
+    pressure_gauge: spread
+    anchor: DE
+    bloc: EA
+    inflation_target: 2.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1980-01-01, to: 2000-12-31, regime: sovereign_float, note: "drachma"}
+
+  SE:
+    name: Sweden
+    iso3: SWE
+    currency: SEK
+    tier: backtest_only
+    monetary_regime: sovereign_float
+    central_bank: Riksbank
+    central_bank_control: own
+    reserve_currency: false
+    pressure_gauge: currency
+    anchor: null
+    inflation_target: 2.0
+    fiscal_year_start_month: 1
+    regime_history:
+      - {from: 1977-08-29, to: 1992-11-19, regime: pegged, note: "basket then ECU peg"}

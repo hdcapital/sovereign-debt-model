@@ -1,0 +1,108 @@
+# Stage classification rules (0-6). Tune freely; src/sdm/indicators/stages.py evaluates
+# these verbatim. The estimate is the HIGHEST stage whose rule fires, subject to
+# `requires` (a stage cannot fire unless its prerequisite stage fires too).
+#
+# Condition grammar:
+#   {ind: <indicator_name>, op: <gt|lt|ge|le|rising|falling|record_high>, value: <number>,
+#    lookback: <quarters>, min_hits: <n>}
+#   - op rising/falling: change over `lookback` quarters > / < value
+#   - op record_high: current value is the max of the full history
+#   - min_hits: condition must hold in at least n of the last `lookback` quarters
+# A rule has `all:` (every condition) and/or `any:` (at least one).
+#
+# `regime_overrides` swap conditions for currency-union members and pegs, where the
+# pressure gauge is the spread to the anchor rather than the currency.
+
+version: 1
+
+stages:
+  0:
+    name: fuel
+    description: "Persistent primary deficit that does not close in expansions."
+    all:
+      - {ind: primary_balance_gdp, op: lt, value: 0, lookback: 12, min_hits: 9}
+
+  1:
+    name: trigger
+    description: "r rises above g; marginal yield exceeds the average coupon, so the interest bill rises on autopilot."
+    requires: 0
+    all:
+      - {ind: forward_r_minus_g_5y, op: gt, value: 0}
+      - {ind: avg_coupon_gap, op: gt, value: 0}
+
+  2:
+    name: pricing
+    description: "Market demands term premium; breakevens rise; auction tails widen."
+    requires: 1
+    any:
+      - {ind: term_premium_proxy, op: rising, value: 0.5, lookback: 4}
+      - {ind: breakeven_10y, op: rising, value: 0.5, lookback: 4}
+      - {ind: auction_tail, op: rising, value: 1.0, lookback: 4}
+
+  3:
+    name: choice
+    description: "Central bank must pick between the currency and the bond market. Hikes pause with inflation above target; purchases 'for market functioning'."
+    requires: 1
+    any:
+      - all:
+          - {ind: policy_rate_minus_inflation, op: lt, value: 0}
+          - {ind: inflation_minus_target, op: gt, value: 1.0}
+          - {ind: policy_rate, op: rising, value: 0.0, lookback: 2, negate: true}   # not rising
+      - {ind: cb_holdings_change_4q, op: gt, value: 0}
+
+  4:
+    name: fiscal_dominance
+    description: "Bank chooses the bond market. Negative real policy rate, central bank share rising, balance sheet outgrowing GDP, issuance shortening into bills."
+    requires: 3
+    all:
+      - {ind: policy_rate_minus_inflation, op: lt, value: 0}
+      - {ind: cb_holdings_change_4q, op: gt, value: 0}
+    any:
+      - {ind: cb_balance_sheet_growth_minus_g, op: gt, value: 0}
+      - {ind: issuance_shortening, op: gt, value: 2}
+
+  5:
+    name: flight
+    description: "Currency falls without further easing; gold at records in local currency; controls and repression intensify."
+    requires: 3
+    all:
+      - {ind: gold_local_ccy_12m, op: gt, value: 15}
+    any:
+      - {ind: fx_vs_usd_12m, op: lt, value: -10}
+      - {ind: fx_broad_reer_12m, op: lt, value: -10}
+      - {ind: gold_local_ccy, op: record_high}
+
+  6:
+    name: resolution
+    description: "Exit in progress: fiscal correction, repression grind, or hyperinflation/default. Flagged by hand in data/events.csv; the rule only detects the consolidation branch."
+    requires: 1
+    all:
+      - {ind: primary_balance_gdp, op: rising, value: 2.0, lookback: 8}
+      - {ind: primary_balance_gdp, op: gt, value: 0}
+
+regime_overrides:
+  currency_union_member:
+    3:
+      name: choice
+      description: "Union member at stage 3: widening spread to the anchor and the ECB announcing a backstop, not a falling currency."
+      requires: 1
+      any:
+        - {ind: spread_to_anchor_bp, op: rising, value: 75, lookback: 4}
+        - {ind: ecb_backstop_active, op: ge, value: 1}
+    5:
+      name: flight
+      description: "Union member at stage 5: spread blows out, TARGET2 liability widens, deposit flight."
+      requires: 3
+      all:
+        - {ind: spread_to_anchor_bp, op: gt, value: 300}
+      any:
+        - {ind: target2_balance_gdp, op: falling, value: -5, lookback: 4}
+        - {ind: spread_to_anchor_bp, op: record_high}
+  pegged:
+    5:
+      name: flight
+      description: "Peg under attack: reserves falling, parallel-rate premium, spread to anchor."
+      requires: 3
+      any:
+        - {ind: fx_reserves_12m, op: lt, value: -25}
+        - {ind: spread_to_anchor_bp, op: gt, value: 500}

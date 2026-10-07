@@ -1,0 +1,21 @@
+# secrets
+.env
+.secrets/*
+!.secrets/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ruff_cache/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# raw cache is versioned deliberately (small, inspectable); large binaries are not
+data/raw/**/*.zip
+data/raw/**/*.xlsx.bak
+
+# generated email drafts are kept, but not attachments duplicated per run
+reports/outbox/*.eml
