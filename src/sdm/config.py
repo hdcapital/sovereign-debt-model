@@ -62,9 +62,13 @@ class Country:
     regime_history: tuple[RegimeSpan, ...] = ()
 
     def regime_at(self, when: date) -> str:
-        """Monetary regime in force on ``when`` (current regime if no span covers it)."""
+        """Monetary regime in force on ``when`` (current regime if no span covers it).
+
+        Spans are inclusive of their end date: the day a peg breaks belongs to the peg,
+        because that is the regime whose mechanics produced the event.
+        """
         for span in self.regime_history:
-            if span.start <= when < span.end:
+            if span.start <= when <= span.end:
                 return span.regime
         return self.monetary_regime
 

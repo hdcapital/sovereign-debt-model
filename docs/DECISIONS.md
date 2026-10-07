@@ -29,6 +29,8 @@ ones are asked first.
   `tiers.backtest_episodes` referencing the core country code and a window, rather than
   duplicate country entries. The core country's current regime is unchanged; the regime at the
   event is read from `regime_history`.
+- **Regime spans are inclusive of the end date.** The day a peg breaks (Black Wednesday,
+  Russia 10 Nov 2014) is read as the peg, since the event is the peg's failure.
 - **Historical regimes.** Italy 1979–92 and 1996–98, France, Netherlands, Sweden (to 1992),
   Mexico (to 1994), Brazil (1994–99), Russia (1995–2014), Turkey (2000–01), Argentina (1991–2002),
   UK (1990–92) are recorded as `pegged`. ERM membership is treated as a peg because the exit
