@@ -1,0 +1,766 @@
+2026-10-07 06:56:31,830 INFO sdm.collect.registry: == bis
+2026-10-07 06:56:32,741 INFO sdm.collect.base: US.policy_rate.BIS: 866 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:33,261 INFO sdm.collect.base: US.cb_total_assets_lcu.BIS: 1341 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:33,487 INFO sdm.collect.base: US.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:33,843 INFO sdm.collect.base: US.cpi_index.BIS: 1363 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:34,067 INFO sdm.collect.base: US.gg_debt_gdp.BIS: 314 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:34,372 INFO sdm.collect.base: GB.policy_rate.BIS: 968 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:35,036 INFO sdm.collect.base: GB.cb_total_assets_lcu.BIS: 2183 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:35,550 INFO sdm.collect.base: GB.fx_lcu_per_usd.BIS: 2828 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:35,798 INFO sdm.collect.base: GB.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:36,179 INFO sdm.collect.base: GB.cpi_index.BIS: 1340 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:36,408 INFO sdm.collect.base: GB.gg_debt_gdp.BIS: 241 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:36,705 INFO sdm.collect.base: JP.policy_rate.BIS: 852 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:37,169 INFO sdm.collect.base: JP.cb_total_assets_lcu.BIS: 883 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:37,445 INFO sdm.collect.base: JP.fx_lcu_per_usd.BIS: 836 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:37,671 INFO sdm.collect.base: JP.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:37,974 INFO sdm.collect.base: JP.cpi_index.BIS: 960 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:38,169 INFO sdm.collect.base: JP.gg_debt_gdp.BIS: 114 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:38,421 INFO sdm.collect.base: AU.policy_rate.BIS: 605 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:38,713 INFO sdm.collect.base: AU.cb_total_assets_lcu.BIS: 684 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:56:38,990 INFO sdm.collect.base: AU.fx_lcu_per_usd.BIS: 836 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:39,227 INFO sdm.collect.base: AU.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:39,553 INFO sdm.collect.base: AU.cpi_index.BIS: 1251 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:56:39,752 INFO sdm.collect.base: AU.gg_debt_gdp.BIS: 152 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:41,110 INFO sdm.collect.base: CA.policy_rate.BIS: 794 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:41,435 INFO sdm.collect.base: CA.cb_total_assets_lcu.BIS: 1097 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:41,731 INFO sdm.collect.base: CA.fx_lcu_per_usd.BIS: 980 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:41,956 INFO sdm.collect.base: CA.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:42,294 INFO sdm.collect.base: CA.cpi_index.BIS: 1352 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:42,493 INFO sdm.collect.base: CA.gg_debt_gdp.BIS: 145 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:42,785 INFO sdm.collect.base: CH.policy_rate.BIS: 968 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:43,099 INFO sdm.collect.base: CH.cb_total_assets_lcu.BIS: 943 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:43,385 INFO sdm.collect.base: CH.fx_lcu_per_usd.BIS: 876 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:43,611 INFO sdm.collect.base: CH.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:43,947 INFO sdm.collect.base: CH.cpi_index.BIS: 1268 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:44,145 INFO sdm.collect.base: CH.gg_debt_gdp.BIS: 122 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:44,368 INFO sdm.collect.base: EA.policy_rate.BIS: 332 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:44,598 INFO sdm.collect.base: EA.cb_total_assets_lcu.BIS: 332 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:44,849 INFO sdm.collect.base: EA.fx_lcu_per_usd.BIS: 627 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:45,083 INFO sdm.collect.base: EA.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:45,312 INFO sdm.collect.base: EA.cpi_index.BIS: 440 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:45,508 INFO sdm.collect.base: EA.gg_debt_gdp.BIS: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:45,853 INFO sdm.collect.base: DE.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:46,137 INFO sdm.collect.base: DE.cpi_index.BIS: 932 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:46,339 INFO sdm.collect.base: DE.gg_debt_gdp.BIS: 110 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:46,567 INFO sdm.collect.base: FR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:46,864 INFO sdm.collect.base: FR.cpi_index.BIS: 908 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:47,061 INFO sdm.collect.base: FR.gg_debt_gdp.BIS: 110 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:47,297 INFO sdm.collect.base: IT.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:47,589 INFO sdm.collect.base: IT.cpi_index.BIS: 956 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:47,794 INFO sdm.collect.base: IT.gg_debt_gdp.BIS: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:48,035 INFO sdm.collect.base: NL.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:48,302 INFO sdm.collect.base: NL.cpi_index.BIS: 739 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:48,513 INFO sdm.collect.base: NL.gg_debt_gdp.BIS: 110 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:48,741 INFO sdm.collect.base: AR.policy_rate.BIS: 386 obs, 0 new, 0 revised, last 2025-06-30
+2026-10-07 06:56:48,981 INFO sdm.collect.base: AR.cb_total_assets_lcu.BIS: 343 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:49,280 INFO sdm.collect.base: AR.fx_lcu_per_usd.BIS: 1040 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:49,514 INFO sdm.collect.base: AR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:49,811 INFO sdm.collect.base: AR.cpi_index.BIS: 1004 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:49,976 WARNING sdm.collect.base: AR.gg_debt_gdp.BIS: FAILED HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.AR.G.A.M.770.A?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:ErrorMessage code="100">
+    <com:Text>No results for
+2026-10-07 06:56:50,199 INFO sdm.collect.base: TR.policy_rate.BIS: 295 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:50,447 INFO sdm.collect.base: TR.cb_total_assets_lcu.BIS: 487 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:50,735 INFO sdm.collect.base: TR.fx_lcu_per_usd.BIS: 920 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:50,967 INFO sdm.collect.base: TR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:51,233 INFO sdm.collect.base: TR.cpi_index.BIS: 752 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:51,437 INFO sdm.collect.base: TR.gg_debt_gdp.BIS: 101 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:51,667 INFO sdm.collect.base: RU.policy_rate.BIS: 416 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:51,847 WARNING sdm.collect.base: RU.cb_total_assets_lcu.BIS: FAILED HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.RU?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:ErrorMessage code="100">
+    <com:Text>No results for
+2026-10-07 06:56:52,090 INFO sdm.collect.base: RU.fx_lcu_per_usd.BIS: 411 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:52,317 INFO sdm.collect.base: RU.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:52,531 INFO sdm.collect.base: RU.cpi_index.BIS: 308 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:52,695 WARNING sdm.collect.base: RU.gg_debt_gdp.BIS: FAILED HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.RU.G.A.M.770.A?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:ErrorMessage code="100">
+    <com:Text>No results for
+2026-10-07 06:56:52,934 INFO sdm.collect.base: BR.policy_rate.BIS: 483 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:53,169 INFO sdm.collect.base: BR.cb_total_assets_lcu.BIS: 384 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:56:53,662 INFO sdm.collect.base: BR.fx_lcu_per_usd.BIS: 884 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:53,886 INFO sdm.collect.base: BR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:54,140 INFO sdm.collect.base: BR.cpi_index.BIS: 560 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:54,304 WARNING sdm.collect.base: BR.gg_debt_gdp.BIS: FAILED HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.BR.G.A.M.770.A?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:ErrorMessage code="100">
+    <com:Text>No results for
+2026-10-07 06:56:54,523 INFO sdm.collect.base: MX.policy_rate.BIS: 334 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:54,801 INFO sdm.collect.base: MX.cb_total_assets_lcu.BIS: 595 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-07 06:56:55,081 INFO sdm.collect.base: MX.fx_lcu_per_usd.BIS: 869 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:55,308 INFO sdm.collect.base: MX.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:55,568 INFO sdm.collect.base: MX.cpi_index.BIS: 692 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:55,749 WARNING sdm.collect.base: MX.gg_debt_gdp.BIS: FAILED HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.MX.G.A.M.770.A?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:ErrorMessage code="100">
+    <com:Text>No results for
+2026-10-07 06:56:55,974 INFO sdm.collect.base: GR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:56,247 INFO sdm.collect.base: GR.cpi_index.BIS: 812 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:56,441 INFO sdm.collect.base: GR.gg_debt_gdp.BIS: 114 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:56,746 INFO sdm.collect.base: SE.policy_rate.BIS: 968 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:56,972 INFO sdm.collect.base: SE.cb_total_assets_lcu.BIS: 322 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:56:57,253 INFO sdm.collect.base: SE.fx_lcu_per_usd.BIS: 876 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:57,495 INFO sdm.collect.base: SE.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:57,825 INFO sdm.collect.base: SE.cpi_index.BIS: 1012 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:56:58,021 INFO sdm.collect.base: SE.gg_debt_gdp.BIS: 121 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:56:58,584 INFO sdm.collect.registry: == imf_datamapper
+2026-10-07 06:56:59,744 INFO sdm.collect.base: US.gg_debt_gdp.IMF_WEO: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:00,787 INFO sdm.collect.base: US.gg_primary_balance_gdp.IMF_WEO: 96 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:01,320 INFO sdm.collect.base: US.gg_net_lending_gdp.IMF_WEO: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:02,133 INFO sdm.collect.base: US.gg_revenue_gdp.IMF_WEO: 96 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:02,771 INFO sdm.collect.base: US.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:03,480 INFO sdm.collect.base: US.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:03,924 INFO sdm.collect.base: US.gg_interest_gdp.IMF_WEO: 96 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:04,286 INFO sdm.collect.base: GB.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:05,102 INFO sdm.collect.base: GB.gg_primary_balance_gdp.IMF_WEO: 195 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:05,474 INFO sdm.collect.base: GB.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:06,067 INFO sdm.collect.base: GB.gg_revenue_gdp.IMF_WEO: 195 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:06,567 INFO sdm.collect.base: GB.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:07,130 INFO sdm.collect.base: GB.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:07,748 INFO sdm.collect.base: GB.gg_interest_gdp.IMF_WEO: 225 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:08,080 INFO sdm.collect.base: JP.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:08,735 INFO sdm.collect.base: JP.gg_primary_balance_gdp.IMF_WEO: 147 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:12,141 INFO sdm.collect.base: JP.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:12,628 INFO sdm.collect.base: JP.gg_revenue_gdp.IMF_WEO: 147 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:13,058 INFO sdm.collect.base: JP.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:13,627 INFO sdm.collect.base: JP.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:14,183 INFO sdm.collect.base: JP.gg_interest_gdp.IMF_WEO: 147 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:14,578 INFO sdm.collect.base: AU.gg_debt_gdp.IMF_WEO: 37 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:15,096 INFO sdm.collect.base: AU.gg_primary_balance_gdp.IMF_WEO: 112 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:15,776 INFO sdm.collect.base: AU.gg_net_lending_gdp.IMF_WEO: 38 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:16,611 INFO sdm.collect.base: AU.gg_revenue_gdp.IMF_WEO: 124 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:17,271 INFO sdm.collect.base: AU.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:17,841 INFO sdm.collect.base: AU.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:18,569 INFO sdm.collect.base: AU.gg_interest_gdp.IMF_WEO: 112 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:19,270 INFO sdm.collect.base: CA.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:20,040 INFO sdm.collect.base: CA.gg_primary_balance_gdp.IMF_WEO: 155 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:20,665 INFO sdm.collect.base: CA.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:21,212 INFO sdm.collect.base: CA.gg_revenue_gdp.IMF_WEO: 155 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:21,720 INFO sdm.collect.base: CA.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:22,163 INFO sdm.collect.base: CA.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:22,617 INFO sdm.collect.base: CA.gg_interest_gdp.IMF_WEO: 155 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:22,939 INFO sdm.collect.base: CH.gg_debt_gdp.IMF_WEO: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:23,397 INFO sdm.collect.base: CH.gg_primary_balance_gdp.IMF_WEO: 111 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:23,766 INFO sdm.collect.base: CH.gg_net_lending_gdp.IMF_WEO: 43 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:24,285 INFO sdm.collect.base: CH.gg_revenue_gdp.IMF_WEO: 111 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:24,699 INFO sdm.collect.base: CH.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:25,350 INFO sdm.collect.base: CH.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:25,938 INFO sdm.collect.base: CH.gg_interest_gdp.IMF_WEO: 111 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:26,384 INFO sdm.collect.base: EA.gg_debt_gdp.IMF_WEO: 31 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:26,988 INFO sdm.collect.base: EA.gg_net_lending_gdp.IMF_WEO: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:27,513 INFO sdm.collect.base: EA.rgdp_growth.IMF_WEO: 34 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:28,113 INFO sdm.collect.base: EA.cpi_yoy.IMF_WEO: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:28,549 INFO sdm.collect.base: DE.gg_debt_gdp.IMF_WEO: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:29,067 INFO sdm.collect.base: DE.gg_primary_balance_gdp.IMF_WEO: 119 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:29,817 INFO sdm.collect.base: DE.gg_net_lending_gdp.IMF_WEO: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:30,693 INFO sdm.collect.base: DE.gg_revenue_gdp.IMF_WEO: 119 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:31,199 INFO sdm.collect.base: DE.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:32,091 INFO sdm.collect.base: DE.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:34,920 INFO sdm.collect.base: DE.gg_interest_gdp.IMF_WEO: 119 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:35,821 INFO sdm.collect.base: FR.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:36,445 INFO sdm.collect.base: FR.gg_primary_balance_gdp.IMF_WEO: 126 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:36,967 INFO sdm.collect.base: FR.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:37,469 INFO sdm.collect.base: FR.gg_revenue_gdp.IMF_WEO: 132 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:38,068 INFO sdm.collect.base: FR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:38,444 INFO sdm.collect.base: FR.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:38,989 INFO sdm.collect.base: FR.gg_interest_gdp.IMF_WEO: 127 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:39,422 INFO sdm.collect.base: IT.gg_debt_gdp.IMF_WEO: 38 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:39,904 INFO sdm.collect.base: IT.gg_primary_balance_gdp.IMF_WEO: 163 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:40,338 INFO sdm.collect.base: IT.gg_net_lending_gdp.IMF_WEO: 38 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:40,821 INFO sdm.collect.base: IT.gg_revenue_gdp.IMF_WEO: 163 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:41,177 INFO sdm.collect.base: IT.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:41,677 INFO sdm.collect.base: IT.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:42,297 INFO sdm.collect.base: IT.gg_interest_gdp.IMF_WEO: 163 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:42,927 INFO sdm.collect.base: NL.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:43,449 INFO sdm.collect.base: NL.gg_primary_balance_gdp.IMF_WEO: 127 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:43,992 INFO sdm.collect.base: NL.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:44,537 INFO sdm.collect.base: NL.gg_revenue_gdp.IMF_WEO: 127 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:44,992 INFO sdm.collect.base: NL.rgdp_growth.IMF_WEO: 45 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:45,535 INFO sdm.collect.base: NL.cpi_yoy.IMF_WEO: 45 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:46,025 INFO sdm.collect.base: NL.gg_interest_gdp.IMF_WEO: 136 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:46,384 INFO sdm.collect.base: AR.gg_debt_gdp.IMF_WEO: 34 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:46,859 INFO sdm.collect.base: AR.gg_primary_balance_gdp.IMF_WEO: 160 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:47,248 INFO sdm.collect.base: AR.gg_net_lending_gdp.IMF_WEO: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:47,722 INFO sdm.collect.base: AR.gg_revenue_gdp.IMF_WEO: 161 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:48,693 INFO sdm.collect.base: AR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:49,216 INFO sdm.collect.base: AR.cpi_yoy.IMF_WEO: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:51,342 INFO sdm.collect.base: AR.gg_interest_gdp.IMF_WEO: 160 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:53,218 INFO sdm.collect.base: TR.gg_debt_gdp.IMF_WEO: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:53,817 INFO sdm.collect.base: TR.gg_primary_balance_gdp.IMF_WEO: 55 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:54,235 INFO sdm.collect.base: TR.gg_net_lending_gdp.IMF_WEO: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:54,819 INFO sdm.collect.base: TR.gg_revenue_gdp.IMF_WEO: 81 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:55,457 INFO sdm.collect.base: TR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:55,940 INFO sdm.collect.base: TR.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:56,439 INFO sdm.collect.base: TR.gg_interest_gdp.IMF_WEO: 55 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:56,844 INFO sdm.collect.base: RU.gg_debt_gdp.IMF_WEO: 29 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:57,430 INFO sdm.collect.base: RU.gg_primary_balance_gdp.IMF_WEO: 60 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:57,781 INFO sdm.collect.base: RU.gg_net_lending_gdp.IMF_WEO: 28 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:58,606 INFO sdm.collect.base: RU.gg_revenue_gdp.IMF_WEO: 68 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:57:59,029 INFO sdm.collect.base: RU.rgdp_growth.IMF_WEO: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:57:59,607 INFO sdm.collect.base: RU.cpi_yoy.IMF_WEO: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:00,148 INFO sdm.collect.base: RU.gg_interest_gdp.IMF_WEO: 60 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:00,531 INFO sdm.collect.base: BR.gg_debt_gdp.IMF_WEO: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:01,046 INFO sdm.collect.base: BR.gg_primary_balance_gdp.IMF_WEO: 95 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:01,906 INFO sdm.collect.base: BR.gg_net_lending_gdp.IMF_WEO: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:02,600 INFO sdm.collect.base: BR.gg_revenue_gdp.IMF_WEO: 136 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:03,080 INFO sdm.collect.base: BR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:03,704 INFO sdm.collect.base: BR.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:04,207 INFO sdm.collect.base: BR.gg_interest_gdp.IMF_WEO: 95 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:04,829 INFO sdm.collect.base: MX.gg_debt_gdp.IMF_WEO: 30 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:05,922 INFO sdm.collect.base: MX.gg_primary_balance_gdp.IMF_WEO: 100 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:06,539 INFO sdm.collect.base: MX.gg_net_lending_gdp.IMF_WEO: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:07,078 INFO sdm.collect.base: MX.gg_revenue_gdp.IMF_WEO: 122 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:07,639 INFO sdm.collect.base: MX.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:08,138 INFO sdm.collect.base: MX.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:08,639 INFO sdm.collect.base: MX.gg_interest_gdp.IMF_WEO: 100 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:09,157 INFO sdm.collect.base: GR.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:09,951 INFO sdm.collect.base: GR.gg_primary_balance_gdp.IMF_WEO: 122 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:10,410 INFO sdm.collect.base: GR.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:11,120 INFO sdm.collect.base: GR.gg_revenue_gdp.IMF_WEO: 124 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:11,696 INFO sdm.collect.base: GR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:12,605 INFO sdm.collect.base: GR.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:13,138 INFO sdm.collect.base: GR.gg_interest_gdp.IMF_WEO: 122 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:13,548 INFO sdm.collect.base: SE.gg_debt_gdp.IMF_WEO: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:14,088 INFO sdm.collect.base: SE.gg_primary_balance_gdp.IMF_WEO: 225 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:14,564 INFO sdm.collect.base: SE.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:15,246 INFO sdm.collect.base: SE.gg_revenue_gdp.IMF_WEO: 225 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:15,818 INFO sdm.collect.base: SE.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:16,216 INFO sdm.collect.base: SE.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:58:16,873 INFO sdm.collect.base: SE.gg_interest_gdp.IMF_WEO: 225 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:17,137 INFO sdm.collect.registry: == fred
+2026-10-07 06:58:17,579 INFO sdm.collect.base: US.yield_10y.FRED.DGS10: 16175 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:58:17,707 INFO sdm.collect.base: US.yield_2y.FRED.DGS2: 12583 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:58:17,848 INFO sdm.collect.base: US.yield_3m.FRED.DGS3MO: 11273 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:58:17,994 INFO sdm.collect.base: US.yield_30y.FRED.DGS30: 12405 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:58:18,070 INFO sdm.collect.base: US.real_yield_10y.FRED.DFII10: 5944 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:58:18,148 INFO sdm.collect.base: US.breakeven_10y.FRED.T10YIE: 5945 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:58:18,246 INFO sdm.collect.base: US.term_premium_10y.FRED.THREEFYTP10: 9175 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:18,291 INFO sdm.collect.base: US.cpi_index.FRED.CPIAUCSL: 955 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:18,328 INFO sdm.collect.base: US.cb_gov_holdings_lcu.FRED.FDHBFRBN: 226 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-07 06:58:18,373 INFO sdm.collect.base: US.foreign_gov_holdings_lcu.FRED.FDHBFIN: 225 obs, 0 new, 0 revised, last 2026-01-01
+2026-10-07 06:58:18,411 INFO sdm.collect.base: US.cg_debt_lcu.FRED.FYGFDPUN: 225 obs, 0 new, 0 revised, last 2026-01-01
+2026-10-07 06:58:18,587 INFO sdm.collect.base: US.gg_debt_gdp.FRED.GFDEGDQ188S: 241 obs, 0 new, 0 revised, last 2026-01-01
+2026-10-07 06:58:18,626 INFO sdm.collect.base: US.ngdp_lcu.FRED.GDP: 318 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-07 06:58:18,808 INFO sdm.collect.base: US.cg_interest_lcu.FRED.A091RC1Q027SBEA: 318 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-07 06:58:18,846 INFO sdm.collect.base: US.cg_receipts_lcu.FRED.FGRECPT: 318 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-07 06:58:18,889 INFO sdm.collect.base: US.cg_outlays_lcu.FRED.FGEXPND: 318 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-07 06:58:18,931 INFO sdm.collect.base: US.household_fin_assets_lcu.FRED.BOGZ1FL194090005Q: 155 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-07 06:58:18,969 INFO sdm.collect.base: US.niip_gdp.FRED.IIPUSNETIQ: 82 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-07 06:58:19,121 INFO sdm.collect.base: GB.fx_lcu_per_usd.FRED.DEXUSUK: 13981 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:19,252 INFO sdm.collect.base: JP.fx_lcu_per_usd.FRED.DEXJPUS: 13975 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:19,406 INFO sdm.collect.base: AU.fx_lcu_per_usd.FRED.DEXUSAL: 13974 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:19,535 INFO sdm.collect.base: CA.fx_lcu_per_usd.FRED.DEXCAUS: 13987 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:19,666 INFO sdm.collect.base: CH.fx_lcu_per_usd.FRED.DEXSZUS: 13981 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:19,778 INFO sdm.collect.base: EA.fx_lcu_per_usd.FRED.DEXUSEU: 6960 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:19,867 INFO sdm.collect.base: BR.fx_lcu_per_usd.FRED.DEXBZUS: 7964 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:19,959 INFO sdm.collect.base: MX.fx_lcu_per_usd.FRED.DEXMXUS: 8249 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:20,122 INFO sdm.collect.base: SE.fx_lcu_per_usd.FRED.DEXSDUS: 13980 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:20,329 INFO sdm.collect.base: EA.cb_total_assets_lcu.FRED.ECBASSETSW: 1448 obs, 0 new, 0 revised, last 2026-09-25
+2026-10-07 06:58:20,527 INFO sdm.collect.base: JP.cb_total_assets_lcu.FRED.JPNASSETS: 341 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:20,567 INFO sdm.collect.base: GB.ngdp_lcu.FRED.UKNGDP: 286 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-07 06:58:20,618 INFO sdm.collect.base: JP.ngdp_lcu.FRED.JPNNGDP: 130 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-07 06:58:20,725 INFO sdm.collect.base: GB.yield_10y.FRED.IRLTLT01GBM156N: 800 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:20,793 INFO sdm.collect.base: JP.yield_10y.FRED.IRLTLT01JPM156N: 452 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:21,011 INFO sdm.collect.base: AU.yield_10y.FRED.IRLTLT01AUM156N: 686 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:21,071 INFO sdm.collect.base: CA.yield_10y.FRED.IRLTLT01CAM156N: 860 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:21,269 INFO sdm.collect.base: CH.yield_10y.FRED.IRLTLT01CHM156N: 860 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:21,474 INFO sdm.collect.base: EA.yield_10y.FRED.IRLTLT01EZM156N: 673 obs, 0 new, 0 revised, last 2026-01-01
+2026-10-07 06:58:21,520 INFO sdm.collect.base: DE.yield_10y.FRED.IRLTLT01DEM156N: 844 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:21,576 INFO sdm.collect.base: FR.yield_10y.FRED.IRLTLT01FRM156N: 800 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:21,630 INFO sdm.collect.base: IT.yield_10y.FRED.IRLTLT01ITM156N: 426 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:21,833 INFO sdm.collect.base: NL.yield_10y.FRED.IRLTLT01NLM156N: 812 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:22,027 INFO sdm.collect.base: GR.yield_10y.FRED.IRLTLT01GRM156N: 350 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:22,219 INFO sdm.collect.base: SE.yield_10y.FRED.IRLTLT01SEM156N: 477 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:22,395 INFO sdm.collect.base: MX.yield_10y.FRED.IRLTLT01MXM156N: 236 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-07 06:58:22,434 INFO sdm.collect.base: RU.yield_10y.FRED.IRLTLT01RUM156N: 234 obs, 0 new, 0 revised, last 2018-06-01
+2026-10-07 06:58:22,473 INFO sdm.collect.base: GB.ngdp_lcu.FRED.GBRGDPNQDSMEI: 255 obs, 0 new, 0 revised, last 2023-07-01
+2026-10-07 06:58:22,511 INFO sdm.collect.base: JP.ngdp_lcu.FRED.JPNGDPNQDSMEI: 119 obs, 0 new, 0 revised, last 2023-07-01
+2026-10-07 06:58:22,550 INFO sdm.collect.base: AU.ngdp_lcu.FRED.AUSGDPNQDSMEI: 255 obs, 0 new, 0 revised, last 2023-07-01
+2026-10-07 06:58:22,588 INFO sdm.collect.base: CA.ngdp_lcu.FRED.CANGDPNQDSMEI: 251 obs, 0 new, 0 revised, last 2023-07-01
+2026-10-07 06:58:22,625 INFO sdm.collect.base: CH.ngdp_lcu.FRED.CHEGDPNQDSMEI: 175 obs, 0 new, 0 revised, last 2023-07-01
+2026-10-07 06:58:22,664 INFO sdm.collect.base: DE.ngdp_lcu.FRED.DEUGDPNQDSMEI: 215 obs, 0 new, 0 revised, last 2023-07-01
+2026-10-07 06:58:24,186 INFO sdm.collect.registry: == fiscaldata
+2026-10-07 06:58:24,777 INFO sdm.collect.base: US.avg_interest_rate.US_TREASURY: 307 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-07 06:58:25,451 INFO sdm.collect.base: US.marketable_debt_lcu.US_TREASURY: 309 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-07 06:58:25,935 INFO sdm.collect.base: US.bills_outstanding_lcu.US_TREASURY: 309 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-07 06:58:26,439 INFO sdm.collect.base: US.linkers_outstanding_lcu.US_TREASURY: 268 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-07 06:58:27,187 INFO sdm.collect.base: US.cg_interest_lcu.US_TREASURY: 197 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-07 06:58:27,434 INFO sdm.collect.base: US.auction_bid_to_cover.US_TREASURY: 154 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:58:27,466 INFO sdm.collect.registry: == gold
+2026-10-07 06:58:27,544 INFO sdm.collect.base: XX.gold_usd.LBMA_DATAHUB: 2325 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-07 06:58:27,962 INFO sdm.collect.base: XX.gold_usd.WB_CMO: 780 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:58:28,078 INFO sdm.collect.base: XX.gold_usd.YAHOO: 268 obs, 0 new, 1 revised, last 2026-10-31
+2026-10-07 06:58:28,118 INFO sdm.collect.registry: == boe
+2026-10-07 06:58:29,745 INFO sdm.collect.base: GB.policy_rate.BOE: 13084 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:58:30,761 INFO sdm.collect.base: GB.yield_10y.BOE: 8319 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:31,730 INFO sdm.collect.base: GB.yield_5y.BOE: 8297 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:32,750 INFO sdm.collect.base: GB.yield_30y.BOE: 6760 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:34,070 INFO sdm.collect.base: GB.breakeven_10y.BOE: 10553 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:35,439 INFO sdm.collect.base: GB.real_yield_10y.BOE: 10553 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-07 06:58:35,851 INFO sdm.collect.registry: == ons
+2026-10-07 06:58:36,029 INFO sdm.collect.base: GB.gg_debt_gdp.ONS: 402 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:58:36,159 INFO sdm.collect.base: GB.gg_net_lending_lcu.ONS: 404 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:58:36,277 INFO sdm.collect.base: GB.gg_interest_lcu.ONS: 353 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:58:36,412 INFO sdm.collect.base: GB.cg_receipts_lcu.ONS: 353 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:58:36,480 INFO sdm.collect.base: GB.ngdp_lcu.ONS: 286 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:58:36,623 INFO sdm.collect.base: GB.cpi_index.ONS: 464 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:58:36,659 INFO sdm.collect.registry: == dmo
+2026-10-07 06:58:38,080 INFO sdm.collect.base: GB.avg_maturity_years.UK_DMO: 1 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:58:38,089 INFO sdm.collect.base: GB.linker_share.UK_DMO: 1 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:58:38,097 INFO sdm.collect.base: GB.bill_share.UK_DMO: 1 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:58:38,104 INFO sdm.collect.base: GB.marketable_debt_lcu.UK_DMO: 1 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:58:38,121 INFO sdm.collect.registry: == mof_jp
+2026-10-07 06:59:10,115 INFO sdm.collect.base: JP.yield_2y.JP_MOF: 12952 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:59:10,237 INFO sdm.collect.base: JP.yield_5y.JP_MOF: 13313 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:59:10,321 INFO sdm.collect.base: JP.yield_10y.JP_MOF: 9952 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:59:10,386 INFO sdm.collect.base: JP.yield_30y.JP_MOF: 6636 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:59:13,309 INFO sdm.collect.base: JP.bill_share.JP_MOF: 20 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:59:14,587 INFO sdm.collect.base: JP.marketable_debt_lcu.JP_MOF: 20 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:59:14,902 INFO sdm.collect.registry: == rba
+2026-10-07 06:59:16,358 INFO sdm.collect.base: AU.yield_2y.RBA: 4925 obs, 0 new, 0 revised, last 2026-05-29
+2026-10-07 06:59:16,984 INFO sdm.collect.base: AU.yield_5y.RBA: 4925 obs, 0 new, 0 revised, last 2026-05-29
+2026-10-07 06:59:17,494 INFO sdm.collect.base: AU.yield_10y.RBA: 4936 obs, 0 new, 0 revised, last 2026-05-29
+2026-10-07 06:59:18,022 INFO sdm.collect.base: AU.real_yield_10y.RBA: 4904 obs, 0 new, 0 revised, last 2026-05-29
+2026-10-07 06:59:18,275 INFO sdm.collect.base: AU.policy_rate.RBA: 3989 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-07 06:59:18,461 INFO sdm.collect.base: AU.cb_total_assets_lcu.RBA: 692 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-07 06:59:18,653 INFO sdm.collect.base: AU.cpi_index.RBA: 417 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:59:18,826 INFO sdm.collect.base: AU.fx_lcu_per_usd.RBA: 201 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-07 06:59:19,023 INFO sdm.collect.registry: == boc
+2026-10-07 06:59:19,288 INFO sdm.collect.base: CA.yield_2y.BOC: 6440 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:59:19,436 INFO sdm.collect.base: CA.yield_5y.BOC: 6440 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:59:19,605 INFO sdm.collect.base: CA.yield_10y.BOC: 6441 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:59:19,728 INFO sdm.collect.base: CA.yield_30y.BOC: 6440 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:59:19,882 INFO sdm.collect.base: CA.real_yield_10y.BOC: 6440 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:59:20,117 INFO sdm.collect.registry: == snb
+2026-10-07 06:59:21,442 INFO sdm.collect.base: CH.yield_10y.SNB: 451 obs, 0 new, 0 revised, last 2025-07-31
+2026-10-07 06:59:21,913 INFO sdm.collect.base: CH.yield_2y.SNB: 451 obs, 0 new, 0 revised, last 2025-07-31
+2026-10-07 06:59:22,238 INFO sdm.collect.base: CH.yield_5y.SNB: 451 obs, 0 new, 0 revised, last 2025-07-31
+2026-10-07 06:59:22,744 INFO sdm.collect.base: CH.cb_total_assets_lcu.SNB: 357 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:22,774 INFO sdm.collect.registry: == ecb
+2026-10-07 06:59:24,415 INFO sdm.collect.base: DE.yield_10y.ECB: 440 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:24,839 INFO sdm.collect.base: FR.yield_10y.ECB: 488 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:25,098 INFO sdm.collect.base: IT.yield_10y.ECB: 426 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:25,388 INFO sdm.collect.base: NL.yield_10y.ECB: 485 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:25,653 INFO sdm.collect.base: GR.yield_10y.ECB: 406 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:26,027 INFO sdm.collect.base: EA.yield_10y.ECB: 429 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:26,261 INFO sdm.collect.base: DE.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:26,682 INFO sdm.collect.base: DE.gg_debt_lcu.ECB: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:27,036 INFO sdm.collect.base: DE.gg_interest_lcu.ECB: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:27,466 INFO sdm.collect.base: DE.gg_net_lending_gdp.ECB: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:27,747 INFO sdm.collect.base: DE.ngdp_lcu.ECB: 142 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:59:28,108 INFO sdm.collect.base: DE.marketable_debt_lcu.ECB: 388 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:28,581 INFO sdm.collect.base: DE.bills_outstanding_lcu.ECB: 388 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:29,492 INFO sdm.collect.base: DE.cb_gov_holdings_lcu.ECB_PSPP: 138 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:29,776 INFO sdm.collect.base: FR.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:30,164 INFO sdm.collect.base: FR.gg_debt_lcu.ECB: 122 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:30,540 INFO sdm.collect.base: FR.gg_interest_lcu.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:30,921 INFO sdm.collect.base: FR.gg_net_lending_gdp.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:31,194 INFO sdm.collect.base: FR.ngdp_lcu.ECB: 222 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:59:31,589 INFO sdm.collect.base: FR.marketable_debt_lcu.ECB: 388 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:31,977 INFO sdm.collect.base: FR.bills_outstanding_lcu.ECB: 388 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:31,987 INFO sdm.collect.base: FR.cb_gov_holdings_lcu.ECB_PSPP: 138 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:32,281 INFO sdm.collect.base: IT.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:32,740 INFO sdm.collect.base: IT.gg_debt_lcu.ECB: 146 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:33,184 INFO sdm.collect.base: IT.gg_interest_lcu.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:33,548 INFO sdm.collect.base: IT.gg_net_lending_gdp.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:33,784 INFO sdm.collect.base: IT.ngdp_lcu.ECB: 126 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:59:34,163 INFO sdm.collect.base: IT.marketable_debt_lcu.ECB: 388 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:34,511 INFO sdm.collect.base: IT.bills_outstanding_lcu.ECB: 388 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:34,521 INFO sdm.collect.base: IT.cb_gov_holdings_lcu.ECB_PSPP: 138 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:34,767 INFO sdm.collect.base: NL.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:36,187 INFO sdm.collect.base: NL.gg_debt_lcu.ECB: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:36,524 INFO sdm.collect.base: NL.gg_interest_lcu.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:36,899 INFO sdm.collect.base: NL.gg_net_lending_gdp.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:37,131 INFO sdm.collect.base: NL.ngdp_lcu.ECB: 126 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:59:37,493 INFO sdm.collect.base: NL.marketable_debt_lcu.ECB: 388 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:37,944 INFO sdm.collect.base: NL.bills_outstanding_lcu.ECB: 388 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:37,954 INFO sdm.collect.base: NL.cb_gov_holdings_lcu.ECB_PSPP: 138 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:38,191 INFO sdm.collect.base: GR.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-07 06:59:38,579 INFO sdm.collect.base: GR.gg_debt_lcu.ECB: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:38,936 INFO sdm.collect.base: GR.gg_interest_lcu.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:39,273 INFO sdm.collect.base: GR.gg_net_lending_gdp.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:39,556 INFO sdm.collect.base: GR.ngdp_lcu.ECB: 126 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-07 06:59:39,921 INFO sdm.collect.base: GR.marketable_debt_lcu.ECB: 327 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:40,371 INFO sdm.collect.base: GR.bills_outstanding_lcu.ECB: 327 obs, 0 new, 0 revised, last 2022-03-31
+2026-10-07 06:59:40,371 WARNING sdm.collect.base: GR.cb_gov_holdings_lcu.ECB_PSPP: FAILED Greece not in PSPP table: ['Austria', 'Belgium', 'Cyprus', 'Germany', 'Estonia', 'Spain', 'Finland', 'France', 'Ireland', 'Italy']
+2026-10-07 06:59:40,697 INFO sdm.collect.base: EA.policy_rate.ECB: 69 obs, 0 new, 0 revised, last 2026-09-16
+2026-10-07 06:59:41,644 INFO sdm.collect.base: EA.yield_2y.ECB: 5645 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-07 06:59:41,890 INFO sdm.collect.base: EA.cb_total_assets_lcu.ECB: 1448 obs, 0 new, 0 revised, last 2026-09-25
+2026-10-07 06:59:42,153 INFO sdm.collect.base: EA.ngdp_lcu.ECB: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:42,493 INFO sdm.collect.base: EA.gg_interest_lcu.ECB: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:42,981 INFO sdm.collect.base: EA.gg_net_lending_gdp.ECB: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:43,202 INFO sdm.collect.registry: == eurostat
+2026-10-07 06:59:43,750 INFO sdm.collect.base: DE.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:43,959 INFO sdm.collect.base: DE.gg_interest_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:44,167 INFO sdm.collect.base: DE.gg_net_lending_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:44,381 INFO sdm.collect.base: FR.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:44,594 INFO sdm.collect.base: FR.gg_interest_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:44,806 INFO sdm.collect.base: FR.gg_net_lending_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:45,019 INFO sdm.collect.base: IT.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:45,229 INFO sdm.collect.base: IT.gg_interest_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:45,437 INFO sdm.collect.base: IT.gg_net_lending_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:45,651 INFO sdm.collect.base: NL.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:45,865 INFO sdm.collect.base: NL.gg_interest_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:46,074 INFO sdm.collect.base: NL.gg_net_lending_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:46,279 INFO sdm.collect.base: GR.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:46,492 INFO sdm.collect.base: GR.gg_interest_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:46,707 INFO sdm.collect.base: GR.gg_net_lending_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:46,920 INFO sdm.collect.base: SE.gg_debt_gdp.EUROSTAT: 121 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:47,131 INFO sdm.collect.base: SE.gg_interest_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:47,335 INFO sdm.collect.base: SE.gg_net_lending_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:47,544 INFO sdm.collect.base: EA.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:47,747 INFO sdm.collect.base: EA.gg_interest_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:47,946 INFO sdm.collect.base: EA.gg_net_lending_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-07 06:59:48,001 INFO sdm.collect.registry: == worldbank
+2026-10-07 06:59:48,100 INFO sdm.collect.base: AR.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,138 INFO sdm.collect.base: AR.cpi_yoy.WORLDBANK: 7 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,175 INFO sdm.collect.base: AR.interest_to_revenue.WORLDBANK: 26 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,212 INFO sdm.collect.base: AR.fx_lcu_per_usd.WORLDBANK: 63 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,244 INFO sdm.collect.base: AR.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,278 INFO sdm.collect.base: TR.gg_debt_gdp.WORLDBANK: 26 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,310 INFO sdm.collect.base: TR.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,345 INFO sdm.collect.base: TR.cpi_yoy.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,381 INFO sdm.collect.base: TR.interest_to_revenue.WORLDBANK: 43 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,416 INFO sdm.collect.base: TR.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,452 INFO sdm.collect.base: TR.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,506 INFO sdm.collect.base: RU.gg_debt_gdp.WORLDBANK: 25 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,542 INFO sdm.collect.base: RU.ngdp_lcu.WORLDBANK: 38 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,575 INFO sdm.collect.base: RU.cpi_yoy.WORLDBANK: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,611 INFO sdm.collect.base: RU.interest_to_revenue.WORLDBANK: 22 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:48,644 INFO sdm.collect.base: RU.fx_lcu_per_usd.WORLDBANK: 30 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,680 INFO sdm.collect.base: RU.fx_reserves_usd.WORLDBANK: 32 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,715 INFO sdm.collect.base: BR.gg_debt_gdp.WORLDBANK: 15 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,750 INFO sdm.collect.base: BR.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,783 INFO sdm.collect.base: BR.cpi_yoy.WORLDBANK: 45 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,820 INFO sdm.collect.base: BR.interest_to_revenue.WORLDBANK: 15 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,853 INFO sdm.collect.base: BR.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,888 INFO sdm.collect.base: BR.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,924 INFO sdm.collect.base: MX.gg_debt_gdp.WORLDBANK: 17 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:48,959 INFO sdm.collect.base: MX.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:48,992 INFO sdm.collect.base: MX.cpi_yoy.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,024 INFO sdm.collect.base: MX.interest_to_revenue.WORLDBANK: 46 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:49,058 INFO sdm.collect.base: MX.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,092 INFO sdm.collect.base: MX.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,131 INFO sdm.collect.base: GR.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,164 INFO sdm.collect.base: GR.cpi_yoy.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,199 INFO sdm.collect.base: GR.interest_to_revenue.WORLDBANK: 47 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:49,245 INFO sdm.collect.base: GR.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,279 INFO sdm.collect.base: GR.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,315 INFO sdm.collect.base: SE.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,355 INFO sdm.collect.base: SE.cpi_yoy.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,389 INFO sdm.collect.base: SE.interest_to_revenue.WORLDBANK: 53 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:49,425 INFO sdm.collect.base: SE.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,457 INFO sdm.collect.base: SE.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:49,533 INFO sdm.collect.registry: == arslanalp_tsuda
+2026-10-07 06:59:50,422 INFO sdm.collect.base: US.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,437 INFO sdm.collect.base: US.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,452 INFO sdm.collect.base: US.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,467 INFO sdm.collect.base: US.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,481 INFO sdm.collect.base: GB.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,496 INFO sdm.collect.base: GB.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,510 INFO sdm.collect.base: GB.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,525 INFO sdm.collect.base: GB.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,540 INFO sdm.collect.base: JP.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,555 INFO sdm.collect.base: JP.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,569 INFO sdm.collect.base: JP.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,584 INFO sdm.collect.base: JP.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,598 INFO sdm.collect.base: AU.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,613 INFO sdm.collect.base: AU.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,628 INFO sdm.collect.base: AU.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,642 INFO sdm.collect.base: AU.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,657 INFO sdm.collect.base: CA.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,672 INFO sdm.collect.base: CA.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,686 INFO sdm.collect.base: CA.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,701 INFO sdm.collect.base: CA.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,716 INFO sdm.collect.base: CH.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,731 INFO sdm.collect.base: CH.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,745 INFO sdm.collect.base: CH.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,760 INFO sdm.collect.base: CH.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,775 INFO sdm.collect.base: DE.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,789 INFO sdm.collect.base: DE.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,804 INFO sdm.collect.base: DE.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,819 INFO sdm.collect.base: DE.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,834 INFO sdm.collect.base: FR.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,848 INFO sdm.collect.base: FR.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,863 INFO sdm.collect.base: FR.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,878 INFO sdm.collect.base: FR.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,892 INFO sdm.collect.base: IT.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,907 INFO sdm.collect.base: IT.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,922 INFO sdm.collect.base: IT.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,937 INFO sdm.collect.base: IT.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,951 INFO sdm.collect.base: NL.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,966 INFO sdm.collect.base: NL.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,981 INFO sdm.collect.base: NL.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:50,995 INFO sdm.collect.base: NL.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:51,010 INFO sdm.collect.base: GR.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:51,025 INFO sdm.collect.base: GR.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:51,039 INFO sdm.collect.base: GR.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:51,054 INFO sdm.collect.base: GR.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:51,069 INFO sdm.collect.base: SE.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:51,083 INFO sdm.collect.base: SE.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:51,098 INFO sdm.collect.base: SE.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:51,113 INFO sdm.collect.base: SE.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-07 06:59:51,204 INFO sdm.collect.registry: == jst
+2026-10-07 06:59:51,608 INFO sdm.collect.base: US.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,620 INFO sdm.collect.base: US.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,632 INFO sdm.collect.base: US.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,644 INFO sdm.collect.base: US.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,655 INFO sdm.collect.base: US.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,667 INFO sdm.collect.base: US.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,678 INFO sdm.collect.base: US.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,690 INFO sdm.collect.base: US.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,702 INFO sdm.collect.base: US.bond_total_return.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,714 INFO sdm.collect.base: US.equity_total_return.JST: 149 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,725 INFO sdm.collect.base: GB.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,737 INFO sdm.collect.base: GB.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,749 INFO sdm.collect.base: GB.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,760 INFO sdm.collect.base: GB.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,772 INFO sdm.collect.base: GB.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,783 INFO sdm.collect.base: GB.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,795 INFO sdm.collect.base: GB.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,806 INFO sdm.collect.base: GB.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,817 INFO sdm.collect.base: GB.bond_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,829 INFO sdm.collect.base: GB.equity_total_return.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,841 INFO sdm.collect.base: JP.gg_debt_gdp.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,852 INFO sdm.collect.base: JP.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,864 INFO sdm.collect.base: JP.yield_3m.JST: 124 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,875 INFO sdm.collect.base: JP.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,887 INFO sdm.collect.base: JP.ngdp_lcu.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,899 INFO sdm.collect.base: JP.gg_revenue_lcu.JST: 150 obs, 0 new, 0 revised, last 2019-12-31
+2026-10-07 06:59:51,911 INFO sdm.collect.base: JP.gg_expenditure_lcu.JST: 150 obs, 0 new, 0 revised, last 2019-12-31
+2026-10-07 06:59:51,922 INFO sdm.collect.base: JP.fx_lcu_per_usd.JST: 149 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,934 INFO sdm.collect.base: JP.bond_total_return.JST: 140 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,945 INFO sdm.collect.base: JP.equity_total_return.JST: 133 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,957 INFO sdm.collect.base: AU.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,968 INFO sdm.collect.base: AU.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,980 INFO sdm.collect.base: AU.yield_3m.JST: 148 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:51,992 INFO sdm.collect.base: AU.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,003 INFO sdm.collect.base: AU.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,014 INFO sdm.collect.base: AU.gg_revenue_lcu.JST: 118 obs, 0 new, 0 revised, last 2019-12-31
+2026-10-07 06:59:52,026 INFO sdm.collect.base: AU.gg_expenditure_lcu.JST: 118 obs, 0 new, 0 revised, last 2019-12-31
+2026-10-07 06:59:52,037 INFO sdm.collect.base: AU.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,049 INFO sdm.collect.base: AU.bond_total_return.JST: 121 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,060 INFO sdm.collect.base: AU.equity_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,072 INFO sdm.collect.base: CA.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,083 INFO sdm.collect.base: CA.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,094 INFO sdm.collect.base: CA.yield_3m.JST: 87 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,106 INFO sdm.collect.base: CA.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,117 INFO sdm.collect.base: CA.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,129 INFO sdm.collect.base: CA.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,140 INFO sdm.collect.base: CA.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,152 INFO sdm.collect.base: CA.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,158 WARNING sdm.collect.base: CA.bond_total_return.JST: FAILED no observations parsed
+2026-10-07 06:59:52,165 WARNING sdm.collect.base: CA.equity_total_return.JST: FAILED no observations parsed
+2026-10-07 06:59:52,176 INFO sdm.collect.base: CH.gg_debt_gdp.JST: 141 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,188 INFO sdm.collect.base: CH.yield_10y.JST: 141 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,199 INFO sdm.collect.base: CH.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,211 INFO sdm.collect.base: CH.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,222 INFO sdm.collect.base: CH.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,233 INFO sdm.collect.base: CH.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,245 INFO sdm.collect.base: CH.gg_expenditure_lcu.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,256 INFO sdm.collect.base: CH.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,268 INFO sdm.collect.base: CH.bond_total_return.JST: 120 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,279 INFO sdm.collect.base: CH.equity_total_return.JST: 121 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,290 INFO sdm.collect.base: DE.gg_debt_gdp.JST: 131 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,302 INFO sdm.collect.base: DE.yield_10y.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,314 INFO sdm.collect.base: DE.yield_3m.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,325 INFO sdm.collect.base: DE.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,337 INFO sdm.collect.base: DE.ngdp_lcu.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,348 INFO sdm.collect.base: DE.gg_revenue_lcu.JST: 128 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,360 INFO sdm.collect.base: DE.gg_expenditure_lcu.JST: 127 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,371 INFO sdm.collect.base: DE.fx_lcu_per_usd.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,383 INFO sdm.collect.base: DE.bond_total_return.JST: 146 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,394 INFO sdm.collect.base: DE.equity_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,405 INFO sdm.collect.base: FR.gg_debt_gdp.JST: 125 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,417 INFO sdm.collect.base: FR.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,428 INFO sdm.collect.base: FR.yield_3m.JST: 144 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,440 INFO sdm.collect.base: FR.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,451 INFO sdm.collect.base: FR.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,463 INFO sdm.collect.base: FR.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,474 INFO sdm.collect.base: FR.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,485 INFO sdm.collect.base: FR.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,497 INFO sdm.collect.base: FR.bond_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,508 INFO sdm.collect.base: FR.equity_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,520 INFO sdm.collect.base: IT.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,531 INFO sdm.collect.base: IT.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,543 INFO sdm.collect.base: IT.yield_3m.JST: 131 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,554 INFO sdm.collect.base: IT.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,565 INFO sdm.collect.base: IT.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,577 INFO sdm.collect.base: IT.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,588 INFO sdm.collect.base: IT.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,599 INFO sdm.collect.base: IT.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,611 INFO sdm.collect.base: IT.bond_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,622 INFO sdm.collect.base: IT.equity_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,634 INFO sdm.collect.base: NL.gg_debt_gdp.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,645 INFO sdm.collect.base: NL.yield_10y.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,657 INFO sdm.collect.base: NL.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,668 INFO sdm.collect.base: NL.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,679 INFO sdm.collect.base: NL.ngdp_lcu.JST: 139 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,691 INFO sdm.collect.base: NL.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,702 INFO sdm.collect.base: NL.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,713 INFO sdm.collect.base: NL.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,725 INFO sdm.collect.base: NL.bond_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,736 INFO sdm.collect.base: NL.equity_total_return.JST: 121 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,747 INFO sdm.collect.base: SE.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,759 INFO sdm.collect.base: SE.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,770 INFO sdm.collect.base: SE.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,782 INFO sdm.collect.base: SE.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,793 INFO sdm.collect.base: SE.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,805 INFO sdm.collect.base: SE.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,816 INFO sdm.collect.base: SE.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,828 INFO sdm.collect.base: SE.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,840 INFO sdm.collect.base: SE.bond_total_return.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:52,851 INFO sdm.collect.base: SE.equity_total_return.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:53,154 INFO sdm.collect.registry: == manual
+2026-10-07 06:59:53,193 INFO sdm.collect.base: AR.cb_gov_share.MANUAL: 2 obs, 0 new, 0 revised, last 2017-12-31
+2026-10-07 06:59:53,206 INFO sdm.collect.base: AR.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2017-12-31
+2026-10-07 06:59:53,220 INFO sdm.collect.base: AU.avg_maturity_years.MANUAL: 4 obs, 0 new, 0 revised, last 2024-06-30
+2026-10-07 06:59:53,233 INFO sdm.collect.base: AU.cb_gov_share.MANUAL: 6 obs, 0 new, 0 revised, last 2025-06-30
+2026-10-07 06:59:53,246 INFO sdm.collect.base: AU.foreign_share.MANUAL: 4 obs, 0 new, 0 revised, last 2024-06-30
+2026-10-07 06:59:53,259 INFO sdm.collect.base: BR.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 2014-12-31
+2026-10-07 06:59:53,273 INFO sdm.collect.base: BR.foreign_share.MANUAL: 1 obs, 0 new, 0 revised, last 2014-12-31
+2026-10-07 06:59:53,286 INFO sdm.collect.base: CA.avg_maturity_years.MANUAL: 4 obs, 0 new, 0 revised, last 2024-03-31
+2026-10-07 06:59:53,299 INFO sdm.collect.base: CA.cb_gov_share.MANUAL: 6 obs, 0 new, 0 revised, last 2025-06-30
+2026-10-07 06:59:53,313 INFO sdm.collect.base: CA.foreign_share.MANUAL: 4 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,326 INFO sdm.collect.base: CH.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,339 INFO sdm.collect.base: CH.cb_gov_share.MANUAL: 2 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,352 INFO sdm.collect.base: CH.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,366 INFO sdm.collect.base: DE.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,379 INFO sdm.collect.base: DE.foreign_share.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,392 INFO sdm.collect.base: EA.ecb_backstop_active.MANUAL: 8 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-07 06:59:53,406 INFO sdm.collect.base: FR.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,419 INFO sdm.collect.base: FR.foreign_share.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,433 INFO sdm.collect.base: GB.avg_maturity_years.MANUAL: 4 obs, 0 new, 0 revised, last 2023-12-31
+2026-10-07 06:59:53,446 INFO sdm.collect.base: GB.cb_gov_share.MANUAL: 7 obs, 0 new, 0 revised, last 2025-09-30
+2026-10-07 06:59:53,459 INFO sdm.collect.base: GB.foreign_share.MANUAL: 4 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,473 INFO sdm.collect.base: GR.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,486 INFO sdm.collect.base: GR.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 2009-12-31
+2026-10-07 06:59:53,499 INFO sdm.collect.base: GR.foreign_share.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,512 INFO sdm.collect.base: IT.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,525 INFO sdm.collect.base: IT.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 1991-12-31
+2026-10-07 06:59:53,538 INFO sdm.collect.base: IT.foreign_share.MANUAL: 4 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,552 INFO sdm.collect.base: JP.avg_maturity_years.MANUAL: 4 obs, 0 new, 0 revised, last 2024-03-31
+2026-10-07 06:59:53,565 INFO sdm.collect.base: JP.cb_gov_share.MANUAL: 6 obs, 0 new, 0 revised, last 2025-03-31
+2026-10-07 06:59:53,578 INFO sdm.collect.base: JP.foreign_share.MANUAL: 5 obs, 0 new, 0 revised, last 2025-03-31
+2026-10-07 06:59:53,591 INFO sdm.collect.base: MX.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 1994-06-30
+2026-10-07 06:59:53,605 INFO sdm.collect.base: MX.foreign_share.MANUAL: 1 obs, 0 new, 0 revised, last 1994-06-30
+2026-10-07 06:59:53,618 INFO sdm.collect.base: NL.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,631 INFO sdm.collect.base: NL.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,645 INFO sdm.collect.base: RU.cb_gov_share.MANUAL: 2 obs, 0 new, 0 revised, last 2014-06-30
+2026-10-07 06:59:53,658 INFO sdm.collect.base: RU.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2014-06-30
+2026-10-07 06:59:53,671 INFO sdm.collect.base: SE.avg_maturity_years.MANUAL: 2 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-07 06:59:53,685 INFO sdm.collect.base: SE.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 1991-12-31
+2026-10-07 06:59:53,698 INFO sdm.collect.base: SE.foreign_share.MANUAL: 1 obs, 0 new, 0 revised, last 1991-12-31
+2026-10-07 06:59:53,712 INFO sdm.collect.base: TR.cb_gov_share.MANUAL: 2 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:53,726 INFO sdm.collect.base: TR.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-07 06:59:53,739 INFO sdm.collect.base: US.avg_maturity_years.MANUAL: 6 obs, 0 new, 0 revised, last 2025-06-30
+2026-10-07 07:00:12,532 INFO sdm.indicators.panel: panel: 11424 rows x 53 concepts -> /home/runner/work/sovereign-debt-model/sovereign-debt-model/data/clean/panel.csv
+2026-10-07 07:00:19,347 INFO sdm.indicators.compute: indicators: 10648 rows -> /home/runner/work/sovereign-debt-model/sovereign-debt-model/data/clean/indicators.csv
+2026-10-07 07:00:20,268 INFO sdm.report.dashboard: dashboard: /home/runner/work/sovereign-debt-model/sovereign-debt-model/reports/dashboard/latest.html (257 KB)
+2026-10-07 07:00:21,387 INFO httpx2: HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 400 Bad Request"
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/runner/work/sovereign-debt-model/sovereign-debt-model/src/sdm/cli.py", line 239, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/runner/work/sovereign-debt-model/sovereign-debt-model/src/sdm/cli.py", line 235, in main
+    return handler(args)
+           ^^^^^^^^^^^^^
+  File "/home/runner/work/sovereign-debt-model/sovereign-debt-model/src/sdm/cli.py", line 174, in cmd_quarterly
+    generate_report(use_api=not args.no_api, label=period)
+  File "/home/runner/work/sovereign-debt-model/sovereign-debt-model/src/sdm/report/narrative.py", line 227, in generate_report
+    text = call_claude(system, user)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/sovereign-debt-model/sovereign-debt-model/src/sdm/report/narrative.py", line 186, in call_claude
+    with client.messages.stream(
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/anthropic/lib/streaming/_messages.py", line 172, in __enter__
+    raw_stream = self.__api_request()
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/anthropic/_base_client.py", line 1543, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/anthropic/_base_client.py", line 1208, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'This API key is not scoped to a workspace, so this request must include the anthropic-workspace-id header with the ID of the workspace to use. Add the header, or use an API key that is scoped to a workspace.'}, 'request_id': None}
+bis              ok= 87 failed=  5 new=     0 revised=    0
+    FAIL AR.gg_debt_gdp.BIS: HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.AR.G.A.M.770.A?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="h
+    FAIL RU.cb_total_assets_lcu.BIS: HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.RU?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="http://www.
+    FAIL RU.gg_debt_gdp.BIS: HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.RU.G.A.M.770.A?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="h
+    FAIL BR.gg_debt_gdp.BIS: HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.BR.G.A.M.770.A?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="h
+    FAIL MX.gg_debt_gdp.BIS: HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.MX.G.A.M.770.A?format=csv: <?xml version="1.0" ?>
+<message:Error xmlns:xsi="h
+imf_datamapper   ok=123 failed=  0 new=     0 revised=    0
+fred             ok= 51 failed=  0 new=     0 revised=    0
+fiscaldata       ok=  6 failed=  0 new=     0 revised=    0
+gold             ok=  3 failed=  0 new=     0 revised=    1
+boe              ok=  6 failed=  0 new=     0 revised=    0
+ons              ok=  6 failed=  0 new=     0 revised=    0
+dmo              ok=  4 failed=  0 new=     0 revised=    0
+mof_jp           ok=  6 failed=  0 new=     0 revised=    0
+rba              ok=  8 failed=  0 new=     0 revised=    0
+boc              ok=  5 failed=  0 new=     0 revised=    0
+snb              ok=  4 failed=  0 new=     0 revised=    0
+ecb              ok= 51 failed=  1 new=     0 revised=    0
+    FAIL GR.cb_gov_holdings_lcu.ECB_PSPP: ValueError: Greece not in PSPP table: ['Austria', 'Belgium', 'Cyprus', 'Germany', 'Estonia', 'Spain', 'Finland', 'France', 'Ireland', 'Italy']
+eurostat         ok= 21 failed=  0 new=     0 revised=    0
+worldbank        ok= 39 failed=  0 new=     0 revised=    0
+arslanalp_tsuda  ok= 48 failed=  0 new=     0 revised=    0
+jst              ok=108 failed=  2 new=     0 revised=    0
+    FAIL CA.bond_total_return.JST: ValueError: no observations parsed
+    FAIL CA.equity_total_return.JST: ValueError: no observations parsed
+manual           ok= 42 failed=  0 new=     0 revised=    0
+618/626 series updated; log at data/update_log.json
+indicator debt_gdp primary_balance_gdp r_effective g_nominal marginal_yield avg_coupon_gap forward_r_5y forward_r_minus_g_5y captivity_score stage_estimate             quadrant
+country                                                                                                                                                                         
+US           110.8           -2.050248    3.526485  5.662811          5.122       1.599515     3.766329            -1.572527       57.349343            0.0     sustainable_free
+GB           86.65           -0.080786    5.152945  4.057163        5.15714       0.038855     4.730526            -0.025893       55.876923            0.0  sustainable_captive
+JP           175.6           -0.205977    0.737691  3.814019         2.6338       0.168509     0.814278            -0.786591        71.49307            0.0  sustainable_captive
+AU            51.1           -0.523696    3.203952  7.345501        5.13625       0.339848     3.259815            -1.475791       43.472527            0.0     sustainable_free
+CA            97.1            1.518774    3.829814  3.508607           3.68       0.536186     3.296907            -0.912165       53.538462            0.0     sustainable_free
+CH            26.5            0.935659    1.578253  2.356623         0.5145      -0.461253     0.014867            -1.325251       56.043956            0.0  sustainable_captive
+EA            85.6           -1.164262    2.326136  3.427907       3.425248       0.713687         None                 None       43.188221            0.0                 None
+DE            58.7            -2.00974    1.851047  3.532054          3.185       1.058953     2.017319             -1.96428       31.899172            0.0     sustainable_free
+FR           109.4           -2.959847    1.968589  1.856794            4.0       1.671411     2.576327            -0.567491       28.792806            0.0     sustainable_free
+IT           137.3            0.699477    2.841994  2.670511          3.986       0.891006     3.183223             0.114365       41.027807            0.0     sustainable_free
+NL            40.7           -0.953803     1.79064  4.782335          3.285        1.23636     2.051002            -2.929704       39.415592            0.0     sustainable_free
+
+10648 country-quarters, 11 transitions -> data/clean/
+                             events_with_data warned_share  median_lead_quarters  mean_share_on_warning_side
+indicator                                                                                                   
+breakeven_10y                               2          1.0                  20.0                        1.00
+cb_holdings_change_4q                       8        0.875                  19.0                        0.46
+policy_rate_minus_inflation                24     0.833333                  20.0                        0.42
+avg_coupon_gap                             16       0.8125                  19.0                        0.41
+primary_balance_gdp                        28         0.75                  20.0                        0.52
+term_premium_proxy                         16         0.75                  12.0                        0.35
+fx_vs_usd_12m                              28     0.714286                  18.5                        0.30
+spread_to_anchor_bp                         7     0.714286                  20.0                        0.42
+r_minus_g                                  26     0.692308                  19.5                        0.48
+target2_balance_gdp                         6     0.666667                   8.0                        0.35
+captivity_score                            23     0.652174                   6.0                        0.56
+issuance_shortening                         8        0.625                  11.0                        0.19
+forward_r_minus_g_5y                        4          0.5                  13.5                        0.34
+debt_gdp                                   26     0.461538                  20.0                        0.39
+fx_broad_reer_12m                          20         0.45                  18.0                        0.11
+bill_share                                  9     0.222222                   7.5                        0.22
+foreign_share                              23     0.130435                   3.0                        0.13
+
+  country   n  rmse_forward_r  rmse_current_r  bias_forward_r  bias_current_r  forward_better
+0      DE   8            1.18            0.73           -0.92            0.11           False
+1      FR   8            1.07            0.70           -0.81            0.10           False
+2      GB  11            2.78            2.45           -2.04           -1.52           False
+3      GR   8            2.08            0.61            1.03           -0.06           False
+4      IT   8            1.00            0.57           -0.83            0.01           False
+5      JP   8            0.20            0.24           -0.20            0.23            True
+6      NL   8            0.94            0.57           -0.78            0.26           False
+7      US  15            1.28            0.90           -0.97           -0.66           False
+
+reports/backtest/BACKTEST.md written
