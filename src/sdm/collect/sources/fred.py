@@ -154,6 +154,7 @@ class FredCollector(Collector):
                 units,
                 f"{fid}: {note}".strip(": "),
                 params={"id": fid},
+                variant=fid,
             )
             for cc, concept, fid, freq, units, note in _all_series()
         ]

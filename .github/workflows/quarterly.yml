@@ -1,0 +1,46 @@
+name: quarterly
+
+on:
+  schedule:
+    - cron: "0 6 15 1,4,7,10 *"   # 06:00 UTC on 15 Jan/Apr/Jul/Oct
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Write the email to reports/outbox/ instead of sending"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  quarterly:
+    runs-on: ubuntu-latest
+    env:
+      FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      GMAIL_CREDENTIALS_JSON: ${{ secrets.GMAIL_CREDENTIALS_JSON }}
+      GMAIL_TOKEN_JSON: ${{ secrets.GMAIL_TOKEN_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install
+        run: pip install -e ".[report]" 2>&1 | tail -1
+      - name: Quarterly run
+        run: |
+          python -m sdm.cli quarterly ${{ inputs.dry_run && '--dry-run' || '' }} 2>&1 | tee data/quarterly_run.log
+      - name: Commit data and reports
+        if: always()
+        run: |
+          git config user.name "sdm-bot"
+          git config user.email "sdm-bot@users.noreply.github.com"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git add -A data reports
+          git commit -m "quarterly: $(date -u +%Y-%m-%d) [skip ci]" || echo "nothing to commit"
+          git push

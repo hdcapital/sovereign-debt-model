@@ -15,6 +15,7 @@ import pandas as pd
 
 from sdm.config import load_indicator_config, load_universe
 from sdm.indicators import blocks  # noqa: F401
+from sdm.indicators.applicability import indicator_applies
 from sdm.indicators.compute import INDICATORS_PATH, LATEST_PATH, TRANSITIONS_PATH
 from sdm.indicators.registry import REGISTRY
 from sdm.paths import CATALOG, REPORTS
@@ -77,7 +78,10 @@ def build_payload() -> dict:
             continue
         df = ind.loc[code].tail(HISTORY_QUARTERS)
         quarters = [q.strftime("%Y-%m-%d") for q in df.index]
-        series = {n: [_clean(v) for v in df[n].tolist()] for n, _ in shown if n in df}
+        c = uni[code]
+        series = {
+            n: [_clean(v) for v in df[n].tolist()] for n, _ in shown if n in df and indicator_applies(n, c)
+        }
         series["stage_estimate"] = [_clean(v) for v in df["stage_estimate"].tolist()]
         series["quadrant"] = [
             None if (isinstance(v, float) and np.isnan(v)) else v for v in df["quadrant"].tolist()
@@ -94,7 +98,6 @@ def build_payload() -> dict:
                     "chg_5y": _clean(r["chg_5y"]),
                     "stale": _clean(r["stale_quarters"]),
                 }
-        c = uni[code]
         countries[code] = {
             "name": c.name,
             "regime": c.monetary_regime,

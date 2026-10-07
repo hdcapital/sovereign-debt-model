@@ -17,6 +17,7 @@ import pandas as pd
 
 from sdm.config import load_indicator_config, load_stage_rules, load_universe
 from sdm.indicators import blocks  # noqa: F401  (registers the indicators)
+from sdm.indicators.applicability import indicator_applies
 from sdm.indicators.panel import Panel, load_panel
 from sdm.indicators.registry import REGISTRY, Ctx
 from sdm.indicators.stages import estimate_stages
@@ -261,6 +262,9 @@ def latest_table(all_ind: pd.DataFrame, stale_quarters: int = 2) -> pd.DataFrame
             )
     out = pd.DataFrame(rows)
     out["tier"] = out["country"].map(lambda c: uni[c].tier)
+    out["applies"] = [
+        indicator_applies(n, uni[c]) for n, c in zip(out["indicator"], out["country"], strict=True)
+    ]
     return out
 
 

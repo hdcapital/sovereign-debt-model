@@ -35,6 +35,14 @@ def cmd_check(_: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_docs(args: argparse.Namespace) -> int:
+    """Regenerate docs/INDICATORS.md from the registry and config."""
+    from sdm.report.docs import write_indicators_md
+
+    print(write_indicators_md())
+    return 0
+
+
 def _not_implemented(phase: int) -> Callable[[argparse.Namespace], int]:
     def run(args: argparse.Namespace) -> int:
         print(f"`{args.command}` is not implemented yet (phase {phase}).", file=sys.stderr)
@@ -109,16 +117,83 @@ def cmd_dashboard(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_report(args: argparse.Namespace) -> int:
+    """Generate reports/quarterly/YYYY-Qn.md (+ .html) with Claude; --no-api assembles the prompt only."""
+    from sdm.report.narrative import generate_report
+
+    md, html = generate_report(use_api=not args.no_api, label=args.period)
+    print(f"{md}\n{html}")
+    return 0
+
+
+def cmd_email(args: argparse.Namespace) -> int:
+    """Send the latest quarterly report by Gmail (or write it to reports/outbox/ with --dry-run)."""
+    from sdm.report.email import send_quarterly
+    from sdm.report.narrative import period_label
+
+    period = args.period or period_label()
+    out = send_quarterly(period, dry_run=args.dry_run)
+    print(out)
+    return 0
+
+
+def cmd_monthly(args: argparse.Namespace) -> int:
+    """Update data, recompute indicators and dashboard; email only if something fired."""
+    from sdm.report.dashboard import build_dashboard
+    from sdm.report.email import send_alert
+    from sdm.report.monthly import run_monthly
+    from sdm.report.narrative import period_label
+
+    if not args.skip_update:
+        cmd_update(argparse.Namespace(source=None, only=None))
+    cmd_indicators(args)
+    build_dashboard()
+    fire, body, details = run_monthly()
+    n_t, n_m = details["transitions"], len(details["moves"])
+    print(f"monthly check: transitions={n_t} moves={n_m} since={details['since']}")
+    if fire:
+        out = send_alert(period_label(), body, dry_run=args.dry_run)
+        print(f"alert sent: {out}")
+    else:
+        print("nothing fired; no email")
+    return 0
+
+
+def cmd_quarterly(args: argparse.Namespace) -> int:
+    """The full quarterly run."""
+    from sdm.report.dashboard import build_dashboard
+    from sdm.report.email import send_quarterly
+    from sdm.report.narrative import generate_report, period_label
+
+    if not args.skip_update:
+        cmd_update(argparse.Namespace(source=None, only=None))
+    cmd_indicators(args)
+    cmd_backtest(args)
+    build_dashboard()
+    period = args.period or period_label()
+    generate_report(use_api=not args.no_api, label=period)
+    out = send_quarterly(period, dry_run=args.dry_run)
+    print(f"quarterly {period}: {out}")
+    return 0
+
+
 COMMANDS: dict[str, tuple[Callable[[argparse.Namespace], int], str]] = {
     "check": (cmd_check, "validate configuration"),
+    "docs": (cmd_docs, "regenerate docs/INDICATORS.md from the registry and config"),
     "update": (cmd_update, "refresh all data sources incrementally"),
     "indicators": (cmd_indicators, "compute the quarterly indicator table"),
     "backtest": (cmd_backtest, "run the backtest and write BACKTEST.md"),
     "dashboard": (cmd_dashboard, "build the HTML dashboard"),
-    "report": (_not_implemented(6), "generate the narrative quarterly report"),
-    "email": (_not_implemented(7), "send (or --dry-run) the latest report"),
-    "monthly": (_not_implemented(8), "monthly check: update + alert-only email"),
-    "quarterly": (_not_implemented(8), "full quarterly run"),
+    "report": (cmd_report, "generate the narrative quarterly report"),
+    "email": (cmd_email, "send (or --dry-run) the latest report"),
+    "monthly": (
+        cmd_monthly,
+        "monthly check: update + indicators; email only on a transition or 1.5-sigma move",
+    ),
+    "quarterly": (
+        cmd_quarterly,
+        "full quarterly run: update, indicators, backtest, dashboard, report, email",
+    ),
 }
 
 
@@ -128,8 +203,21 @@ def build_parser() -> argparse.ArgumentParser:
     sub = parser.add_subparsers(dest="command", required=True)
     for name, (_, help_text) in COMMANDS.items():
         p = sub.add_parser(name, help=help_text)
-        if name == "email":
-            p.add_argument("--dry-run", action="store_true", help="write to reports/outbox/")
+        if name in ("email", "monthly", "quarterly"):
+            p.add_argument(
+                "--dry-run", action="store_true", help="write the email to reports/outbox/ instead of sending"
+            )
+        if name in ("email", "quarterly"):
+            p.add_argument("--period", help="period label, e.g. 2026-Q3 (default: last complete quarter)")
+        if name in ("monthly", "quarterly"):
+            p.add_argument("--skip-update", action="store_true", help="do not refresh data first")
+        if name == "quarterly":
+            p.add_argument("--no-api", action="store_true", help="skip the Claude call")
+        if name == "report":
+            p.add_argument("--no-api", action="store_true", help="assemble the prompt, skip the API call")
+            p.add_argument(
+                "--period", help="report period label, e.g. 2026-Q3 (default: last complete quarter)"
+            )
         if name == "update":
             p.add_argument("--source", nargs="*", help="collector names to run (default all)")
             p.add_argument("--only", nargs="*", help="series ids, concepts or countries to restrict to")
