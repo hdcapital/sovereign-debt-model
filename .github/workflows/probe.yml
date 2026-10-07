@@ -1,0 +1,25 @@
+name: probe
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Probe data hosts
+        run: python scripts/probe.py config/probe_urls.txt data/raw/_probe
+      - name: Commit probe results
+        run: |
+          git config user.name "sdm-bot"
+          git config user.email "sdm-bot@users.noreply.github.com"
+          git add -A data/raw/_probe
+          git commit -m "probe: record data host responses [skip ci]" || echo "nothing to commit"
+          git push
