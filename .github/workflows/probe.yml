@@ -2,6 +2,11 @@ name: probe
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - config/probe_urls.txt
+      - scripts/probe.py
+      - .github/workflows/probe.yml
 
 permissions:
   contents: write
