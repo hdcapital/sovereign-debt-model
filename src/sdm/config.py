@@ -139,9 +139,7 @@ def _parse_country(code: str, raw: dict[str, Any]) -> Country:
         reserve_currency=bool(raw.get("reserve_currency", False)),
         pressure_gauge=str(raw["pressure_gauge"]),
         anchor=raw.get("anchor"),
-        inflation_target=(
-            None if raw.get("inflation_target") is None else float(raw["inflation_target"])
-        ),
+        inflation_target=(None if raw.get("inflation_target") is None else float(raw["inflation_target"])),
         fiscal_year_start_month=int(raw.get("fiscal_year_start_month", 1)),
         bloc=raw.get("bloc"),
         is_bloc=bool(raw.get("is_bloc", False)),

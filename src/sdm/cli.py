@@ -43,9 +43,23 @@ def _not_implemented(phase: int) -> Callable[[argparse.Namespace], int]:
     return run
 
 
+def cmd_update(args: argparse.Namespace) -> int:
+    """Refresh every data source incrementally and log what changed."""
+    from sdm.collect.registry import run_update, summarize
+
+    names = set(args.source) if args.source else None
+    only = set(args.only) if args.only else None
+    results = run_update(names, only)
+    print(summarize(results))
+    failed = sum(1 for rs in results.values() for r in rs if not r.ok)
+    total = sum(len(rs) for rs in results.values())
+    print(f"{total - failed}/{total} series updated; log at data/update_log.json")
+    return 0 if total and failed < total else 1
+
+
 COMMANDS: dict[str, tuple[Callable[[argparse.Namespace], int], str]] = {
     "check": (cmd_check, "validate configuration"),
-    "update": (_not_implemented(2), "refresh all data sources incrementally"),
+    "update": (cmd_update, "refresh all data sources incrementally"),
     "indicators": (_not_implemented(3), "compute the quarterly indicator table"),
     "backtest": (_not_implemented(4), "run the backtest and write BACKTEST.md"),
     "dashboard": (_not_implemented(5), "build the HTML dashboard"),
@@ -64,6 +78,9 @@ def build_parser() -> argparse.ArgumentParser:
         p = sub.add_parser(name, help=help_text)
         if name == "email":
             p.add_argument("--dry-run", action="store_true", help="write to reports/outbox/")
+        if name == "update":
+            p.add_argument("--source", nargs="*", help="collector names to run (default all)")
+            p.add_argument("--only", nargs="*", help="series ids, concepts or countries to restrict to")
     return parser
 
 

@@ -1,0 +1,4 @@
+FREQ,REF_AREA,CURRENCY,COLLECTION,UNIT_MULT,DECIMALS,AVAILABILITY,TITLE,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF
+M,JP,JPY,A,0,6,A, Exchange rates against USD Japan - Yen - Monthly - Average of observations through period,2026-06,160.724301,A,,F
+M,JP,JPY,A,0,6,A, Exchange rates against USD Japan - Yen - Monthly - Average of observations through period,2026-07,162.506092,A,,F
+M,JP,JPY,A,0,6,A, Exchange rates against USD Japan - Yen - Monthly - Average of observations through period,2026-08,158.801365,A,,F
