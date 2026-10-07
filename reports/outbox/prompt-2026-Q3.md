@@ -341,27 +341,27 @@ GB,r_minus_g,2026-06-30,0.826,1.151,0.245,1.0
 GB,stage_estimate,2026-06-30,0.0,0.0,0.0,1.0
 GB,term_premium_proxy,2026-12-31,1.584,0.868,0.821,0.0
 GB,trajectory_unsustainable,2021-12-31,0.0,,,19.0
-JP,avg_coupon_gap,2024-12-31,0.902,1.018,1.771,7.0
+JP,avg_coupon_gap,2024-12-31,0.169,0.461,1.038,7.0
 JP,avg_maturity_years,2024-12-31,9.4,,,7.0
 JP,bill_share,2026-06-30,46.553,0.475,,1.0
 JP,breakeven_10y,,,,,
 JP,captivity_score,2025-12-31,71.493,,,3.0
-JP,cb_balance_sheet_gdp,2026-06-30,23571.985,-3881.371,23441.34,1.0
-JP,cb_balance_sheet_growth_minus_g,2026-06-30,-14.677,-108.142,-24.461,1.0
+JP,cb_balance_sheet_gdp,2026-06-30,98.272,-16.181,-32.373,1.0
+JP,cb_balance_sheet_growth_minus_g,2026-06-30,-14.677,-5.348,-24.461,1.0
 JP,cb_holdings_change_4q,2025-12-31,-2.0,-3.0,,3.0
 JP,central_bank_share,2025-12-31,46.0,-2.0,,3.0
-JP,debt_dynamics,2024-12-31,207.914,160.582,205.388,7.0
-JP,debt_dynamics_residual,2024-12-31,-220.814,-165.482,-222.088,7.0
+JP,debt_dynamics,2024-12-31,-4.827,5.25,-7.352,7.0
+JP,debt_dynamics_residual,2024-12-31,-8.073,-10.15,-9.348,7.0
 JP,debt_gdp,2026-03-31,175.6,-15.4,-53.3,2.0
-JP,debt_gdp_projection_10y,2024-12-31,446.706,,,7.0
+JP,debt_gdp_projection_10y,2024-12-31,183.336,,,7.0
 JP,domestic_private_share,2025-12-31,41.0,,,3.0
 JP,foreign_share,2025-12-31,13.0,,,3.0
-JP,forward_r_5y,2024-12-31,0.399,,,7.0
-JP,forward_r_minus_g_5y,2024-12-31,7.873,,,7.0
+JP,forward_r_5y,2024-12-31,0.814,,,7.0
+JP,forward_r_minus_g_5y,2024-12-31,-0.787,,,7.0
 JP,fx_broad_reer_12m,2026-09-30,-8.076,-5.235,0.596,0.0
 JP,fx_vs_usd_12m,2026-12-31,-0.64,-1.004,9.762,0.0
-JP,g_nominal,2026-06-30,3.814,102.079,3.126,1.0
-JP,g_trend,2026-12-31,-13.145,-0.674,-14.064,0.0
+JP,g_nominal,2026-06-30,3.814,-0.715,3.126,1.0
+JP,g_trend,2026-12-31,1.82,0.074,0.902,0.0
 JP,gold_local_ccy_12m,,,,,
 JP,gold_local_record,,,,,
 JP,holders_captive,2021-12-31,1.0,,,19.0
@@ -374,9 +374,9 @@ JP,net_foreign_asset_position_gdp,,,,,
 JP,policy_rate_minus_inflation,2026-09-30,-0.898,1.48,-0.574,0.0
 JP,primary_balance_gdp,2024-12-31,-0.206,0.76,1.122,7.0
 JP,quadrant,2021-12-31,,,,19.0
-JP,r_effective,2024-12-31,0.004,-0.519,-0.803,7.0
-JP,r_minus_g,2024-12-31,99.429,78.053,98.853,7.0
-JP,stage_estimate,2024-12-31,4.0,4.0,4.0,7.0
+JP,r_effective,2024-12-31,0.738,0.038,-0.069,7.0
+JP,r_minus_g,2024-12-31,-2.409,2.682,-2.986,7.0
+JP,stage_estimate,2024-12-31,0.0,0.0,0.0,7.0
 JP,term_premium_proxy,2026-12-31,1.173,0.274,0.989,0.0
 JP,trajectory_unsustainable,2021-12-31,0.0,,,19.0
 AU,avg_coupon_gap,2023-09-30,0.34,-0.167,1.462,12.0
@@ -715,14 +715,14 @@ quarter,country,debt_gdp,primary_balance_gdp,r_effective,g_nominal,r_minus_g,deb
 2026-06-30,GB,87.45,-0.081,4.884,4.057,0.826,0.797,0.053,4.556,-0.327,4.731,4.756,-0.026,88.043,,,,13.279,4.946,24.157,,,,0.992,3.106,1.158,25.753,-7.661,,,-3.374,-2.681,,,,,,,,11.072,0.0,,,
 2026-09-30,GB,86.65,,5.153,,,,,5.192,0.039,,4.79,,,,,,13.279,4.946,24.157,,,,1.621,3.242,0.663,,,,,-1.309,0.134,,,,,,,,11.829,,,,
 2026-12-31,GB,,,,,,,,5.157,,,4.811,,,,,,13.279,4.946,24.157,,,,1.584,3.263,,,,,,-1.584,,,,,,,,,,,,,
-2025-03-31,JP,191.0,,,-99.136,,,,1.24,,,-10.005,,,13.0,46.0,41.0,,46.504,,,,70.395,0.643,,-3.049,28281.289,95.612,-2.0,-18.252,0.881,3.312,,,,,,,,,,,,
-2025-06-30,JP,188.7,,,-98.265,,,,1.176,,,-12.527,,,13.0,46.0,41.0,,46.078,,,,70.591,0.716,,-2.916,27453.356,93.465,-2.0,-8.661,11.59,7.406,,,,,,,,,,,,
-2025-09-30,JP,183.2,,,4.676,,,,1.38,,,-12.494,,,13.0,46.0,41.0,,43.391,,,,71.831,0.704,,-2.378,26353.19,-12.312,-2.0,-1.007,-3.19,-2.841,,,,,,,,,,,,
-2025-12-31,JP,177.7,,,4.654,,,,1.706,,,-12.471,,,13.0,46.0,41.0,,44.124,,,,71.493,0.899,,-1.272,25425.384,-14.041,-2.0,-7.867,0.364,-5.497,,,,,,,,,,,,
-2026-03-31,JP,175.6,,,4.276,,,,1.97,,,-12.447,,,,,,,48.393,,,,,0.991,,-0.661,24641.057,-13.422,,-5.201,-5.771,-10.388,,,,,,,,,,,,
-2026-06-30,JP,,,,3.814,,,,2.167,,,-12.416,,,,,,,46.553,,,,,1.308,,-0.702,23571.985,-14.677,,-3.328,-11.34,-11.631,,,,,,,,,,,,
-2026-09-30,JP,,,,,,,,2.615,,,-12.779,,,,,,,,,,,,1.105,,-0.898,,,,,-5.901,-8.076,,,,,,,,,,,,
-2026-12-31,JP,,,,,,,,2.634,,,-13.145,,,,,,,,,,,,1.173,,,,,,,-0.64,,,,,,,,,,,,,
+2025-03-31,JP,191.0,,,3.763,,,,1.24,,,1.642,,,13.0,46.0,41.0,,46.504,,,,70.395,0.643,,-3.049,117.905,-7.287,-2.0,-18.252,0.881,3.312,,,,,,,,,,,,
+2025-06-30,JP,188.7,,,4.529,,,,1.176,,,1.69,,,13.0,46.0,41.0,,46.078,,,,70.591,0.716,,-2.916,114.453,-9.329,-2.0,-8.661,11.59,7.406,,,,,,,,,,,,
+2025-09-30,JP,183.2,,,4.676,,,,1.38,,,1.723,,,13.0,46.0,41.0,,43.391,,,,71.831,0.704,,-2.378,109.867,-12.312,-2.0,-1.007,-3.19,-2.841,,,,,,,,,,,,
+2025-12-31,JP,177.7,,,4.654,,,,1.706,,,1.746,,,13.0,46.0,41.0,,44.124,,,,71.493,0.899,,-1.272,105.998,-14.041,-2.0,-7.867,0.364,-5.497,,,,,,,,,,,,
+2026-03-31,JP,175.6,,,4.276,,,,1.97,,,1.77,,,,,,,48.393,,,,,0.991,,-0.661,102.729,-13.422,,-5.201,-5.771,-10.388,,,,,,,,,,,,
+2026-06-30,JP,,,,3.814,,,,2.167,,,1.801,,,,,,,46.553,,,,,1.308,,-0.702,98.272,-14.677,,-3.328,-11.34,-11.631,,,,,,,,,,,,
+2026-09-30,JP,,,,,,,,2.615,,,1.803,,,,,,,,,,,,1.105,,-0.898,,,,,-5.901,-8.076,,,,,,,,,,,,
+2026-12-31,JP,,,,,,,,2.634,,,1.82,,,,,,,,,,,,1.173,,,,,,,-0.64,,,,,,,,,,,,,
 2025-03-31,AU,51.0,,,,,,,4.542,,,5.587,,,,24.0,,,,,,,,0.442,,1.7,,,-4.0,,-3.858,-2.783,,,,,,,,,,,,
 2025-06-30,AU,50.2,,,,,,,3.861,,,5.712,,,,24.0,,,,,,,,0.971,2.125,1.755,,,-4.0,,-1.117,-4.985,,,,,,,,,,,,
 2025-09-30,AU,51.4,,,,,,,3.861,,,5.844,,,,24.0,,,,,,,,0.971,2.125,0.381,,,-4.0,,-4.761,-1.405,,,,,,,,,,,,
@@ -829,7 +829,7 @@ FR,8,1.0663796517871162,0.6986257141009418,-0.8072102187448843,0.101488223800353
 GB,11,2.7789800734571477,2.4480286320401126,-2.043240488240063,-1.5173168914046924,False
 GR,8,2.082481650457524,0.6058404787367676,1.0292790108616612,-0.055661032885413575,False
 IT,8,0.9967053172410777,0.5680287880544431,-0.8252009951307036,0.008931121209822535,False
-JP,8,0.17962134918620654,0.25922097071987477,-0.17402077104213115,0.25368237977148433,True
+JP,8,0.20108759464438497,0.23826010963098496,-0.19604363435243494,0.2316595164611805,True
 NL,8,0.943795361435629,0.5670140290928485,-0.7767471907252975,0.2570791427156535,False
 US,15,1.2769965894242592,0.8968586371826173,-0.9728767406573238,-0.6642990987723653,False
 
@@ -839,22 +839,13 @@ US,15,1.2769965894242592,0.8968586371826173,-0.9728767406573238,-0.6642990987723
 
 ## 6. Data issues
 
-US forward_r_5y: last value 2025-12-31, 3 quarters stale
-US forward_r_minus_g_5y: last value 2025-12-31, 3 quarters stale
-US debt_gdp_projection_10y: last value 2025-12-31, 3 quarters stale
-US avg_maturity_years: last value 2025-12-31, 3 quarters stale
 US gold_local_ccy_12m: no data
 US gold_local_record: no data
-US quadrant: last value 2025-12-31, 3 quarters stale
-US trajectory_unsustainable: last value 2025-12-31, 3 quarters stale
-US holders_captive: last value 2025-12-31, 3 quarters stale
 GB foreign_share: last value 2024-12-31, 7 quarters stale
-GB central_bank_share: last value 2025-12-31, 3 quarters stale
 GB domestic_private_share: last value 2024-12-31, 7 quarters stale
 GB household_savings_to_debt: no data
 GB net_foreign_asset_position_gdp: no data
 GB captivity_score: last value 2024-12-31, 7 quarters stale
-GB cb_holdings_change_4q: last value 2025-12-31, 3 quarters stale
 GB issuance_shortening: no data
 GB gold_local_ccy_12m: no data
 GB gold_local_record: no data
@@ -870,16 +861,11 @@ JP avg_coupon_gap: last value 2024-12-31, 7 quarters stale
 JP forward_r_5y: last value 2024-12-31, 7 quarters stale
 JP forward_r_minus_g_5y: last value 2024-12-31, 7 quarters stale
 JP debt_gdp_projection_10y: last value 2024-12-31, 7 quarters stale
-JP foreign_share: last value 2025-12-31, 3 quarters stale
-JP central_bank_share: last value 2025-12-31, 3 quarters stale
-JP domestic_private_share: last value 2025-12-31, 3 quarters stale
 JP avg_maturity_years: last value 2024-12-31, 7 quarters stale
 JP linker_share: no data
 JP household_savings_to_debt: no data
 JP net_foreign_asset_position_gdp: no data
-JP captivity_score: last value 2025-12-31, 3 quarters stale
 JP breakeven_10y: no data
-JP cb_holdings_change_4q: last value 2025-12-31, 3 quarters stale
 JP gold_local_ccy_12m: no data
 JP gold_local_record: no data
 JP interest_to_revenue: last value 2024-12-31, 7 quarters stale
@@ -898,7 +884,6 @@ AU forward_r_5y: last value 2022-12-31, 15 quarters stale
 AU forward_r_minus_g_5y: last value 2022-12-31, 15 quarters stale
 AU debt_gdp_projection_10y: last value 2022-12-31, 15 quarters stale
 AU foreign_share: last value 2024-12-31, 7 quarters stale
-AU central_bank_share: last value 2025-12-31, 3 quarters stale
 AU domestic_private_share: last value 2024-12-31, 7 quarters stale
 AU avg_maturity_years: last value 2024-12-31, 7 quarters stale
 AU bill_share: no data
@@ -908,7 +893,6 @@ AU net_foreign_asset_position_gdp: no data
 AU captivity_score: last value 2024-12-31, 7 quarters stale
 AU cb_balance_sheet_gdp: last value 2023-09-30, 12 quarters stale
 AU cb_balance_sheet_growth_minus_g: last value 2023-09-30, 12 quarters stale
-AU cb_holdings_change_4q: last value 2025-12-31, 3 quarters stale
 AU issuance_shortening: no data
 AU gold_local_ccy_12m: no data
 AU gold_local_record: no data
@@ -928,7 +912,6 @@ CA forward_r_5y: last value 2022-12-31, 15 quarters stale
 CA forward_r_minus_g_5y: last value 2022-12-31, 15 quarters stale
 CA debt_gdp_projection_10y: last value 2022-12-31, 15 quarters stale
 CA foreign_share: last value 2024-12-31, 7 quarters stale
-CA central_bank_share: last value 2025-12-31, 3 quarters stale
 CA domestic_private_share: last value 2021-12-31, 19 quarters stale
 CA avg_maturity_years: last value 2024-12-31, 7 quarters stale
 CA bill_share: no data

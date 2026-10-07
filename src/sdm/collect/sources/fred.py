@@ -111,7 +111,7 @@ SCALE = {
     "BOGZ1FL194090005Q": 1e-3,
     "IIPUSNETIQ": 1e-3,
     "UKNGDP": 1e-3,
-    "JPNNGDP": 1e-3,
+    "JPNNGDP": 0.25,
     "GDP": 0.25,
     "A091RC1Q027SBEA": 0.25,
     "FGRECPT": 0.25,
