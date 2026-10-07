@@ -1106,5 +1106,218 @@
     ]
    }
   }
+ },
+ {
+  "run_at": "2026-10-07T04:44:19+00:00",
+  "sources": {
+   "bis": {
+    "ok": 87,
+    "failed": [
+     "AR.gg_debt_gdp.BIS",
+     "RU.cb_total_assets_lcu.BIS",
+     "RU.gg_debt_gdp.BIS",
+     "BR.gg_debt_gdp.BIS",
+     "MX.gg_debt_gdp.BIS"
+    ],
+    "errors": {
+     "AR.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.AR.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "RU.cb_total_assets_lcu.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.RU?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "RU.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.RU.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "BR.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.BR.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "MX.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.MX.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for"
+    },
+    "new_obs": 0,
+    "revised_obs": 2905,
+    "changed": [
+     "GB.cb_total_assets_lcu.BIS",
+     "JP.cb_total_assets_lcu.BIS",
+     "CH.cb_total_assets_lcu.BIS",
+     "AR.cb_total_assets_lcu.BIS"
+    ]
+   },
+   "imf_datamapper": {
+    "ok": 123,
+    "failed": [],
+    "errors": {},
+    "new_obs": 2168,
+    "revised_obs": 0,
+    "changed": [
+     "US.gg_primary_balance_gdp.IMF_WEO",
+     "GB.gg_primary_balance_gdp.IMF_WEO",
+     "JP.gg_primary_balance_gdp.IMF_WEO",
+     "AU.gg_primary_balance_gdp.IMF_WEO",
+     "CA.gg_primary_balance_gdp.IMF_WEO",
+     "CH.gg_primary_balance_gdp.IMF_WEO",
+     "DE.gg_primary_balance_gdp.IMF_WEO",
+     "FR.gg_primary_balance_gdp.IMF_WEO",
+     "IT.gg_primary_balance_gdp.IMF_WEO",
+     "NL.gg_primary_balance_gdp.IMF_WEO",
+     "AR.gg_primary_balance_gdp.IMF_WEO",
+     "TR.gg_primary_balance_gdp.IMF_WEO",
+     "RU.gg_primary_balance_gdp.IMF_WEO",
+     "BR.gg_primary_balance_gdp.IMF_WEO",
+     "MX.gg_primary_balance_gdp.IMF_WEO",
+     "GR.gg_primary_balance_gdp.IMF_WEO",
+     "SE.gg_primary_balance_gdp.IMF_WEO"
+    ]
+   },
+   "fred": {
+    "ok": 51,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 1476,
+    "changed": [
+     "GB.ngdp_lcu.FRED",
+     "JP.ngdp_lcu.FRED",
+     "GB.ngdp_lcu.FRED",
+     "JP.ngdp_lcu.FRED",
+     "AU.ngdp_lcu.FRED",
+     "CA.ngdp_lcu.FRED",
+     "CH.ngdp_lcu.FRED",
+     "DE.ngdp_lcu.FRED"
+    ]
+   },
+   "fiscaldata": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "gold": {
+    "ok": 3,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 1,
+    "changed": [
+     "XX.gold_usd.YAHOO"
+    ]
+   },
+   "boe": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "ons": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 404,
+    "revised_obs": 0,
+    "changed": [
+     "GB.gg_net_lending_lcu.ONS"
+    ]
+   },
+   "dmo": {
+    "ok": 4,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "mof_jp": {
+    "ok": 4,
+    "failed": [
+     "JP.bill_share.JP_MOF",
+     "JP.marketable_debt_lcu.JP_MOF"
+    ],
+    "errors": {
+     "JP.bill_share.JP_MOF": "ValueError: unconverted data remains when parsing with format \"%Y %b\": \"tember\". You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.",
+     "JP.marketable_debt_lcu.JP_MOF": "ValueError: unconverted data remains when parsing with format \"%Y %b\": \"tember\". You might want to try:\n    - passing `format` if your strings have a consistent format;\n    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;\n    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this."
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "rba": {
+    "ok": 8,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "boc": {
+    "ok": 5,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "snb": {
+    "ok": 4,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "ecb": {
+    "ok": 51,
+    "failed": [
+     "GR.cb_gov_holdings_lcu.ECB_PSPP"
+    ],
+    "errors": {
+     "GR.cb_gov_holdings_lcu.ECB_PSPP": "ValueError: Greece not in PSPP table: ['Austria', 'Belgium', 'Cyprus', 'Germany', 'Estonia', 'Spain', 'Finland', 'France', 'Ireland', 'Italy']"
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "eurostat": {
+    "ok": 21,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "worldbank": {
+    "ok": 39,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "arslanalp_tsuda": {
+    "ok": 48,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "jst": {
+    "ok": 108,
+    "failed": [
+     "CA.bond_total_return.JST",
+     "CA.equity_total_return.JST"
+    ],
+    "errors": {
+     "CA.bond_total_return.JST": "ValueError: no observations parsed",
+     "CA.equity_total_return.JST": "ValueError: no observations parsed"
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "manual": {
+    "ok": 42,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   }
+  }
  }
 ]
