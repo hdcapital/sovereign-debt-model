@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-10-07T04:18:31.848435+00:00",
+ "fetched_at": "2026-10-07T06:54:08.391666+00:00",
  "results": [
   {
    "url": "https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/2020&Dateto=now&SeriesCodes=IUDBEDR,IUDMNPY,IUDSNPY,IUDLNPY&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
@@ -9,7 +9,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "www_bankofengland_co_uk__0854c70a.csv",
-   "seconds": 1.45,
+   "seconds": 1.7,
    "head": "DATE,IUDBEDR,IUDMNPY,IUDSNPY,IUDLNPY\r\n02 Jan 2020,0.75,0.8523,0.5519,1.1599\r\n03 Jan 2020,0.75,0.8094,0.5349,1.0989\r\n06 Jan 2020,0.75,0.7874,0.546,1.1859\r\n07 Jan 2020,0.75,0.8133,0.5749,1.1979\r\n08 Jan "
   },
   {
@@ -20,7 +20,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "www_bankofengland_co_uk__0d0809c6.csv",
-   "seconds": 1.01,
+   "seconds": 0.96,
    "head": "DATE,IUDMIIF,IUDMRZC,IUDSIIF\r\n02 Jan 2020,3.5847,-2.4368,3.2274\r\n03 Jan 2020,3.557,-2.4961,3.2335\r\n06 Jan 2020,3.5602,-2.486,3.2404\r\n07 Jan 2020,3.5214,-2.4559,3.2404\r\n08 Jan 2020,3.528,-2.4445,3.233\r"
   },
   {
@@ -31,7 +31,7 @@
    "truncated": true,
    "content_type": "application/x-zip-compressed",
    "file": "www_bankofengland_co_uk__c5cda3ac.bin",
-   "seconds": 0.3,
+   "seconds": 0.25,
    "head": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000\u0016ODUb7\ufffdu\u0012\ufffdA\u0000\u0007bK\u0000(\u0000\u0000\u0000GLC Nominal daily data_1979 to 1984.xlsx\ufffdcteA\u00176\u0018\ufffd\ufffd\ufffdN:\ufffd\u0636mv\ufffd\u001b\ufffdv:\ufffdmul\ufffdc;7I\u01fa\ufffd\ufffd\ufffdo\u05ac\ufffd\ufffd\ufffd]k\ufffd\ufffd|\ufffd\ufffdA\ufffd\ufffd]\ufffd\ufffd<O\u0573\ufffd(\ufffdABa\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffdu\ufffd\ufffdg&\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffda\ufffd\ufffdA\ufffd9:\ufffdZ8\ufffd\u001a\ufffd{9Y\ufffd\u00180y\ufffd\u06d1\u0016AA\ufffd\u0016\ufffdA\ufffd\ufffd/\ufffd\ufffd\ufffdMkL(\u000e"
   },
   {
@@ -42,7 +42,7 @@
    "truncated": true,
    "content_type": "application/x-zip-compressed",
    "file": "www_bankofengland_co_uk__67175507.bin",
-   "seconds": 0.52,
+   "seconds": 0.37,
    "head": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000bTDU\ufffd\u001b\ufffdlg:&\u0000\ufffd|&\u0000%\u0000\u0000\u0000GLC Real daily data_1985 to 1989.xlsx\ufffdeP\\Q\ufffd5\b\u0004\b\ufffd8A\u001a\u000b\ufffd\ufffd\ufffd\u0012\ufffdq\ufffd\u0000\ufffd\ufffdq\u000f\u000e\ufffd\ufffdqw\u04b8Kp\t\u07b8\ufffd\u0013\ufffd\u001d\ufffd\u007fy\u07af\ufffdf\ufffd\uab5a?\ufffdk\ufffd\ufffd?\ufffd\ufffd\ufffd}O\ufffds\ufffdZg/\u0015\ufffdw\ufffd\ufffdp\ufffdp(ppp\ufffdp\ufffd\u001f\ufffd\ufffdc\ufffd\ufffd\ufffd\n\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd \ufffdI8\u063b\ufffd\u06fb\u001ajx:\ufffd\ufffd\u0018\ufffdx\ufffd\ufffd~\ufffd\ufffd\ufffd\ufffd)\u000f\u000e\u0001\ufffd\u007f"
   },
   {
@@ -53,7 +53,7 @@
    "truncated": true,
    "content_type": "application/x-zip-compressed",
    "file": "www_bankofengland_co_uk__ddacb8da.bin",
-   "seconds": 0.35,
+   "seconds": 0.28,
    "head": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000TMDUk\u001e\u0011VvH%\u0000\ufffdy%\u0000*\u0000\u0000\u0000GLC Inflation daily data_1985 to 1989.xlsx\ufffdeT\\A\ufffd5H\b\ufffd.\ufffd;\u0004w\ufffd\u0004i\\\ufffd\ufffd\ufffd[p\t\ufffd\ufffd!Hp\t4\u0012\b\ufffd\ufffd\ufffd84Npww\ufffdx\ufffdo\u035a\ufffd\ufffd\ufffd5\ufffd\u007f\ufffd=?\ufffdS\ufffd\ufffd\u07bdwU\u001dU\ufffd\ufffdpx0\b0H000T0-\ufffd\ufffd\ufffd\ufffd\u001f``\n\u0010a`pa\ufffd`\ufffd%\ufffd\ufffd<,\ufffd<\ufffd5|\\,\ufffd\r\u067c\u001d\u001d(\ufffd\ufffd`\u0019\u007f\ufffd\ufffd\ufffd\ufffd"
   },
   {
@@ -64,40 +64,40 @@
    "truncated": false,
    "content_type": "application/x-zip-compressed",
    "file": "www_bankofengland_co_uk__ce33520c.bin",
-   "seconds": 0.27,
+   "seconds": 0.22,
    "head": "PK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000\ufffdXF]$\ufffd\r\ufffd\ufffd\ufffd\u0000\u0000n\ufffd\u0004\u0000+\u0000\u0000\u0000GLC Inflation daily data current month.xlsx\ufffdw\\S\ufffd5\ufffd\r+\ufffd\ufffd\u0015i\" \u0491\"]@A\ufffd*R\ufffd\u0012\ufffd\ufffdH\ufffd\ufffdd\u000b[\u0010Q\ufffd\ufffd\"\ufffd\u0013\ufffd\ufffdEP:\u0011B\u000b-J5T\ufffd\u0014H\b\ufffdVp\ufffd\ufffd{\ufffd{\ufffd\ufffd\ufffds\ufffdw\ufffd\ufffd\u01d5\ufffd\ufffds\ufffdg\ufffd1\u019c\ufffd\ufffd\u019e\ufffd\ufffd4\ufffd4\u0007hhh8i\ufffd9\ufffdq\ufffd\ufffdhh2\ufffd\ufffd\ufffd0\ufffd\u001c\ufffdm\ufffd\u0002vr\ufffd"
   },
   {
    "url": "https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp",
    "final_url": "https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp",
    "status": 200,
-   "bytes": 55599,
+   "bytes": 55596,
    "truncated": false,
    "content_type": "text/html",
    "file": "www_bankofengland_co_uk__b9c773c9.html",
-   "seconds": 0.55,
+   "seconds": 0.23,
    "head": "<!DOCTYPE html>\r\n<html lang=\"en\" class=\"no-js\">\r\n\t<head>\r\n\t\t<meta charset=\"utf-8\">\r\n\t\t<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content="
   },
   {
    "url": "https://www.bankofengland.co.uk/-/media/boe/files/markets/asset-purchase-facility/gilt-purchases/apf-gilt-holdings.xlsx",
    "final_url": "https://www.bankofengland.co.uk/-/media/boe/files/markets/asset-purchase-facility/gilt-purchases/apf-gilt-holdings.xlsx",
    "status": 404,
-   "bytes": 55921,
+   "bytes": 55918,
    "truncated": false,
    "content_type": "text/html",
    "file": "www_bankofengland_co_uk__2cfd9556.html",
-   "seconds": 0.36,
+   "seconds": 0.55,
    "head": "\ufeff<!DOCTYPE html>\r\n<html lang=\"en\" class=\"no-js\">\r\n<head>\r\n\t<meta charset=\"utf-8\">\r\n\t<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\""
   },
   {
    "url": "https://www.bankofengland.co.uk/markets/quantitative-easing-and-the-asset-purchase-facility",
    "final_url": "https://www.bankofengland.co.uk/markets/quantitative-easing-and-the-asset-purchase-facility",
    "status": 404,
-   "bytes": 55921,
+   "bytes": 55918,
    "truncated": false,
    "content_type": "text/html",
    "file": "www_bankofengland_co_uk__9386cad0.html",
-   "seconds": 0.38,
+   "seconds": 0.42,
    "head": "\ufeff<!DOCTYPE html>\r\n<html lang=\"en\" class=\"no-js\">\r\n<head>\r\n\t<meta charset=\"utf-8\">\r\n\t<meta http-equiv=\"Content-type\" content=\"text/html; charset=utf-8\">\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\""
   },
   {
@@ -108,7 +108,7 @@
    "truncated": false,
    "content_type": "application/json;charset=utf-8",
    "file": "www_ons_gov_uk__7fe2ce17.json",
-   "seconds": 0.37,
+   "seconds": 0.23,
    "head": "{\"years\":[{\"date\":\"1975\",\"value\":\"\",\"label\":\"1975\",\"year\":\"1975\",\"month\":\"\",\"quarter\":\"\",\"sourceDataset\":\"PUSF\",\"updateDate\":\"2015-10-20T23:00:00.000Z\"},{\"date\":\"1976\",\"value\":\"\",\"label\":\"1976\",\"year\""
   },
   {
@@ -119,7 +119,7 @@
    "truncated": false,
    "content_type": "application/json;charset=utf-8",
    "file": "www_ons_gov_uk__96eff27f.json",
-   "seconds": 0.28,
+   "seconds": 0.26,
    "head": "{\"years\":[{\"date\":\"1946\",\"value\":\"-623\",\"label\":\"1946\",\"year\":\"1946\",\"month\":\"\",\"quarter\":\"\",\"sourceDataset\":\"PUSF\",\"updateDate\":\"2019-05-21T23:00:00.000Z\"},{\"date\":\"1947\",\"value\":\"-97\",\"label\":\"1947\""
   },
   {
@@ -130,7 +130,7 @@
    "truncated": false,
    "content_type": "application/json;charset=utf-8",
    "file": "www_ons_gov_uk__40f077a4.json",
-   "seconds": 0.25,
+   "seconds": 0.28,
    "head": "{\"years\":[{\"date\":\"1946\",\"value\":\"546\",\"label\":\"1946\",\"year\":\"1946\",\"month\":\"\",\"quarter\":\"\",\"sourceDataset\":\"PUSF\",\"updateDate\":\"2017-08-21T23:00:00.000Z\"},{\"date\":\"1947\",\"value\":\"515\",\"label\":\"1947\","
   },
   {
@@ -141,7 +141,7 @@
    "truncated": false,
    "content_type": "application/json;charset=utf-8",
    "file": "www_ons_gov_uk__8abe30d2.json",
-   "seconds": 0.23,
+   "seconds": 0.27,
    "head": "{\"years\":[{\"date\":\"1997\",\"value\":\"0\",\"label\":\"1997\",\"year\":\"1997\",\"month\":\"\",\"quarter\":\"\",\"sourceDataset\":\"PUSF\",\"updateDate\":\"2015-10-20T23:00:00.000Z\"},{\"date\":\"1998\",\"value\":\"0\",\"label\":\"1998\",\"yea"
   },
   {
@@ -152,7 +152,7 @@
    "truncated": false,
    "content_type": "application/json;charset=utf-8",
    "file": "www_ons_gov_uk__6589a1c6.json",
-   "seconds": 0.26,
+   "seconds": 0.27,
    "head": "{\"years\":[{\"date\":\"1946\",\"value\":\"3442\",\"label\":\"1946\",\"year\":\"1946\",\"month\":\"\",\"quarter\":\"\",\"sourceDataset\":\"PUSF\",\"updateDate\":\"2021-09-20T23:00:00.000Z\"},{\"date\":\"1947\",\"value\":\"3512\",\"label\":\"1947"
   },
   {
@@ -163,7 +163,7 @@
    "truncated": false,
    "content_type": "application/json;charset=utf-8",
    "file": "www_ons_gov_uk__ca510bd0.json",
-   "seconds": 0.27,
+   "seconds": 0.19,
    "head": "{\"years\":[{\"date\":\"1948\",\"value\":\"11383\",\"label\":\"1948\",\"year\":\"1948\",\"month\":\"\",\"quarter\":\"\",\"sourceDataset\":\"QNA\",\"updateDate\":\"2026-09-29T23:00:00.000Z\"},{\"date\":\"1949\",\"value\":\"12120\",\"label\":\"194"
   },
   {
@@ -174,7 +174,7 @@
    "truncated": false,
    "content_type": "application/json;charset=utf-8",
    "file": "www_ons_gov_uk__993835fc.json",
-   "seconds": 0.15,
+   "seconds": 0.22,
    "head": "{\"years\":[{\"date\":\"1988\",\"value\":\"49.6\",\"label\":\"1988\",\"year\":\"1988\",\"month\":\"\",\"quarter\":\"\",\"sourceDataset\":\"MM23\",\"updateDate\":\"2016-01-19T09:30:00.000Z\"},{\"date\":\"1989\",\"value\":\"52.2\",\"label\":\"1989"
   },
   {
@@ -185,7 +185,7 @@
    "truncated": false,
    "content_type": "application/octet-stream;charset=utf-8",
    "file": "www_ons_gov_uk__17831f2e.bin",
-   "seconds": 0.21,
+   "seconds": 0.24,
    "head": "\"Title\",\"PS: Net Debt (excluding public sector banks) as a % of GDP: NSA\"\n\"CDID\",\"HF6X\"\n\"Source dataset ID\",\"PUSF\"\n\"PreUnit\",\"\"\n\"Unit\",\"%\"\n\"Release date\",\"22-09-2026\"\n\"Next release\",\"21 October 2026\"\n"
   },
   {
@@ -196,327 +196,327 @@
    "truncated": false,
    "content_type": "text/xml",
    "file": "www_dmo_gov_uk__cd973ee6.bin",
-   "seconds": 0.47,
+   "seconds": 0.54,
    "head": "\r\n\r\n\r\n\r\n\r\n<Error><ErrorDetails Message=\"Report code 'D1C' cannot be exported as an XML file.\"/></Error>"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D1D",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=c322dcdb-9dee-47fe-aa2f-9734c6c95ffa&ssb=24074311648&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD1D&ssi=27d0b0cc-bhbz-4ed1-91c0-b951d0774e51&ssk=support@shieldsquare.com&ssm=29657732964624219104481064962428&ssn=54dc01ae1743bd10b1f8049495270adb7f642b9164e8-b774-43f9-9d4e4b&sso=dffef991-d64f7b75e9f9ea3832d074e6a470c87fbf8f8b0085b93117&ssp=51667453611791356087179130089601043&ssq=86048494654083868692146540925752397313247&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAyYjkxNjRlOC1iNzc0LTQzZjktOTk5MS1kNjRmN2I3NWU5ZjkxLTE3OTEzNDY1NDAyNzEwLTAwNWI2NmNkODNlMTA3MDIyYmQxMCIsInV6bXgiOiI3ZmMwMDBhYjU1ZGIwNS1iZTJmLTQyMjQtYTExYy05MjhmMWQwMzgxYTUxLTE3OTEzNDY1NDAyNzEwLTAwODQ2ODg4NGUwNjkyYjc3ZTMxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=c89286cf-b474-4185-90aa-302345d60b78&ssb=30587300674&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD1D&ssi=9ae1b8e2-bhbz-405f-9bb4-2f64e4d6a5d8&ssk=support@shieldsquare.com&ssm=04514209084044152102627071055425&ssn=f11553620fd4de997a49bd85389caaf31c4a4c4c92de-6347-4152-8664d7&sso=3c3ff04f-df2edb9871d9db68fc7c962cdafdbad072e452e6c5d2bcb7&ssp=69939778851791382236179132093623271&ssq=20328805596794581159055967019453678884495&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA0YzRjOTJkZS02MzQ3LTQxNTItODA0Zi1kZjJlZGI5ODcxZDkxLTE3OTEzNTU5Njc0ODUwLTAwNWQ0NzM4Yzg5ZjhjZDhjMTgxMCIsInJkIjoiZG1vLmdvdi51ayIsInV6bXgiOiI3ZmMwMDA5YWMwM2VmYS0yYThmLTRlYjgtYmYwOS1jNTJkNDU5YjA0NjExLTE3OTEzNTU5Njc0ODUwLTAwODBiZjliY2E4Mjc5ZDUxMmMxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__446703f7.html",
-   "seconds": 0.61,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"2b9164e8-b774-43f9-9991-d64f7b75e9f9\";\n\tvar __uzdbm_2 = \"MjdkMGIwY2MtYmhiei00ZWQ"
+   "seconds": 0.89,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"4c4c92de-6347-4152-804f-df2edb9871d9\";\n\tvar __uzdbm_2 = \"OWFlMWI4ZTItYmhiei00MDV"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D2",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=ebe6c17b-cdc1-49d7-89cf-2caacc6168fd&ssb=24074311648&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD2&ssi=7fb4bffc-bhbz-4539-a956-f87d1e92b42d&ssk=support@shieldsquare.com&ssm=29657732964624219104481064962428&ssn=54dc01aeb559010f39317cbd2d9d0adb7f648ed2825f-c32f-4709-9d4e4b&sso=dffef4c5-2edc7a6b8600ea3832d0bdd11de890af4a66a92685b93117&ssp=51667453611791356087179130089601043&ssq=86048494654083868692146540925752397313247&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDA4ZWQyODI1Zi1jMzJmLTQ3MDktOTRjNS0yZWRjN2E2Yjg2MDAxLTE3OTEzNDY1NDA4OTgwLTAwNTE1OGU0ODYwNmQ0YTNkOGIxMCIsInV6bXgiOiI3ZmMwMDA1YTY4NDhjZS0xOTA3LTQzOTctOTA2Yi01ZmYyYTg2MTc5NmYxLTE3OTEzNDY1NDA4OTgwLTAwODYwMzM1YTEyMTc0N2UwZGExMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=3d47f356-1578-40a8-ae6d-a38a22ea2d35&ssb=31985308483&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD2&ssi=6d322411-bhbz-474a-8325-1fd27633b13f&ssk=support@shieldsquare.com&ssm=52081104768480689106133475885693&ssn=96beb15680c55f0ffaa2134b94083908a268b837e820-55fd-4477-95842f&sso=935af7fe-806a35ad90caba36f14ed2821027b74dd3bb629941dd16f6&ssp=13925800451791302806179133220726223&ssq=09278425596862815051555968041419663030843&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYTNiM2I4NDQtY2U4OS00YzZkLTlmMGUtNDQ2MzBmYjhjZGJmMS0xNzkxMzU1OTY4MzEwMC0wMDhmNDEyY2Y1ZTlmM2MzMmRkMTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBiODM3ZTgyMC01NWZkLTQ0NzctOTdmZS04MDZhMzVhZDkwY2ExLTE3OTEzNTU5NjgzMTAwLTAwNTBlMjI5NWI1YmRmNjNiMzYxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__165a3537.html",
-   "seconds": 0.56,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"8ed2825f-c32f-4709-94c5-2edc7a6b8600\";\n\tvar __uzdbm_2 = \"N2ZiNGJmZmMtYmhiei00NTM"
+   "seconds": 0.75,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"b837e820-55fd-4477-97fe-806a35ad90ca\";\n\tvar __uzdbm_2 = \"NmQzMjI0MTEtYmhiei00NzR"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D4H",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=db123246-7ebc-4e78-8cf7-c80b943abc93&ssb=74695379826&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD4H&ssi=18d8f900-bhbz-487c-b5df-1be2ea790ed4&ssk=support@shieldsquare.com&ssm=67445203725239613104581308384632&ssn=3589ad4fc8908f1c280ab10fa069f1a71b1b1055af34-4b12-4af1-965cce&sso=22df174d-9de3d8282d9a26d93592c1507116358745d415fb6e2f2cad&ssp=13286234961791308430179138721669340&ssq=36990134654125356189146541816924510950043&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAxMDU1YWYzNC00YjEyLTRhZjEtOTc0ZC05ZGUzZDgyODJkOWExLTE3OTEzNDY1NDE0NDIwLTAwNWViNzA2ODFjNmFiNWQwMWQxMCIsInV6bXgiOiI3ZmMwMDA2MTBmZTU5Mi1hNzEzLTRjMjktYmNjMC1mMmY5MjFlNWVlNzExLTE3OTEzNDY1NDE0NDIwLTAwODNiZjhmYTM0YTI2MGY5OGExMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=af4865fc-4055-4817-b202-e5df77ebf8b8&ssb=47199343457&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD4H&ssi=33e7bc64-bhbz-46a7-bedd-2e16808c8a1d&ssk=support@shieldsquare.com&ssm=17708149042113243105867777450651&ssn=c8672b400bc94beb0ddcaa4dcbb3e22ff40efd323787-a583-409f-95e6db&sso=b7024d0e-ee2e5cb7280068f0624326b2f8dbf4fae27f73d65c61566d&ssp=13928271161791305942179133170371929&ssq=85957635596953912240055969195667935522664&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYTA0ZTU4M2ItZGJiMC00ZTZiLWFhY2QtOGQzODcwMTJlZjE5MS0xNzkxMzU1OTY5MDQ2MC0wMDg5ZWI4ODEwYTAxNjVlMDFiMTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBmZDMyMzc4Ny1hNTgzLTQwOWYtOWQwZS1lZTJlNWNiNzI4MDAxLTE3OTEzNTU5NjkwNDYwLTAwNTY5MTA5ZTI3MmIzMjAxODcxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__05fadb9c.html",
-   "seconds": 0.54,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"1055af34-4b12-4af1-974d-9de3d8282d9a\";\n\tvar __uzdbm_2 = \"MThkOGY5MDAtYmhiei00ODd"
+   "seconds": 0.73,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"fd323787-a583-409f-9d0e-ee2e5cb72800\";\n\tvar __uzdbm_2 = \"MzNlN2JjNjQtYmhiei00NmE"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D4L",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=61e75aa3-870c-4a76-8ef2-edec6f9081be&ssb=87166382262&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD4L&ssi=1b6ad354-bhbz-44c7-b717-2d82a9f4c05e&ssk=support@shieldsquare.com&ssm=13079237869719074103202592876780&ssn=9ad6bd2e952e291ca8e36fe87c37b3c5b54821258a5e-ab05-4901-b6c46c&sso=564ebc0b-55058a7664ebb0a7b0f353e0b6d7eb4e9b7cefedb9d7359b&ssp=07357689771791358629179134578103980&ssq=08362784654121794462246541394996777986873&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAyMTI1OGE1ZS1hYjA1LTQ5MDEtYmMwYi01NTA1OGE3NjY0ZWIxLTE3OTEzNDY1NDIwMDMwLTAwNTkwYjU5NGUwMjNlYzNiYTAxMCIsInV6bXgiOiI3ZmMwMDA4OTc4MTQyNC05YjU4LTQ2ZDEtYjg1Yi1lNTljMWQyMzlkMjgxLTE3OTEzNDY1NDIwMDMwLTAwODM4MmE1OGI1N2JiZjA4MGIxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=d8e76106-11f3-4038-9856-679883e0a4ff&ssb=47199343457&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD4L&ssi=5a9677e6-bhbz-446f-89fd-2636f01ff3a5&ssk=support@shieldsquare.com&ssm=17708149042113243105867777450651&ssn=c8672b4042ad800f651cb144dcf1e22ff40eca8ac701-2e79-4f5a-b5e6db&sso=b70240fc-87d59b16090c68f06243aabe78813b8d2e446e0c5c61566d&ssp=13928271161791305942179133170371929&ssq=85957635596953912240055969195667935522664&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwMTM3ZTJjMjItNmJlNS00ZTZjLTg1ZTEtM2Q4ZWExZTQyNTUwMS0xNzkxMzU1OTY5ODM3MC0wMDg0OWM4YzIwNmRkYmI5NGM2MTAiLCJfX3V6bWYiOiI3ZjkwMDBjYThhYzcwMS0yZTc5LTRmNWEtYjBmYy04N2Q1OWIxNjA5MGMxLTE3OTEzNTU5Njk4MzcwLTAwNTNhYWZiMzM0OGJiNmJmNGYxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__7b241246.html",
-   "seconds": 0.55,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"21258a5e-ab05-4901-bc0b-55058a7664eb\";\n\tvar __uzdbm_2 = \"MWI2YWQzNTQtYmhiei00NGM"
+   "seconds": 0.77,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"ca8ac701-2e79-4f5a-b0fc-87d59b16090c\";\n\tvar __uzdbm_2 = \"NWE5Njc3ZTYtYmhiei00NDZ"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D4O",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=7814540c-4e2f-4f38-8d99-d15c610c68d8&ssb=87166382262&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD4O&ssi=c828f2dc-bhbz-4539-b230-48a836a2bf3f&ssk=support@shieldsquare.com&ssm=13079237869719074103202592876780&ssn=9ad6bd2eadf61c8d4249d74cccb6b3c5b548e39fba94-3834-4515-86c46c&sso=564eb2ac-b6666ad50710b0a7b0f34c01809652cc3d6e2457b9d7359b&ssp=07357689771791358629179134578103980&ssq=08362784654221794462246542394996777986873&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJ1em14IjoiN2ZjMDAwMDZhOWY5NjctYjczYy00Yjg5LWE1ZDktMzYyYjM2ZWI0ZTJmMS0xNzkxMzQ2NTQyNTMwMC0wMDg0MTJkZDZiNmIxMGM1OTlkMTAiLCJfX3V6bWYiOiI3ZjkwMDBlMzlmYmE5NC0zODM0LTQ1MTUtODJhYy1iNjY2NmFkNTA3MTAxLTE3OTEzNDY1NDI1MzAwLTAwNWNhNTVmNzBmZjVlMmVkOTExMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=8c3cd3d6-81a4-460e-80f2-f6b289aa9345&ssb=39949394474&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD4O&ssi=9eebe23c-bhbz-41c6-bd99-f9f729550a09&ssk=support@shieldsquare.com&ssm=79185200852364299105486610792557&ssn=942ef85bbae8492eb76f83d8fae67f14b7e8fb624f69-67a6-435b-b590b5&sso=4d2957d3-d7d7aef83f6100a54fdfaabc202cff6aadfb497da813b14e&ssp=79636418471791390726179130036576207&ssq=76388945597025851382555970124974884552650&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwMTAyMDMwYjUtZjdmYS00ZWE2LTkxYmYtNDhjODBjNzRjZWRjMS0xNzkxMzU1OTcwNTYyMC0wMDgxYzQwNWRkZDM4ZjlkOGU1MTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBmYjYyNGY2OS02N2E2LTQzNWItYjdkMy1kN2Q3YWVmODNmNjExLTE3OTEzNTU5NzA1NjIwLTAwNWVhYzM0YmRhNjZmZjA3ZWYxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__c8cb42ad.html",
-   "seconds": 0.59,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"e39fba94-3834-4515-82ac-b6666ad50710\";\n\tvar __uzdbm_2 = \"YzgyOGYyZGMtYmhiei00NTM"
+   "seconds": 0.78,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"fb624f69-67a6-435b-b7d3-d7d7aef83f61\";\n\tvar __uzdbm_2 = \"OWVlYmUyM2MtYmhiei00MWM"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5D",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=25227785-25f4-46f1-a748-c35d93d4282d&ssb=23455311648&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5D&ssi=daf01458-bhbz-426f-9894-af28dec054fa&ssk=support@shieldsquare.com&ssm=18352139968963803106980157751645&ssn=3b79db741982419f70a272cf4615d40eb3849aac87da-c673-436f-8db006&sso=b25d340e-45a83bdd729e36788a616798561353a6e64a3c1bf9a30b8f&ssp=84752034371791344184179138225430932&ssq=24250364654313056563946543675496183510105&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDA5YWFjODdkYS1jNjczLTQzNmYtODQwZS00NWE4M2JkZDcyOWUxLTE3OTEzNDY1NDMxNTAwLTAwNTg1NzE3MDI3OThmMjJkMTUxMCIsInV6bXgiOiI3ZmMwMDAxYjM0MmNjNy1iN2QwLTQzMGYtYTg1Zi1kM2M0ODdhYmY4NmIxLTE3OTEzNDY1NDMxNTAwLTAwODk0ZTFmZjQ0YzM5ZjI4MTMxMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=5f4c19b7-db64-4ce1-8369-e6e9b34b033d&ssb=62213365911&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5D&ssi=44f6b267-bhbz-4ac2-9b26-0c922cafbfe6&ssk=support@shieldsquare.com&ssm=30898135185761967104795735694098&ssn=99e002ac79b180d397d81640cef28d3ad65ec827c911-083d-405f-acffcb&sso=9afb2f27-ac8a617939a49626fb4c279ca6025f1098050fb2f209b60f&ssp=76141794221791361472179131188986309&ssq=90298015597106757161455971409627015160523&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwZmFlN2YxMWQtMGYwYy00ZjJlLThkNjUtMTkzZDYxYmYzNzZlMS0xNzkxMzU1OTcxMzcwMC0wMDhkNWVjZWIyNDY3NjAwMmE3MTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBjODI3YzkxMS0wODNkLTQwNWYtYWYyNy1hYzhhNjE3OTM5YTQxLTE3OTEzNTU5NzEzNzAwLTAwNWRmMzZjMGJkOGZmODFjMjkxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__a173a7b6.html",
-   "seconds": 0.57,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"9aac87da-c673-436f-840e-45a83bdd729e\";\n\tvar __uzdbm_2 = \"ZGFmMDE0NTgtYmhiei00MjZ"
+   "seconds": 0.75,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"c827c911-083d-405f-af27-ac8a617939a4\";\n\tvar __uzdbm_2 = \"NDRmNmIyNjctYmhiei00YWM"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5I",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=eec0d45b-319b-4c95-95e2-5a809f7a43e7&ssb=23455311648&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5I&ssi=7a6febd3-bhbz-41fe-8d2b-b210a78ae3b4&ssk=support@shieldsquare.com&ssm=18352139968963803106980157751645&ssn=3b79db74f65b1a520b120f87217ed40eb384ba55689b-6663-41e6-bdb006&sso=b25d32eb-9f34817f69c536788a6184a7d7fd86911ecf6d62f9a30b8f&ssp=84752034371791344184179138225430932&ssq=24250364654313056563946543675496183510105&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBiYTU1Njg5Yi02NjYzLTQxZTYtYjJlYi05ZjM0ODE3ZjY5YzUxLTE3OTEzNDY1NDM3MzAwLTAwNWFkYzQwNzA4YjhjYWEwYjUxMCIsInV6bXgiOiI3ZmMwMDAyMjY1ZTQyMS03YmJiLTQ0OWEtYTQ3NC0wMWQ1MDhlNzdhODYxLTE3OTEzNDY1NDM3MzAwLTAwOGU5MTJlNTNhMjhlMjk2YWMxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=89524e69-76e9-4d14-b700-d14375243136&ssb=61523398398&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5I&ssi=99bcdd30-bhbz-4fa3-90da-4ca620b8694d&ssk=support@shieldsquare.com&ssm=56883798974965870100831947919588&ssn=1f0d10ec93ae41624df9d0e17e804c8bf8a24dddd084-0c90-4d64-81ef63&sso=a42204d6-eed012e29fea5be0234a10552a88318591be04f8f31d0e74&ssp=26943428061791344595179131968966624&ssq=12193485597279589273355972030138602753951&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYWYyM2E5MmEtMWZmYy00YjkzLWE2ODQtYzllNWMwNmE1MmNhMS0xNzkxMzU1OTcyMDkwMC0wMDgyYTIxODQ1NDQ0MTYzMDU5MTAiLCJfX3V6bWYiOiI3ZjkwMDA0ZGRkZDA4NC0wYzkwLTRkNjQtODRkNi1lZWQwMTJlMjlmZWExLTE3OTEzNTU5NzIwOTAwLTAwNTA5OWIxYzI0ZGE3NmJlNzQxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__0bca9733.html",
-   "seconds": 0.59,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"ba55689b-6663-41e6-b2eb-9f34817f69c5\";\n\tvar __uzdbm_2 = \"N2E2ZmViZDMtYmhiei00MWZ"
+   "seconds": 0.75,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"4dddd084-0c90-4d64-84d6-eed012e29fea\";\n\tvar __uzdbm_2 = \"OTliY2RkMzAtYmhiei00ZmE"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5J",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=6b75435a-c6bc-42da-a1c8-e4ca8b6959d7&ssb=92708314997&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5J&ssi=22746164-bhbz-4c0f-b3ca-c7057472e114&ssk=support@shieldsquare.com&ssm=69743665831251176103748220552946&ssn=8162cafc39ef1684a26bf1b56dacdd87aa9031da5aab-b3a1-4342-bceb01&sso=19e9e733-5204a1e9454d59629244c24f465a463ee91fc98eb31055b3&ssp=40499371871791355743179131957573593&ssq=12916544654463426862146544758742946454178&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAzMWRhNWFhYi1iM2ExLTQzNDItYjczMy01MjA0YTFlOTQ1NGQxLTE3OTEzNDY1NDQyOTAwLTAwNTUzNmI0NGY2ZDllZjc3ZDIxMCIsInV6bXgiOiI3ZmMwMDA2YjBmN2M0ZS00MjdlLTQxYjItOTE2NS1lNzFjNGYwOWY3MzExLTE3OTEzNDY1NDQyOTAwLTAwODU2M2I0ZjM0ZmVmNmYzYzAxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=aac52fc3-ef12-41c8-ae35-ee42c12c09eb&ssb=61523398398&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5J&ssi=efdc8bf5-bhbz-4e43-b44f-a435a770b76e&ssk=support@shieldsquare.com&ssm=56883798974965870100831947919588&ssn=1f0d10ec53673ca8112c949e62294c8bf8a223951764-22a8-463e-91ef63&sso=a42204cb-4cd9e23ccd125be0234a73ef3f113281b6b09ac0f31d0e74&ssp=26943428061791344595179131968966624&ssq=12193485597279589273355972030138602753951&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJ1em14IjoiN2ZjMDAwNTM1NDhkYzEtODA3Zi00OGI5LWFiMjgtYjQ1ZTIxYzU1MWRjMS0xNzkxMzU1OTcyODQ1MC0wMDgwMzNiMGM4MjVmOWQ4NzZkMTAiLCJfX3V6bWYiOiI3ZjkwMDAyMzk1MTc2NC0yMmE4LTQ2M2UtOTRjYi00Y2Q5ZTIzY2NkMTIxLTE3OTEzNTU5NzI4NDUwLTAwNWFmOWQwODI0YTRhYTcxNWIxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__606f663c.html",
-   "seconds": 0.56,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"31da5aab-b3a1-4342-b733-5204a1e9454d\";\n\tvar __uzdbm_2 = \"MjI3NDYxNjQtYmhiei00YzB"
+   "seconds": 0.75,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"23951764-22a8-463e-94cb-4cd9e23ccd12\";\n\tvar __uzdbm_2 = \"ZWZkYzhiZjUtYmhiei00ZTQ"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D6A",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=7caf46ed-6b11-4d11-9c32-06c0524efe20&ssb=92708314997&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD6A&ssi=e2098734-bhbz-4de3-a765-e2c8fee19109&ssk=support@shieldsquare.com&ssm=69743665831251176103748220552946&ssn=8162cafc61b5afd91c367767212ddd87aa9070176a2a-98ac-42d9-aceb01&sso=19e9ef2e-6f77239ec53f5962924496d6c144bb0aceaca082b31055b3&ssp=40499371871791355743179131957573593&ssq=12916544654463426862146544758742946454178&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJ1em14IjoiN2ZjMDAwYTI4N2IyOTUtMTM2Yi00NGEwLWJmYmYtODU0MzAwYmQ1YTY5MS0xNzkxMzQ2NTQ0ODM5MC0wMDg3NDRlMDk2OTQ0NGMyODk5MTAiLCJfX3V6bWYiOiI3ZjkwMDA3MDE3NmEyYS05OGFjLTQyZDktYWYyZS02Zjc3MjM5ZWM1M2YxLTE3OTEzNDY1NDQ4MzkwLTAwNTE2MTk4MDhiMDg3NmIzYWQxMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=d41c6a00-943c-4935-b54e-839b7ef9df26&ssb=61199310190&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD6A&ssi=4034ca47-bhbz-4a0a-945f-00c61a46c127&ssk=support@shieldsquare.com&ssm=33088972954156843101415367360403&ssn=8c040360e58dc062705acdf55b82490162e2604e4907-b983-4386-bdd659&sso=e5187a23-011b55591f94f8c67ce6ee22020fb9697f515acaffc6c509&ssp=38180961071791387230179139491879229&ssq=06349525597340716869955973427017980870586&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwNzU2YTgxZmUtMzlhYi00NDc4LTgyNjEtMTIzOTk5MzdhY2YxMS0xNzkxMzU1OTczNTczMC0wMDg0ZmFmMjFkNDMwODJkMjEwMTAiLCJfX3V6bWYiOiI3ZjkwMDA2MDRlNDkwNy1iOTgzLTQzODYtYmEyMy0wMTFiNTU1OTFmOTQxLTE3OTEzNTU5NzM1NzMwLTAwNTQxZjY4N2M4NDIwMGYwNjExMCIsInJkIjoiZG1vLmdvdi51ayJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__09e23f30.html",
-   "seconds": 0.58,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"70176a2a-98ac-42d9-af2e-6f77239ec53f\";\n\tvar __uzdbm_2 = \"ZTIwOTg3MzQtYmhiei00ZGU"
+   "seconds": 0.73,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"604e4907-b983-4386-ba23-011b55591f94\";\n\tvar __uzdbm_2 = \"NDAzNGNhNDctYmhiei00YTB"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D7A",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=920fe84b-ab68-492f-a5f5-63a3ace86277&ssb=53865316164&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD7A&ssi=10350bce-bhbz-4cda-99bb-589f2cc74bdf&ssk=support@shieldsquare.com&ssm=45511462820774097105179120982554&ssn=014365a590ac4e5175c69e41206fcfabc7b4a7a062f9-5492-4681-b200b6&sso=b735fad4-6b77fabd4409c10b11c6193dfd25c657c9f5fd1e1b953cf1&ssp=08410988771791312363179130160280086&ssq=13279254654544502025646545526522608859268&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBhN2EwNjJmOS01NDkyLTQ2ODEtYmFkNC02Yjc3ZmFiZDQ0MDkxLTE3OTEzNDY1NDU0MjQwLTAwNTE1MWRlNzJlZmE0NmY1NzIxMCIsInV6bXgiOiI3ZmMwMDBiOGNlM2E4OC1mNzU3LTRiZjAtOTc5Ni00NWMwNzdiYjg0MDExLTE3OTEzNDY1NDU0MjQwLTAwOGZkZjM2NmJhOThkNTkwYjQxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=b9307fed-7fb7-4cce-973a-9e1e95d2d049&ssb=69729305178&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD7A&ssi=b7fdf4a8-bhbz-408c-8ff5-67d08de87e09&ssk=support@shieldsquare.com&ssm=89956483442789573101633768755779&ssn=a07b6bb8060482a56f8c859860ac3dd60cb9a8b9721a-1edc-4430-80eb6b&sso=1878e531-ee2f9cd890c55c0e45cd460b7dba9772201ec2b9f0b140d7&ssp=92663570251791306659179134886739632&ssq=43821875597474999768355974737376257760988&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBhOGI5NzIxYS0xZWRjLTQ0MzAtODUzMS1lZTJmOWNkODkwYzUxLTE3OTEzNTU5NzQzMzEwLTAwNTljMDc3NmVlNmFiOWU3YmMxMCIsInJkIjoiZG1vLmdvdi51ayIsInV6bXgiOiI3ZmMwMDA3MmIxODZlNi1iMjRjLTQxZmItODNmNi0yM2M3ODg2ZjQ5M2QxLTE3OTEzNTU5NzQzMzEwLTAwOGNkYWI0YjM3MzNmMDBhOGYxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__9f550053.html",
-   "seconds": 0.53,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"a7a062f9-5492-4681-bad4-6b77fabd4409\";\n\tvar __uzdbm_2 = \"MTAzNTBiY2UtYmhiei00Y2R"
+   "seconds": 0.74,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"a8b9721a-1edc-4430-8531-ee2f9cd890c5\";\n\tvar __uzdbm_2 = \"YjdmZGY0YTgtYmhiei00MDh"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D8B",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=ea35c2b8-bf29-4469-8fbf-d4947474123e&ssb=53865316164&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD8B&ssi=0e9bca13-bhbz-4296-b67d-becb9b5a7e29&ssk=support@shieldsquare.com&ssm=45511462820774097105179120982554&ssn=014365a5d9188f1a25d81ba260eacfabc7b4bb2227fb-42b2-424f-a200b6&sso=b735f4bd-5344f4d62b98c10b11c6992477a3c8d553b0f8941b953cf1&ssp=08410988771791312363179130160280086&ssq=13279254654544502025646545526522608859268&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBiYjIyMjdmYi00MmIyLTQyNGYtYTRiZC01MzQ0ZjRkNjJiOTgxLTE3OTEzNDY1NDU5NDgwLTAwNTNjYTY1NTVmZDA2ZDU5OTQxMCIsInV6bXgiOiI3ZmMwMDBlZTA2M2FjMi1iOTM1LTQyNTUtOGMwMi01ZmQ5MDYzZDA5OGIxLTE3OTEzNDY1NDU5NDgwLTAwODFlZDU3YTUxYmExZDQzNjkxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=64460799-65e8-4e1c-8ece-c89368883bc1&ssb=39323331801&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD8B&ssi=180cd693-bhbz-46f8-b179-89b092a0a524&ssk=support@shieldsquare.com&ssm=40033694808053647101353876433913&ssn=e6c17d466c1103a4f31f2ca29b77b328fb70143bb04d-8d6a-4449-936c6a&sso=83c67d31-daf87f5bf7865c9696872ec2c5359f876432d90e5a5f8f52&ssp=12054992821791370053179131139378931&ssq=01258965597546443025655975745259130146337&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJ1em14IjoiN2ZjMDAwNGUxYzExODUtODkxNy00MGFjLTgzNzgtMGE1YjQ2NGRkYjE1MS0xNzkxMzU1OTc1MDQ4MC0wMDhkZjZiZDA1ZGEwMjczNDA3MTAiLCJfX3V6bWYiOiI3ZjkwMDAxNDNiYjA0ZC04ZDZhLTQ0NDktOWQzMS1kYWY4N2Y1YmY3ODYxLTE3OTEzNTU5NzUwNDgwLTAwNTE2ZTFhN2M4MmUzZGUxMWUxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__94170c4b.html",
-   "seconds": 0.52,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"bb2227fb-42b2-424f-a4bd-5344f4d62b98\";\n\tvar __uzdbm_2 = \"MGU5YmNhMTMtYmhiei00Mjk"
+   "seconds": 0.72,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"143bb04d-8d6a-4449-9d31-daf87f5bf786\";\n\tvar __uzdbm_2 = \"MTgwY2Q2OTMtYmhiei00NmY"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D9A",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=a786ee0b-111a-414b-9484-3979618c95ac&ssb=03462337064&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD9A&ssi=c18174c1-bhbz-41d1-9ceb-b07b59c608bc&ssk=support@shieldsquare.com&ssm=57748492830242137106488985136647&ssn=3e9f0b4e0990368b95ebbb5dece990cd576f8c13c127-a8a5-40c3-bf9ce3&sso=8f5ed016-0d9827070844e82ae47b55f7bac4020bb83c030cade4dd1f&ssp=43738636031791357260179133670533710&ssq=89720254654610624949746546648796532064076&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDA4YzEzYzEyNy1hOGE1LTQwYzMtYjAxNi0wZDk4MjcwNzA4NDQxLTE3OTEzNDY1NDY0NjMwLTAwNTM5YTNkMGE0MDUyYTU0ZDAxMCIsInV6bXgiOiI3ZmMwMDA5MmQ0MThjYy1iZDhiLTQ1ODUtYTc2Mi0wYzA1N2QxNTFkMzUxLTE3OTEzNDY1NDY0NjMwLTAwOGVjZjgzZjQ3ZTEzYmExMGMxMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=6b4a9c95-bb3a-44fc-a925-e3c5f8e45262&ssb=39323331801&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD9A&ssi=2eef4ac4-bhbz-4d4b-ac22-c0fb713f57ad&ssk=support@shieldsquare.com&ssm=40033694808053647101353876433913&ssn=e6c17d4600217e4f2516c28cf87ab328fb7030501344-c185-40a4-836c6a&sso=83c672bb-259337959c035c969687294f70c1b371879fb2435a5f8f52&ssp=12054992821791370053179131139378931&ssq=01258965597546443025655975745259130146337&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwMjEzMjkwZTktOWUzZC00NDMwLWJkNzItMmM4NTkyNDBkYzJjMS0xNzkxMzU1OTc1NzYxMC0wMDhlODM1MTE3MDI1ODBmNzAxMTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDAzMDUwMTM0NC1jMTg1LTQwYTQtODJiYi0yNTkzMzc5NTljMDMxLTE3OTEzNTU5NzU3NjEwLTAwNWUzYzE0MjM1NTAwZjIyMjYxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__6b9849d3.html",
-   "seconds": 0.5,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"8c13c127-a8a5-40c3-b016-0d9827070844\";\n\tvar __uzdbm_2 = \"YzE4MTc0YzEtYmhiei00MWQ"
+   "seconds": 0.72,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"30501344-c185-40a4-82bb-259337959c03\";\n\tvar __uzdbm_2 = \"MmVlZjRhYzQtYmhiei00ZDR"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D9C",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=b22e1354-e5dd-47db-828d-fb4b1b10332a&ssb=03462337064&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD9C&ssi=fd338a0f-bhbz-4729-a980-143134fd9844&ssk=support@shieldsquare.com&ssm=57748492830242137106488985136647&ssn=3e9f0b4e2a5de3ec0e1af8728a2090cd576f6e024e68-3dcd-4897-af9ce3&sso=8f5ed76f-e78b83a07c2ce82ae47b15eed70487eccae89d20ade4dd1f&ssp=43738636031791357260179133670533710&ssq=89720254654610624949746546648796532064076&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA2ZTAyNGU2OC0zZGNkLTQ4OTctYTc2Zi1lNzhiODNhMDdjMmMxLTE3OTEzNDY1NDY5OTcwLTAwNTQyMGJmNThkMWRiZTI1MmUxMCIsInV6bXgiOiI3ZmMwMDAyYTU4ZmQwZi1kZWNkLTQyNDMtYmQ3NC0zNjYzNzQzYTQ0NmQxLTE3OTEzNDY1NDY5OTcwLTAwODQyN2MyYjYyZWRhOWZlNDMxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=6c80268b-0a23-49e4-9a1a-b38f8814eccb&ssb=06387329468&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD9C&ssi=1096958c-bhbz-46a3-95f8-3ebf50c488a1&ssk=support@shieldsquare.com&ssm=35042905304919798102673092182876&ssn=f0c2c86ff971e1407bd5f68965f1df85d7a91d947594-cfb6-4068-9d970d&sso=ff66ccf2-911e936e8b3254a16953a50dda3854081fa51f9621d5a941&ssp=36838421291791389426179133104813962&ssq=24081855597611529349055976666448721508960&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwZmUyYWQ2MDktN2U4ZC00ZGFlLWE2MWItZmFhZDQ4MGJlN2VkMS0xNzkxMzU1OTc2NDc4MC0wMDhmMGZiNGI4Y2FjZTNkZWE5MTAiLCJfX3V6bWYiOiI3ZjkwMDAxZDk0NzU5NC1jZmI2LTQwNjgtOWNmMi05MTFlOTM2ZThiMzIxLTE3OTEzNTU5NzY0NzgwLTAwNTY3ZTE4ZDk2Y2VjNjQzOTgxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__f7692cb9.html",
-   "seconds": 0.56,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"6e024e68-3dcd-4897-a76f-e78b83a07c2c\";\n\tvar __uzdbm_2 = \"ZmQzMzhhMGYtYmhiei00NzI"
+   "seconds": 0.7,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"1d947594-cfb6-4068-9cf2-911e936e8b32\";\n\tvar __uzdbm_2 = \"MTA5Njk1OGMtYmhiei00NmE"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D9D",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=d04ee2e4-982b-4a6c-a6b4-a28085c30dfd&ssb=97890390774&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD9D&ssi=f39740cf-bhbz-4adc-88b9-9d2efcfb5979&ssk=support@shieldsquare.com&ssm=68991611657868636100302257909229&ssn=535b6c867156f6bc0312fdccf34b19e97428a20fd6cd-2651-43d6-848a04&sso=587d4925-5c9d377bb7f7e2b70b3fad052e0193a44e766251274652f3&ssp=26014707041791389621179137717610619&ssq=55793024654712247868646547374400601180124&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBhMjBmZDZjZC0yNjUxLTQzZDYtODkyNS01YzlkMzc3YmI3ZjcxLTE3OTEzNDY1NDc1NzMwLTAwNTIxNjVlY2UzNThiNWVkOTYxMCIsInJkIjoiZG1vLmdvdi51ayIsInV6bXgiOiI3ZmMwMDA5Mzg0MDE3OC1lMTkzLTRlMzYtYTg0My1mYzkwZTI0YWE5YWIxLTE3OTEzNDY1NDc1NzMwLTAwOGIxMzk0YjY2Yzc3NzQ4MWExMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=4a8938f8-50e1-4be8-856e-be489681ef0c&ssb=26106307584&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD9D&ssi=0416177c-bhbz-413e-b1f1-1d201940638b&ssk=support@shieldsquare.com&ssm=64613508949101699101182934962680&ssn=bde6cd76dc3803bd07ef6c275693b5299bccbce28d75-87e7-4bff-9eb396&sso=55ccb194-42eeabefdaf10698f762e19b8091b6dfb6a61f510aecf357&ssp=65187851801791308575179133437280169&ssq=42660005597742844834955977098227984154335&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwMjliZWRhMDctODhmOS00NDBkLThlZjQtZWQwNDdhYzg5YWY4MS0xNzkxMzU1OTc3MTk1MC0wMDg5MjFlZDM4OTM5N2JmMjU2MTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBiY2UyOGQ3NS04N2U3LTRiZmYtOTE5NC00MmVlYWJlZmRhZjExLTE3OTEzNTU5NzcxOTUwLTAwNWYzY2NmZjg0NjA2Y2ZhZDIxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__074a8446.html",
-   "seconds": 0.55,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"a20fd6cd-2651-43d6-8925-5c9d377bb7f7\";\n\tvar __uzdbm_2 = \"ZjM5NzQwY2YtYmhiei00YWR"
+   "seconds": 0.73,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"bce28d75-87e7-4bff-9194-42eeabefdaf1\";\n\tvar __uzdbm_2 = \"MDQxNjE3N2MtYmhiei00MTN"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D10A",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=0add8117-4783-44c7-b3d9-74552070010b&ssb=49053327076&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD10A&ssi=386f90e6-bhbz-498d-b6ae-b4e852e4670d&ssk=support@shieldsquare.com&ssm=60793118417949649102461618585366&ssn=4e000ae25ccc8646603e0a64fca33f4120e1cef4abf9-5826-488e-9a03dd&sso=7388b1ae-9fafd2fdf2c465bb7ae3081481c96c0fa5959631857c8cbd&ssp=26550607961791371649179131514276141&ssq=96894424654817163073646548850051826029079&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjZWY0YWJmOS01ODI2LTQ4OGUtOTFhZS05ZmFmZDJmZGYyYzQxLTE3OTEzNDY1NDgxMjYwLTAwNWU1NzU1YzZlOWRmNmEwNjIxMCIsInV6bXgiOiI3ZmMwMDBhNzkxZTllYS00MWU0LTQxYzAtODBhYS03YmJjNjg5NDM2MGYxLTE3OTEzNDY1NDgxMjYwLTAwOGE5ZWQ2ZTU3YzdiMWY4NWUxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=c678a643-3056-4c3f-9755-4fe92feb2a0a&ssb=26106307584&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD10A&ssi=671937b3-bhbz-4d16-bf05-a8b29af6c52c&ssk=support@shieldsquare.com&ssm=64613508949101699101182934962680&ssn=bde6cd76e194eb9b77e25b66d84ab5299bcc196b2711-71d8-4fc0-aeb396&sso=55ccb55d-f1e32f9f09c10698f76249ad6d7c0fd3bfcfa1950aecf357&ssp=65187851801791308575179133437280169&ssq=42660005597742844834955977098227984154335&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYmE1MmU4ZTgtZmQ0Zi00ODNkLTgyOWEtYjY1OTEzOTdhYzljMS0xNzkxMzU1OTc3OTEzMC0wMDg1MjRjZjQ2YTMzN2VmNjE1MTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDAxOTZiMjcxMS03MWQ4LTRmYzAtYTU1ZC1mMWUzMmY5ZjA5YzExLTE3OTEzNTU5Nzc5MTMwLTAwNTcwOTc3YTYzYmY2Yzk4OWIxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__2b13e278.html",
-   "seconds": 0.58,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"cef4abf9-5826-488e-91ae-9fafd2fdf2c4\";\n\tvar __uzdbm_2 = \"Mzg2ZjkwZTYtYmhiei00OTh"
+   "seconds": 0.76,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"196b2711-71d8-4fc0-a55d-f1e32f9f09c1\";\n\tvar __uzdbm_2 = \"NjcxOTM3YjMtYmhiei00ZDE"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D10B",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=191a224a-ffe0-4927-b7e4-2d5364c18b9e&ssb=49053327076&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD10B&ssi=22d4a96d-bhbz-484d-ae99-f7f4aed1846f&ssk=support@shieldsquare.com&ssm=60793118417949649102461618585366&ssn=4e000ae261d021819e32f4fd43f93f4120e11334bfb5-5998-4b4b-8a03dd&sso=7388b6ba-cf12dc9ea41765bb7ae3069760b1453696c77457857c8cbd&ssp=26550607961791371649179131514276141&ssq=96894424654817163073646548850051826029079&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAxMzM0YmZiNS01OTk4LTRiNGItODZiYS1jZjEyZGM5ZWE0MTcxLTE3OTEzNDY1NDg2NDEwLTAwNWYwODE2MjU3MjBjZDA0NGMxMCIsInV6bXgiOiI3ZmMwMDBiYmI1MmYxNy1kZmFiLTQzOTMtYjYzMy0wYjc4NjNjZWI5MmIxLTE3OTEzNDY1NDg2NDEwLTAwOGJmOTQzNWQxOWRmYTgwZDYxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=0da62d86-0c63-4e2e-aa37-45009b24484e&ssb=19880371085&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD10B&ssi=fdcda0c7-bhbz-44ac-bdb7-e77f5b9d628e&ssk=support@shieldsquare.com&ssm=54139312516670678104906065958389&ssn=267b773e88d5446f43e664160e12f52b286f599d063e-4590-4681-976072&sso=1078b353-811d9787b765647c980bd971d977304283bd8ed426f3549b&ssp=10650645781791386599179133560244177&ssq=52011855597854522698955978759344121529305&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYTA5MTk2ZmUtMzM1OC00ZTdmLWJmMTYtNGUxNjJkZjk0NDdkMS0xNzkxMzU1OTc4NjgzMC0wMDhlZWJhZWUwN2E1ZGYwMmRmMTAiLCJfX3V6bWYiOiI3ZjkwMDA1OTlkMDYzZS00NTkwLTQ2ODEtOTM1My04MTFkOTc4N2I3NjUxLTE3OTEzNTU5Nzg2ODMwLTAwNTQzNmE1YjNlYmZiNzM2MmIxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__2cc6ed21.html",
-   "seconds": 0.5,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"1334bfb5-5998-4b4b-86ba-cf12dc9ea417\";\n\tvar __uzdbm_2 = \"MjJkNGE5NmQtYmhiei00ODR"
+   "seconds": 0.74,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"599d063e-4590-4681-9353-811d9787b765\";\n\tvar __uzdbm_2 = \"ZmRjZGEwYzctYmhiei00NGF"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D10C",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=43c3f6b0-e141-4f57-8fa3-b3f9cce0f16f&ssb=97570343862&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD10C&ssi=f81df314-bhbz-4edd-8974-2c7928ec9884&ssk=support@shieldsquare.com&ssm=59298632724653429102776719749791&ssn=9916e5af776d37af41ddb1bb2e292765d133207b743a-429e-4fdf-81010f&sso=ecd7f832-6ab3bcdcb3042f7c78d60233ee6a256ec1f04709a6459193&ssp=92980785491791343621179139970341553&ssq=36364044654991964045346549278984187636302&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJ1em14IjoiN2ZjMDAwZjk3ZGZlZjQtNTQwMC00NjI0LWFlZDctNjNmNmRjYmJiMWFkMS0xNzkxMzQ2NTQ5MTU4MC0wMDhkNGIwYmJiODM3OTNlYzA4MTAiLCJfX3V6bWYiOiI3ZjkwMDAyMDdiNzQzYS00MjllLTRmZGYtODgzMi02YWIzYmNkY2IzMDQxLTE3OTEzNDY1NDkxNTgwLTAwNTkyMGI0ZGU2MDNjNjMyZjQxMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=649a2d1e-31f7-4811-a0e8-469ba5d3144e&ssb=32015339286&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD10C&ssi=65054330-bhbz-438c-8ef7-26a150ce2b40&ssk=support@shieldsquare.com&ssm=78653028263545519100060713333874&ssn=81f5deddb03b93ee0a389c350858bfee27e031bb1450-c400-4cf2-92eabe&sso=32578c18-3363981b2a4773798e650804eb67e4ad6ee82d9c434f563b&ssp=61511887051791319176179135429304738&ssq=48957095597905209412755979840399365938984&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwZTkxOTBmOTItMjk1Ny00ZDA3LTlhYjMtZDUzMzk4M2VlYTU4MS0xNzkxMzU1OTc5NDMwMC0wMDg5OWM0MzhiMzVmNDM4MTI3MTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDAzMWJiMTQ1MC1jNDAwLTRjZjItOWMxOC0zMzYzOTgxYjJhNDcxLTE3OTEzNTU5Nzk0MzAwLTAwNWU2ZGQ4NzMwMWNiYzRiNmExMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__21cc4daf.html",
-   "seconds": 0.62,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"207b743a-429e-4fdf-8832-6ab3bcdcb304\";\n\tvar __uzdbm_2 = \"ZjgxZGYzMTQtYmhiei00ZWR"
+   "seconds": 0.81,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"31bb1450-c400-4cf2-9c18-3363981b2a47\";\n\tvar __uzdbm_2 = \"NjUwNTQzMzAtYmhiei00Mzh"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D2.1E",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=b23341ee-44e9-4899-acfa-40b64b25499b&ssb=97570343862&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD2.1E&ssi=0cd1a20f-bhbz-45ad-be92-275d99856ce2&ssk=support@shieldsquare.com&ssm=59298632724653429102776719749791&ssn=9916e5af9a5089288b30d4bc5d932765d133b3dc5670-40c5-459e-81010f&sso=ecd7f137-2c1a53b243572f7c78d63a2d5a3b59182bb2ec7ba6459193&ssp=92980785491791343621179139970341553&ssq=36364044654991964045346549278984187636302&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBiM2RjNTY3MC00MGM1LTQ1OWUtODEzNy0yYzFhNTNiMjQzNTcxLTE3OTEzNDY1NDk3ODcwLTAwNTdiNjJlMTY0NmRjOGE4ZDYxMCIsInV6bXgiOiI3ZmMwMDAwNzdmZmM0Ny0zNThjLTRjNjctODQxYi1lNzAxNTExN2Q0ZTAxLTE3OTEzNDY1NDk3ODcwLTAwODVlMWFiN2JmOTliYzYxOWUxMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=b4230208-4a4b-4693-b306-5d2dc3ab3f2a&ssb=44172367038&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD2.1E&ssi=dd4ffd41-bhbz-4822-a796-87c153c7ce99&ssk=support@shieldsquare.com&ssm=63910722269478059109787511028782&ssn=9718af82f54a90ea77b84f0b7be48fabd39f2e62ac1d-9642-4b6a-9d70ed&sso=5506337a-14c5edbd9e419506ec8d33f056e7d1b827c49248b0616e3d&ssp=81384370841791340705179131618048186&ssq=99500155598039782402055980858163780793884&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYzc2NTE0ZTktZTM2Ny00ZTM0LWFhN2EtNjY3NjFhMDZjOWNhMS0xNzkxMzU1OTgwMjM3MC0wMDg0NGRlZTMzZDVmMzhiMGQ4MTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDAyZTYyYWMxZC05NjQyLTRiNmEtOTM3YS0xNGM1ZWRiZDllNDExLTE3OTEzNTU5ODAyMzcwLTAwNTBlNmE4YTgwNTA0ZjZjOWExMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__58d6d162.html",
-   "seconds": 0.51,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"b3dc5670-40c5-459e-8137-2c1a53b24357\";\n\tvar __uzdbm_2 = \"MGNkMWEyMGYtYmhiei00NWF"
+   "seconds": 0.72,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"2e62ac1d-9642-4b6a-937a-14c5edbd9e41\";\n\tvar __uzdbm_2 = \"ZGQ0ZmZkNDEtYmhiei00ODI"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D2.2D",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=eb482eae-057a-4675-9251-5df0fde5fa35&ssb=35296363792&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD2.2D&ssi=f854509b-bhbz-4317-b975-9e5967b0c165&ssk=support@shieldsquare.com&ssm=59154730175384986102922256700030&ssn=573b8ce440479a41626d79a19f3e18b09fe0817ff8e0-7377-494b-97f149&sso=850148f7-e9d039e0bdd0dffcdbe6763a45d964b257b110ead056dc63&ssp=28363131391791325401179138898215447&ssq=28765574655041919080546550850545132638726&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwYTBiMjNiNWEtNTk0Mi00YjRhLTlkMzYtMjI0NTBhZGNlYzRjMS0xNzkxMzQ2NTUwMjg0MC0wMDg4MjE2NDIxOGU5ODQ3ZGU0MTAiLCJfX3V6bWYiOiI3ZjkwMDA4MTdmZjhlMC03Mzc3LTQ5NGItOThmNy1lOWQwMzllMGJkZDAxLTE3OTEzNDY1NTAyODQwLTAwNWRhZDViZGRlOTNhYjJmNzkxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=b2536b6b-ef63-47d9-af2d-e4501bcb9e69&ssb=44172367038&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD2.2D&ssi=e396d7e5-bhbz-43ab-9127-670001ca54f7&ssk=support@shieldsquare.com&ssm=63910722269478059109787511028782&ssn=9718af8217f2bfe63d0d540374db8fabd39fcf61902e-7bfb-4b7b-8d70ed&sso=55063f81-a9a1210d20db9506ec8df471d6117bc19742d663b0616e3d&ssp=81384370841791340705179131618048186&ssq=99500155598039782402055980858163780793884&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBjZjYxOTAyZS03YmZiLTRiN2ItOGY4MS1hOWExMjEwZDIwZGIxLTE3OTEzNTU5ODA5NjcwLTAwNTY3MTQ2MzA1M2Q3ZmU1OTkxMCIsInJkIjoiZG1vLmdvdi51ayIsInV6bXgiOiI3ZmMwMDA5ZWZmNDYzMC02ZDEwLTQzNTMtYTY2ZC04YTlhZmJkN2VhYmIxLTE3OTEzNTU5ODA5NjcwLTAwODkzYmJkNDJiOWZmYWMyMjYxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__006cefea.html",
-   "seconds": 0.57,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"817ff8e0-7377-494b-98f7-e9d039e0bdd0\";\n\tvar __uzdbm_2 = \"Zjg1NDUwOWItYmhiei00MzE"
+   "seconds": 0.79,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"cf61902e-7bfb-4b7b-8f81-a9a1210d20db\";\n\tvar __uzdbm_2 = \"ZTM5NmQ3ZTUtYmhiei00M2F"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D2.1A",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=cd37ea43-d1b4-4e9e-b48c-58b77441efc9&ssb=35296363792&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD2.1A&ssi=df96f8e7-bhbz-4655-ac70-8c6c1205c44a&ssk=support@shieldsquare.com&ssm=59154730175384986102922256700030&ssn=573b8ce493dd7ccbccdbdd1973fc18b09fe0e287e78c-31da-43b0-87f149&sso=85014061-8df0b438c322dffcdbe64d900ad8c65eec3f93ced056dc63&ssp=28363131391791325401179138898215447&ssq=28765574655041919080546550850545132638726&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBlMjg3ZTc4Yy0zMWRhLTQzYjAtODA2MS04ZGYwYjQzOGMzMjIxLTE3OTEzNDY1NTA4NTMwLTAwNWYyMDgxODFjM2JjMGFmMTAxMCIsInV6bXgiOiI3ZmMwMDA4ZWQwNTg3MS0xYjk5LTQ2MzgtYmZjMS01MGIyYWEwY2VhZmUxLTE3OTEzNDY1NTA4NTMwLTAwODMzODNlN2NiYjg4ZGRmODgxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=00977f62-0b17-400b-8eb7-47619b47c100&ssb=31637336384&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD2.1A&ssi=738eff33-bhbz-4399-bbc9-59627b74fcf4&ssk=support@shieldsquare.com&ssm=63360040032136623101130753367333&ssn=f238b9e3a3d7b407dc63650ed990adb2b1291ea2bdd4-73d2-4265-938dcb&sso=7a600b32-c638b056b6832fda6fd35c1927d5f1a072cc48c59ea9451e&ssp=95551627631791348641179139643198906&ssq=99409115598103074957455981318876764531196&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJ1em14IjoiN2ZjMDAwMGJhNzcwMGYtOGEzMi00NThhLWFiOWUtMzdhYjRiYTg4MDQwMS0xNzkxMzU1OTgxNzQ4MC0wMDg4MzVjNDliYmQ0NWZiMzc1MTAiLCJfX3V6bWYiOiI3ZjkwMDAxZWEyYmRkNC03M2QyLTQyNjUtOWIzMi1jNjM4YjA1NmI2ODMxLTE3OTEzNTU5ODE3NDgwLTAwNWEyZDFiNzdlNGMwMzVlOTkxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__db5830fb.html",
-   "seconds": 0.53,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"e287e78c-31da-43b0-8061-8df0b438c322\";\n\tvar __uzdbm_2 = \"ZGY5NmY4ZTctYmhiei00NjU"
+   "seconds": 0.73,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"1ea2bdd4-73d2-4265-9b32-c638b056b683\";\n\tvar __uzdbm_2 = \"NzM4ZWZmMzMtYmhiei00Mzk"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D3A",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=55943125-fafe-45b0-9046-44dfe18e318a&ssb=85428355698&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD3A&ssi=1d801f31-bhbz-49d1-bfa5-5fcc52506552&ssk=support@shieldsquare.com&ssm=30483630360511457104293163881421&ssn=1e366f82cb6258632cfc6737e105932b7a18ffbb14ab-c3e1-4f6b-bfa7cc&sso=d5215d3e-b97c584248946ba4650043f7f258c4af16bb8b6680a84102&ssp=47165000411791355718179130643485357&ssq=57287494655128548602646551393958371716345&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJ1em14IjoiN2ZjMDAwOTFmMWRkMGMtYjQ5Ny00ODM5LWI1M2MtNzNjZWFiZmZkMmViMS0xNzkxMzQ2NTUxMzkxMC0wMDg2MjI0OTYxMDkxZDQ2NTE4MTAiLCJfX3V6bWYiOiI3ZjkwMDBmZmJiMTRhYi1jM2UxLTRmNmItYmQzZS1iOTdjNTg0MjQ4OTQxLTE3OTEzNDY1NTEzOTEwLTAwNTEzZmE0YmYxZTVmYmJiM2IxMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=555cca52-3a1f-4be2-98bc-7a84dcd3ca36&ssb=22448324981&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD3A&ssi=a6fcdc07-bhbz-4760-afa7-94d525e2ee89&ssk=support@shieldsquare.com&ssm=60555416074221150106341571580661&ssn=24b3aebc75b4db1456ff173b4e282fea7610483bc6b8-3cf6-4747-be0b8e&sso=00f6e206-2cde066879c329b13037a6d33958f0b374bbe6e10a78a15b&ssp=32165336511791377584179131455339740&ssq=73938295598274556669155982161205392826962&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwMjRjMjdlMDgtYWJkYi00NWYyLWFiMTgtNDg0YTI0ZWJmMzA2MS0xNzkxMzU1OTgyNDYzMC0wMDgwNDA3NzJmYjI1MTI4MzYyMTAiLCJfX3V6bWYiOiI3ZjkwMDA0ODNiYzZiOC0zY2Y2LTQ3NDctYjIwNi0yY2RlMDY2ODc5YzMxLTE3OTEzNTU5ODI0NjMwLTAwNTliOWE5N2MxOWU4NjExOTMxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__aa94cb10.html",
-   "seconds": 0.52,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"ffbb14ab-c3e1-4f6b-bd3e-b97c58424894\";\n\tvar __uzdbm_2 = \"MWQ4MDFmMzEtYmhiei00OWQ"
+   "seconds": 0.77,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"483bc6b8-3cf6-4747-b206-2cde066879c3\";\n\tvar __uzdbm_2 = \"YTZmY2RjMDctYmhiei00NzY"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D3B",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=94819132-95a8-4ff4-9aae-c60747e56410&ssb=85428355698&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD3B&ssi=f6f4908f-bhbz-4a72-a7b6-b25335541c53&ssk=support@shieldsquare.com&ssm=30483630360511457104293163881421&ssn=1e366f82aedabfa8577127aaf87b932b7a18104429b0-4a69-4fa4-8fa7cc&sso=d52153cf-00bf372f1b1c6ba46500411ff5e60b3ed248e59980a84102&ssp=47165000411791355718179130643485357&ssq=57287494655128548602646551393958371716345&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAxMDQ0MjliMC00YTY5LTRmYTQtODNjZi0wMGJmMzcyZjFiMWMxLTE3OTEzNDY1NTE4ODkwLTAwNTczNzM2M2FjOGI4ODQ5YTUxMCIsInV6bXgiOiI3ZmMwMDBhNDMxZWQwOS1lNDFmLTRhNWEtYmQ0ZS0yNTFlYjI5OTVkMDQxLTE3OTEzNDY1NTE4ODkwLTAwOGY5ODM5ZjVhZGRjYmE0YzQxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=55f48f90-3d14-4e15-84c3-b3b0bc00e4fa&ssb=24333308344&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD3B&ssi=63806649-bhbz-42aa-aa31-b95abadedb26&ssk=support@shieldsquare.com&ssm=78468776261911573105341846593087&ssn=2022632f7237a7290ecb372a4f7b291e36a58c8d0255-3357-464b-855c7b&sso=a6c9d9e2-9220602777331da94690984b966a5775f273afefed81f57e&ssp=50884063251791378954179134949979791&ssq=93455115598307094531855983422616555255692&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwOGI2MTM3NWYtMzBhNi00YjMyLWJmZDItNmNlMzExM2M3ZDU1MS0xNzkxMzU1OTgzMjQ4MC0wMDgzMDE0NDlmNjlhNGRmZjFlMTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDA4YzhkMDI1NS0zMzU3LTQ2NGItODllMi05MjIwNjAyNzc3MzMxLTE3OTEzNTU5ODMyNDgwLTAwNTUzNDAyMDA0Nzc1NTY4ZDgxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__2baf5859.html",
-   "seconds": 0.48,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"104429b0-4a69-4fa4-83cf-00bf372f1b1c\";\n\tvar __uzdbm_2 = \"ZjZmNDkwOGYtYmhiei00YTc"
+   "seconds": 0.72,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"8c8d0255-3357-464b-89e2-922060277733\";\n\tvar __uzdbm_2 = \"NjM4MDY2NDktYmhiei00MmF"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5A",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=2b500a68-9859-44d8-9a7b-4abc43ef72b1&ssb=43603357762&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5A&ssi=475410d7-bhbz-4dcf-999c-d0901d4c738b&ssk=support@shieldsquare.com&ssm=47705575979060553101246373303147&ssn=66d93b1534f1a27a3fdc38affcf9cdec7cca90618901-6fae-4a8c-bab22e&sso=7bce41c2-742cbddba3a163e3ba8870a6b5e045de26647e1bf8c0d858&ssp=35308093741791382572179134639989981&ssq=76530324655280341124746552130115576427421&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA5MDYxODkwMS02ZmFlLTRhOGMtYjFjMi03NDJjYmRkYmEzYTExLTE3OTEzNDY1NTIzODAwLTAwNWIzODViOGQwYzlhMjA5ZmIxMCIsInV6bXgiOiI3ZmMwMDAyMDI4MzdmZC00NWFlLTRhNTYtYjFmYS02YmVhMmFkYWQyYzUxLTE3OTEzNDY1NTIzODAwLTAwODMwMTVlNmVjYzQ5M2Y2OWIxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=2d7d4f47-333a-468e-94b3-9fe3f6dfe929&ssb=24333308344&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5A&ssi=b692f385-bhbz-461a-bc49-dc172d9898ec&ssk=support@shieldsquare.com&ssm=78468776261911573105341846593087&ssn=2022632f8268e8e76b95eb19c2d7291e36a5d328cef0-9eb2-480b-b55c7b&sso=a6c9ddc2-9b5ac6c7e6151da94690273999569c13706ab4a1ed81f57e&ssp=50884063251791378954179134949979791&ssq=93455115598307094531855983422616555255692&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwN2QzZjE1MjItNDU4Mi00NWYwLThiYzQtZTQxNzA0NWMxOTg0MS0xNzkxMzU1OTgzOTU1MC0wMDgxZGFlMzZiM2VmY2UzNzZjMTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBkMzI4Y2VmMC05ZWIyLTQ4MGItYmRjMi05YjVhYzZjN2U2MTUxLTE3OTEzNTU5ODM5NTUwLTAwNWI4YWNkYTA5OTRmYjI5YjAxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__3e6d0ebf.html",
-   "seconds": 0.52,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"90618901-6fae-4a8c-b1c2-742cbddba3a1\";\n\tvar __uzdbm_2 = \"NDc1NDEwZDctYmhiei00ZGN"
+   "seconds": 0.73,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"d328cef0-9eb2-480b-bdc2-9b5ac6c7e615\";\n\tvar __uzdbm_2 = \"YjY5MmYzODUtYmhiei00NjF"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5B",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=dff4a9dc-130b-4250-b0ff-8e811d4bee45&ssb=43603357762&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5B&ssi=f283af97-bhbz-4443-bb20-4db857162f30&ssk=support@shieldsquare.com&ssm=47705575979060553101246373303147&ssn=66d93b152dda4237a4a5c21a6ec5cdec7cca302e077c-ca02-4858-8ab22e&sso=7bce4049-bc4941a7ef8a63e3ba88ed4acfb84ab1a08545b1f8c0d858&ssp=35308093741791382572179134639989981&ssq=76530324655280341124746552130115576427421&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAzMDJlMDc3Yy1jYTAyLTQ4NTgtODA0OS1iYzQ5NDFhN2VmOGExLTE3OTEzNDY1NTI5MzEwLTAwNWE1YjQwMWRlZTg3NzZhNTIxMCIsInV6bXgiOiI3ZmMwMDAzM2NmY2JlMS00ZDcwLTRiNDItYTRjYy0zYTk5OGVjN2E5ODAxLTE3OTEzNDY1NTI5MzEwLTAwODc5OTQ1NDE5MjQ5OGE0YzAxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=00b1d177-5774-41a6-93f7-8ace1250f3eb&ssb=82975325053&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5B&ssi=cab899cb-bhbz-431e-9937-ea9231381830&ssk=support@shieldsquare.com&ssm=64223570995943493100313563490383&ssn=f3424751c371c5b5ebbc63d430fd5ee58dc808ef6fe3-cae9-45ea-ae7d98&sso=3bc854ea-1f20335d6fc167ace2926af3383cd17ec572439764ac4dbb&ssp=39120558071791385611179134115723029&ssq=37396325598413747338155984981201359539263&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwMGQ2OTg3NmQtZmM3Zi00YzFhLTliNmEtMDE5MzZmM2E1OTM5MS0xNzkxMzU1OTg0NjgzMC0wMDgxZDZkMDJhYmIxNmJhZTJiMTAiLCJfX3V6bWYiOiI3ZjkwMDAwOGVmNmZlMy1jYWU5LTQ1ZWEtYTRlYS0xZjIwMzM1ZDZmYzExLTE3OTEzNTU5ODQ2ODMwLTAwNTVkYTYyYzJhMWJkOGM3MDcxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__a5f4daa2.html",
-   "seconds": 0.53,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"302e077c-ca02-4858-8049-bc4941a7ef8a\";\n\tvar __uzdbm_2 = \"ZjI4M2FmOTctYmhiei00NDQ"
+   "seconds": 0.71,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"08ef6fe3-cae9-45ea-a4ea-1f20335d6fc1\";\n\tvar __uzdbm_2 = \"Y2FiODk5Y2ItYmhiei00MzF"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5C",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=fefffa23-2442-43f9-9224-2d46ee579fe5&ssb=43005379235&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5C&ssi=5045e860-bhbz-4274-bdbc-0d915eb39961&ssk=support@shieldsquare.com&ssm=61056509323524061103324721447736&ssn=fc2f2b7b23005d33c40bf8b0923a486b8aacf3d89a8b-54b1-441a-940e55&sso=1a054237-bb3218303bdaa89b19ede4de3c619eb4fe2a491c017b9d65&ssp=06055730121791375516179136725870786&ssq=35293934655385195369046553116495246298914&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBmM2Q4OWE4Yi01NGIxLTQ0MWEtOTIzNy1iYjMyMTgzMDNiZGExLTE3OTEzNDY1NTM0MjMwLTAwNThmODYxN2IxN2YxOWY0ODMxMCIsInV6bXgiOiI3ZmMwMDBlN2M5MzI4NS1mZmQwLTQxNjQtYTY3ZC03YmMyYTljNjU2YjkxLTE3OTEzNDY1NTM0MjMwLTAwODE5YzFjZTc5OTc5YjQyNjgxMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=062ab226-20b1-4506-9cde-0c967b436651&ssb=34103341602&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5C&ssi=18322e87-bhbz-413b-b854-969ac0dc58f0&ssk=support@shieldsquare.com&ssm=36526110865547395103301541639886&ssn=1344425e94c48926b688c6e8361598019400fc456f15-ddd6-42ad-b0bd4d&sso=c1c9d5b6-058426bd6d321e26635a955b26fd8acd6502cc577d044968&ssp=05265219211791376504179132418115645&ssq=04778405598531452594455985143766561728619&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwOTVmZmZkOGItNTcxOC00MGFjLWJhZTctZTE2ZTdhZTQ4MDg2MS0xNzkxMzU1OTg1MzkyMC0wMDg0MDA3MjI1ZDU4ZDViYmFlMTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBmYzQ1NmYxNS1kZGQ2LTQyYWQtYjViNi0wNTg0MjZiZDZkMzIxLTE3OTEzNTU5ODUzOTIwLTAwNTM1MmQ4NmI1NWM1OGMxY2ExMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__23cacb64.html",
-   "seconds": 0.52,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"f3d89a8b-54b1-441a-9237-bb3218303bda\";\n\tvar __uzdbm_2 = \"NTA0NWU4NjAtYmhiei00Mjc"
+   "seconds": 0.75,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"fc456f15-ddd6-42ad-b5b6-058426bd6d32\";\n\tvar __uzdbm_2 = \"MTgzMjJlODctYmhiei00MTN"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5E",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=7c246faf-d43d-40ee-8b41-cfd053e45d57&ssb=43005379235&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5E&ssi=af852440-bhbz-425b-a240-abd75613e2d5&ssk=support@shieldsquare.com&ssm=61056509323524061103324721447736&ssn=fc2f2b7be4ddfc6b9f6ebed3cc7a486b8aacf6a653b9-1093-46e2-840e55&sso=1a054790-73e6a61de16da89b19ed414303615049a52c5ea5017b9d65&ssp=06055730121791375516179136725870786&ssq=35293934655385195369046553116495246298914&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDBmNmE2NTNiOS0xMDkzLTQ2ZTItODc5MC03M2U2YTYxZGUxNmQxLTE3OTEzNDY1NTM5NzQwLTAwNTY3ZTMzZTQ5Nzc4ZTYwMmMxMCIsInV6bXgiOiI3ZmMwMDBiYTc3YzQzMC05N2JhLTQ2M2UtOTFhMi0wMWE1YTMxYzEyY2ExLTE3OTEzNDY1NTM5NzQwLTAwODhjYTU2NGQ1ZjA0ZDRjNTgxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=e33b0cda-3aa5-4c72-9fb5-a4c8b1d69659&ssb=81281376759&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5E&ssi=3ff1b8e4-bhbz-4e80-bc76-c0387d9fc505&ssk=support@shieldsquare.com&ssm=14880102146756175104414393018436&ssn=e303e251889568c186b78d0ee649dcf984607265aebd-36a3-4e1a-bd798c&sso=1c119369-c0f85fdc15c9e28e3faa5e5fa6daaa44481a6a361b9c6c85&ssp=88951879151791323387179134579627465&ssq=81460905598613499095255986374959574873178&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJ1em14IjoiN2ZjMDAwNzNlOGRjYzEtZmU1NS00MGZjLWJiNWMtN2I0YTBjY2M1NzhjMS0xNzkxMzU1OTg2MTUzMC0wMDgyMzhiNDEwZGM4ZDVhZDJlMTAiLCJfX3V6bWYiOiI3ZjkwMDA3MjY1YWViZC0zNmEzLTRlMWEtYjM2OS1jMGY4NWZkYzE1YzkxLTE3OTEzNTU5ODYxNTMwLTAwNTJlMDEwZjlkZGE2Zjg0ZjMxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__d431a4ce.html",
-   "seconds": 1.53,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"f6a653b9-1093-46e2-8790-73e6a61de16d\";\n\tvar __uzdbm_2 = \"YWY4NTI0NDAtYmhiei00MjV"
+   "seconds": 0.73,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"7265aebd-36a3-4e1a-b369-c0f85fdc15c9\";\n\tvar __uzdbm_2 = \"M2ZmMWI4ZTQtYmhiei00ZTg"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5F",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=e7702608-958a-4188-8f80-7846f4845940&ssb=39781375270&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5F&ssi=f916c91f-bhbz-4069-9a2b-28f45f0af4ea&ssk=support@shieldsquare.com&ssm=75109565430731333107526656191891&ssn=101d14df647be12ef88aa81da661dba76803248de1ea-3223-4060-a821b6&sso=39750e72-e0731011f3f01f0cb82fab4f6deecbaa2f8ccd152a73d010&ssp=15323081031791371188179136716791564&ssq=00453864655522011108246555643535698534044&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAyNDhkZTFlYS0zMjIzLTQwNjAtYWU3Mi1lMDczMTAxMWYzZjAxLTE3OTEzNDY1NTU1MDYwLTAwNTI3YTNhMDMwYzNjNzg5NzUxMCIsInJkIjoiZG1vLmdvdi51ayIsInV6bXgiOiI3ZmMwMDBhNzEzYjllMS0zNGI0LTQ4YWQtYTRiNS03MmIxMDUzMzI5ODYxLTE3OTEzNDY1NTU1MDYwLTAwOGM1NmFmM2U4MzA5MjM2NmYxMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=2cd557c1-222c-4726-9b6e-4cbc9b2206f9&ssb=81281376759&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5F&ssi=6c5363db-bhbz-454a-a78f-92cc863adb79&ssk=support@shieldsquare.com&ssm=14880102146756175104414393018436&ssn=e303e251fe5043c2f2e0ebfa00ecdcf98460a881a0f6-a08a-4530-bd798c&sso=1c119369-86b9f09e5036e28e3faac8ce9e8e385f929bb2371b9c6c85&ssp=88951879151791323387179134579627465&ssq=81460905598613499095255986374959574873178&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwNjY5M2EyY2ItYmY4MC00ZGNkLThhZWItNTk1MzBmM2VjOWY4MS0xNzkxMzU1OTg2ODgwMC0wMDgwMzIyODFjZGViODc0Mzk0MTAiLCJyZCI6ImRtby5nb3YudWsiLCJfX3V6bWYiOiI3ZjkwMDBhODgxYTBmNi1hMDhhLTQ1MzAtYjM2OS04NmI5ZjA5ZTUwMzYxLTE3OTEzNTU5ODY4ODAwLTAwNWFkZDJlYjk4ZjYwZTMxNDkxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__9bf42d15.html",
-   "seconds": 0.54,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"248de1ea-3223-4060-ae72-e0731011f3f0\";\n\tvar __uzdbm_2 = \"ZjkxNmM5MWYtYmhiei00MDY"
+   "seconds": 0.79,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"a881a0f6-a08a-4530-b369-86b9f09e5036\";\n\tvar __uzdbm_2 = \"NmM1MzYzZGItYmhiei00NTR"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5G",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=c8e1d418-63e8-4cc9-b248-f9de2ee04aaa&ssb=43452324683&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5G&ssi=011f5a8f-bhbz-47a1-9341-f19dcdf6209c&ssk=support@shieldsquare.com&ssm=64462632011549460100369445806877&ssn=3d0011af58cb371fe242af8a2784df9399ae1a8b42bd-425a-466b-b65fb7&sso=c15556fd-0cffc5a5acf25c5f4bee12112726a1b58f8a66953849fa6c&ssp=24445785521791308299179131380519885&ssq=03175784655580172887146555911983764303615&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDAxYThiNDJiZC00MjVhLTQ2NmItYjZmZC0wY2ZmYzVhNWFjZjIxLTE3OTEzNDY1NTYwMDUwLTAwNTVkMTQ5MWJlOTNhZjNkMTcxMCIsInV6bXgiOiI3ZmMwMDBiZWRmNjc1Zi0xNjk4LTRmMmEtYjgwZC01MDcwMzJkODBkZjIxLTE3OTEzNDY1NTYwMDUwLTAwODY4ZTE1MTMzNTJlYWJiNDgxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=93ea1012-843a-4e12-914f-f7ed335d0aaf&ssb=12818338542&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5G&ssi=5c7c1ead-bhbz-4508-a4c6-c2478936d339&ssk=support@shieldsquare.com&ssm=87916027434470401105316018876705&ssn=d9c4beb1efcac4f1e0b7371d3151ad3f7c8e8e9d1af1-93fb-4692-92a20f&sso=a606ccf4-1395eba92d67f1d41d1bccf2cabd74d12b8885f032a7f710&ssp=79698849001791305070179133559765047&ssq=72163165598711733345755987722254783841113&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJfX3V6bWYiOiI3ZjkwMDA4ZTlkMWFmMS05M2ZiLTQ2OTItOWNmNC0xMzk1ZWJhOTJkNjcxLTE3OTEzNTU5ODc2NzQwLTAwNThjNWJlZjliNTI3MDJjZjQxMCIsInJkIjoiZG1vLmdvdi51ayIsInV6bXgiOiI3ZmMwMDBjODZmNTliOC03MzRlLTQyNjUtOWU0My1iMWNmMzA0MGMzMDgxLTE3OTEzNTU5ODc2NzQwLTAwODdlZDczODg1ZjRiZmFlYTkxMCJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__dc32013a.html",
-   "seconds": 0.5,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"1a8b42bd-425a-466b-b6fd-0cffc5a5acf2\";\n\tvar __uzdbm_2 = \"MDExZjVhOGYtYmhiei00N2E"
+   "seconds": 0.74,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"8e9d1af1-93fb-4692-9cf4-1395eba92d67\";\n\tvar __uzdbm_2 = \"NWM3YzFlYWQtYmhiei00NTA"
   },
   {
    "url": "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D5H",
-   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=e423cdab-5c4f-4f5a-9ce1-52b273bf7e15&ssb=43452324683&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5H&ssi=398fa40c-bhbz-4287-b12b-32069a59505b&ssk=support@shieldsquare.com&ssm=64462632011549460100369445806877&ssn=3d0011afcc4ce0ec67a5f2dbdf2cdf9399aebee7678f-75cf-442c-a65fb7&sso=c1555c49-e831b333138b5c5f4beea07ff97ff4a6d0b1ab6e3849fa6c&ssp=24445785521791308299179131380519885&ssq=03175784655680172887146556911983764303615&ssr=MjAuOTguMTMzLjE2Ng==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJyZCI6ImRtby5nb3YudWsiLCJ1em14IjoiN2ZjMDAwOTZkM2RiZWYtZDYyMy00ZmI4LWJjYjQtNjAzNGQxYWIwOTg1MS0xNzkxMzQ2NTU2NTE2MC0wMDhjYWU3ZTc3ZGQ5ZmI0Njg4MTAiLCJfX3V6bWYiOiI3ZjkwMDBiZWU3Njc4Zi03NWNmLTQ0MmMtYWM0OS1lODMxYjMzMzEzOGIxLTE3OTEzNDY1NTY1MTcwLTAwNWY3MGRjODZhM2MzY2Y4YzUxMCJ9",
+   "final_url": "https://validate.perfdrive.com/5e975472fcf167bd1130d74f0fb9a2f7/?ssa=3ad179e8-b18a-4ef7-a598-2b890cd9230f&ssb=80332342988&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD5H&ssi=2d6f6141-bhbz-4596-8a2c-ee0e6d9ffc5f&ssk=support@shieldsquare.com&ssm=56080754192172305107416006961807&ssn=fb61f9da343aa1a027ce2c3d3de45bfcf6c1c3e704da-291c-4af6-a14afd&sso=b7bcc91a-0449e34027a32556e67cd5619201089ea2f3954ddad8d8e9&ssp=31744570331791302813179133385219795&ssq=05834675598898506187355988010483231085660&ssr=NjguMjIwLjYxLjE4NA==&sst=Mozilla/5.0%20(compatible;%20sovereign-debt-monitor/0.1;%20+https://github.com/hdcapital)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwNWE1ZGRhN2YtZjg5MS00NzA3LTgwNWItYjRiNTNiMjgxYjgzMS0xNzkxMzU1OTg4NDA2MC0wMDg1M2ZjYzdiNGE1NDJhZWVjMTAiLCJfX3V6bWYiOiI3ZjkwMDBjM2U3MDRkYS0yOTFjLTRhZjYtYTkxYS0wNDQ5ZTM0MDI3YTMxLTE3OTEzNTU5ODg0MDYwLTAwNWJlNzQ0ZGM3OTBiYWNhYjUxMCIsInJkIjoiZG1vLmdvdi51ayJ9",
    "status": 200,
    "bytes": 14011,
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_dmo_gov_uk__795331b0.html",
-   "seconds": 0.54,
-   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"bee7678f-75cf-442c-ac49-e831b333138b\";\n\tvar __uzdbm_2 = \"Mzk4ZmE0MGMtYmhiei00Mjg"
+   "seconds": 0.73,
+   "head": "<head><title>ShieldSquare Block</title><script type=\"text/javascript\">\n\twindow.SSJSInternal = 18155;\n\n\tvar __uzdbm_1 = \"c3e704da-291c-4af6-a91a-0449e34027a3\";\n\tvar __uzdbm_2 = \"MmQ2ZjYxNDEtYmhiei00NTk"
   },
   {
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/gbb/suii.xls",
@@ -526,29 +526,29 @@
    "truncated": false,
    "content_type": "application/vnd.ms-excel",
    "file": "www_mof_go_jp__c2997138.bin",
-   "seconds": 1.84,
+   "seconds": 1.15,
    "head": "\ufffd\ufffd\u0011\u0871\u001a\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0003\u0000\ufffd\ufffd\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\ufffd\u0000\u0000\u0000\u0001\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd"
   },
   {
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/appendix/breakdown.pdf",
    "final_url": "https://www.mof.go.jp/english/policy/jgbs/reference/appendix/breakdown.pdf",
    "status": 404,
-   "bytes": 20481,
+   "bytes": 20480,
    "truncated": false,
    "content_type": "text/html",
    "file": "www_mof_go_jp__0e0c3039.html",
-   "seconds": 1.0,
+   "seconds": 0.37,
    "head": "\ufeff<!DOCTYPE html>\n<html lang=\"ja\">\n\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#\">\n  <!-- meta -->\n  <meta charset=\"UTF-8\">\n  <meta name=\"robots\" co"
   },
   {
    "url": "https://www.mof.go.jp/jgbs/reference/appendix/breakdown.xlsx",
    "final_url": "https://www.mof.go.jp/jgbs/reference/appendix/breakdown.xlsx",
    "status": 404,
-   "bytes": 20480,
+   "bytes": 20481,
    "truncated": false,
    "content_type": "text/html",
    "file": "www_mof_go_jp__6beb5eb5.html",
-   "seconds": 2.72,
+   "seconds": 0.3,
    "head": "\ufeff<!DOCTYPE html>\n<html lang=\"ja\">\n\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#\">\n  <!-- meta -->\n  <meta charset=\"UTF-8\">\n  <meta name=\"robots\" co"
   },
   {
@@ -559,7 +559,7 @@
    "truncated": false,
    "content_type": "text/html",
    "file": "www_mof_go_jp__0633d2bb.html",
-   "seconds": 0.72,
+   "seconds": 0.45,
    "head": "\ufeff<!DOCTYPE html>\n<html lang=\"ja\">\n\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#\">\n  <!-- meta -->\n  <meta charset=\"UTF-8\">\n  <meta name=\"robots\" co"
   },
   {
@@ -570,18 +570,18 @@
    "truncated": false,
    "content_type": "application/pdf",
    "file": "www_mof_go_jp__8bd2e56a.bin",
-   "seconds": 31.7,
+   "seconds": 7.04,
    "head": "%PDF-1.7\r%\ufffd\ufffd\ufffd\ufffd\r\n3290 0 obj\r<</Linearized 1/L 1348391/O 3293/E 222497/N 15/T 1347521/H [ 505 486]>>\rendobj\r        \r\n3301 0 obj\r<</DecodeParms<</Columns 5/Predictor 12>>/Encrypt 3291 0 R/Filter/FlateDe"
   },
   {
    "url": "https://www.mof.go.jp/english/policy/jgbs/reference/gbb/suii.xlsx",
    "final_url": "https://www.mof.go.jp/english/policy/jgbs/reference/gbb/suii.xlsx",
    "status": 404,
-   "bytes": 20480,
+   "bytes": 20481,
    "truncated": false,
    "content_type": "text/html",
    "file": "www_mof_go_jp__1db96d93.html",
-   "seconds": 1.04,
+   "seconds": 0.31,
    "head": "\ufeff<!DOCTYPE html>\n<html lang=\"ja\">\n\n<head prefix=\"og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#\">\n  <!-- meta -->\n  <meta charset=\"UTF-8\">\n  <meta name=\"robots\" co"
   },
   {
@@ -592,7 +592,7 @@
    "truncated": false,
    "content_type": "application/vnd.ms-excel",
    "file": "www_mof_go_jp__14b3cfdd.bin",
-   "seconds": 1.37,
+   "seconds": 1.24,
    "head": "\ufffd\ufffd\u0011\u0871\u001a\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0003\u0000\ufffd\ufffd\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\ufffd\u0000\u0000\u0000\u0001\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\u0000\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\ufffd\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd"
   },
   {
@@ -603,7 +603,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_rba_gov_au__f024ae58.html",
-   "seconds": 0.69,
+   "seconds": 0.51,
    "head": "\r\n<!DOCTYPE html>\r\n<html lang=\"en-au\" xml:lang=\"en-au\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"no-js\">\r\n<head>\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n\t<meta charset=\"utf-8\" />\r"
   },
   {
@@ -614,7 +614,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_rba_gov_au__f77d065c.html",
-   "seconds": 0.24,
+   "seconds": 0.19,
    "head": "\r\n<!DOCTYPE html>\r\n<html lang=\"en-au\" xml:lang=\"en-au\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"no-js\">\r\n<head>\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n\t<meta charset=\"utf-8\" />\r"
   },
   {
@@ -625,7 +625,7 @@
    "truncated": false,
    "content_type": "application/octet-stream",
    "file": "www_rba_gov_au__34ea982c.bin",
-   "seconds": 1.2,
+   "seconds": 0.24,
    "head": "\ufffd\ufffd\u0011\u0871\u001a\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0003\u0000\ufffd\ufffd\t\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000y\u0004\u0000\u0000\u0001\u0000\u0000\u0000\ufffd\ufffd\ufffd\ufffd\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000d\u0000\u0000\u0000\ufffd\u0000\u0000\u0000f\u0001\u0000\u0000\ufffd\u0001\u0000\u0000h\u0002\u0000\u0000\ufffd\u0002\u0000\u0000j\u0003\u0000\u0000\ufffd\u0003\u0000\u0000~\u0004\u0000\u0000\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd"
   },
   {
@@ -636,7 +636,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_rba_gov_au__d273c863.html",
-   "seconds": 0.3,
+   "seconds": 0.21,
    "head": "\r\n<!DOCTYPE html>\r\n<html lang=\"en-au\" xml:lang=\"en-au\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"no-js\">\r\n<head>\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n\t<meta charset=\"utf-8\" />\r"
   },
   {
@@ -647,7 +647,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_rba_gov_au__6df27bf8.html",
-   "seconds": 0.26,
+   "seconds": 0.21,
    "head": "\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en-au\" xml:lang=\"en-au\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"no-js\">\r\n<head>\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n\t<meta charset=\"utf-8\" /"
   },
   {
@@ -658,7 +658,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_rba_gov_au__b5ae29d9.html",
-   "seconds": 0.25,
+   "seconds": 0.19,
    "head": "\r\n<!DOCTYPE html>\r\n<html lang=\"en-au\" xml:lang=\"en-au\" xmlns=\"http://www.w3.org/1999/xhtml\" class=\"no-js\">\r\n<head>\r\n\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n\t<meta charset=\"utf-8\" />\r"
   },
   {
@@ -669,7 +669,7 @@
    "truncated": false,
    "content_type": "application/octet-stream",
    "file": "www_rba_gov_au__06469774.bin",
-   "seconds": 0.28,
+   "seconds": 0.19,
    "head": "\ufeffE2 HOUSEHOLD FINANCES \u2013 SELECTED RATIOS\nTitle,Household debt to assets,Housing debt to housing assets,Household debt to income,Housing debt to income,Owner-occupier housing debt to income,Househo"
   },
   {
@@ -680,7 +680,7 @@
    "truncated": false,
    "content_type": "application/vnd.sdmx.structure+xml; version=2.1; charset=utf-8",
    "file": "data_api_abs_gov_au__c7b01f5a.html",
-   "seconds": 15.87,
+   "seconds": 1.07,
    "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--NSI Web Service v8.19.9.0-->\n<message:Structure xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:structure=\"http://www.sdmx.or"
   },
   {
@@ -691,7 +691,7 @@
    "truncated": false,
    "content_type": "application/vnd.sdmx.data+csv; charset=utf-8",
    "file": "data_api_abs_gov_au__5c3ecf81.csv",
-   "seconds": 1.5,
+   "seconds": 1.37,
    "head": "DATAFLOW,MEASURE,DATA_ITEM,TSEST,FREQ,TIME_PERIOD,OBS_VALUE,UNIT_MEASURE,UNIT_MULT,OBS_STATUS,OBS_COMMENT\r\nABS:BOP(1.0.0),5,1000,10,Q,2026-Q2,97.5,IN,0,,\r\nABS:BOP(1.0.0),2,120,10,Q,2026-Q2,-167634,AUD"
   },
   {
@@ -702,7 +702,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "data_snb_ch__59123bee.json",
-   "seconds": 0.7,
+   "seconds": 0.75,
    "head": "{\"cubeId\": \"snbbipo\", \"dimensions\": [{\"id\":\"D0\",\"name\":\"Overview\",\"dimensionItems\":[{\"id\":\"D0_0\",\"name\":\"Assets\",\"dimensionItems\":[{\"id\":\"GFG\",\"name\":\"Gold holdings and claims from gold transactions\"}"
   },
   {
@@ -713,7 +713,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "data_snb_ch__d30b85ab.json",
-   "seconds": 0.66,
+   "seconds": 0.77,
    "head": "{\"cubeId\": \"zimoma\", \"dimensions\": [{\"id\":\"D0\",\"name\":\"Overview\",\"dimensionItems\":[{\"id\":\"D0_0\",\"name\":\"Switzerland\",\"dimensionItems\":[{\"id\":\"D0_0_0\",\"name\":\"CHF\",\"dimensionItems\":[{\"id\":\"1DSARON\",\"na"
   },
   {
@@ -724,7 +724,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "data_snb_ch__f07438fe.json",
-   "seconds": 0.59,
+   "seconds": 0.54,
    "head": "{\"cubeId\": \"capchstocki\", \"dimensions\": [{\"id\":\"D0\",\"name\":\"Overview\",\"dimensionItems\":[{\"id\":\"D0_0\",\"name\":\"SPI Swiss Performance Index\",\"dimensionItems\":[{\"id\":\"GDR\",\"name\":\"Index total (including d"
   },
   {
@@ -735,7 +735,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "prices_lbma_org_uk__939299ca.html",
-   "seconds": 0.11,
+   "seconds": 0.19,
    "head": "<!DOCTYPE html>\n<!--[if lt IE 7]> <html class=\"no-js ie6 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 7]>    <html class=\"no-js ie7 oldie\" lang=\"en-US\"> <![endif]-->\n<!--[if IE 8]>    <html class=\"no-"
   },
   {
@@ -753,12 +753,12 @@
    "url": "https://query1.finance.yahoo.com/v8/finance/chart/GC=F?range=max&interval=1mo",
    "final_url": "https://query1.finance.yahoo.com/v8/finance/chart/GC=F?range=max&interval=1mo",
    "status": 200,
-   "bytes": 25909,
+   "bytes": 25891,
    "truncated": false,
    "content_type": "application/json;charset=utf-8",
    "file": "query1_finance_yahoo_com__aa5b88f3.json",
-   "seconds": 0.16,
-   "head": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"GC=F\",\"exchangeName\":\"CMX\",\"fullExchangeName\":\"COMEX\",\"instrumentType\":\"FUTURE\",\"firstTradeDate\":967608000,\"regularMarketTime\":1791345997,\"hasPr"
+   "seconds": 0.11,
+   "head": "{\"chart\":{\"result\":[{\"meta\":{\"currency\":\"USD\",\"symbol\":\"GC=F\",\"exchangeName\":\"CMX\",\"fullExchangeName\":\"COMEX\",\"instrumentType\":\"FUTURE\",\"firstTradeDate\":967608000,\"regularMarketTime\":1791355397,\"hasPr"
   },
   {
    "url": "https://query2.finance.yahoo.com/v8/finance/chart/XAUUSD=X?range=max&interval=1d",
@@ -768,7 +768,7 @@
    "truncated": false,
    "content_type": "application/json;charset=utf-8",
    "file": "query2_finance_yahoo_com__6b5e2632.json",
-   "seconds": 0.14,
+   "seconds": 0.1,
    "head": "{\"chart\":{\"result\":null,\"error\":{\"code\":\"Not Found\",\"description\":\"No data found, symbol may be delisted\"}}}"
   },
   {
@@ -779,7 +779,7 @@
    "truncated": false,
    "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
    "file": "thedocs_worldbank_org__1e14aa99.bin",
-   "seconds": 0.2,
+   "seconds": 0.09,
    "head": "PK\u0003\u0004\u0014\u0000\u0006\u0000\b\u0000\u0000\u0000!\u0000\ufffd\ufffd7\u0003\ufffd\u0001\u0000\u0000\ufffd\b\u0000\u0000\u0013\u0000\b\u0002[Content_Types].xml \ufffd\u0004\u0002(\ufffd\u0000\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
   },
   {
@@ -790,7 +790,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "www_imf_org__f491196e.json",
-   "seconds": 0.14,
+   "seconds": 0.19,
    "head": "{\n            \"error\":\"Blob not found\"\n        }"
   },
   {
@@ -801,7 +801,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "datahub_io__143de7ff.csv",
-   "seconds": 1.35,
+   "seconds": 0.89,
    "head": "Date,Price\n1833-01,18.930\n1833-02,18.930\n1833-03,18.930\n1833-04,18.930\n1833-05,18.930\n1833-06,18.930\n1833-07,18.930\n1833-08,18.930\n1833-09,18.930\n1833-10,18.930\n1833-11,18.930\n1833-12,18.930\n1834-01,1"
   },
   {
@@ -812,7 +812,7 @@
    "truncated": false,
    "content_type": "text/plain; charset=utf-8",
    "file": "raw_githubusercontent_com__94ee2fe8.bin",
-   "seconds": 0.14,
+   "seconds": 0.03,
    "head": "Date,Price\n1833-01,18.930\n1833-02,18.930\n1833-03,18.930\n1833-04,18.930\n1833-05,18.930\n1833-06,18.930\n1833-07,18.930\n1833-08,18.930\n1833-09,18.930\n1833-10,18.930\n1833-11,18.930\n1833-12,18.930\n1834-01,1"
   },
   {
@@ -823,7 +823,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__95bc18af.csv",
-   "seconds": 0.37,
+   "seconds": 0.23,
    "head": "observation_date,DGS2\n1976-06-01,7.26\n1976-06-02,7.23\n1976-06-03,7.22\n1976-06-04,7.12\n1976-06-07,7.09\n1976-06-08,7.11\n1976-06-09,7.08\n1976-06-10,7.00\n1976-06-11,7.03\n1976-06-14,7.01\n1976-06-15,7.02\n19"
   },
   {
@@ -834,7 +834,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__e7ee7c12.csv",
-   "seconds": 0.21,
+   "seconds": 0.06,
    "head": "observation_date,DGS3MO\n1981-09-01,17.01\n1981-09-02,16.65\n1981-09-03,16.96\n1981-09-04,16.64\n1981-09-07,\n1981-09-08,16.54\n1981-09-09,16.39\n1981-09-10,15.90\n1981-09-11,15.76\n1981-09-14,15.27\n1981-09-15,"
   },
   {
@@ -845,7 +845,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__0d602fdc.csv",
-   "seconds": 0.22,
+   "seconds": 0.06,
    "head": "observation_date,DFII10\n2003-01-02,2.43\n2003-01-03,2.43\n2003-01-06,2.46\n2003-01-07,2.42\n2003-01-08,2.29\n2003-01-09,2.41\n2003-01-10,2.41\n2003-01-13,2.38\n2003-01-14,2.34\n2003-01-15,2.30\n2003-01-16,2.31\n"
   },
   {
@@ -856,7 +856,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__097c0c8b.csv",
-   "seconds": 0.09,
+   "seconds": 0.04,
    "head": "observation_date,T10YIE\n2003-01-02,1.64\n2003-01-03,1.62\n2003-01-06,1.63\n2003-01-07,1.62\n2003-01-08,1.71\n2003-01-09,1.78\n2003-01-10,1.75\n2003-01-13,1.77\n2003-01-14,1.76\n2003-01-15,1.80\n2003-01-16,1.79\n"
   },
   {
@@ -867,7 +867,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__8b7e6b9b.csv",
-   "seconds": 0.14,
+   "seconds": 0.08,
    "head": "observation_date,THREEFYTP10\n1990-01-02,1.8064\n1990-01-03,1.8279\n1990-01-04,1.8294\n1990-01-05,1.8392\n1990-01-08,1.8517\n1990-01-09,1.8577\n1990-01-10,1.8666\n1990-01-11,1.8677\n1990-01-12,1.8932\n1990-01-1"
   },
   {
@@ -878,7 +878,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__0f0e5211.csv",
-   "seconds": 0.09,
+   "seconds": 0.04,
    "head": "observation_date,CPIAUCSL\n1947-01-01,21.480\n1947-02-01,21.620\n1947-03-01,22.000\n1947-04-01,22.000\n1947-05-01,21.950\n1947-06-01,22.080\n1947-07-01,22.230\n1947-08-01,22.400\n1947-09-01,22.840\n1947-10-01,2"
   },
   {
@@ -889,7 +889,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__f60df6db.csv",
-   "seconds": 0.29,
+   "seconds": 0.19,
    "head": "observation_date,TREAST\n2002-12-18,629397\n2002-12-25,629402\n2003-01-01,629406\n2003-01-08,629406\n2003-01-15,629406\n2003-01-22,629406\n2003-01-29,629406\n2003-02-05,629401\n2003-02-12,630947\n2003-02-19,631"
   },
   {
@@ -900,7 +900,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__34b26e4f.csv",
-   "seconds": 0.26,
+   "seconds": 0.28,
    "head": "observation_date,FDHBFRBN\n1970-01-01,55.800\n1970-04-01,57.700\n1970-07-01,60.000\n1970-10-01,62.100\n1971-01-01,64.200\n1971-04-01,65.500\n1971-07-01,67.600\n1971-10-01,70.200\n1972-01-01,69.900\n1972-04-01,7"
   },
   {
@@ -911,7 +911,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__7deaa9a0.csv",
-   "seconds": 0.37,
+   "seconds": 0.04,
    "head": "observation_date,FYGFDPUN\n1970-01-01,280814.000000000\n1970-04-01,274924.000000000\n1970-07-01,282367.000000000\n1970-10-01,291242.000000000\n1971-01-01,292043.000000000\n1971-04-01,294417.000000000\n1971-0"
   },
   {
@@ -922,7 +922,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__e6393637.csv",
-   "seconds": 0.31,
+   "seconds": 0.05,
    "head": "observation_date,GFDEGDQ188S\n1966-01-01,40.33999\n1966-04-01,39.26763\n1966-07-01,39.62091\n1966-10-01,39.51977\n1967-01-01,39.20383\n1967-04-01,38.03292\n1967-07-01,38.82145\n1967-10-01,39.10231\n1968-01-01,"
   },
   {
@@ -933,7 +933,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__21ba00b1.csv",
-   "seconds": 0.07,
+   "seconds": 0.2,
    "head": "observation_date,GDP\n1947-01-01,243.164\n1947-04-01,245.968\n1947-07-01,249.585\n1947-10-01,259.745\n1948-01-01,265.742\n1948-04-01,272.567\n1948-07-01,279.196\n1948-10-01,280.366\n1949-01-01,275.034\n1949-04-"
   },
   {
@@ -944,7 +944,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__f0567550.csv",
-   "seconds": 0.14,
+   "seconds": 0.04,
    "head": "observation_date,A091RC1Q027SBEA\n1947-01-01,5.352\n1947-04-01,5.360\n1947-07-01,5.356\n1947-10-01,5.440\n1948-01-01,5.476\n1948-04-01,5.512\n1948-07-01,5.552\n1948-10-01,5.676\n1949-01-01,5.784\n1949-04-01,5.8"
   },
   {
@@ -955,7 +955,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__b4215622.csv",
-   "seconds": 0.11,
+   "seconds": 0.22,
    "head": "observation_date,FGRECPT\n1947-01-01,43.401\n1947-04-01,42.459\n1947-07-01,41.628\n1947-10-01,43.769\n1948-01-01,44.047\n1948-04-01,42.495\n1948-07-01,41.615\n1948-10-01,41.349\n1949-01-01,39.928\n1949-04-01,37"
   },
   {
@@ -966,7 +966,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__a4f76627.csv",
-   "seconds": 0.31,
+   "seconds": 0.2,
    "head": "observation_date,FGEXPND\n1947-01-01,40.902\n1947-04-01,40.346\n1947-07-01,42.007\n1947-10-01,38.149\n1948-01-01,38.915\n1948-04-01,39.904\n1948-07-01,42.739\n1948-10-01,44.051\n1949-01-01,45.908\n1949-04-01,47"
   },
   {
@@ -977,7 +977,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__c58ea35e.csv",
-   "seconds": 0.71,
+   "seconds": 0.21,
    "head": "observation_date,BOGZ1FL194090005Q\n1987-10-01,12581765\n1988-01-01,12938656\n1988-04-01,13206490\n1988-07-01,13423686\n1988-10-01,13825527\n1989-01-01,14119613\n1989-04-01,14422904\n1989-07-01,14803914\n1989-"
   },
   {
@@ -988,7 +988,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__b9e53c2b.csv",
-   "seconds": 0.11,
+   "seconds": 0.05,
    "head": "observation_date,DEXUSUK\n1971-01-04,2.3938\n1971-01-05,2.3949\n1971-01-06,2.3967\n1971-01-07,2.3963\n1971-01-08,2.3972\n1971-01-11,2.3992\n1971-01-12,2.4001\n1971-01-13,2.4021\n1971-01-14,2.4071\n1971-01-15,2."
   },
   {
@@ -999,7 +999,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__4795c1c7.csv",
-   "seconds": 0.35,
+   "seconds": 0.05,
    "head": "observation_date,ECBASSETSW\n1999-01-01,697160.00000000\n1999-01-08,685128.00000000\n1999-01-15,686992.00000000\n1999-01-22,667622.00000000\n1999-01-29,694638.00000000\n1999-02-05,687447.00000000\n1999-02-12"
   },
   {
@@ -1010,7 +1010,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__7326e18d.csv",
-   "seconds": 0.35,
+   "seconds": 0.06,
    "head": "observation_date,JPNASSETS\n1998-04-01,800652\n1998-05-01,771888\n1998-06-01,753964\n1998-07-01,724375\n1998-08-01,763742\n1998-09-01,783667\n1998-10-01,775368\n1998-11-01,883012\n1998-12-01,912382\n1999-01-01,"
   },
   {
@@ -1021,7 +1021,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__cb5f9022.csv",
-   "seconds": 0.09,
+   "seconds": 0.05,
    "head": "observation_date,IR3TIB01GBM156N\n1957-01-01,4.84000\n1957-02-01,4.44000\n1957-03-01,4.25000\n1957-04-01,4.18000\n1957-05-01,4.04000\n1957-06-01,4.08000\n1957-07-01,4.06000\n1957-08-01,4.17000\n1957-09-01,5.40"
   },
   {
@@ -1032,7 +1032,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__97aa2539.csv",
-   "seconds": 0.48,
+   "seconds": 0.19,
    "head": "observation_date,GBRCPIALLMINMEI\n1955-01-01,4.8595129999999997\n1955-02-01,4.8595129999999997\n1955-03-01,4.8595129999999997\n1955-04-01,4.8859719999999998\n1955-05-01,4.8771519999999997\n1955-06-01,4.9785"
   },
   {
@@ -1043,7 +1043,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__d7896c60.csv",
-   "seconds": 0.26,
+   "seconds": 0.32,
    "head": "observation_date,GBRGDPNQDSMEI\n1960-01-01,6425000000.000000\n1960-04-01,6484000000.000000\n1960-07-01,6578000000.000000\n1960-10-01,6714000000.000000\n1961-01-01,6881000000.000000\n1961-04-01,6881000000.00"
   },
   {
@@ -1054,7 +1054,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__1f8faadf.csv",
-   "seconds": 0.36,
+   "seconds": 0.35,
    "head": "observation_date,JPNGDPNQDSMEI\n1994-01-01,127536175000000.00\n1994-04-01,127256150000000.00\n1994-07-01,128250750000000.00\n1994-10-01,127883875000000.00\n1995-01-01,128737800000000.00\n1995-04-01,12968987"
   },
   {
@@ -1065,7 +1065,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__f25c4771.csv",
-   "seconds": 0.32,
+   "seconds": 0.05,
    "head": "observation_date,IRLTLT01EZM156N\n1970-01-01,7.7525529999999998\n1970-02-01,7.9037030000000001\n1970-03-01,8.1123399999999997\n1970-04-01,8.0726669999999991\n1970-05-01,8.2432049999999997\n1970-06-01,8.4474"
   },
   {
@@ -1076,7 +1076,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "fred_stlouisfed_org__be74f0ac.html",
-   "seconds": 0.32,
+   "seconds": 0.17,
    "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1"
   },
   {
@@ -1087,7 +1087,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__3f805c8b.csv",
-   "seconds": 0.11,
+   "seconds": 0.18,
    "head": "observation_date,IRLTLT01CHM156N\n1955-01-01,2.700\n1955-02-01,2.750\n1955-03-01,2.840\n1955-04-01,2.850\n1955-05-01,2.990\n1955-06-01,3.060\n1955-07-01,3.040\n1955-08-01,3.080\n1955-09-01,3.200\n1955-10-01,3.1"
   },
   {
@@ -1098,7 +1098,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__3d865714.csv",
-   "seconds": 0.31,
+   "seconds": 0.21,
    "head": "observation_date,CHECPIALLMINMEI\n1955-01-01,23.027500000000000\n1955-02-01,22.947590000000002\n1955-03-01,22.920369999999998\n1955-04-01,22.934420000000003\n1955-05-01,23.014320000000001\n1955-06-01,23.014"
   },
   {
@@ -1109,7 +1109,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__81cde958.csv",
-   "seconds": 0.55,
+   "seconds": 0.47,
    "head": "observation_date,CHEGDPNQDSMEI\n1980-01-01,50219523023.00000\n1980-04-01,50869750324.00000\n1980-07-01,51636922681.00000\n1980-10-01,52490256336.00000\n1981-01-01,53212597737.00000\n1981-04-01,54513463830.0"
   },
   {
@@ -1120,7 +1120,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__a91e9e39.csv",
-   "seconds": 0.33,
+   "seconds": 0.22,
    "head": "observation_date,AUSGDPNQDSMEI\n1960-01-01,4167000000.000000\n1960-04-01,4378000000.000000\n1960-07-01,4400000000.000000\n1960-10-01,4428000000.000000\n1961-01-01,4420000000.000000\n1961-04-01,4322000000.00"
   },
   {
@@ -1131,7 +1131,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__5b94b992.csv",
-   "seconds": 0.39,
+   "seconds": 0.35,
    "head": "observation_date,CANGDPNQDSMEI\n1961-01-01,10150000000.000000\n1961-04-01,10374000000.000000\n1961-07-01,10651000000.000000\n1961-10-01,10851000000.000000\n1962-01-01,11156000000.000000\n1962-04-01,11283000"
   },
   {
@@ -1142,7 +1142,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__6908e22a.csv",
-   "seconds": 0.54,
+   "seconds": 0.38,
    "head": "observation_date,DEUGDPNQDSMEI\n1970-01-01,95529288138.45860\n1970-04-01,100281096933.70799\n1970-07-01,103856160626.36000\n1970-10-01,104719107034.93201\n1971-01-01,107666573339.53200\n1971-04-01,110961459"
   },
   {
@@ -1153,7 +1153,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__9288b78c.csv",
-   "seconds": 0.14,
+   "seconds": 0.07,
    "head": "observation_date,IRLTLT01MXM156N\n2001-07-01,10.90\n2001-08-01,\n2001-09-01,\n2001-10-01,11.09\n2001-11-01,\n2001-12-01,10.28\n2002-01-01,9.98\n2002-02-01,9.93\n2002-03-01,9.72\n2002-04-01,9.85\n2002-05-01,9.20\n"
   },
   {
@@ -1164,7 +1164,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "fred_stlouisfed_org__7444de85.html",
-   "seconds": 0.27,
+   "seconds": 0.17,
    "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1"
   },
   {
@@ -1175,7 +1175,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "fred_stlouisfed_org__72554e21.html",
-   "seconds": 0.32,
+   "seconds": 0.17,
    "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1"
   },
   {
@@ -1186,7 +1186,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__e3bfc60d.csv",
-   "seconds": 0.34,
+   "seconds": 0.21,
    "head": "observation_date,IRLTLT01RUM156N\n1999-01-01,96.34\n1999-02-01,99.47\n1999-03-01,98.67\n1999-04-01,110.55\n1999-05-01,96.75\n1999-06-01,64.73\n1999-07-01,68.36\n1999-08-01,75.88\n1999-09-01,83.74\n1999-10-01,86"
   },
   {
@@ -1197,7 +1197,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__29a4c128.csv",
-   "seconds": 0.26,
+   "seconds": 0.05,
    "head": "observation_date,IRLTLT01GRM156N\n1997-06-01,9.15\n1997-07-01,9.42\n1997-08-01,9.62\n1997-09-01,9.43\n1997-10-01,9.30\n1997-11-01,10.76\n1997-12-01,10.48\n1998-01-01,11.03\n1998-02-01,11.03\n1998-03-01,9.27\n199"
   },
   {
@@ -1208,7 +1208,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__6b64317a.csv",
-   "seconds": 0.12,
+   "seconds": 0.11,
    "head": "observation_date,IRLTLT01SEM156N\n1986-12-01,10.9900000\n1987-01-01,11.6800000\n1987-02-01,11.4700000\n1987-03-01,11.2300000\n1987-04-01,11.1600000\n1987-05-01,11.7800000\n1987-06-01,11.7800000\n1987-07-01,11"
   },
   {
@@ -1219,7 +1219,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__4a055fcf.csv",
-   "seconds": 0.3,
+   "seconds": 0.19,
    "head": "observation_date,TURCPIALLMINMEI\n1955-01-01,0.000018266199999900001\n1955-02-01,0.000018266199999900001\n1955-03-01,0.000018104560000000000\n1955-04-01,0.000018104560000000000\n1955-05-01,0.00001826619999"
   },
   {
@@ -1230,7 +1230,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "fred_stlouisfed_org__a5f6deb0.html",
-   "seconds": 0.32,
+   "seconds": 0.21,
    "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1"
   },
   {
@@ -1241,7 +1241,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__87975ff9.csv",
-   "seconds": 0.38,
+   "seconds": 0.21,
    "head": "observation_date,RUSCPIALLMINMEI\n1992-01-01,0.01043353000000000\n1992-02-01,0.01439827000000000\n1992-03-01,0.01870336000000000\n1992-04-01,0.02276199000000000\n1992-05-01,0.02547066000000000\n1992-06-01,0"
   },
   {
@@ -1252,7 +1252,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__d00542dd.csv",
-   "seconds": 0.27,
+   "seconds": 0.28,
    "head": "observation_date,BRACPIALLMINMEI\n1979-12-01,0.00000000017675380000000001\n1980-01-01,0.00000000018844719999999999\n1980-02-01,0.00000000019714770000000000\n1980-03-01,0.00000000020905219999999999\n1980-04"
   },
   {
@@ -1263,7 +1263,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__736799b3.csv",
-   "seconds": 0.29,
+   "seconds": 0.21,
    "head": "observation_date,MEXCPIALLMINMEI\n1969-01-01,0.013227879999999999\n1969-02-01,0.013275360000000000\n1969-03-01,0.013288460000000000\n1969-04-01,0.013324480000000000\n1969-05-01,0.013324480000000000\n1969-06"
   },
   {
@@ -1274,7 +1274,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__5ffe26b3.csv",
-   "seconds": 0.33,
+   "seconds": 0.19,
    "head": "observation_date,GRCCPIALLMINMEI\n1955-01-01,0.9648980000000000\n1955-02-01,0.9581504000000000\n1955-03-01,0.9798926000000000\n1955-04-01,0.9768936000000000\n1955-05-01,0.9911384000000000\n1955-06-01,1.0046"
   },
   {
@@ -1285,7 +1285,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__4a59cd49.csv",
-   "seconds": 0.48,
+   "seconds": 0.27,
    "head": "observation_date,SWECPIALLMINMEI\n1955-01-01,7.2192119999999997\n1955-02-01,7.2315059999999987\n1955-03-01,7.2454770000000002\n1955-04-01,7.3063919999999998\n1955-05-01,7.3276279999999998\n1955-06-01,7.3421"
   },
   {
@@ -1296,7 +1296,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__9e9a41a5.csv",
-   "seconds": 0.15,
+   "seconds": 0.5,
    "head": "observation_date,DEXBZUS\n1995-01-02,0.8440\n1995-01-03,0.8450\n1995-01-04,0.8450\n1995-01-05,0.8430\n1995-01-06,0.8400\n1995-01-09,0.8440\n1995-01-10,0.8470\n1995-01-11,0.8510\n1995-01-12,0.8450\n1995-01-13,0."
   },
   {
@@ -1307,7 +1307,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__735614d1.csv",
-   "seconds": 0.19,
+   "seconds": 0.35,
    "head": "observation_date,DEXMXUS\n1993-11-08,3.1520\n1993-11-09,3.2400\n1993-11-10,3.2400\n1993-11-11,\n1993-11-12,3.2400\n1993-11-15,3.2150\n1993-11-16,\n1993-11-17,\n1993-11-18,3.1080\n1993-11-19,3.1150\n1993-11-22,3."
   },
   {
@@ -1318,7 +1318,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__ef74995d.csv",
-   "seconds": 0.11,
+   "seconds": 0.2,
    "head": "observation_date,DEXSDUS\n1971-01-04,5.1643\n1971-01-05,5.1628\n1971-01-06,5.1614\n1971-01-07,5.1649\n1971-01-08,5.1631\n1971-01-11,5.1642\n1971-01-12,5.1643\n1971-01-13,5.1615\n1971-01-14,5.1625\n1971-01-15,5."
   },
   {
@@ -1329,7 +1329,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "fred_stlouisfed_org__2bc93bdd.html",
-   "seconds": 0.27,
+   "seconds": 0.18,
    "head": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"utf-8\">\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1"
   },
   {
@@ -1340,7 +1340,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__9cf56dec.csv",
-   "seconds": 0.25,
+   "seconds": 0.2,
    "head": "observation_date,IIPUSNETIQ\n2006-01-01,-1655616\n2006-04-01,-1678770\n2006-07-01,-2005759\n2006-10-01,-1807819\n2007-01-01,-1654166\n2007-04-01,-1421382\n2007-07-01,-1231443\n2007-10-01,-1278830\n2008-01-01,-"
   },
   {
@@ -1351,7 +1351,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__bc81f141.csv",
-   "seconds": 0.27,
+   "seconds": 0.32,
    "head": "observation_date,FDHBATN\n1981-01-01,190855.000000000\n1981-04-01,199919.000000000\n1981-07-01,208056.000000000\n1981-10-01,203220.000000000\n1982-01-01,202411.000000000\n1982-04-01,211714.000000000\n1982-07"
   },
   {
@@ -1362,7 +1362,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__6ea12dfd.csv",
-   "seconds": 0.27,
+   "seconds": 0.04,
    "head": "observation_date,GFDEBTN\n1966-01-01,320999.000000000\n1966-04-01,316097.000000000\n1966-07-01,324748.000000000\n1966-10-01,329319.000000000\n1967-01-01,330947.000000000\n1967-04-01,322893.000000000\n1967-07"
   },
   {
@@ -1373,7 +1373,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__a87cf1f9.csv",
-   "seconds": 0.37,
+   "seconds": 0.31,
    "head": "observation_date,GGGDTAJPA188N\n1980-01-01,47.776\n1981-01-01,52.815\n1982-01-01,57.730\n1983-01-01,63.511\n1984-01-01,65.602\n1985-01-01,68.310\n1986-01-01,74.079\n1987-01-01,75.833\n1988-01-01,71.944\n1989-01"
   },
   {
@@ -1384,7 +1384,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__ff9bfec2.csv",
-   "seconds": 0.28,
+   "seconds": 0.19,
    "head": "observation_date,UKNGDP\n1955-01-01,4645\n1955-04-01,4666\n1955-07-01,4840\n1955-10-01,4932\n1956-01-01,5063\n1956-04-01,5132\n1956-07-01,5212\n1956-10-01,5347\n1957-01-01,5356\n1957-04-01,5437\n1957-07-01,5553\n"
   },
   {
@@ -1395,7 +1395,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__4a76e115.csv",
-   "seconds": 0.32,
+   "seconds": 0.21,
    "head": "observation_date,JPNNGDP\n1994-01-01,521932.3\n1994-04-01,519859.4\n1994-07-01,522918.9\n1994-10-01,521948.4\n1995-01-01,524171.7\n1995-04-01,527601.4\n1995-07-01,534038.4\n1995-10-01,535695.9\n1996-01-01,5405"
   },
   {
@@ -1406,7 +1406,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__a91e9e39.csv",
-   "seconds": 0.06,
+   "seconds": 0.04,
    "head": "observation_date,AUSGDPNQDSMEI\n1960-01-01,4167000000.000000\n1960-04-01,4378000000.000000\n1960-07-01,4400000000.000000\n1960-10-01,4428000000.000000\n1961-01-01,4420000000.000000\n1961-04-01,4322000000.00"
   },
   {
@@ -1417,7 +1417,7 @@
    "truncated": false,
    "content_type": "application/csv",
    "file": "fred_stlouisfed_org__29a92cd9.csv",
-   "seconds": 0.38,
+   "seconds": 0.2,
    "head": "observation_date,CPGRLE01GBM659N\n1971-01-01,8.92275799999999997\n1971-02-01,9.00165499999999952\n1971-03-01,9.00844299999999976\n1971-04-01,9.46140600000000020\n1971-05-01,9.55535399999999946\n1971-06-01,9"
   },
   {
@@ -1428,7 +1428,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__95b440ea.csv",
-   "seconds": 0.45,
+   "seconds": 0.69,
    "head": "FREQ,BORROWERS_CTY,TC_BORROWERS,TC_LENDERS,VALUATION,UNIT_TYPE,TC_ADJUST,COLLECTION,DECIMALS,UNIT_MULT,UNIT_MEASURE,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF\nQ,US,G,A,M,770,A,E,"
   },
   {
@@ -1439,7 +1439,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__050ac9e2.csv",
-   "seconds": 0.43,
+   "seconds": 0.68,
    "head": "FREQ,BORROWERS_CTY,TC_BORROWERS,TC_LENDERS,VALUATION,UNIT_TYPE,TC_ADJUST,COLLECTION,DECIMALS,UNIT_MULT,UNIT_MEASURE,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF\nQ,CA,G,A,M,770,A,E,"
   },
   {
@@ -1450,7 +1450,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__662d42c1.csv",
-   "seconds": 0.4,
+   "seconds": 0.65,
    "head": "FREQ,BORROWERS_CTY,TC_BORROWERS,TC_LENDERS,VALUATION,UNIT_TYPE,TC_ADJUST,COLLECTION,DECIMALS,UNIT_MULT,UNIT_MEASURE,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF\nQ,US,G,A,N,770,A,E,"
   },
   {
@@ -1461,7 +1461,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__ab712c80.csv",
-   "seconds": 0.42,
+   "seconds": 0.51,
    "head": "FREQ,REF_AREA,COMP_METHOD,UNIT_MEASURE,CURRENCY,TRANSFORMATION,COMMENT_DSET,DATA_COMP,METHOD_REF,COLLECTION_DETAIL,COMMENT_TS,DECIMALS,UNIT_MULT,BREAKS,SUPP_INFO_BREAKS,COMPILING_ORG,DISS_ORG,TITLE,TI"
   },
   {
@@ -1472,7 +1472,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__3ddb009c.csv",
-   "seconds": 0.38,
+   "seconds": 1.51,
    "head": "FREQ,REF_AREA,COMP_METHOD,UNIT_MEASURE,CURRENCY,TRANSFORMATION,COMMENT_DSET,DATA_COMP,METHOD_REF,COLLECTION_DETAIL,COMMENT_TS,DECIMALS,UNIT_MULT,BREAKS,SUPP_INFO_BREAKS,COMPILING_ORG,DISS_ORG,TITLE,TI"
   },
   {
@@ -1483,7 +1483,7 @@
    "truncated": false,
    "content_type": "application/xml;charset=UTF-8",
    "file": "stats_bis_org__093a4c89.html",
-   "seconds": 0.44,
+   "seconds": 0.5,
    "head": "<?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/res"
   },
   {
@@ -1494,7 +1494,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__e6f4f729.csv",
-   "seconds": 0.39,
+   "seconds": 0.55,
    "head": "FREQ,REF_AREA,UNIT_MEASURE,UNIT_MULT,TIME_FORMAT,BREAKS,COVERAGE,DECIMALS,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_CONF,OBS_PRE_BREAK,OBS_STATUS\nM,FR,628,0,,,,,,2026-07,131.119908,F,,A\nM,FR,628,0,,,,,,2026-"
   },
   {
@@ -1505,7 +1505,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__cfd8c1ea.csv",
-   "seconds": 0.43,
+   "seconds": 0.51,
    "head": "FREQ,REF_AREA,UNIT_MEASURE,UNIT_MULT,TIME_FORMAT,BREAKS,COVERAGE,DECIMALS,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_CONF,OBS_PRE_BREAK,OBS_STATUS\nM,US,628,0,,,,,,2026-07,153.134408,F,,A\nM,US,628,0,,,,,,2026-"
   },
   {
@@ -1516,7 +1516,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__fc8482e6.csv",
-   "seconds": 0.47,
+   "seconds": 0.5,
    "head": "FREQ,REF_AREA,UNIT_MEASURE,UNIT_MULT,TIME_FORMAT,COMPILATION,DECIMALS,SOURCE_REF,SUPP_INFO_BREAKS,TITLE,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK\nM,BR,368,0,,\"From 5 Mar 1999 onwards Cen"
   },
   {
@@ -1527,7 +1527,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__5b398b53.csv",
-   "seconds": 0.42,
+   "seconds": 0.51,
    "head": "FREQ,REF_AREA,CURRENCY,COLLECTION,UNIT_MULT,DECIMALS,AVAILABILITY,TITLE,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF\nM,CA,CAD,A,0,6,A, Exchange rates against USD Canada - Canadian dollar - "
   },
   {
@@ -1538,7 +1538,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__488abdef.csv",
-   "seconds": 0.49,
+   "seconds": 0.51,
    "head": "FREQ,EER_TYPE,EER_BASKET,REF_AREA,UNIT_MEASURE,TIME_FORMAT,COLLECTION,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK\nM,R,B,AU,882,,A,Australia - Real - Broad (64 economies),2026-08,1"
   },
   {
@@ -1549,7 +1549,7 @@
    "truncated": false,
    "content_type": "text/csv;charset=UTF-8",
    "file": "stats_bis_org__94a4ea22.csv",
-   "seconds": 1.67,
+   "seconds": 0.5,
    "head": "FREQ,EER_TYPE,EER_BASKET,REF_AREA,UNIT_MEASURE,TIME_FORMAT,COLLECTION,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK\nM,R,N,AU,882,,A,Australia - Real - Narrow (27 economies),2026-08,"
   },
   {
@@ -1560,7 +1560,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "www_imf_org__a89987d0.json",
-   "seconds": 0.69,
+   "seconds": 0.47,
    "head": "{\"values\":{\"GGXWDG_NGDP\":{\"SDN\":{\"1992\":495.2,\"1993\":285.9,\"1994\":386.5,\"1995\":239,\"1996\":220.9,\"1997\":167.7,\"1998\":179.7,\"1999\":160.5,\"2000\":143.2,\"2001\":125.6,\"2002\":121.7,\"2003\":117.4,\"2004\":97.8,\""
   },
   {
@@ -1571,7 +1571,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "www_imf_org__a4dc3b62.json",
-   "seconds": 0.4,
+   "seconds": 1.02,
    "head": "{\"values\":{\"ie\":{\"USA\":{\"1929\":0.65412700176239,\"1930\":0.72217702865601,\"1931\":0.7983809709549,\"1932\":1.019180059433,\"1933\":1.2222800254822,\"1934\":1.1463899612427,\"1935\":1.119950056076,\"1936\":0.895336"
   },
   {
@@ -1582,7 +1582,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "www_imf_org__b609b61f.json",
-   "seconds": 0.42,
+   "seconds": 2.36,
    "head": "{\"values\":{\"pb\":{\"USA\":{\"1929\":-3.9247907400131,\"1930\":-4.7334361076355,\"1931\":-8.9627908468246,\"1932\":-11.729867458344,\"1933\":-13.115233659744,\"1934\":-13.724091529846,\"1935\":-12.212941408157,\"1936\":-"
   },
   {
@@ -1593,7 +1593,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "www_imf_org__de2abed6.json",
-   "seconds": 0.31,
+   "seconds": 0.49,
    "head": "{\"countries\":{\"ABW\":{\"label\":\"Aruba\"},\"AFG\":{\"label\":\"Afghanistan\"},\"AGO\":{\"label\":\"Angola\"},\"AIA\":{\"label\":\"Anguilla\"},\"ALB\":{\"label\":\"Albania\"},\"ARE\":{\"label\":\"United Arab Emirates\"},\"ARG\":{\"label\":"
   },
   {
@@ -1604,7 +1604,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "data-api_ecb_europa_eu__68ebe0b9.csv",
-   "seconds": 1.15,
+   "seconds": 1.41,
    "head": "KEY,FREQ,ADJUSTMENT,REF_AREA,COUNTERPART_AREA,REF_SECTOR,COUNTERPART_SECTOR,CONSOLIDATION,ACCOUNTING_ENTRY,STO,INSTR_ASSET,MATURITY,EXPENDITURE,UNIT_MEASURE,CURRENCY_DENOM,VALUATION,PRICES,TRANSFORMAT"
   },
   {
@@ -1615,7 +1615,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "data-api_ecb_europa_eu__a6318ad5.csv",
-   "seconds": 1.03,
+   "seconds": 1.07,
    "head": "KEY,FREQ,ADJUSTMENT,REF_AREA,COUNTERPART_AREA,REF_SECTOR,COUNTERPART_SECTOR,CONSOLIDATION,ACCOUNTING_ENTRY,STO,INSTR_ASSET,MATURITY,EXPENDITURE,UNIT_MEASURE,CURRENCY_DENOM,VALUATION,PRICES,TRANSFORMAT"
   },
   {
@@ -1626,7 +1626,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "data-api_ecb_europa_eu__2b98d23a.csv",
-   "seconds": 1.59,
+   "seconds": 1.56,
    "head": "KEY,FREQ,ADJUSTMENT,REF_AREA,COUNTERPART_AREA,REF_SECTOR,COUNTERPART_SECTOR,CONSOLIDATION,ACCOUNTING_ENTRY,STO,INSTR_ASSET,MATURITY,EXPENDITURE,UNIT_MEASURE,CURRENCY_DENOM,VALUATION,PRICES,TRANSFORMAT"
   },
   {
@@ -1637,7 +1637,7 @@
    "truncated": false,
    "content_type": "application/problem+json",
    "file": "data-api_ecb_europa_eu__59e83ade.json",
-   "seconds": 0.85,
+   "seconds": 1.05,
    "head": "{\"type\":\"/service/data/GFS/Q.N.IT.W0.S13.S1.C.L.LE.GD.T._Z.XDC_R_B1GQ._T.F.V.N._T\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"No Series was returned for the query: <?xml version=\\\"1.0\\\" encoding=\\\"UTF"
   },
   {
@@ -1648,7 +1648,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "data-api_ecb_europa_eu__f81b9630.csv",
-   "seconds": 1.33,
+   "seconds": 1.0,
    "head": "KEY,FREQ,ADJUSTMENT,REF_AREA,COUNTERPART_AREA,REF_SECTOR,COUNTERPART_SECTOR,CONSOLIDATION,ACCOUNTING_ENTRY,STO,INSTR_ASSET,MATURITY,EXPENDITURE,UNIT_MEASURE,CURRENCY_DENOM,VALUATION,PRICES,TRANSFORMAT"
   },
   {
@@ -1659,7 +1659,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "data-api_ecb_europa_eu__1282f6dc.csv",
-   "seconds": 0.99,
+   "seconds": 1.0,
    "head": "KEY,FREQ,ADJUSTMENT,REF_AREA,COUNTERPART_AREA,REF_SECTOR,COUNTERPART_SECTOR,ACCOUNTING_ENTRY,STO,INSTR_ASSET,ACTIVITY,EXPENDITURE,UNIT_MEASURE,PRICES,TRANSFORMATION,TIME_PERIOD,OBS_VALUE,OBS_STATUS,CO"
   },
   {
@@ -1670,7 +1670,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "data-api_ecb_europa_eu__3ed9bc42.csv",
-   "seconds": 1.01,
+   "seconds": 1.26,
    "head": "KEY,FREQ,REF_AREA,SEC_ISSUING_SECTOR,SEC_ITEM,SEC_VALUATION,DATA_TYPE_SEC,CURRENCY_TRANS,SERIES_DENOM,SEC_SUFFIX,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLL"
   },
   {
@@ -1681,7 +1681,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "data-api_ecb_europa_eu__682a18a5.csv",
-   "seconds": 0.91,
+   "seconds": 1.38,
    "head": "KEY,FREQ,REF_AREA,SEC_ISSUING_SECTOR,SEC_ITEM,SEC_VALUATION,DATA_TYPE_SEC,CURRENCY_TRANS,SERIES_DENOM,SEC_SUFFIX,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLL"
   },
   {
@@ -1692,7 +1692,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "www_ecb_europa_eu__15cf8a1f.csv",
-   "seconds": 1.01,
+   "seconds": 0.78,
    "head": "Breakdown of cumulative net purchases under the PEPP,,,,,,,,,,,,,,,,,,\r\nIn euro millions,,Net purchases for the period at book value ,,,,,,Quarter-end amortisation adjustment and redemptions of coupon"
   },
   {
@@ -1703,7 +1703,7 @@
    "truncated": false,
    "content_type": "text/html; charset=UTF-8",
    "file": "www_ecb_europa_eu__a8a44aaa.html",
-   "seconds": 0.88,
+   "seconds": 1.08,
    "head": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n        <meta charset=\"utf-8\">        \n        <link rel=\"preload\" href=\"/shared/dist/fonts/opensans_fixed/OpenSans-Regular.woff2\" as=\"font\" crossorigin>\n      "
   },
   {
@@ -1714,7 +1714,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "data-api_ecb_europa_eu__ff6c4e16.csv",
-   "seconds": 0.54,
+   "seconds": 0.75,
    "head": "KEY,FREQ,REF_AREA,CURRENCY,PROVIDER_FM,INSTRUMENT_FM,PROVIDER_FM_ID,DATA_TYPE_FM,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORMAT,BREAKS,COLLECTION,COMPILING_ORG,DISS_ORG,DO"
   },
   {
@@ -1725,7 +1725,7 @@
    "truncated": false,
    "content_type": "text/csv",
    "file": "data-api_ecb_europa_eu__de7d7f9d.csv",
-   "seconds": 0.9,
+   "seconds": 1.28,
    "head": "KEY,FREQ,REF_AREA,ADJUSTMENT,BS_REP_SECTOR,BS_ITEM,MATURITY_ORIG,DATA_TYPE,COUNT_AREA,BS_COUNT_SECTOR,CURRENCY_TRANS,BS_SUFFIX,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK,OBS_COM,TIME_FORM"
   },
   {
@@ -1736,7 +1736,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "ec_europa_eu__912bc7f0.json",
-   "seconds": 0.49,
+   "seconds": 0.55,
    "head": "{\"version\":\"2.0\",\"class\":\"dataset\",\"label\":\"Quarterly non-financial accounts for general government\",\"source\":\"ESTAT\",\"updated\":\"2026-07-21T11:00:00+0200\",\"value\":{\"16\":7.2,\"17\":6.5,\"18\":6.3,\"19\":5.7,"
   },
   {
@@ -1747,7 +1747,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "ec_europa_eu__4389e253.json",
-   "seconds": 0.38,
+   "seconds": 0.54,
    "head": "{\"version\":\"2.0\",\"class\":\"dataset\",\"label\":\"Quarterly government debt\",\"source\":\"ESTAT\",\"updated\":\"2026-07-21T11:00:00+0200\",\"value\":{\"24\":112.7,\"25\":112.6,\"26\":111.2,\"27\":108.7,\"28\":110.0,\"29\":110.1,"
   },
   {
@@ -1758,7 +1758,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "ec_europa_eu__712b1662.json",
-   "seconds": 0.39,
+   "seconds": 0.54,
    "head": "{\"version\":\"2.0\",\"class\":\"dataset\",\"label\":\"Government revenue, expenditure and main aggregates\",\"source\":\"ESTAT\",\"updated\":\"2026-07-21T11:00:00+0200\",\"value\":{\"20\":11.1,\"21\":11.0,\"22\":9.1,\"23\":7.8,\"2"
   },
   {
@@ -1769,7 +1769,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "ec_europa_eu__2ad679c0.json",
-   "seconds": 0.62,
+   "seconds": 0.74,
    "head": "{ \"error\": [{\"status\": 400,\"id\": 150,\"label\": \"INVALID_QUERY_DIMENSION: Query is invalid as per its structure's definition. Dimension \\\"CO_NCO\\\" is not defined\"}]}"
   },
   {
@@ -1780,7 +1780,7 @@
    "truncated": false,
    "content_type": "application/json",
    "file": "www150_statcan_gc_ca__0eac58f1.json",
-   "seconds": 51.19,
+   "seconds": 0.72,
    "head": "[{\"status\":\"FAILED\",\"object\":\"The vector id [v62305752] is not valid. Error code = 3\"}]"
   },
   {
@@ -1791,7 +1791,7 @@
    "truncated": false,
    "content_type": "application/json; charset=utf-8",
    "file": "www_bankofcanada_ca__0f411ce9.json",
-   "seconds": 0.16,
+   "seconds": 0.49,
    "head": "{\n    \"terms\": {\n        \"url\": \"https://www.bankofcanada.ca/terms/\"\n    },\n    \"groupDetail\": {\n        \"label\": \"Selected benchmark bond yields\",\n        \"description\": \"The daily yields for a set o"
   },
   {
@@ -1802,7 +1802,7 @@
    "truncated": false,
    "content_type": "application/json; charset=utf-8",
    "file": "www_bankofcanada_ca__b33bef66.json",
-   "seconds": 0.12,
+   "seconds": 0.6,
    "head": "{\n    \"terms\": {\n        \"url\": \"https://www.bankofcanada.ca/terms/\"\n    },\n    \"groups\": {\n        \"A4_FUNDS_CONSUMER\": {\n            \"label\": \"Funds advanced and outstanding balances for new and exi"
   },
   {
@@ -1813,7 +1813,7 @@
    "truncated": false,
    "content_type": "text/plain",
    "file": "sdmx_oecd_org__0f701bbe.bin",
-   "seconds": 0.48,
+   "seconds": 0.55,
    "head": "Not enough key values in query, expecting 18 got 11"
   },
   {
@@ -1824,7 +1824,7 @@
    "truncated": false,
    "content_type": "application/vnd.sdmx.structure+xml; charset=utf-8; version=2.1",
    "file": "sdmx_oecd_org__e7624449.html",
-   "seconds": 0.36,
+   "seconds": 0.43,
    "head": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!--NSI Web Service v10.11.8.0-->\r\n<message:Structure xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:structure=\"http://www.sdmx"
   }
  ]
