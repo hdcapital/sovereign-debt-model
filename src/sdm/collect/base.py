@@ -6,7 +6,7 @@ bookkeeping. Subclasses implement :meth:`Collector.series` and :meth:`Collector.
 
 Tidy schema (one row per observation)::
 
-    series_id   str   "<COUNTRY>.<concept>.<SOURCE>"
+    series_id   str   "<COUNTRY>.<concept>.<SOURCE>[.<variant>]"
     country     str   universe code (or "XX" for global series such as gold)
     concept     str   name from sdm.collect.concepts
     date        date  period end
@@ -71,6 +71,7 @@ class SeriesSpec:
     units: str
     notes: str = ""
     params: dict[str, Any] = field(default_factory=dict)
+    variant: str = ""  # distinguishes several series of one source for the same (country, concept)
 
     def __post_init__(self) -> None:
         if self.concept not in CONCEPTS:
@@ -78,7 +79,8 @@ class SeriesSpec:
 
     @property
     def series_id(self) -> str:
-        return f"{self.country}.{self.concept}.{self.source}"
+        base = f"{self.country}.{self.concept}.{self.source}"
+        return f"{base}.{self.variant}" if self.variant else base
 
 
 @dataclass
@@ -195,6 +197,11 @@ class Collector(abc.ABC):
     def run(self, only: set[str] | None = None) -> list[FetchResult]:
         """Fetch every series (or those in ``only``), merge, write, return per-series results."""
         store = self.load_clean()
+        keep = {spec.series_id for spec in self.series()}
+        dropped = store[~store["series_id"].isin(keep)]["series_id"].unique()
+        if len(dropped):
+            log.info("%s: pruning %d retired series: %s", self.name, len(dropped), ", ".join(dropped[:5]))
+            store = store[store["series_id"].isin(keep)]
         results: list[FetchResult] = []
         for spec in self.series():
             if only and spec.series_id not in only and spec.concept not in only and spec.country not in only:

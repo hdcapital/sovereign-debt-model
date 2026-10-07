@@ -120,18 +120,21 @@ def build_panel(clean: pd.DataFrame | None = None, write: bool = True) -> Panel:
     df = clean if clean is not None else load_all_clean()
     if df.empty:
         raise RuntimeError("clean store is empty; run `sdm update` first")
-    df["source"] = df["series_id"].str.split(".").str[-1]
+    df["source"] = df["series_id"].str.split(".").str[2]
     df["date"] = pd.to_datetime(df["date"])
 
     cells: dict[tuple[str, str], pd.Series] = {}
     srcs: dict[tuple[str, str], pd.Series] = {}
     for (country, concept), g in df.groupby(["country", "concept"]):
         order = _priority_for(concept, prio_cfg)
-        present = [s for s in order if s in set(g["source"])] + sorted(set(g["source"]) - set(order))
+        rank = {src: i for i, src in enumerate(order)}
+        ids = list(dict.fromkeys(g["series_id"]))  # first-appearance order within a source
+        ids.sort(key=lambda sid: rank.get(sid.split(".")[2], len(order)))
         merged: pd.Series | None = None
         merged_src: pd.Series | None = None
-        for src in present:
-            sub = g[g["source"] == src].set_index("date")["value"]
+        for sid in ids:
+            src = sid.split(".")[2]
+            sub = g[g["series_id"] == sid].set_index("date")["value"]
             qs = to_quarterly(sub, KIND.get(concept, "rate"), max_ffill)
             if qs.empty:
                 continue

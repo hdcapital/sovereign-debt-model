@@ -208,9 +208,17 @@ def compute_all(
     return all_ind, latest, transitions
 
 
+def last_complete_quarter(today: date | None = None) -> pd.Timestamp:
+    """The most recent quarter that has fully elapsed."""
+    t = pd.Timestamp(today or date.today())
+    return (t.to_period("Q") - 1).end_time.normalize()
+
+
 def latest_table(all_ind: pd.DataFrame, stale_quarters: int = 2) -> pd.DataFrame:
-    """One row per (country, indicator): latest non-null value, its quarter, 1y/5y change."""
+    """One row per (country, indicator): latest non-null value, its quarter, 1y/5y change.
+    ``stale_quarters`` counts how far the latest value lags the last complete quarter."""
     uni = load_universe()
+    ref_q = last_complete_quarter()
     shown = [n for n, m in REGISTRY.items() if not m.helper] + ["stage_estimate", "captivity_score"]
     shown = list(dict.fromkeys(shown))
     rows = []
@@ -218,7 +226,7 @@ def latest_table(all_ind: pd.DataFrame, stale_quarters: int = 2) -> pd.DataFrame
         if code not in all_ind.index.get_level_values(0):
             continue
         df = all_ind.loc[code]
-        last_q = df.index.max()
+        last_q = ref_q
         for name in shown + ["quadrant", "trajectory_unsustainable", "holders_captive"]:
             if name not in df.columns:
                 continue
@@ -238,7 +246,7 @@ def latest_table(all_ind: pd.DataFrame, stale_quarters: int = 2) -> pd.DataFrame
                 continue
             q = s.index[-1]
             v = s.iloc[-1]
-            age = (last_q.to_period("Q") - q.to_period("Q")).n
+            age = max(0, (last_q.to_period("Q") - q.to_period("Q")).n)
             numeric = name not in ("quadrant",)
             rows.append(
                 {

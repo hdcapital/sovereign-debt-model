@@ -100,12 +100,21 @@ def cmd_backtest(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_dashboard(args: argparse.Namespace) -> int:
+    """Build reports/dashboard/latest.html and a dated copy."""
+    from sdm.report.dashboard import build_dashboard
+
+    latest, dated = build_dashboard()
+    print(f"{latest}\n{dated}")
+    return 0
+
+
 COMMANDS: dict[str, tuple[Callable[[argparse.Namespace], int], str]] = {
     "check": (cmd_check, "validate configuration"),
     "update": (cmd_update, "refresh all data sources incrementally"),
     "indicators": (cmd_indicators, "compute the quarterly indicator table"),
     "backtest": (cmd_backtest, "run the backtest and write BACKTEST.md"),
-    "dashboard": (_not_implemented(5), "build the HTML dashboard"),
+    "dashboard": (cmd_dashboard, "build the HTML dashboard"),
     "report": (_not_implemented(6), "generate the narrative quarterly report"),
     "email": (_not_implemented(7), "send (or --dry-run) the latest report"),
     "monthly": (_not_implemented(8), "monthly check: update + alert-only email"),

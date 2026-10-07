@@ -1,7 +1,9 @@
 horizon_years,return,term,coef,se_overlap_adj,t,n,effective_n
-5,real_bond_return_ann,const,-2.474249299901038,3.4776976162572932,-0.7114618845337771,51,4.0
-5,real_bond_return_ann,sustainable_free,1.8706020211594008,4.057313885633508,0.4610444431679275,51,4.0
-5,real_bond_return_ann,unsustainable_captive,19.85878498860798,9.52406716303032,2.0851160169989194,51,4.0
+5,real_bond_return_ann,const,-2.4742492999010297,3.135056991937077,-0.7892198790211625,51,5.0
+5,real_bond_return_ann,sustainable_free,1.7658227130890212,3.717720258358986,0.4749746055041971,51,5.0
+5,real_bond_return_ann,unsustainable_captive,19.858784988607976,8.585707167741143,2.3130051608588373,51,5.0
+5,real_bond_return_ann,unsustainable_free,2.7088364857223333,6.46308556004387,0.4191243424764357,51,5.0
 5,real_bond_return_ann,mean:sustainable_captive,-2.4742492999010386,,,13,
-5,real_bond_return_ann,mean:sustainable_free,-0.6036472787416387,,,36,
+5,real_bond_return_ann,mean:sustainable_free,-0.7084265868120048,,,32,
 5,real_bond_return_ann,mean:unsustainable_captive,17.384535688706933,,,2,
+5,real_bond_return_ann,mean:unsustainable_free,0.2345871858212889,,,4,
