@@ -207,6 +207,7 @@ def build_parser() -> argparse.ArgumentParser:
             p.add_argument(
                 "--dry-run", action="store_true", help="write the email to reports/outbox/ instead of sending"
             )
+            p.add_argument("--to", help="recipient address (default: OWNER_EMAIL env, else config)")
         if name in ("email", "quarterly"):
             p.add_argument("--period", help="period label, e.g. 2026-Q3 (default: last complete quarter)")
         if name in ("monthly", "quarterly"):
