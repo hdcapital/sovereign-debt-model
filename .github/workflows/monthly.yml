@@ -36,13 +36,18 @@ jobs:
         run: pip install -e ".[report]" 2>&1 | tail -1
       - name: Monthly check
         run: |
+          set -o pipefail
           python -m sdm.cli monthly ${{ inputs.dry_run && '--dry-run' || '' }} 2>&1 | tee data/monthly_run.log
       - name: Commit data and reports
         if: always()
         run: |
           git config user.name "sdm-bot"
           git config user.email "sdm-bot@users.noreply.github.com"
-          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
           git add -A data reports
           git commit -m "monthly: $(date -u +%Y-%m-%d) [skip ci]" || echo "nothing to commit"
-          git push
+          # replay this run's commit on top of anything pushed meanwhile; generated files from this run win
+          for attempt in 1 2 3; do
+            git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && break
+            git rebase --abort 2>/dev/null || true
+            sleep 15
+          done
