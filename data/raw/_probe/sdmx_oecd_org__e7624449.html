@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--NSI Web Service v10.11.8.0-->
+<message:Structure xmlns:message="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:structure="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/structure" xmlns:common="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <message:Header>
+    <message:ID>IDREF1649</message:ID>
+    <message:Test>false</message:Test>
+    <message:Prepared>2026-10-07T06:18:31.7854396+02:00</message:Prepared>
+    <message:Sender id="Unknown" />
+    <message:Receiver id="Unknown" />
+  </message:Header>
+  <message:Structures>
+    <structure:Dataflows>
+      <structure:Dataflow id="DSD_NASEC20@DF_T720R_Q" agencyID="OECD.SDD.NAD" version="1.1" isFinal="true">
+        <common:Annotations>
+          <common:Annotation>
+            <common:AnnotationType>NonProductionDataflow</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">true</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>INSTR_ASSET,MATURITY,CURRENCY_DENOM</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TIME_PERIOD</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_COLUMN</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA,SECTOR,ACCOUNTING_ENTRY,COMBINED_UNIT</common:AnnotationTitle>
+            <common:AnnotationType>LAYOUT_ROW_SECTION</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>TRANSACTION,FREQ,ADJUSTMENT,COUNTERPART_SECTOR,CONSOLIDATION,VALUATION,PRICE_BASE,TRANSFORMATION,OBS_STATUS=A,CONF_STATUS=F,TABLE_IDENTIFIER,COUNTERPART_AREA=W,CURRENCY_DENOM=_T,MATURITY=T,UNIT_MEASURE=XDC+USD,SECTOR=S1,DEBT_BREAKDOWN=_Z</common:AnnotationTitle>
+            <common:AnnotationType>NOT_DISPLAYED</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>REF_AREA=AUT,SECTOR=S1,UNIT_MEASURE=XDC,CURRENCY_DENOM=T,LASTNPERIODS=5</common:AnnotationTitle>
+            <common:AnnotationType>DEFAULT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation id="@SDMX">
+            <common:AnnotationTitle>SECTOR:OECD.SDD.NAD:HCL_SECTOR_FA(1.0).H,INSTR_ASSET:OECD.SDD.NAD:HCL_INSTR_ASSET_Q_FA(1.0).H,MATURITY:OECD.SDD.NAD:HCL_MATURITY_FA(1.0).H,UNIT_MEASURE:OECD.SDD.NAD:HCL_UNIT_MEASURE_FA(1.0).H</common:AnnotationTitle>
+            <common:AnnotationType>HIER_CONTEXT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>INSTR_MATU:INSTR_ASSET,MATURITY;CURRENCY_DENOM:CURRENCY_DENOM;COMBINED_UNIT:UNIT_MULT,UNIT_MEASURE,CURRENCY</common:AnnotationTitle>
+            <common:AnnotationType>COMBINED_CONCEPTS</common:AnnotationType>
+            <common:AnnotationText xml:lang="en">INSTR_MATU:Financial instruments, Maturity;CURRENCY_DENOM:Currency of denomination;COMBINED_UNIT:Combined unit of measure</common:AnnotationText>
+            <common:AnnotationText xml:lang="fr">INSTR_MATU:Instruments financiers, Maturité;CURRENCY_DENOM:Monnaie de libellé;COMBINED_UNIT:Unité de mesure combinée;</common:AnnotationText>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>1.0001</common:AnnotationTitle>
+            <common:AnnotationType>SEARCH_WEIGHT</common:AnnotationType>
+          </common:Annotation>
+          <common:Annotation>
+            <common:AnnotationTitle>categoryscheme/OECD/OECDCS1/latest/ECO.ECO_NAD.ECO_NAD_FBS.ECO_NAD_FBS_FBS?references=dataflow</common:AnnotationTitle>
+            <common:AnnotationType>RELATED_DATA</common:AnnotationType>
+          </common:Annotation>
+        </common:Annotations>
+        <common:Name xml:lang="en">Quarterly Financial Balance Sheets (stocks), non-consolidated</common:Name>
+        <common:Name xml:lang="fr">Comptes de patrimoine financier trimestriels (stocks), non consolidés</common:Name>
+        <common:Description xml:lang="en">The Financial Balance Sheets show financial assets, liabilities and net financial worth (assets minus liabilities) at the end of the period. This table is on a non-consolidated basis, meaning that it shows all assets and liabilities of units in a sector or subsector (or the economy as a whole), in contrast with consolidated balance sheets in which counterpart assets and liabilities of units within the same sector or subsector (or the economy as a whole) would be removed.
+&lt;br&gt;
+&lt;br&gt;
+In this table, the presentation is on a country-by-country basis. Users are recommended to select one country (or area) at a time in the ‘Reference area’ filter. The default view of the table is for the economy as a whole, but you can use the ‘Institutional sector’ filter to select specific sectors such as Non-financial Corporations, Financial Corporations, General Government and Households, as well as the Rest of the world account. For each sector, the table presents breakdowns by financial instrument, for example currency and deposits, debt securities, loans, equity and investment fund shares, insurance and pensions. Users can also choose to compare a single financial instrument, such as listed shares, for several countries. 
+&lt;br&gt;
+&lt;br&gt;
+Users should note that Australia does not produce non-consolidated accounts.
+&lt;br&gt;
+&lt;br&gt;
+These indicators were presented in the previous dissemination system in the QASA_TABLE720R dataset.
+&lt;br&gt; Explore also the OECD Financial Accounts and Balance Sheets webpage: &lt;a href="https://www.oecd.org/en/data/datasets/financial-accounts-and-balance-sheets.html"&gt;Financial Accounts and Balance Sheets webpage&lt;/a&gt;
+&lt;br&gt;OECD statistics contact: &lt;a href="mailto:STAT.Contact@oecd.org"&gt;STAT.Contact@oecd.org&lt;/a&gt;</common:Description>
+        <common:Description xml:lang="fr">Les bilans financiers présentent les actifs financiers, les passifs et la valeur financière nette (actifs moins passifs) à la fin de la période. Ce tableau est non consolidé, ce qui signifie qu'il présente tous les actifs et passifs des unités d'un secteur ou d'un sous-secteur (ou de l'économie dans son ensemble), contrairement aux bilans consolidés dans lesquels les actifs et passifs de contrepartie des unités du même secteur ou sous-secteur (ou de l'économie dans son ensemble) seraient supprimés.
+&lt;br&gt;
+&lt;br&gt; Dans ce tableau, la présentation se fait pays par pays. Il est recommandé aux utilisateurs de sélectionner un pays (ou une zone) à la fois dans le filtre "Zone de référence". La vue par défaut du tableau est celle de l'économie dans son ensemble, mais vous pouvez utiliser le filtre "Secteur institutionnel" pour sélectionner des secteurs spécifiques tels que les sociétés non financières, les sociétés financières, les administrations publiques et les ménages, ainsi que le compte du reste du monde. Pour chaque secteur, le tableau présente des ventilations par instrument financier, par exemple monnaie et dépôts, titres de créance, prêts, actions et parts de fonds d'investissement, assurances et pensions. Les utilisateurs peuvent également choisir de comparer un seul instrument financier, tel que les actions cotées, pour plusieurs pays.
+&lt;br&gt;
+&lt;br&gt; Les utilisateurs doivent noter que l'Australie ne produit pas de comptes non consolidés.
+&lt;br&gt;
+&lt;br&gt; Ces indicateurs ont été présentés dans le système de diffusion précédent dans l'ensemble de données QASA_TABLE720R.
+&lt;br&gt; Explorez la page Web des comptes financiers et comptes de patrimoine financier de l'OCDE : &lt;a href="https://www.oecd.org/fr/donnees/datasets/financial-accounts-and-balance-sheets.html"&gt;page Web des comptes financiers et comptes de patrimoine financier&lt;/a&gt;
+&lt;br&gt;Contact statistique OCDE: &lt;a href="mailto:STAT.Contact@oecd.org"&gt;STAT.Contact@oecd.org&lt;/a&gt;</common:Description>
+        <structure:Structure>
+          <Ref id="DSD_NASEC20" version="1.1" agencyID="OECD.SDD.NAD" package="datastructure" class="DataStructure" />
+        </structure:Structure>
+      </structure:Dataflow>
+    </structure:Dataflows>
+  </message:Structures>
+</message:Structure>

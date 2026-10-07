@@ -1,0 +1,4 @@
+FREQ,BORROWERS_CTY,TC_BORROWERS,TC_LENDERS,VALUATION,UNIT_TYPE,TC_ADJUST,COLLECTION,DECIMALS,UNIT_MULT,UNIT_MEASURE,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF
+Q,US,G,A,N,770,A,E,1,0,367,United States - Credit to General government from All sectors at Nominal value - Percentage of GDP - Adjusted for breaks,2025-Q3,115.1,A,,F
+Q,US,G,A,N,770,A,E,1,0,367,United States - Credit to General government from All sectors at Nominal value - Percentage of GDP - Adjusted for breaks,2025-Q4,116.3,A,,F
+Q,US,G,A,N,770,A,E,1,0,367,United States - Credit to General government from All sectors at Nominal value - Percentage of GDP - Adjusted for breaks,2026-Q1,116.6,A,,F

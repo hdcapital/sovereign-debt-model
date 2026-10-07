@@ -1,0 +1,13 @@
+FREQ,EER_TYPE,EER_BASKET,REF_AREA,UNIT_MEASURE,TIME_FORMAT,COLLECTION,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_CONF,OBS_PRE_BREAK
+M,R,N,AU,882,,A,Australia - Real - Narrow (27 economies),2026-08,112.08,A,F,
+M,R,N,CH,882,,A,Switzerland - Real - Narrow (27 economies),2026-08,99.66,A,F,
+M,R,N,CA,882,,A,Canada - Real - Narrow (27 economies),2026-08,93.43,A,F,
+M,R,N,DE,882,,A,Germany - Real - Narrow (27 economies),2026-08,101.82,A,F,
+M,R,N,FR,882,,A,France - Real - Narrow (27 economies),2026-08,95.1,A,F,
+M,R,N,GB,882,,A,United Kingdom - Real - Narrow (27 economies),2026-08,111.46,A,F,
+M,R,N,JP,882,,A,Japan - Real - Narrow (27 economies),2026-08,62.65,A,F,
+M,R,N,IT,882,,A,Italy - Real - Narrow (27 economies),2026-08,99.86,A,F,
+M,R,N,NL,882,,A,Netherlands - Real - Narrow (27 economies),2026-08,105.99,A,F,
+M,R,N,SE,882,,A,Sweden - Real - Narrow (27 economies),2026-08,95.48,A,F,
+M,R,N,US,882,,A,United States - Real - Narrow (27 economies),2026-08,102.37,A,F,
+M,R,N,XM,882,,A,Euro area - Real - Narrow (27 economies),2026-08,106.26,A,F,

@@ -1,0 +1,11 @@
+FREQ,REF_AREA,CURRENCY,COLLECTION,UNIT_MULT,DECIMALS,AVAILABILITY,TITLE,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF
+M,CA,CAD,A,0,6,A, Exchange rates against USD Canada - Canadian dollar - Monthly - Average of observations through period,2026-08,1.390785,A,,F
+M,XM,EUR,A,0,6,A, Exchange rates against USD Euro area - Euro - Monthly - Average of observations through period,2026-08,0.862603,A,,F
+M,AR,ARS,A,0,16,A, Exchange rates against USD Argentina - Argentine peso - Monthly - Average of observations through period,2026-08,1499.962935,A,,F
+M,TR,TRY,A,0,16,A, Exchange rates against USD Türkiye - Turkish lira - Monthly - Average of observations through period,2026-08,47.88148539527,A,,F
+M,CH,CHF,A,0,6,A, Exchange rates against USD Switzerland - Swiss franc - Monthly - Average of observations through period,2026-08,0.807554,A,,F
+M,BR,BRL,A,0,16,A, Exchange rates against USD Brazil - Brazilian real - Monthly - Average of observations through period,2026-08,5.1481447010831,A,,F
+M,RU,RUB,A,0,6,A, Exchange rates against USD Russia - Russian rouble - Monthly - Average of observations through period,2026-08,83.174533,A,,F
+M,MX,MXN,A,0,6,A, Exchange rates against USD Mexico - Mexican peso - Monthly - Average of observations through period,2026-08,17.063554,A,,F
+M,SE,SEK,A,0,6,A, Exchange rates against USD Sweden - Swedish krona - Monthly - Average of observations through period,2026-08,9.508428,A,,F
+M,AU,AUD,A,0,6,A, Exchange rates against USD Australia - Australian dollar - Monthly - Average of observations through period,2026-08,1.408193,A,,F

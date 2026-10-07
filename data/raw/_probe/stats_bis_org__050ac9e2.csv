@@ -1,0 +1,15 @@
+FREQ,BORROWERS_CTY,TC_BORROWERS,TC_LENDERS,VALUATION,UNIT_TYPE,TC_ADJUST,COLLECTION,DECIMALS,UNIT_MULT,UNIT_MEASURE,TITLE_TS,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF
+Q,CA,G,A,M,770,A,E,1,0,367,Canada - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,97.1,A,,F
+Q,US,G,A,M,770,A,E,1,0,367,United States - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,110.8,A,,F
+Q,JP,G,A,M,770,A,E,1,0,367,Japan - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,175.6,A,,F
+Q,CH,G,A,M,770,A,E,1,0,367,Switzerland - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,26.5,A,,F
+Q,DE,G,A,M,770,A,E,1,0,367,Germany - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,58.7,A,,F
+Q,GR,G,A,M,770,A,E,1,0,367,Greece - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,143.9,A,,F
+Q,XM,G,A,M,770,A,E,1,0,367,Euro area - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,85.6,A,,F
+Q,IT,G,A,M,770,A,E,1,0,367,Italy - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,137.3,A,,F
+Q,FR,G,A,M,770,A,E,1,0,367,France - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,109.4,A,,F
+Q,SE,G,A,M,770,A,E,1,0,367,Sweden - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,34.1,A,,F
+Q,NL,G,A,M,770,A,E,1,0,367,Netherlands - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,40.7,A,,F
+Q,AU,G,A,M,770,A,E,1,0,367,Australia - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,51.1,A,,F
+Q,GB,G,A,M,770,A,E,1,0,367,United Kingdom - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,86.5,A,,F
+Q,TR,G,A,M,770,A,E,1,0,367,Türkiye - Credit to General government from All sectors at Market value - Percentage of GDP - Adjusted for breaks,2026-Q1,22.8,A,,F
