@@ -135,6 +135,7 @@ def send_alert(period: str, body_html: str, dry_run: bool = False) -> Path | str
 
 def secrets_status() -> dict[str, bool]:
     return {
+        "app_password": bool(os.environ.get("GMAIL_APP_PASSWORD")),
         "credentials.json": CREDENTIALS.exists() or bool(os.environ.get("GMAIL_CREDENTIALS_JSON")),
         "token.json": TOKEN.exists() or bool(os.environ.get("GMAIL_TOKEN_JSON")),
         "token_env_is_json": _is_json(os.environ.get("GMAIL_TOKEN_JSON")),
