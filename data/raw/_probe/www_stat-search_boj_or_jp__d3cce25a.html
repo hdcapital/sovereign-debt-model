@@ -1,0 +1,642 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>BOJ's Main Time-series Statistics</title>
+<link rel="stylesheet" type="text/css" href="/ssi/docs/css/common_en.css">
+<script type="text/javascript" src="/ssi/docs/js/common_en.js"></script>
+<script type="text/javascript" src="/ssi/docs/lib/jquery-ui/external/jquery/jquery.js"></script>
+<script type="text/javascript" src="/ssi/docs/lib/jquery-ui/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/ssi/docs/js/search_en.js"></script>
+</head>
+<body class="no-bgcolored" style="background: #FFF; float: left;" text="#000000" link="#0000ff" alink="#0000ff" vlink="#0000ff">
+<div class="headder">
+	<div class="headderInner siteLogoNarrow clearfix">
+		<img class="canGotoTop" src="/ssi/docs/img/logoBackground_narrow_en.png" height="100%" style="float: left;" alt="Home page of BOJ Time-Series Data Search" tabindex="0" role="link"/>
+		<div class="hedderMenuArea2">
+			<a href="/ssi/docs/info/manual_list_en.html" class="smallLink icoSimpleRightArrow" target="_blank">Beginners' Manual<span aria-label="(Opens in a new window)"></span></a>
+		</div>
+	</div>
+</div>
+<div class="contents">
+	<div class="contentsInner">
+<font color="#000080" style="font-size: larger;">
+<h2 class="caption icoGraph" style="margin-bottom: 0">BOJ's Main Time-series Statistics</h2>
+</font>
+<div style="margin-left: 15px;">
+<p class="ex2">
+<ul style="margin: 0px 0px 1em -2.5em;">
+<li style="display: inline;"><input class="normalButton" type="button" name="CSV" value="Download" onclick="location.href='csv/fm08_m_1_en.csv'"></li>
+<li style="display: inline;"><input class="normalButton" type="button" name="BACK" value="Back" onclick="history.back()" ></li>
+</ul>
+Last Update : 2026-10-07 PM 12:00
+</p>
+</div>
+<div>
+<div class="tbl">
+<table border="0" bgcolor="#ffffff" style="margin-left: 15px; margin-right: 15px;">
+<tr bgcolor="#BDCCDC"><td nowrap  style="background-color: #ffffff; font-weight: normal;"></td><th align=CENTER style="background-color: #BDCCDC; font-weight: normal;" scope="col">Foreign Exchange Rates (Tokyo Market Interbank Rates) (Monthly)</th><th align=CENTER style="background-color: #BDCCDC; font-weight: normal;" scope="col">Foreign Exchange Rates (Tokyo Market Interbank Rates) (Monthly)</th><th align=CENTER style="background-color: #BDCCDC; font-weight: normal;" scope="col">Foreign Exchange Rates (Tokyo Market Interbank Rates) (Monthly)</th><th align=CENTER style="background-color: #BDCCDC; font-weight: normal;" scope="col">Foreign Exchange Rates (Tokyo Market Interbank Rates) (Monthly)</th><th align=CENTER style="background-color: #BDCCDC; font-weight: normal;" scope="col">Foreign Exchange Rates (Tokyo Market Interbank Rates) (Monthly)</th><th align=CENTER style="background-color: #BDCCDC; font-weight: normal;" scope="col">Foreign Exchange Rates (Tokyo Market Interbank Rates) (Monthly)</th></tr>
+<tr bgcolor="#BDCCDC"><th nowrap  style="background-color: #ffffff; font-weight: normal;" scope="row">Name of <br>time-series</th><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">US.Dollar/Yen Spot Rate at 17:00 in JST, End of Month, Tokyo Market</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">US.Dollar/Yen Spot Rate at 17:00 in JST, Average in the Month, Tokyo Market</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">US.Dollar/Yen Central Rate, End of Month, Tokyo Market</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">US.Dollar/Yen Central Rate, Average in the Month, Tokyo Market</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">US.Dollar/Yen Highest in the Month, Tokyo Market</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">US.Dollar/Yen Lowest in the Month, Tokyo Market</td></tr>
+<tr bgcolor="#BDCCDC"><th nowrap  style="background-color: #ffffff; font-weight: normal;" scope="row">Series code</th><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">FM08'FXERM06<input type="image" src="/ssi/docs/img/icon_graph.gif" alt="[Simple graph]" onclick="openSubwin_graph('','','./fxerm06_en.html')"><span aria-label="(Opens in a new window)"></span></td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">FM08'FXERM07<input type="image" src="/ssi/docs/img/icon_graph.gif" alt="[Simple graph]" onclick="openSubwin_graph('','','./fxerm07_en.html')"><span aria-label="(Opens in a new window)"></span></td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">FM08'FXERM08<input type="image" src="/ssi/docs/img/icon_graph.gif" alt="[Simple graph]" onclick="openSubwin_graph('','','./fxerm08_en.html')"><span aria-label="(Opens in a new window)"></span></td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">FM08'FXERM09<input type="image" src="/ssi/docs/img/icon_graph.gif" alt="[Simple graph]" onclick="openSubwin_graph('','','./fxerm09_en.html')"><span aria-label="(Opens in a new window)"></span></td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">FM08'FXERM03<input type="image" src="/ssi/docs/img/icon_graph.gif" alt="[Simple graph]" onclick="openSubwin_graph('','','./fxerm03_en.html')"><span aria-label="(Opens in a new window)"></span></td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">FM08'FXERM05<input type="image" src="/ssi/docs/img/icon_graph.gif" alt="[Simple graph]" onclick="openSubwin_graph('','','./fxerm05_en.html')"><span aria-label="(Opens in a new window)"></span></td></tr>
+<tr bgcolor="#BDCCDC"><th nowrap  style="background-color: #ffffff; font-weight: normal;" scope="row">Unit</th><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">Yen per U.S. Dollar</td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">Yen per U.S. Dollar</td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">Yen per U.S. Dollar</td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">Yen per U.S. Dollar</td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">Yen per U.S. Dollar</td><td nowrap align=CENTER style="background-color: #BDCCDC; font-weight: normal;">Yen per U.S. Dollar</td></tr>
+<tr bgcolor="#BDCCDC"><th nowrap  style="background-color: #ffffff; font-weight: normal;" scope="row">Start of the <br>time-series</th><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">1973/01</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">1973/01</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">1992/08</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">1992/08</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">1992/08</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">1992/08</td></tr>
+<tr bgcolor="#BDCCDC"><th nowrap  style="background-color: #ffffff; font-weight: normal;" scope="row">End of the <br>time-series</th><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/09</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/09</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/09</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/09</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/09</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/09</td></tr>
+<tr bgcolor="#BDCCDC"><th nowrap  style="background-color: #ffffff; font-weight: normal;" scope="row">Last update</th><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/10/05</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/10/05</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/10/05</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/10/05</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/10/05</td><td align=CENTER style="background-color: #BDCCDC; font-weight: normal;">2026/10/05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/01</th><td> 238.8</td><td>237.73</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/02</th><td> 249.8</td><td>244.07</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/03</th><td> 249.7</td><td>248.61</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/04</th><td> 238.3</td><td>251.45</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/05</th><td> 224.4</td><td>228.06</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/06</th><td>218.15</td><td>218.11</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/07</th><td>226.85</td><td>220.91</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/08</th><td> 219.2</td><td>224.34</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/09</th><td>   212</td><td>214.95</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/10</th><td>211.75</td><td>209.21</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/11</th><td>216.75</td><td>212.99</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1980/12</th><td> 203.6</td><td>209.79</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/01</th><td> 205.2</td><td>202.19</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/02</th><td>208.85</td><td>205.76</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/03</th><td> 211.4</td><td>208.84</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/04</th><td>   215</td><td>215.07</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/05</th><td> 223.5</td><td>220.78</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/06</th><td>225.75</td><td>224.21</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/07</th><td>239.75</td><td>232.11</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/08</th><td>228.75</td><td>233.62</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/09</th><td>231.55</td><td>229.83</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/10</th><td>233.35</td><td> 231.4</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/11</th><td>214.15</td><td>223.76</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1981/12</th><td>220.25</td><td>219.02</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/01</th><td>228.45</td><td>224.55</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/02</th><td> 235.2</td><td>235.25</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/03</th><td> 248.3</td><td>240.64</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/04</th><td> 236.3</td><td> 244.9</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/05</th><td> 243.7</td><td>236.97</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/06</th><td>255.55</td><td>251.11</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/07</th><td>256.65</td><td> 255.1</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/08</th><td> 259.6</td><td>258.67</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/09</th><td> 269.4</td><td>262.74</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/10</th><td> 277.4</td><td>271.33</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/11</th><td>253.45</td><td>265.02</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1982/12</th><td> 235.3</td><td>242.49</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/01</th><td> 238.4</td><td> 232.9</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/02</th><td>235.55</td><td>236.27</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/03</th><td> 239.3</td><td>237.92</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/04</th><td> 237.7</td><td> 237.7</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/05</th><td> 238.6</td><td>234.78</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/06</th><td> 239.8</td><td>240.06</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/07</th><td> 241.5</td><td>240.49</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/08</th><td>246.75</td><td>244.36</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/09</th><td> 236.1</td><td>242.71</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/10</th><td>233.65</td><td>   233</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/11</th><td> 234.2</td><td>235.25</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1983/12</th><td>   232</td><td>234.34</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/01</th><td>234.74</td><td>233.95</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/02</th><td>233.28</td><td>233.67</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/03</th><td>224.75</td><td>225.52</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/04</th><td> 226.3</td><td>224.95</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/05</th><td>231.63</td><td>230.67</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/06</th><td>237.45</td><td>233.29</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/07</th><td>245.45</td><td>242.72</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/08</th><td> 241.7</td><td>242.24</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/09</th><td> 245.4</td><td>245.19</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/10</th><td> 245.3</td><td>246.89</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/11</th><td> 246.5</td><td>243.29</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1984/12</th><td>251.58</td><td>247.96</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/01</th><td>254.78</td><td>254.11</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/02</th><td>   259</td><td>260.34</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/03</th><td> 250.7</td><td>258.43</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/04</th><td> 251.4</td><td>251.67</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/05</th><td>251.78</td><td>251.57</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/06</th><td>248.95</td><td>248.95</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/07</th><td>236.65</td><td> 241.7</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/08</th><td> 237.1</td><td> 237.2</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/09</th><td>   216</td><td>236.91</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/10</th><td> 211.8</td><td>214.84</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/11</th><td>202.05</td><td>203.85</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1985/12</th><td> 200.6</td><td>202.75</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/01</th><td>192.65</td><td>200.05</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/02</th><td>180.45</td><td>184.62</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/03</th><td>179.65</td><td>178.83</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/04</th><td> 168.1</td><td>175.56</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/05</th><td>172.05</td><td>166.89</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/06</th><td>163.95</td><td>167.82</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/07</th><td>154.15</td><td>158.65</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/08</th><td>156.05</td><td>154.11</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/09</th><td>153.63</td><td>154.78</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/10</th><td>161.45</td><td>156.04</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/11</th><td> 162.2</td><td>162.72</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1986/12</th><td> 160.1</td><td>162.13</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/01</th><td> 152.3</td><td>154.48</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/02</th><td>153.15</td><td>153.49</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/03</th><td>145.65</td><td>151.56</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/04</th><td>139.65</td><td>142.96</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/05</th><td>144.15</td><td>140.47</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/06</th><td>146.75</td><td>144.52</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/07</th><td>149.25</td><td> 150.2</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/08</th><td>142.35</td><td>147.57</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/09</th><td>146.35</td><td>143.03</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/10</th><td>138.55</td><td>143.48</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/11</th><td>132.45</td><td>135.25</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1987/12</th><td>   122</td><td>128.25</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/01</th><td>127.18</td><td>127.44</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/02</th><td>128.12</td><td>129.26</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/03</th><td> 124.5</td><td>127.23</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/04</th><td>124.82</td><td>124.88</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/05</th><td> 124.8</td><td>124.74</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/06</th><td> 132.2</td><td> 127.2</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/07</th><td>132.53</td><td> 133.1</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/08</th><td>134.97</td><td>133.63</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/09</th><td> 134.3</td><td>134.45</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/10</th><td>   125</td><td>128.85</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/11</th><td>121.85</td><td>123.16</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1988/12</th><td> 125.9</td><td>123.63</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/01</th><td>129.13</td><td>127.24</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/02</th><td>127.15</td><td>127.77</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/03</th><td>132.55</td><td>130.35</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/04</th><td>132.49</td><td>132.01</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/05</th><td> 142.7</td><td> 138.4</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/06</th><td>143.95</td><td>143.92</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/07</th><td> 138.4</td><td>140.63</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/08</th><td>144.28</td><td> 141.2</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/09</th><td>139.35</td><td>145.06</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/10</th><td>142.15</td><td>141.99</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/11</th><td> 142.9</td><td>143.55</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1989/12</th><td> 143.4</td><td>143.62</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/01</th><td> 144.4</td><td>145.09</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/02</th><td>148.52</td><td>145.54</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/03</th><td>157.65</td><td>153.19</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/04</th><td>159.08</td><td> 158.5</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/05</th><td>151.75</td><td>153.52</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/06</th><td>152.85</td><td>153.78</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/07</th><td> 147.5</td><td>149.23</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/08</th><td> 144.5</td><td>147.46</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/09</th><td>137.95</td><td>138.96</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/10</th><td>129.35</td><td>129.73</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/11</th><td>132.75</td><td>129.01</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1990/12</th><td> 135.4</td><td>133.72</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/01</th><td> 131.4</td><td>133.65</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/02</th><td>131.95</td><td>130.44</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/03</th><td>140.55</td><td>137.09</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/04</th><td>137.42</td><td>137.15</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/05</th><td>137.97</td><td>138.02</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/06</th><td>138.15</td><td>139.83</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/07</th><td>137.83</td><td>137.98</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/08</th><td>136.88</td><td>136.85</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/09</th><td>132.95</td><td>134.59</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/10</th><td>   131</td><td>130.81</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/11</th><td>130.07</td><td>129.64</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1991/12</th><td>125.25</td><td>128.07</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/01</th><td>125.78</td><td>125.05</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/02</th><td>129.33</td><td>127.53</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/03</th><td>133.05</td><td>132.75</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/04</th><td>133.38</td><td>133.59</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/05</th><td>128.33</td><td>130.55</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/06</th><td>125.55</td><td> 126.9</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/07</th><td> 127.3</td><td>125.66</td><td>    ND</td><td>    ND</td><td>    ND</td><td>    ND</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/08</th><td>123.42</td><td>126.34</td><td> 122.9</td><td>126.31</td><td> 128.1</td><td>122.69</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/09</th><td>119.25</td><td>122.72</td><td> 119.2</td><td>122.72</td><td> 125.2</td><td> 118.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/10</th><td>123.35</td><td>121.14</td><td> 123.2</td><td>121.04</td><td>123.35</td><td> 118.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/11</th><td>124.75</td><td>123.84</td><td> 124.7</td><td>123.87</td><td>124.88</td><td>122.15</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1992/12</th><td>124.65</td><td>123.98</td><td>124.75</td><td>124.03</td><td>125.05</td><td> 122.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/01</th><td> 124.3</td><td>125.02</td><td> 124.6</td><td>125.01</td><td>125.95</td><td>123.62</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/02</th><td>117.85</td><td>120.97</td><td> 117.7</td><td>120.96</td><td>125.25</td><td> 116.3</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/03</th><td>115.35</td><td>117.02</td><td>116.35</td><td>117.07</td><td>118.85</td><td> 115.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/04</th><td> 111.1</td><td>112.37</td><td>111.15</td><td>112.45</td><td>115.22</td><td> 109.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/05</th><td>107.45</td><td>110.23</td><td>107.35</td><td>110.23</td><td> 112.3</td><td> 107.1</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/06</th><td>106.51</td><td>107.29</td><td>106.75</td><td>107.34</td><td> 111.6</td><td> 104.8</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/07</th><td> 105.6</td><td>107.77</td><td> 105.9</td><td>107.73</td><td>110.23</td><td> 105.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/08</th><td>104.18</td><td>103.72</td><td> 104.2</td><td>103.71</td><td>105.55</td><td> 100.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/09</th><td> 105.1</td><td>105.27</td><td>105.15</td><td>105.28</td><td>106.43</td><td> 103.8</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/10</th><td>108.23</td><td>106.94</td><td> 108.2</td><td>106.92</td><td>108.85</td><td>104.92</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/11</th><td>108.82</td><td>107.81</td><td>108.95</td><td> 107.8</td><td>109.35</td><td>105.65</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1993/12</th><td>111.89</td><td>109.72</td><td>111.85</td><td> 109.7</td><td>   112</td><td>107.57</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/01</th><td>109.55</td><td>111.49</td><td> 109.9</td><td>111.51</td><td> 113.6</td><td>108.58</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/02</th><td> 104.3</td><td>106.14</td><td>104.15</td><td>106.21</td><td>109.16</td><td> 101.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/03</th><td> 102.8</td><td>105.12</td><td>103.15</td><td>105.14</td><td>106.58</td><td>102.52</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/04</th><td>102.38</td><td>103.48</td><td> 102.5</td><td>103.53</td><td>105.85</td><td> 102.3</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/05</th><td>104.38</td><td>   104</td><td>104.47</td><td>103.99</td><td>105.15</td><td>101.48</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/06</th><td> 98.95</td><td>102.69</td><td> 99.05</td><td>102.72</td><td>105.48</td><td> 98.75</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/07</th><td> 99.93</td><td> 98.54</td><td> 99.75</td><td>  98.5</td><td>100.08</td><td> 97.05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/08</th><td> 99.57</td><td> 99.86</td><td> 99.55</td><td> 99.85</td><td>101.47</td><td> 97.55</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/09</th><td> 98.59</td><td> 98.79</td><td> 98.45</td><td> 98.81</td><td>100.29</td><td> 97.63</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/10</th><td> 97.37</td><td>  98.4</td><td> 97.38</td><td> 98.42</td><td>100.65</td><td> 96.55</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/11</th><td> 98.98</td><td>    98</td><td> 98.92</td><td> 97.96</td><td> 98.99</td><td> 96.35</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1994/12</th><td> 99.83</td><td>100.17</td><td> 99.74</td><td>100.13</td><td>100.75</td><td> 98.83</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/01</th><td> 98.58</td><td> 99.79</td><td> 98.55</td><td> 99.75</td><td> 101.3</td><td> 98.42</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/02</th><td> 96.93</td><td> 98.23</td><td> 97.05</td><td> 98.24</td><td> 99.73</td><td> 96.54</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/03</th><td> 88.38</td><td> 90.77</td><td> 89.35</td><td> 90.79</td><td> 96.78</td><td> 88.08</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/04</th><td> 83.77</td><td> 83.53</td><td> 83.75</td><td> 83.67</td><td> 87.23</td><td> 79.75</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/05</th><td> 83.19</td><td> 85.21</td><td>  83.2</td><td>  85.1</td><td>  87.6</td><td>  81.8</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/06</th><td> 84.77</td><td> 84.54</td><td>  84.6</td><td> 84.53</td><td> 85.78</td><td>  83.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/07</th><td> 88.17</td><td> 87.24</td><td> 88.43</td><td> 87.22</td><td> 89.18</td><td> 84.52</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/08</th><td> 97.46</td><td> 94.56</td><td>  99.1</td><td> 94.55</td><td>  99.4</td><td> 87.86</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/09</th><td> 98.18</td><td>100.31</td><td>  98.3</td><td>100.49</td><td> 104.7</td><td> 96.85</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/10</th><td> 101.9</td><td>100.68</td><td> 101.7</td><td>100.65</td><td> 102.2</td><td> 99.38</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/11</th><td>101.66</td><td>101.89</td><td>101.55</td><td>101.92</td><td>104.05</td><td> 100.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1995/12</th><td>102.91</td><td>101.86</td><td>102.83</td><td>101.85</td><td> 103.1</td><td>100.96</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/01</th><td>106.92</td><td>105.81</td><td>107.25</td><td>105.84</td><td>107.58</td><td> 104.1</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/02</th><td>104.58</td><td> 105.7</td><td> 104.7</td><td>105.73</td><td>107.43</td><td>103.97</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/03</th><td>106.49</td><td>105.85</td><td>106.28</td><td>105.85</td><td> 107.2</td><td>105.08</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/04</th><td>104.29</td><td> 107.4</td><td> 104.8</td><td>107.46</td><td>   109</td><td>104.05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/05</th><td>108.37</td><td>106.49</td><td> 108.2</td><td>106.51</td><td>108.93</td><td>104.62</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/06</th><td>109.88</td><td>108.82</td><td>109.42</td><td>108.86</td><td>109.95</td><td>107.42</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/07</th><td>107.13</td><td>109.25</td><td>107.92</td><td>109.32</td><td> 111.2</td><td>106.95</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/08</th><td> 108.4</td><td>107.84</td><td>108.44</td><td>107.75</td><td>108.59</td><td>106.35</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/09</th><td>111.45</td><td>109.76</td><td>110.97</td><td>109.75</td><td>111.53</td><td>108.77</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/10</th><td>113.27</td><td> 112.3</td><td> 113.8</td><td>112.36</td><td>114.92</td><td>110.86</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/11</th><td>113.44</td><td>112.27</td><td>113.77</td><td>112.26</td><td>114.67</td><td>110.68</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1996/12</th><td>115.98</td><td>113.74</td><td>   116</td><td>113.81</td><td>116.18</td><td> 111.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/01</th><td>122.13</td><td>118.18</td><td>   122</td><td>118.02</td><td>122.75</td><td> 114.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/02</th><td>120.88</td><td>123.01</td><td>120.78</td><td>123.01</td><td>124.82</td><td>119.95</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/03</th><td>123.97</td><td>122.66</td><td>124.05</td><td>122.64</td><td> 124.4</td><td>119.98</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/04</th><td>126.92</td><td>125.47</td><td>126.85</td><td>125.51</td><td>127.16</td><td>121.89</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/05</th><td>116.43</td><td>118.91</td><td>116.45</td><td>118.99</td><td>127.47</td><td>111.98</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/06</th><td> 114.3</td><td>114.31</td><td> 114.4</td><td> 114.2</td><td>116.89</td><td>110.68</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/07</th><td>117.74</td><td> 115.1</td><td>118.25</td><td>115.16</td><td>118.77</td><td>112.05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/08</th><td>119.39</td><td>117.89</td><td>119.35</td><td> 117.9</td><td>119.59</td><td> 114.7</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/09</th><td>121.44</td><td>120.74</td><td>   121</td><td>120.74</td><td>122.88</td><td> 118.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/10</th><td>120.29</td><td>121.13</td><td>119.95</td><td>121.06</td><td>122.45</td><td>119.75</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/11</th><td>127.66</td><td>125.35</td><td>127.55</td><td>125.27</td><td>128.07</td><td>121.22</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1997/12</th><td>129.92</td><td>129.52</td><td>129.95</td><td>129.47</td><td> 131.6</td><td> 125.7</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/01</th><td>127.34</td><td>129.45</td><td> 126.9</td><td>129.45</td><td>134.45</td><td> 124.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/02</th><td>126.72</td><td>125.85</td><td>127.25</td><td>   126</td><td>   129</td><td>122.83</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/03</th><td>133.39</td><td>128.83</td><td>132.05</td><td>128.69</td><td>133.47</td><td>124.76</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/04</th><td>131.95</td><td>131.81</td><td> 132.3</td><td>131.67</td><td> 135.2</td><td> 127.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/05</th><td>138.72</td><td>135.08</td><td>139.05</td><td>   135</td><td> 139.2</td><td>131.46</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/06</th><td>139.95</td><td>140.35</td><td>140.85</td><td>140.57</td><td>146.75</td><td> 134.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/07</th><td>143.79</td><td>140.66</td><td> 143.7</td><td>140.73</td><td> 144.5</td><td>137.45</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/08</th><td>141.52</td><td>144.76</td><td>141.46</td><td>144.67</td><td>147.64</td><td> 140.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/09</th><td>135.72</td><td> 134.5</td><td>135.25</td><td>134.59</td><td>139.95</td><td> 128.8</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/10</th><td>116.09</td><td>121.33</td><td> 116.4</td><td> 121.3</td><td> 136.9</td><td>113.81</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/11</th><td>123.83</td><td>120.61</td><td>123.65</td><td>120.58</td><td>124.07</td><td> 114.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1998/12</th><td> 115.2</td><td> 117.4</td><td> 115.6</td><td>117.54</td><td>123.07</td><td> 114.7</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/01</th><td>115.98</td><td>113.14</td><td> 116.2</td><td>113.18</td><td>116.45</td><td>108.65</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/02</th><td>120.32</td><td>116.73</td><td> 119.4</td><td>116.66</td><td>122.55</td><td>111.31</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/03</th><td>119.99</td><td>119.71</td><td> 120.4</td><td>119.78</td><td>123.58</td><td> 116.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/04</th><td>119.59</td><td>119.66</td><td>119.33</td><td>119.81</td><td>121.82</td><td>117.43</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/05</th><td>121.37</td><td>122.14</td><td>121.42</td><td>122.11</td><td>124.75</td><td>119.83</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/06</th><td>120.87</td><td>120.81</td><td> 121.1</td><td> 120.9</td><td>122.55</td><td>117.63</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/07</th><td>115.27</td><td>119.76</td><td> 115.2</td><td>119.86</td><td>122.87</td><td>115.05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/08</th><td>110.19</td><td> 113.3</td><td>110.82</td><td> 113.4</td><td> 115.9</td><td> 109.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/09</th><td>105.66</td><td>107.45</td><td>106.85</td><td>107.57</td><td>111.26</td><td>103.72</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/10</th><td>104.89</td><td>   106</td><td>104.85</td><td>105.97</td><td>108.05</td><td>103.71</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/11</th><td>102.42</td><td>104.83</td><td> 102.5</td><td>104.96</td><td> 106.6</td><td>101.35</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">1999/12</th><td>102.08</td><td>102.61</td><td> 102.2</td><td>102.68</td><td> 103.8</td><td> 101.8</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/01</th><td> 106.9</td><td>105.21</td><td>106.85</td><td>105.16</td><td>107.08</td><td>101.46</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/02</th><td>110.27</td><td>109.34</td><td>110.18</td><td>109.34</td><td>111.73</td><td>107.15</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/03</th><td>105.29</td><td>106.62</td><td>105.85</td><td>106.71</td><td>110.33</td><td>104.75</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/04</th><td>106.44</td><td>105.35</td><td>106.55</td><td>105.48</td><td>107.03</td><td>102.82</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/05</th><td> 107.3</td><td>108.13</td><td>106.65</td><td>108.11</td><td>110.08</td><td> 106.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/06</th><td> 105.4</td><td>106.13</td><td> 105.4</td><td>106.23</td><td> 109.1</td><td>104.29</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/07</th><td>109.52</td><td> 107.9</td><td> 109.5</td><td> 107.9</td><td> 109.8</td><td>105.28</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/08</th><td>106.43</td><td>108.02</td><td> 106.4</td><td>108.07</td><td>109.64</td><td>105.92</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/09</th><td>107.75</td><td>106.75</td><td>107.85</td><td>106.75</td><td>108.14</td><td>105.07</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/10</th><td>108.81</td><td>108.34</td><td>109.05</td><td>108.36</td><td>109.29</td><td> 107.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/11</th><td>111.07</td><td>108.87</td><td>111.17</td><td>108.89</td><td>111.47</td><td>106.93</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2000/12</th><td> 114.9</td><td>112.21</td><td> 114.9</td><td>112.21</td><td>114.98</td><td>110.16</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/01</th><td>116.38</td><td> 117.1</td><td>116.15</td><td> 117.1</td><td> 119.9</td><td>113.57</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/02</th><td>116.44</td><td> 116.1</td><td> 116.4</td><td>116.04</td><td>117.63</td><td>114.63</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/03</th><td>125.27</td><td>121.21</td><td> 124.6</td><td>121.12</td><td>125.47</td><td>117.11</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/04</th><td>124.06</td><td>123.77</td><td>123.45</td><td>123.83</td><td>126.78</td><td> 121.1</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/05</th><td>119.06</td><td>121.83</td><td> 119.2</td><td>121.93</td><td>124.05</td><td> 118.8</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/06</th><td>124.27</td><td>122.19</td><td>124.05</td><td>122.15</td><td> 124.9</td><td> 118.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/07</th><td>124.79</td><td>124.63</td><td> 124.8</td><td>124.68</td><td>125.98</td><td>123.08</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/08</th><td>118.92</td><td>121.53</td><td>118.95</td><td>121.61</td><td>125.21</td><td> 118.7</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/09</th><td>119.29</td><td>118.91</td><td> 119.3</td><td>118.98</td><td> 121.8</td><td>116.33</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/10</th><td>121.84</td><td>121.32</td><td>121.82</td><td>121.28</td><td>123.23</td><td>119.41</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/11</th><td>123.98</td><td>122.33</td><td>123.95</td><td>122.31</td><td>124.47</td><td>120.01</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2001/12</th><td>131.47</td><td>127.32</td><td> 131.8</td><td>127.36</td><td>132.08</td><td>123.26</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/01</th><td>132.94</td><td>132.66</td><td> 132.9</td><td>132.66</td><td>134.95</td><td>130.48</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/02</th><td>133.89</td><td>133.53</td><td> 133.9</td><td>133.52</td><td>135.04</td><td>131.85</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/03</th><td>132.71</td><td>131.15</td><td> 133.2</td><td> 131.2</td><td>133.75</td><td>127.25</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/04</th><td>127.97</td><td>131.01</td><td>   128</td><td>131.07</td><td>133.51</td><td>127.81</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/05</th><td>123.96</td><td>126.39</td><td> 124.4</td><td>126.48</td><td>129.15</td><td>123.02</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/06</th><td>119.22</td><td>123.44</td><td>119.45</td><td> 123.6</td><td>125.85</td><td> 119.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/07</th><td>119.82</td><td>118.08</td><td>119.85</td><td>118.07</td><td> 120.6</td><td>115.63</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/08</th><td>117.97</td><td>119.03</td><td>117.95</td><td>119.01</td><td>121.37</td><td>116.85</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/09</th><td>121.79</td><td>120.49</td><td>121.55</td><td> 120.5</td><td>124.04</td><td>117.02</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/10</th><td>122.48</td><td>123.88</td><td>122.45</td><td>123.86</td><td>125.65</td><td>121.68</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/11</th><td>122.44</td><td>121.54</td><td> 122.3</td><td>121.49</td><td>123.19</td><td>119.45</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2002/12</th><td>119.37</td><td>122.17</td><td> 119.9</td><td>122.27</td><td>125.55</td><td>119.35</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/01</th><td>119.21</td><td>118.67</td><td>118.95</td><td>118.65</td><td>120.51</td><td>117.75</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/02</th><td>117.75</td><td>119.29</td><td>117.75</td><td>119.27</td><td>121.48</td><td>116.86</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/03</th><td>119.02</td><td>118.49</td><td>120.15</td><td>118.57</td><td>121.32</td><td>116.64</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/04</th><td>119.46</td><td>119.82</td><td> 119.6</td><td>119.79</td><td>120.87</td><td> 117.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/05</th><td>118.63</td><td>117.26</td><td>118.35</td><td>117.26</td><td>119.17</td><td> 115.1</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/06</th><td>119.82</td><td>118.27</td><td>119.85</td><td>118.26</td><td>119.93</td><td>117.16</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/07</th><td>120.11</td><td>118.65</td><td> 120.1</td><td>118.69</td><td>120.35</td><td>117.38</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/08</th><td>117.13</td><td>118.81</td><td>117.05</td><td>118.83</td><td>120.69</td><td>   117</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/09</th><td>110.48</td><td>115.09</td><td> 111.2</td><td>115.19</td><td>117.72</td><td> 110.3</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/10</th><td>108.99</td><td>109.58</td><td>108.76</td><td>109.58</td><td> 111.5</td><td>107.88</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/11</th><td>109.34</td><td>109.18</td><td> 109.5</td><td> 109.2</td><td>111.02</td><td>107.87</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2003/12</th><td>106.97</td><td>107.87</td><td> 107.1</td><td> 107.9</td><td>110.04</td><td>106.93</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/01</th><td>105.88</td><td>106.39</td><td>105.97</td><td>106.48</td><td> 108.3</td><td>105.53</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/02</th><td>109.08</td><td>106.54</td><td>   109</td><td>106.55</td><td> 109.7</td><td> 105.3</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/03</th><td>103.95</td><td>108.57</td><td> 104.3</td><td>108.62</td><td> 112.3</td><td>103.75</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/04</th><td>110.44</td><td>107.31</td><td> 110.2</td><td>107.25</td><td>110.57</td><td>103.68</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/05</th><td>109.56</td><td>112.27</td><td> 109.5</td><td>112.35</td><td> 114.8</td><td>108.64</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/06</th><td>108.69</td><td>109.45</td><td>108.38</td><td>109.47</td><td>111.37</td><td>107.05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/07</th><td>111.67</td><td>109.34</td><td>112.08</td><td>109.36</td><td>112.23</td><td>107.56</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/08</th><td>109.86</td><td>110.41</td><td>109.65</td><td>110.35</td><td> 112.1</td><td>108.95</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/09</th><td>110.92</td><td>110.05</td><td>   111</td><td>110.01</td><td>111.73</td><td>108.96</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/10</th><td>105.87</td><td> 108.9</td><td>106.13</td><td>108.92</td><td>111.44</td><td> 105.8</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/11</th><td>103.17</td><td>104.86</td><td>103.18</td><td> 104.9</td><td>107.13</td><td>102.15</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2004/12</th><td>103.78</td><td>103.82</td><td>104.12</td><td>103.84</td><td>105.74</td><td>101.83</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/01</th><td>103.58</td><td>103.27</td><td> 103.6</td><td>103.21</td><td>105.06</td><td>101.87</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/02</th><td>104.58</td><td>104.84</td><td>104.73</td><td>104.88</td><td>105.87</td><td> 103.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/03</th><td>106.97</td><td> 105.3</td><td>107.35</td><td>105.31</td><td> 107.7</td><td> 103.7</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/04</th><td>105.87</td><td>107.35</td><td>105.89</td><td>107.36</td><td> 108.9</td><td> 105.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/05</th><td>108.17</td><td>106.94</td><td>108.08</td><td>106.91</td><td> 108.4</td><td>104.47</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/06</th><td>110.37</td><td>108.62</td><td> 110.4</td><td>108.63</td><td>110.57</td><td>106.53</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/07</th><td>112.18</td><td>111.94</td><td>112.22</td><td>111.93</td><td>113.19</td><td>110.33</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/08</th><td>111.42</td><td>110.65</td><td> 111.3</td><td>110.72</td><td>112.77</td><td>109.05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/09</th><td>113.28</td><td>111.03</td><td>113.15</td><td>111.06</td><td>113.41</td><td>109.08</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/10</th><td>115.67</td><td>114.84</td><td> 115.7</td><td>114.82</td><td>116.24</td><td>113.27</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/11</th><td>119.46</td><td>118.45</td><td>119.63</td><td>118.41</td><td>119.88</td><td>116.38</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2005/12</th><td>117.48</td><td> 118.6</td><td>117.97</td><td>118.64</td><td> 121.4</td><td>115.52</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/01</th><td>117.18</td><td>115.33</td><td>117.71</td><td>115.45</td><td>117.79</td><td>113.79</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/02</th><td>116.35</td><td>117.81</td><td>116.25</td><td>117.89</td><td>119.18</td><td> 115.7</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/03</th><td>117.47</td><td>117.31</td><td> 117.4</td><td>117.31</td><td>119.08</td><td>115.45</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/04</th><td>114.32</td><td>117.13</td><td> 114.3</td><td>117.11</td><td> 118.8</td><td>114.09</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/05</th><td>111.85</td><td>111.53</td><td>112.24</td><td>111.51</td><td>114.03</td><td>109.02</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/06</th><td>114.66</td><td>114.57</td><td>114.95</td><td>114.53</td><td>116.63</td><td>111.43</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/07</th><td>114.47</td><td>115.59</td><td> 114.8</td><td>115.67</td><td>117.57</td><td>113.48</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/08</th><td>117.23</td><td>115.86</td><td>117.32</td><td>115.88</td><td>117.48</td><td>114.17</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/09</th><td>118.05</td><td>117.02</td><td> 117.8</td><td>117.01</td><td>118.12</td><td>115.57</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/10</th><td>117.74</td><td>118.59</td><td>117.65</td><td>118.66</td><td> 119.8</td><td> 117.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/11</th><td>116.12</td><td>117.33</td><td> 116.4</td><td>117.35</td><td>118.47</td><td> 115.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2006/12</th><td>118.92</td><td>117.26</td><td>118.95</td><td> 117.3</td><td>119.22</td><td>114.53</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/01</th><td>121.34</td><td>120.59</td><td>121.68</td><td>120.58</td><td> 122.2</td><td>118.15</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/02</th><td>118.59</td><td>120.49</td><td>118.48</td><td>120.45</td><td>121.96</td><td>117.93</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/03</th><td>118.05</td><td>117.29</td><td>117.65</td><td>117.28</td><td>118.87</td><td>115.19</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/04</th><td>119.41</td><td>118.81</td><td> 119.6</td><td>118.83</td><td>119.82</td><td>117.46</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/05</th><td>121.63</td><td>120.77</td><td>121.62</td><td>120.73</td><td>121.83</td><td>119.36</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/06</th><td>123.48</td><td>122.64</td><td>123.23</td><td>122.62</td><td>124.14</td><td>120.77</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/07</th><td>118.99</td><td>121.56</td><td>118.95</td><td>121.59</td><td>123.67</td><td>118.04</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/08</th><td>116.24</td><td>116.74</td><td> 116.2</td><td>116.72</td><td>119.77</td><td> 111.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/09</th><td>115.27</td><td>115.01</td><td>115.05</td><td>115.01</td><td>116.47</td><td> 112.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/10</th><td>114.78</td><td>115.77</td><td>114.75</td><td>115.74</td><td>117.83</td><td>113.25</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/11</th><td>110.29</td><td>111.24</td><td> 110.3</td><td>111.21</td><td>115.57</td><td>107.29</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2007/12</th><td>113.12</td><td>112.28</td><td>   114</td><td>112.34</td><td>114.39</td><td>109.72</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/01</th><td>106.63</td><td> 107.6</td><td>106.36</td><td>107.66</td><td> 110.1</td><td>105.62</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/02</th><td>104.34</td><td>107.18</td><td>104.73</td><td>107.16</td><td>108.37</td><td>104.27</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/03</th><td> 99.37</td><td>100.83</td><td> 100.1</td><td>100.79</td><td>104.01</td><td> 95.77</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/04</th><td>104.05</td><td>102.41</td><td>104.08</td><td>102.49</td><td>104.82</td><td> 99.59</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/05</th><td>105.46</td><td>104.11</td><td>105.66</td><td>104.14</td><td>105.73</td><td>102.58</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/06</th><td>105.33</td><td>106.86</td><td> 106.4</td><td> 106.9</td><td>108.59</td><td>103.96</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/07</th><td>108.13</td><td>106.76</td><td>107.99</td><td>106.81</td><td>108.23</td><td>103.91</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/08</th><td> 108.8</td><td>109.24</td><td> 109.1</td><td>109.28</td><td>110.48</td><td>107.32</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/09</th><td>104.76</td><td>106.71</td><td> 104.3</td><td>106.75</td><td>109.09</td><td> 103.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/10</th><td> 97.01</td><td> 100.2</td><td>  98.3</td><td>100.33</td><td>106.54</td><td> 91.88</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/11</th><td> 95.31</td><td> 96.89</td><td> 95.25</td><td> 96.81</td><td> 99.93</td><td> 93.65</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2008/12</th><td> 90.28</td><td> 91.21</td><td> 90.75</td><td> 91.28</td><td> 95.57</td><td> 87.19</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/01</th><td> 89.51</td><td> 90.35</td><td>  89.6</td><td> 90.41</td><td> 94.15</td><td> 88.27</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/02</th><td> 97.87</td><td> 92.53</td><td> 97.55</td><td>  92.5</td><td> 98.61</td><td> 88.83</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/03</th><td> 98.31</td><td> 97.83</td><td>  98.1</td><td> 97.87</td><td> 99.69</td><td> 95.27</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/04</th><td> 97.67</td><td> 98.92</td><td>  97.6</td><td>    99</td><td>101.24</td><td> 95.63</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/05</th><td> 96.45</td><td> 96.43</td><td>  96.5</td><td>  96.3</td><td> 99.49</td><td> 93.86</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/06</th><td> 95.56</td><td> 96.58</td><td> 95.95</td><td> 96.52</td><td> 98.86</td><td> 94.65</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/07</th><td> 95.61</td><td> 94.49</td><td> 95.33</td><td>  94.5</td><td>    97</td><td> 92.04</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/08</th><td> 92.78</td><td>  94.9</td><td>  92.7</td><td> 94.84</td><td> 97.72</td><td> 92.54</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/09</th><td> 89.76</td><td>  91.4</td><td> 89.77</td><td> 91.49</td><td> 93.38</td><td> 88.23</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/10</th><td> 91.11</td><td> 90.28</td><td> 91.38</td><td> 90.29</td><td> 92.33</td><td> 88.08</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/11</th><td> 86.15</td><td> 89.11</td><td> 86.75</td><td> 89.19</td><td> 90.86</td><td> 84.82</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2009/12</th><td> 92.13</td><td> 89.52</td><td> 92.06</td><td> 89.55</td><td> 92.26</td><td> 86.17</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/01</th><td> 90.19</td><td> 91.26</td><td> 89.85</td><td> 91.16</td><td> 93.77</td><td> 89.14</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/02</th><td> 89.34</td><td> 90.28</td><td> 89.25</td><td> 90.28</td><td>  92.1</td><td>  88.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/03</th><td> 93.27</td><td> 90.56</td><td> 93.25</td><td> 90.52</td><td>  93.6</td><td> 88.14</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/04</th><td> 94.18</td><td> 93.43</td><td> 94.06</td><td> 93.38</td><td>  94.7</td><td>  91.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/05</th><td> 91.49</td><td> 91.79</td><td> 91.38</td><td> 91.74</td><td> 93.99</td><td> 89.22</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/06</th><td> 88.66</td><td> 90.89</td><td>  88.6</td><td> 90.92</td><td> 92.87</td><td> 88.39</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/07</th><td> 86.37</td><td> 87.67</td><td>  86.5</td><td> 87.72</td><td> 89.15</td><td> 86.17</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/08</th><td> 84.24</td><td> 85.44</td><td> 84.25</td><td> 85.47</td><td> 86.83</td><td> 84.06</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/09</th><td> 83.32</td><td> 84.31</td><td>  83.4</td><td> 84.38</td><td> 85.94</td><td> 82.87</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/10</th><td> 80.68</td><td>  81.8</td><td> 80.58</td><td> 81.87</td><td> 83.99</td><td> 80.45</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/11</th><td> 84.03</td><td> 82.43</td><td> 84.15</td><td> 82.48</td><td>  84.3</td><td> 80.24</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2010/12</th><td> 81.51</td><td> 83.38</td><td> 81.45</td><td> 83.41</td><td> 84.38</td><td> 81.28</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/01</th><td> 82.04</td><td> 82.63</td><td> 82.05</td><td> 82.63</td><td> 83.56</td><td> 81.61</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/02</th><td> 81.68</td><td> 82.52</td><td>  81.7</td><td> 82.53</td><td> 83.83</td><td> 81.35</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/03</th><td> 82.84</td><td> 81.82</td><td> 83.13</td><td> 81.79</td><td>  83.3</td><td> 77.15</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/04</th><td>  81.6</td><td> 83.34</td><td> 82.06</td><td> 83.35</td><td> 85.53</td><td> 81.27</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/05</th><td>  81.6</td><td> 81.23</td><td> 80.85</td><td> 81.23</td><td> 82.17</td><td> 80.15</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/06</th><td> 80.42</td><td> 80.49</td><td> 80.72</td><td> 80.51</td><td>  81.5</td><td> 79.75</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/07</th><td> 77.59</td><td> 79.44</td><td> 77.55</td><td> 79.47</td><td> 81.37</td><td> 77.45</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/08</th><td> 76.58</td><td> 77.09</td><td> 76.59</td><td> 77.22</td><td> 79.94</td><td>  76.3</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/09</th><td>  76.7</td><td> 76.78</td><td> 76.63</td><td> 76.84</td><td> 77.72</td><td> 76.11</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/10</th><td> 78.81</td><td> 76.72</td><td>  79.2</td><td> 76.77</td><td> 79.55</td><td> 75.52</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/11</th><td> 78.01</td><td>  77.5</td><td> 78.05</td><td> 77.54</td><td>  79.1</td><td> 76.68</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2011/12</th><td> 77.57</td><td> 77.81</td><td> 77.72</td><td> 77.85</td><td> 78.18</td><td> 77.48</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/01</th><td>  76.3</td><td> 76.94</td><td> 76.36</td><td> 76.97</td><td> 77.98</td><td> 76.18</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/02</th><td> 80.49</td><td> 78.47</td><td> 80.65</td><td> 78.45</td><td> 81.66</td><td> 76.11</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/03</th><td> 82.17</td><td> 82.37</td><td> 82.15</td><td> 82.43</td><td> 84.19</td><td> 80.59</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/04</th><td> 80.74</td><td> 81.42</td><td> 81.15</td><td> 81.49</td><td> 83.31</td><td> 80.34</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/05</th><td> 78.81</td><td>  79.7</td><td>  78.8</td><td>  79.7</td><td> 80.61</td><td> 78.71</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/06</th><td> 79.61</td><td> 79.27</td><td>  79.3</td><td> 79.32</td><td> 80.63</td><td>    78</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/07</th><td> 78.28</td><td> 78.96</td><td> 78.15</td><td> 79.02</td><td>  80.1</td><td> 77.95</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/08</th><td> 78.46</td><td> 78.68</td><td> 78.45</td><td> 78.66</td><td> 79.66</td><td>  77.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/09</th><td> 77.58</td><td> 78.17</td><td> 77.57</td><td> 78.17</td><td> 79.23</td><td> 77.44</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/10</th><td> 79.73</td><td> 78.97</td><td> 79.64</td><td> 78.97</td><td> 80.38</td><td> 77.79</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/11</th><td> 82.63</td><td> 80.92</td><td> 82.45</td><td> 80.87</td><td> 82.65</td><td> 79.22</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2012/12</th><td> 86.32</td><td>  83.6</td><td> 86.55</td><td> 83.64</td><td> 86.63</td><td> 81.79</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/01</th><td> 90.92</td><td> 89.15</td><td> 91.07</td><td> 89.18</td><td> 91.26</td><td> 86.83</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/02</th><td> 92.36</td><td> 93.07</td><td> 92.48</td><td> 93.21</td><td> 94.57</td><td>  91.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/03</th><td> 94.04</td><td> 94.73</td><td> 94.05</td><td> 94.75</td><td> 96.71</td><td> 92.44</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/04</th><td> 97.83</td><td> 97.74</td><td> 97.91</td><td> 97.71</td><td> 99.89</td><td> 92.57</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/05</th><td>100.63</td><td>101.01</td><td>101.03</td><td>101.08</td><td>103.57</td><td> 97.05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/06</th><td> 98.83</td><td> 97.52</td><td> 98.87</td><td> 97.43</td><td>100.73</td><td> 93.75</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/07</th><td> 97.85</td><td> 99.66</td><td> 98.06</td><td> 99.71</td><td>101.54</td><td> 97.64</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/08</th><td> 98.06</td><td> 97.83</td><td> 98.33</td><td> 97.87</td><td> 99.76</td><td> 95.92</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/09</th><td> 97.89</td><td>  99.3</td><td> 97.75</td><td> 99.24</td><td>100.62</td><td> 97.66</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/10</th><td> 98.34</td><td> 97.73</td><td> 98.48</td><td> 97.85</td><td> 99.01</td><td> 96.59</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/11</th><td>102.24</td><td>100.04</td><td> 102.4</td><td>100.03</td><td>102.61</td><td>  97.8</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2013/12</th><td>105.37</td><td>103.42</td><td> 105.3</td><td>103.46</td><td>105.41</td><td>101.63</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/01</th><td>102.49</td><td>103.94</td><td>102.82</td><td>103.94</td><td>105.13</td><td>101.77</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/02</th><td>101.66</td><td>102.02</td><td> 101.8</td><td>102.13</td><td>102.74</td><td>100.76</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/03</th><td>102.98</td><td> 102.3</td><td>102.85</td><td>102.27</td><td>103.43</td><td>101.26</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/04</th><td>102.51</td><td>102.54</td><td>102.58</td><td>102.56</td><td>104.07</td><td>101.32</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/05</th><td>101.64</td><td>101.78</td><td>101.64</td><td>101.79</td><td> 102.5</td><td>100.81</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/06</th><td>101.39</td><td>102.05</td><td> 101.3</td><td>102.05</td><td> 102.8</td><td>101.24</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/07</th><td>102.87</td><td>101.73</td><td>102.78</td><td>101.72</td><td>102.89</td><td>101.09</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/08</th><td>103.83</td><td>102.95</td><td>103.71</td><td>102.96</td><td>104.27</td><td>101.51</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/09</th><td>109.42</td><td>107.16</td><td>109.37</td><td>107.09</td><td>109.74</td><td> 104.1</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/10</th><td>111.23</td><td>108.03</td><td>110.57</td><td>108.06</td><td>111.52</td><td>105.76</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/11</th><td>118.22</td><td>116.24</td><td>118.21</td><td>116.22</td><td>118.98</td><td>113.28</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2014/12</th><td> 119.8</td><td>119.29</td><td>120.64</td><td> 119.4</td><td>121.86</td><td>116.33</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/01</th><td> 117.9</td><td>118.25</td><td>118.22</td><td>118.24</td><td>120.68</td><td>115.85</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/02</th><td>119.29</td><td>118.59</td><td>119.26</td><td>118.57</td><td>120.46</td><td>116.87</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/03</th><td>120.21</td><td>120.37</td><td>120.11</td><td>120.39</td><td>122.03</td><td>118.54</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/04</th><td>118.91</td><td>119.57</td><td>118.51</td><td>119.55</td><td>120.65</td><td> 118.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/05</th><td>123.75</td><td>120.82</td><td>123.75</td><td>120.74</td><td> 124.3</td><td>118.89</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/06</th><td>122.25</td><td> 123.7</td><td>122.45</td><td>123.75</td><td>125.66</td><td>122.05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/07</th><td>124.22</td><td>123.31</td><td>123.97</td><td>123.23</td><td>124.48</td><td>120.47</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/08</th><td>121.19</td><td>123.17</td><td> 121.2</td><td>123.23</td><td>125.28</td><td>118.25</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/09</th><td>120.03</td><td>120.13</td><td>119.95</td><td>120.22</td><td>121.38</td><td>118.81</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/10</th><td>120.74</td><td>119.99</td><td>120.87</td><td>120.06</td><td> 121.5</td><td> 118.1</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/11</th><td>122.83</td><td>122.58</td><td> 122.8</td><td>122.54</td><td>123.64</td><td>120.27</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2015/12</th><td>120.42</td><td>121.78</td><td> 120.5</td><td>121.84</td><td>123.59</td><td>120.05</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/01</th><td>120.63</td><td>118.18</td><td>   121</td><td>118.25</td><td>121.49</td><td> 116.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/02</th><td>112.99</td><td>115.01</td><td> 113.4</td><td>115.02</td><td>121.49</td><td> 111.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/03</th><td>112.43</td><td>113.05</td><td>112.63</td><td>113.07</td><td>114.37</td><td>110.84</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/04</th><td> 108.4</td><td>109.72</td><td>111.74</td><td>109.88</td><td>112.57</td><td>107.63</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/05</th><td>111.14</td><td>109.24</td><td>111.09</td><td>109.15</td><td>111.44</td><td>106.14</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/06</th><td> 102.7</td><td>105.44</td><td> 102.9</td><td>105.49</td><td>110.83</td><td>    99</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/07</th><td>103.63</td><td>103.97</td><td>   104</td><td> 103.9</td><td>107.49</td><td>100.25</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/08</th><td>103.28</td><td>101.28</td><td>102.96</td><td>101.27</td><td>103.33</td><td> 99.65</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/09</th><td> 100.9</td><td>101.99</td><td>101.08</td><td>102.04</td><td>104.14</td><td>100.09</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/10</th><td>104.92</td><td>103.81</td><td> 104.8</td><td>103.82</td><td>105.42</td><td>101.21</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/11</th><td>112.73</td><td>108.33</td><td>112.39</td><td>108.18</td><td> 113.9</td><td>101.19</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2016/12</th><td>117.11</td><td>116.01</td><td> 116.8</td><td>115.95</td><td>118.39</td><td>112.87</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/01</th><td>113.53</td><td>114.69</td><td> 113.6</td><td>114.73</td><td>118.18</td><td>112.53</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/02</th><td>112.31</td><td>113.13</td><td>112.55</td><td>113.06</td><td>114.59</td><td>111.59</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/03</th><td> 111.8</td><td>113.02</td><td>112.05</td><td>113.01</td><td>115.46</td><td>110.12</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/04</th><td>111.29</td><td>110.08</td><td>111.25</td><td>110.06</td><td>111.59</td><td>108.13</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/05</th><td>110.96</td><td>112.24</td><td>110.95</td><td>112.21</td><td>114.37</td><td>110.72</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/06</th><td>112.06</td><td>110.89</td><td>111.94</td><td>110.91</td><td>112.58</td><td>109.22</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/07</th><td>110.63</td><td> 112.5</td><td>110.55</td><td>112.44</td><td>114.47</td><td> 110.3</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/08</th><td>110.49</td><td> 109.9</td><td> 110.5</td><td>109.91</td><td>110.93</td><td>108.33</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/09</th><td>112.46</td><td>110.67</td><td>112.66</td><td>110.68</td><td>113.21</td><td>107.59</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/10</th><td>113.09</td><td>112.94</td><td>113.15</td><td>112.96</td><td>114.31</td><td>111.66</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/11</th><td>112.29</td><td>112.89</td><td>   112</td><td>112.92</td><td>114.74</td><td>110.94</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2017/12</th><td>112.65</td><td>112.96</td><td> 112.9</td><td>112.97</td><td>113.69</td><td>111.99</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/01</th><td> 108.7</td><td>110.74</td><td>108.84</td><td>110.77</td><td>113.18</td><td>108.51</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/02</th><td>107.08</td><td> 107.9</td><td>107.32</td><td>107.82</td><td>110.29</td><td>105.55</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/03</th><td>106.19</td><td>106.01</td><td>106.19</td><td>   106</td><td>106.99</td><td>104.64</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/04</th><td> 109.4</td><td>107.49</td><td>109.31</td><td>107.43</td><td>109.49</td><td> 105.7</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/05</th><td>108.77</td><td>109.74</td><td>108.66</td><td>109.69</td><td>111.39</td><td>108.36</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/06</th><td>110.64</td><td>110.02</td><td>110.45</td><td>110.03</td><td> 110.9</td><td>108.73</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/07</th><td> 111.4</td><td>111.41</td><td>110.97</td><td>111.37</td><td>113.14</td><td>110.27</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/08</th><td>110.81</td><td>111.06</td><td>   111</td><td>111.06</td><td>112.15</td><td>109.78</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/09</th><td>113.44</td><td>111.91</td><td>113.47</td><td>111.89</td><td>113.67</td><td>110.39</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/10</th><td> 113.2</td><td>112.81</td><td>113.24</td><td>112.78</td><td>114.55</td><td>111.69</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/11</th><td>113.47</td><td>113.36</td><td>113.43</td><td>113.37</td><td>114.21</td><td> 112.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2018/12</th><td> 110.4</td><td>112.38</td><td>110.83</td><td>112.45</td><td>113.82</td><td>   110</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/01</th><td>108.73</td><td>108.97</td><td>108.92</td><td>108.95</td><td>109.87</td><td>107.52</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/02</th><td>110.76</td><td>110.36</td><td>110.89</td><td>110.36</td><td>111.13</td><td>108.73</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/03</th><td>110.75</td><td>111.22</td><td>110.92</td><td>111.21</td><td>112.01</td><td> 109.7</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/04</th><td>111.68</td><td>111.63</td><td> 111.7</td><td>111.66</td><td>112.24</td><td>110.88</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/05</th><td>108.78</td><td>109.76</td><td>109.33</td><td>109.83</td><td>110.85</td><td>108.75</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/06</th><td>107.64</td><td>108.07</td><td>107.68</td><td>108.06</td><td> 108.7</td><td>106.78</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/07</th><td>108.56</td><td>108.23</td><td>108.56</td><td>108.22</td><td>108.99</td><td>107.22</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/08</th><td>106.52</td><td>106.34</td><td>106.43</td><td>106.27</td><td>109.32</td><td>104.46</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/09</th><td>107.86</td><td> 107.4</td><td>107.95</td><td>107.41</td><td>108.47</td><td>105.83</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/10</th><td>108.61</td><td>108.12</td><td>108.83</td><td>108.12</td><td>109.07</td><td>106.69</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/11</th><td> 109.5</td><td>108.88</td><td>109.47</td><td>108.86</td><td> 109.6</td><td>107.89</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2019/12</th><td>109.15</td><td>109.18</td><td>109.12</td><td>109.18</td><td>109.73</td><td>108.43</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/01</th><td>109.04</td><td>109.38</td><td>109.03</td><td>109.34</td><td> 110.3</td><td>107.65</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/02</th><td>108.84</td><td>109.96</td><td> 109.4</td><td>109.96</td><td>112.18</td><td>108.32</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/03</th><td>108.42</td><td>107.42</td><td> 108.7</td><td>107.29</td><td>111.49</td><td> 101.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/04</th><td> 106.6</td><td>107.85</td><td>106.58</td><td>107.93</td><td>109.38</td><td>106.41</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/05</th><td>107.21</td><td>107.28</td><td>107.14</td><td>107.31</td><td>107.99</td><td>   106</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/06</th><td>107.73</td><td> 107.6</td><td>107.72</td><td>107.56</td><td>109.69</td><td>106.39</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/07</th><td>104.45</td><td>106.75</td><td>104.55</td><td>106.78</td><td>108.16</td><td> 104.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/08</th><td>105.83</td><td>106.02</td><td>105.37</td><td>106.04</td><td>107.04</td><td> 105.1</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/09</th><td>105.62</td><td>105.67</td><td>105.79</td><td>105.74</td><td>106.39</td><td>104.55</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/10</th><td>104.36</td><td>105.21</td><td>104.58</td><td>105.24</td><td>106.11</td><td>104.13</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/11</th><td>104.03</td><td> 104.4</td><td>103.87</td><td> 104.4</td><td>105.48</td><td> 103.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2020/12</th><td>103.33</td><td>103.83</td><td>103.47</td><td>103.82</td><td>104.58</td><td>103.09</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/01</th><td>104.55</td><td> 103.7</td><td>104.48</td><td> 103.7</td><td>104.57</td><td> 102.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/02</th><td>106.09</td><td>105.38</td><td>106.23</td><td>105.36</td><td>106.43</td><td>104.51</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/03</th><td>110.74</td><td> 108.7</td><td> 110.7</td><td>108.65</td><td>110.97</td><td>106.37</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/04</th><td>108.89</td><td> 109.1</td><td>108.95</td><td>109.13</td><td>110.83</td><td>107.65</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/05</th><td>109.72</td><td>109.13</td><td>109.78</td><td>109.19</td><td>109.96</td><td>108.48</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/06</th><td>110.55</td><td>110.09</td><td> 110.5</td><td>110.11</td><td>111.11</td><td> 109.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/07</th><td>109.53</td><td>110.26</td><td> 109.5</td><td>110.29</td><td>111.66</td><td>109.37</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/08</th><td>109.82</td><td>109.82</td><td>109.87</td><td>109.84</td><td>110.79</td><td>108.93</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/09</th><td>111.88</td><td> 110.2</td><td>111.91</td><td>110.17</td><td>112.05</td><td>109.12</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/10</th><td>113.61</td><td>113.09</td><td>113.65</td><td> 113.1</td><td>114.69</td><td>110.88</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/11</th><td>113.19</td><td>114.03</td><td> 113.8</td><td>114.13</td><td>115.45</td><td>112.73</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2021/12</th><td>115.12</td><td>113.88</td><td>   115</td><td>113.87</td><td> 115.2</td><td>112.65</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/01</th><td>115.43</td><td>114.84</td><td>115.43</td><td>114.83</td><td>116.24</td><td>113.63</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/02</th><td> 115.5</td><td>115.16</td><td>115.55</td><td> 115.2</td><td>115.79</td><td>114.33</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/03</th><td>121.64</td><td>118.54</td><td> 122.4</td><td>118.51</td><td>124.31</td><td>114.79</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/04</th><td> 130.6</td><td>126.13</td><td> 129.9</td><td>126.04</td><td>130.68</td><td> 121.7</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/05</th><td>127.76</td><td>128.68</td><td> 128.2</td><td>128.78</td><td>131.34</td><td>126.56</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/06</th><td> 136.2</td><td>133.85</td><td>136.63</td><td>133.86</td><td> 136.8</td><td>128.65</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/07</th><td>132.78</td><td> 136.7</td><td>   133</td><td>136.63</td><td>139.18</td><td>132.51</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/08</th><td> 138.6</td><td>135.28</td><td>138.61</td><td>135.24</td><td>   139</td><td> 130.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/09</th><td>144.32</td><td>143.09</td><td>144.74</td><td>143.14</td><td> 145.9</td><td>139.03</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/10</th><td>148.01</td><td>147.16</td><td>148.24</td><td>147.01</td><td>150.48</td><td>143.55</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/11</th><td>138.53</td><td>142.17</td><td> 138.8</td><td>142.44</td><td>148.82</td><td>137.81</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2022/12</th><td>132.14</td><td>134.85</td><td>132.56</td><td>134.93</td><td>138.11</td><td> 131.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/01</th><td>130.15</td><td>130.28</td><td>130.41</td><td> 130.2</td><td>134.37</td><td>127.22</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/02</th><td>136.76</td><td>132.69</td><td>136.29</td><td>132.68</td><td>136.82</td><td>128.18</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/03</th><td>133.13</td><td>133.86</td><td>133.48</td><td>133.85</td><td> 137.9</td><td>130.06</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/04</th><td>135.73</td><td> 133.4</td><td>134.05</td><td>133.33</td><td>135.85</td><td>130.79</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/05</th><td>139.75</td><td>137.39</td><td> 139.8</td><td>137.37</td><td>140.92</td><td> 133.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/06</th><td>144.85</td><td>141.33</td><td>144.88</td><td>141.19</td><td>145.07</td><td> 138.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/07</th><td>142.18</td><td> 141.2</td><td>140.92</td><td>141.21</td><td>144.85</td><td>137.27</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/08</th><td>145.91</td><td>144.73</td><td>146.07</td><td>144.77</td><td>146.61</td><td>141.52</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/09</th><td>148.77</td><td>147.65</td><td>149.44</td><td>147.67</td><td>149.54</td><td>145.24</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/10</th><td>150.29</td><td>149.59</td><td>149.45</td><td>149.53</td><td>150.77</td><td>148.17</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/11</th><td>147.06</td><td>149.88</td><td>146.98</td><td>149.83</td><td> 151.8</td><td>146.68</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2023/12</th><td> 141.4</td><td>144.09</td><td>141.62</td><td>144.07</td><td> 148.3</td><td>140.72</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/01</th><td>147.66</td><td>146.59</td><td> 147.5</td><td>146.57</td><td> 148.8</td><td>142.88</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/02</th><td>149.68</td><td>149.41</td><td> 150.6</td><td>149.42</td><td>150.78</td><td>146.25</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/03</th><td>151.34</td><td> 149.7</td><td>151.25</td><td>149.63</td><td>151.97</td><td>146.54</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/04</th><td>156.86</td><td>153.57</td><td>156.82</td><td>153.43</td><td>   157</td><td>150.81</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/05</th><td>157.15</td><td>156.21</td><td>156.65</td><td>156.13</td><td>157.99</td><td> 153.6</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/06</th><td>160.93</td><td> 157.9</td><td>160.95</td><td>157.82</td><td>161.28</td><td>154.81</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/07</th><td>150.91</td><td>157.86</td><td> 152.4</td><td>158.06</td><td>161.94</td><td>150.61</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/08</th><td>144.94</td><td>146.29</td><td>144.76</td><td>146.23</td><td>150.32</td><td>141.69</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/09</th><td>142.38</td><td>143.31</td><td>142.65</td><td>143.38</td><td> 147.2</td><td>140.34</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/10</th><td>152.25</td><td> 149.6</td><td> 153.5</td><td>149.63</td><td>153.88</td><td>143.38</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/11</th><td>149.99</td><td>153.82</td><td>   150</td><td>153.72</td><td>156.76</td><td>149.54</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2024/12</th><td>157.89</td><td>153.72</td><td>157.83</td><td>153.72</td><td>158.06</td><td> 149.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/01</th><td>154.66</td><td>156.42</td><td>154.33</td><td>156.49</td><td>158.45</td><td>153.94</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/02</th><td>150.44</td><td>152.03</td><td>149.62</td><td>151.96</td><td>155.87</td><td>148.63</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/03</th><td>149.14</td><td>149.14</td><td>149.48</td><td>149.18</td><td>151.21</td><td>146.55</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/04</th><td>142.81</td><td>144.27</td><td>142.52</td><td>144.39</td><td>150.12</td><td>139.89</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/05</th><td>144.04</td><td>144.77</td><td>143.88</td><td>144.75</td><td>148.46</td><td>142.11</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/06</th><td>144.13</td><td>144.47</td><td>144.74</td><td> 144.5</td><td>147.39</td><td> 142.4</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/07</th><td>149.39</td><td>146.85</td><td>149.33</td><td>146.71</td><td>149.72</td><td>143.03</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/08</th><td>147.01</td><td>147.64</td><td>146.85</td><td>147.67</td><td>150.91</td><td>146.22</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/09</th><td>148.07</td><td>147.93</td><td>148.83</td><td>147.94</td><td>149.95</td><td>146.22</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/10</th><td>154.31</td><td>151.32</td><td>153.98</td><td>151.28</td><td>154.38</td><td> 146.9</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/11</th><td>156.32</td><td>155.08</td><td>156.25</td><td>155.12</td><td>157.78</td><td>152.83</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2025/12</th><td>155.98</td><td>155.85</td><td> 156.3</td><td>155.88</td><td>157.69</td><td>154.34</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2026/01</th><td> 153.8</td><td>156.79</td><td> 153.6</td><td>156.71</td><td>159.45</td><td>152.25</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2026/02</th><td>156.09</td><td>155.23</td><td>155.76</td><td>155.07</td><td>157.66</td><td>152.28</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2026/03</th><td>159.63</td><td>158.64</td><td> 159.8</td><td>158.64</td><td>160.44</td><td>   156</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2026/04</th><td>160.14</td><td>159.28</td><td>160.27</td><td>159.28</td><td>160.72</td><td>158.06</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2026/05</th><td>159.27</td><td>158.34</td><td> 159.3</td><td>158.34</td><td>159.66</td><td> 155.5</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2026/06</th><td>162.26</td><td>160.69</td><td> 162.2</td><td>160.71</td><td>162.41</td><td>159.34</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2026/07</th><td>160.21</td><td>162.45</td><td>160.64</td><td>162.55</td><td>163.95</td><td>159.39</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2026/08</th><td>159.57</td><td>158.81</td><td>160.01</td><td>158.74</td><td>160.19</td><td> 155.2</td></tr>
+<tr nowrap align=right><th align=center style="background-color: #BDCCDC; font-weight: normal;">2026/09</th><td>156.91</td><td>156.23</td><td>157.35</td><td>156.41</td><td>160.39</td><td> 152.9</td></tr>
+</table>
+</div>
+</div>
+<div style="margin-left: 15px;">
+<p class="ex2">
+Last Update : 2026-10-07 PM 12:00
+</p>
+</div>
+<ul class="btnSpaceR010"  style="margin-left: -1.5em">
+<li style="display: inline;"><input class="normalButton" type="button" name="CSV" value="Download" onclick="location.href='csv/fm08_m_1_en.csv'"></li>
+<li style="display: inline;"><input class="normalButton" type="button" name="BACK" value="Back" onclick="history.back()" ></li>
+</ul>
+</div>
+</div>
+<DIV class="footer">
+	<DIV class="footerInner">
+		<DIV class="clearfix">
+			<ul style="float: left; margin-top: 0em; margin-bottom: 0em; margin-left: -2.5em;">
+				<li style="display: inline;"><a href="/ssi/docs/info/nme_aphelp_en.html" class="footerLink footerLinkRightMargin icoSimpleRightArrow" target="_blank">Quick guidance for time-series search<span aria-label="(Opens in a new window)"></span></a></li>
+				<li style="display: inline;"><a href="/ssi/docs/info/notice_en.html" class="footerLink footerLinkRightMargin icoSimpleRightArrow" target="_blank">Notices<span aria-label="(Opens in a new window)"></span></a></li>
+				<li style="display: inline;"><a href="/ssi/docs/info/nme_aphelp_en.html#Other" class="footerLink footerLinkRightMargin icoSimpleRightArrow" target="_blank">Contact<span aria-label="(Opens in a new window)"></span></a></li>
+				<li style="display: inline;"><a href="/ssi/docs/sitemap_en.html" class="footerLink footerLinkRightMargin icoSimpleRightArrow" target="_blank">Site Map<span aria-label="(Opens in a new window)"></span></a></li>
+			</ul>
+			<DIV style="float: right;">
+				<DIV style="height:2.5em;">
+					<a href="http://www.boj.or.jp/en/index.htm" target="_blank" class="footerLink icoSimpleRightArrow">Bank of Japan's website<span aria-label="(Opens in a new window)"></span></a>
+				</DIV>
+			</DIV>
+		</DIV>
+		<span class="comment">Copyright Bank of Japan All Rights Reserved.</span>
+	</DIV>
+	<input type="button" id="oAddSeries" style="display:none">
+</DIV>
+</body>
+</html>

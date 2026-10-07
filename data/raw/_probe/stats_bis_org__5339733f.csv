@@ -1,0 +1,4 @@
+FREQ,REF_AREA,CURRENCY,COLLECTION,UNIT_MULT,DECIMALS,AVAILABILITY,TITLE,TIME_PERIOD,OBS_VALUE,OBS_STATUS,OBS_PRE_BREAK,OBS_CONF
+M,GB,GBP,A,0,6,A, Exchange rates against USD United Kingdom - Pound (sterling) - Monthly - Average of observations through period,2026-06,0.74994,A,,F
+M,GB,GBP,A,0,6,A, Exchange rates against USD United Kingdom - Pound (sterling) - Monthly - Average of observations through period,2026-07,0.747908,A,,F
+M,GB,GBP,A,0,6,A, Exchange rates against USD United Kingdom - Pound (sterling) - Monthly - Average of observations through period,2026-08,0.738435,A,,F
