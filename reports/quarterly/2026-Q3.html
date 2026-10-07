@@ -3,7 +3,7 @@
 h1,h2,h3{font-weight:600}table{border-collapse:collapse;font-size:13px}th,td{border-bottom:1px solid #e1e0d9;padding:5px 8px;text-align:left}
 code{font-size:13px}</style></head><body><h2>TL;DR</h2>
 <ul>
-<li>Placeholder report for 2026-Q3: the narrative was not generated (Claude call failed: AuthenticationError: Error code: 401 - {'type': 'error', 'error': {'type': 'authentication_error', 'message': 'API key is invalid.'}, 'request_id': None}).</li>
+<li>Placeholder report for 2026-Q3: the narrative was not generated (Claude call failed: BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'This API key is not scoped to a workspace, so this request must include the anthropic-workspace-id header with the ID of the workspace to use. Add the header, or use an API key that is scoped to a workspace.'}).</li>
 <li>The assembled prompt is in reports/outbox/prompt-2026-Q3.md.</li>
 <li>Indicator table, dashboard and backtest are current.</li>
 <li>Set ANTHROPIC_API_KEY and run <code>make report</code>.</li>
