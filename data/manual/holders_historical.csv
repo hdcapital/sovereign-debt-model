@@ -1,0 +1,27 @@
+country,concept,date,value,source,confidence,notes
+GB,foreign_share,1975-12-31,10.0,"Bank of England Quarterly Bulletin: overseas holdings of gilts",approximate,"UK 1976 event"
+GB,cb_gov_share,1975-12-31,8.0,"BoE Issue Department holdings",approximate,
+IT,foreign_share,1991-12-31,5.0,"Bank of Italy Annual Report 1992: non-resident holdings of Italian government securities ~5%",approximate,"Italy 1992 event; almost entirely domestic holders"
+IT,cb_gov_share,1991-12-31,12.0,"Bank of Italy",approximate,
+SE,foreign_share,1991-12-31,25.0,"Riksgalden: foreign currency debt plus non-resident SEK holdings",approximate,"Sweden 1992 event"
+SE,cb_gov_share,1991-12-31,3.0,"Riksbank",approximate,
+MX,foreign_share,1994-06-30,60.0,"Banco de Mexico / IMF: non-resident holdings of tesobonos and cetes",approximate,"Mexico 1994 event; tesobonos USD-linked"
+MX,cb_gov_share,1994-06-30,5.0,"Banco de Mexico",approximate,
+CA,foreign_share,1994-12-31,25.0,"Bank of Canada Review: non-resident holdings of GoC marketable debt",approximate,"Canada 1994 event"
+CA,cb_gov_share,1994-12-31,6.0,"Bank of Canada",approximate,
+RU,foreign_share,1998-06-30,30.0,"IMF 1999 RED: non-resident GKO/OFZ holdings ~30% (S-accounts)",approximate,"Russia 1998 event"
+RU,cb_gov_share,1998-06-30,25.0,"CBR holdings of GKO/OFZ",approximate,
+AR,foreign_share,2001-06-30,55.0,"IMF IEO 2004: ~55% of public debt held by non-residents",approximate,"Argentina 2001 event; most debt USD-denominated"
+AR,cb_gov_share,2001-06-30,2.0,"BCRA under convertibility",approximate,
+GR,foreign_share,2009-12-31,75.0,"Bank of Greece / ECB: non-resident share of Greek government bonds",approximate,"Greece 2010 event"
+GR,cb_gov_share,2009-12-31,2.0,"ECB SMP began May 2010",approximate,
+BR,foreign_share,2014-12-31,19.0,"Tesouro Nacional monthly debt report: non-resident holders of domestic federal debt",approximate,"Brazil 2015 event"
+BR,cb_gov_share,2014-12-31,20.0,"BCB holdings of federal securities (ex repo)",approximate,
+TR,foreign_share,2017-12-31,20.0,"Turkish Treasury: non-resident share of domestic government securities",approximate,"Turkey 2018 event"
+TR,cb_gov_share,2017-12-31,2.0,"CBRT",approximate,
+TR,foreign_share,2020-12-31,5.0,"Turkish Treasury",approximate,"Turkey 2021 event"
+TR,cb_gov_share,2020-12-31,8.0,"CBRT (OMO purchases 2020)",approximate,
+AR,foreign_share,2017-12-31,35.0,"Ministry of Finance Argentina",approximate,"Argentina 2018 event"
+AR,cb_gov_share,2017-12-31,15.0,"BCRA",approximate,
+RU,foreign_share,2014-06-30,25.0,"CBR: non-resident share of OFZ",approximate,"Russia 2014 event"
+RU,cb_gov_share,2014-06-30,1.0,"CBR",approximate,

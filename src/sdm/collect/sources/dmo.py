@@ -6,6 +6,7 @@ History accrues one point per run; the backfill lives in data/manual/."""
 
 from __future__ import annotations
 
+import re
 import xml.etree.ElementTree as ET
 
 import pandas as pd
@@ -16,7 +17,9 @@ URL = "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D1A"
 
 
 def parse_d1a(xml: bytes) -> pd.DataFrame:
-    root = ET.fromstring(xml)
+    text = xml.decode("utf-8", errors="replace")
+    text = re.sub(r"<\?xml[^>]*\?>", "", text, count=1)
+    root = ET.fromstring(text)
     rows = []
     for el in root.iter("View_GILTS_IN_ISSUE"):
         a = el.attrib
@@ -37,6 +40,7 @@ def parse_d1a(xml: bytes) -> pd.DataFrame:
 
 class DmoCollector(Collector):
     name = "dmo"
+    _gilts: pd.DataFrame | None = None
 
     def series(self) -> list[SeriesSpec]:
         s = "UK_DMO"
@@ -84,9 +88,11 @@ class DmoCollector(Collector):
         ]
 
     def fetch(self, spec: SeriesSpec) -> pd.DataFrame:
-        raw = self.http.get_bytes(URL)
-        self.cache_raw("D1A", raw, "xml")
-        g = parse_d1a(raw)
+        if self._gilts is None:
+            raw = self.http.get_bytes(URL)
+            self.cache_raw("D1A", raw, "xml")
+            self._gilts = parse_d1a(raw)
+        g = self._gilts
         asof = g["asof"].max()
         total = g["amount"].sum()
         years = (g["redemption"] - asof).dt.days / 365.25

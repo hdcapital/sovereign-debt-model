@@ -12,6 +12,7 @@ CONCEPTS: dict[str, str] = {
     "cg_debt_lcu": "central government debt, local currency bn (US: debt held by the public)",
     "gg_primary_balance_gdp": "primary balance, % of GDP, surplus positive (annual or 4q)",
     "gg_net_lending_gdp": "net lending/borrowing, % of GDP, surplus positive",
+    "gg_net_lending_lcu": "net lending/borrowing, local currency bn, flow per period, surplus positive",
     "gg_interest_gdp": "interest paid, % of GDP",
     "gg_interest_lcu": "interest paid, local currency bn, flow per period",
     "gg_revenue_gdp": "revenue, % of GDP",
@@ -59,6 +60,7 @@ CONCEPTS: dict[str, str] = {
     "auction_bid_to_cover": "auction bid-to-cover ratio",
     "auction_tail_bp": "auction tail, basis points",
     "interest_to_revenue": "interest paid as % of revenue",
+    "ecb_backstop_active": "1 while an ECB sovereign backstop (SMP, OMT, PEPP, TPI) is in force, else 0",
     "gg_revenue_lcu": "general government revenue, local currency bn, flow per period",
     "gg_expenditure_lcu": "general government expenditure, local currency bn, flow per period",
     "bond_total_return": "annual total return on long government bonds, % (backtest only)",
@@ -66,3 +68,21 @@ CONCEPTS: dict[str, str] = {
 }
 
 GLOBAL = "XX"  # country code for series with no country (gold)
+
+
+# How each concept aggregates to quarterly (see sdm.indicators.panel):
+#   stock  - level at a point in time: last observation in the quarter; annual -> each quarter
+#   flow   - amount per period: monthly summed over the quarter; annual divided by 4
+#   rate   - percentage or index: last observation in the quarter; annual -> each quarter
+KIND: dict[str, str] = {}
+for _c in CONCEPTS:
+    if _c.endswith("_lcu") and not _c.endswith(
+        ("debt_lcu", "holdings_lcu", "assets_lcu", "outstanding_lcu", "balance_lcu")
+    ):
+        KIND[_c] = "flow"
+    elif _c.endswith("_lcu") or _c in {"fx_reserves_usd"}:
+        KIND[_c] = "stock"
+    else:
+        KIND[_c] = "rate"
+KIND["ngdp_lcu"] = "flow"
+KIND["gold_usd"] = "rate"

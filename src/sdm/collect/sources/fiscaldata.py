@@ -58,7 +58,7 @@ class FiscalDataCollector(Collector):
                 "M",
                 "USD bn",
                 "MSPD table 1: TIPS outstanding (millions; scaled)",
-                params={"kind": "mspd1", "class": "Inflation-Protected Securities"},
+                params={"kind": "mspd1", "class": "Treasury Inflation-Protected Securities"},
             ),
             SeriesSpec(
                 "US",

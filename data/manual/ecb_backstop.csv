@@ -1,0 +1,9 @@
+country,concept,date,value,source,confidence,notes
+EA,ecb_backstop_active,2009-12-31,0,"ECB",high,
+EA,ecb_backstop_active,2010-06-30,1,"ECB Securities Markets Programme announced 10 May 2010",high,
+EA,ecb_backstop_active,2012-09-30,1,"OMT announced 6 Sep 2012 (never activated; standing backstop)",high,
+EA,ecb_backstop_active,2014-12-31,1,"OMT standing",high,
+EA,ecb_backstop_active,2019-12-31,1,"OMT standing; PSPP",high,
+EA,ecb_backstop_active,2020-03-31,1,"PEPP announced 18 Mar 2020 with flexible country allocation",high,
+EA,ecb_backstop_active,2022-09-30,1,"Transmission Protection Instrument announced 21 Jul 2022",high,
+EA,ecb_backstop_active,2025-12-31,1,"TPI standing; PEPP reinvestment flexibility ended Dec 2024",high,

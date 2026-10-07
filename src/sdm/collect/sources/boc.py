@@ -18,7 +18,6 @@ SERIES = [
     ("yield_10y", "BD.CDN.10YR.DQ.YLD", "D", "%", "10-year benchmark bond yield"),
     ("yield_30y", "BD.CDN.LONG.DQ.YLD", "D", "%", "Long-term benchmark bond yield"),
     ("real_yield_10y", "BD.CDN.RRB.DQ.YLD", "D", "%", "Real return bond yield (long)"),
-    ("breakeven_10y", "BD.CDN.BEI.DQ.YLD", "D", "%", "Long-term breakeven inflation rate"),
 ]
 
 

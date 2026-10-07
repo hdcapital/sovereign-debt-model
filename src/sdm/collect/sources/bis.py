@@ -8,6 +8,7 @@ CSV has TIME_PERIOD and OBS_VALUE; quarterly periods look like 2024-Q1, monthly 
 from __future__ import annotations
 
 import io
+from datetime import date
 
 import pandas as pd
 
@@ -37,10 +38,18 @@ AREAS: dict[str, tuple[str, str]] = {
     "SE": ("SE", "SEK"),
 }
 EURO_MEMBERS = {"DE", "FR", "IT", "NL", "GR"}
+NO_TC = {"AR", "RU", "BR", "MX"}  # BIS total credit has no general-government series
+NO_CBTA = {"RU"}
 
 
 def parse_period(p: str) -> pd.Timestamp:
     p = str(p)
+    if "-W" in p:  # ISO week, e.g. 1998-W53 -> the Friday of that week
+        y, w = p.split("-W")
+        try:
+            return pd.Timestamp(date.fromisocalendar(int(y), int(w), 5))
+        except ValueError:
+            return pd.Timestamp(date.fromisocalendar(int(y), 52, 5))
     if "-Q" in p:
         y, q = p.split("-Q")
         return pd.Period(f"{y}Q{q}", freq="Q").end_time.normalize()

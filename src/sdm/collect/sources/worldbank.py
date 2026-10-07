@@ -37,6 +37,8 @@ class WorldBankCollector(Collector):
         for cc in uni.backtest_only:
             iso3 = uni[cc].iso3
             for ind, (concept, units, note) in INDICATORS.items():
+                if ind == "GC.DOD.TOTL.GD.ZS" and cc in {"AR", "GR", "SE"}:
+                    continue  # empty at the World Bank; IMF covers these
                 out.append(
                     SeriesSpec(
                         cc,

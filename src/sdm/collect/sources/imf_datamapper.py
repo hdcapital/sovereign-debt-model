@@ -27,7 +27,7 @@ INDICATORS: dict[str, tuple[str, str, str]] = {
         "WEO general government primary net lending/borrowing",
     ),
     "GGXCNL_NGDP": ("gg_net_lending_gdp", "% GDP", "WEO general government net lending/borrowing"),
-    "GGR_NGDP": ("gg_revenue_gdp", "% GDP", "WEO general government revenue"),
+    "rev": ("gg_revenue_gdp", "% GDP", "IMF Global Debt Database / Fiscal Monitor: revenue"),
     "NGDP_RPCH": ("rgdp_growth", "% y/y", "WEO real GDP growth"),
     "PCPIPCH": ("cpi_yoy", "% y/y", "WEO CPI inflation, annual average"),
     "ie": ("gg_interest_gdp", "% GDP", "IMF Global Debt Database: interest paid on public debt"),
@@ -45,6 +45,8 @@ class ImfDataMapperCollector(Collector):
         for cc, c in uni.countries.items():
             iso3 = ISO3_OVERRIDE.get(cc, c.iso3)
             for ind, (concept, units, note) in INDICATORS.items():
+                if cc == "EA" and ind in {"pb", "rev", "ie"}:
+                    continue  # the Global Debt Database has no euro-area aggregate
                 out.append(
                     SeriesSpec(
                         cc,
