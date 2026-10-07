@@ -132,7 +132,7 @@ def cmd_email(args: argparse.Namespace) -> int:
     from sdm.report.narrative import period_label
 
     period = args.period or period_label()
-    out = send_quarterly(period, dry_run=args.dry_run)
+    out = send_quarterly(period, dry_run=args.dry_run, to=args.to)
     print(out)
     return 0
 
@@ -152,7 +152,7 @@ def cmd_monthly(args: argparse.Namespace) -> int:
     n_t, n_m = details["transitions"], len(details["moves"])
     print(f"monthly check: transitions={n_t} moves={n_m} since={details['since']}")
     if fire:
-        out = send_alert(period_label(), body, dry_run=args.dry_run)
+        out = send_alert(period_label(), body, dry_run=args.dry_run, to=args.to)
         print(f"alert sent: {out}")
     else:
         print("nothing fired; no email")
@@ -172,7 +172,7 @@ def cmd_quarterly(args: argparse.Namespace) -> int:
     build_dashboard()
     period = args.period or period_label()
     generate_report(use_api=not args.no_api, label=period)
-    out = send_quarterly(period, dry_run=args.dry_run)
+    out = send_quarterly(period, dry_run=args.dry_run, to=args.to)
     print(f"quarterly {period}: {out}")
     return 0
 

@@ -44,7 +44,15 @@ yourself as test user, scope `gmail.send`), create a Desktop OAuth client and sa
 `.secrets/token.json`. In GitHub add `GMAIL_CREDENTIALS_JSON` and `GMAIL_TOKEN_JSON` with the
 full contents of each file. The sender uses OAuth only when `GMAIL_APP_PASSWORD` is unset.
 
-## 4. Schedules
+## 4. Recipient
+
+The report goes to `owner_email` in `config/report.yaml`. To send somewhere else without
+editing the file: set `OWNER_EMAIL=someone@example.com` in `.env` (locally) or as a
+repository secret named `OWNER_EMAIL` (GitHub Actions), or pass `--to` for a one-off:
+`.venv/bin/sdm email --to someone@example.com`. The sending account is still the Gmail
+account whose app password you configured.
+
+## 5. Schedules
 
 `.github/workflows/quarterly.yml` runs on the 15th of January, April, July and October;
 `monthly.yml` on the 15th of the other months and only sends mail if a transition or a

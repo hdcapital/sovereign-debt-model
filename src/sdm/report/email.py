@@ -113,23 +113,23 @@ def send(msg: EmailMessage, dry_run: bool) -> Path | str:
     return str(result.get("id"))
 
 
-def send_quarterly(period: str, dry_run: bool = False) -> Path | str:
+def send_quarterly(period: str, dry_run: bool = False, to: str | None = None) -> Path | str:
     cfg = load_report_config()
     html = (ROOT / "reports" / "quarterly" / f"{period}.html").read_text(encoding="utf-8")
     attachments = [ROOT / p for p in cfg["email"]["attachments"]]
     subject = cfg["subject_template"].format(period=period)
-    msg = build_message(subject, html, attachments, to=cfg["owner_email"])
+    msg = build_message(subject, html, attachments, to=to or cfg["owner_email"])
     return send(msg, dry_run)
 
 
-def send_alert(period: str, body_html: str, dry_run: bool = False) -> Path | str:
+def send_alert(period: str, body_html: str, dry_run: bool = False, to: str | None = None) -> Path | str:
     cfg = load_report_config()
     subject = cfg["subject_template"].format(period=period) + " — monthly alert"
     attachments = [
         ROOT / "reports" / "dashboard" / "latest.html",
         ROOT / "data" / "clean" / "indicators_latest.csv",
     ]
-    msg = build_message(subject, body_html, attachments, to=cfg["owner_email"])
+    msg = build_message(subject, body_html, attachments, to=to or cfg["owner_email"])
     return send(msg, dry_run)
 
 

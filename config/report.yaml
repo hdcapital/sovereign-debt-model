@@ -1,6 +1,6 @@
 version: 1
 
-owner_email: danielconorsims@gmail.com
+owner_email: danielconorsims@gmail.com   # recipient; override with OWNER_EMAIL env var or `sdm email --to`
 subject_template: "Sovereign Debt Monitor — {period}"      # period = YYYY-Qn
 
 narrative:

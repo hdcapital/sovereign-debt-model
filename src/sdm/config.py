@@ -7,6 +7,7 @@ middle of a quarterly run.
 
 from __future__ import annotations
 
+import os
 from dataclasses import dataclass, field
 from datetime import date
 from functools import lru_cache
@@ -323,6 +324,10 @@ def load_report_config() -> dict[str, Any]:
     for key in ("owner_email", "subject_template", "narrative", "schedule", "email"):
         if key not in raw:
             raise ConfigError(f"report.yaml missing {key}")
+    # the recipient can be overridden without editing the file (local .env or a CI secret)
+    override = os.environ.get("OWNER_EMAIL", "").strip()
+    if override:
+        raw["owner_email"] = override
     return raw
 
 
