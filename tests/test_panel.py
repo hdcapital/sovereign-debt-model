@@ -51,6 +51,26 @@ def test_build_panel_source_priority_and_gap_fill(tmp_path, monkeypatch) -> None
     v = panel.values.loc["US"]["gg_debt_gdp"]
     src = panel.sources.loc["US"]["gg_debt_gdp"]
     assert v.loc[pd.Timestamp("2021-03-31")] == 105.0 and src.loc[pd.Timestamp("2021-03-31")] == "BIS"
-    assert v.loc[pd.Timestamp("2020-06-30")] == 100.0 and src.loc[pd.Timestamp("2020-06-30")] == "IMF_WEO"
-    assert v.loc[pd.Timestamp("2021-12-31")] == 110.0 and src.loc[pd.Timestamp("2021-12-31")] == "IMF_WEO"
+    # IMF values are spliced onto BIS: overlap 2021Q1-Q2 has BIS 105/106 vs IMF 110 -> shift -4.5
+    assert (
+        abs(v.loc[pd.Timestamp("2020-06-30")] - 95.5) < 1e-9
+        and src.loc[pd.Timestamp("2020-06-30")] == "IMF_WEO"
+    )
+    assert (
+        abs(v.loc[pd.Timestamp("2021-12-31")] - 105.5) < 1e-9
+        and src.loc[pd.Timestamp("2021-12-31")] == "IMF_WEO"
+    )
     assert (tmp_path / "panel.csv").exists()
+
+
+def test_splice_additive_for_rates_and_ratio_for_stocks() -> None:
+    from sdm.indicators.panel import splice
+
+    idx = pd.date_range("2020-03-31", periods=6, freq="QE")
+    primary = pd.Series([90.0, 91.0, 92.0, 93.0, np.nan, np.nan], index=idx).dropna()
+    secondary = pd.Series([80.0, 81.0, 82.0, 83.0, 84.0, 85.0], index=idx)
+    out = splice(primary, secondary, "rate")
+    assert abs(out.loc[idx[4]] - 94.0) < 1e-9
+    stock = pd.Series([200.0, 202.0, 204.0, 206.0, np.nan, np.nan], index=idx).dropna()
+    out = splice(stock, secondary, "stock")
+    assert abs(out.loc[idx[4]] / 84.0 - 2.5) < 0.05

@@ -1037,5 +1037,74 @@
     "changed": []
    }
   }
+ },
+ {
+  "run_at": "2026-10-07T04:39:06+00:00",
+  "sources": {
+   "manual": {
+    "ok": 0,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   }
+  }
+ },
+ {
+  "run_at": "2026-10-07T04:39:26+00:00",
+  "sources": {
+   "manual": {
+    "ok": 42,
+    "failed": [],
+    "errors": {},
+    "new_obs": 131,
+    "revised_obs": 0,
+    "changed": [
+     "AR.cb_gov_share.MANUAL",
+     "AR.foreign_share.MANUAL",
+     "AU.avg_maturity_years.MANUAL",
+     "AU.cb_gov_share.MANUAL",
+     "AU.foreign_share.MANUAL",
+     "BR.cb_gov_share.MANUAL",
+     "BR.foreign_share.MANUAL",
+     "CA.avg_maturity_years.MANUAL",
+     "CA.cb_gov_share.MANUAL",
+     "CA.foreign_share.MANUAL",
+     "CH.avg_maturity_years.MANUAL",
+     "CH.cb_gov_share.MANUAL",
+     "CH.foreign_share.MANUAL",
+     "DE.avg_maturity_years.MANUAL",
+     "DE.foreign_share.MANUAL",
+     "EA.ecb_backstop_active.MANUAL",
+     "FR.avg_maturity_years.MANUAL",
+     "FR.foreign_share.MANUAL",
+     "GB.avg_maturity_years.MANUAL",
+     "GB.cb_gov_share.MANUAL",
+     "GB.foreign_share.MANUAL",
+     "GR.avg_maturity_years.MANUAL",
+     "GR.cb_gov_share.MANUAL",
+     "GR.foreign_share.MANUAL",
+     "IT.avg_maturity_years.MANUAL",
+     "IT.cb_gov_share.MANUAL",
+     "IT.foreign_share.MANUAL",
+     "JP.avg_maturity_years.MANUAL",
+     "JP.cb_gov_share.MANUAL",
+     "JP.foreign_share.MANUAL",
+     "MX.cb_gov_share.MANUAL",
+     "MX.foreign_share.MANUAL",
+     "NL.avg_maturity_years.MANUAL",
+     "NL.foreign_share.MANUAL",
+     "RU.cb_gov_share.MANUAL",
+     "RU.foreign_share.MANUAL",
+     "SE.avg_maturity_years.MANUAL",
+     "SE.cb_gov_share.MANUAL",
+     "SE.foreign_share.MANUAL",
+     "TR.cb_gov_share.MANUAL",
+     "TR.foreign_share.MANUAL",
+     "US.avg_maturity_years.MANUAL"
+    ]
+   }
+  }
  }
 ]

@@ -134,7 +134,7 @@ def _all_series() -> list[tuple[str, str, str, str, str, str]]:
                 f"{a}GDPNQDSMEI",
                 "Q",
                 "LCU bn",
-                "OECD MEI nominal GDP, SA, national currency, millions scaled",
+                "OECD MEI nominal GDP, SA, national currency units scaled to bn",
             )
         )
     return out
@@ -174,7 +174,7 @@ class FredCollector(Collector):
             df.columns = ["date", "value"]
         df["value"] = pd.to_numeric(df["value"], errors="coerce")
         df = df.dropna()
-        scale = SCALE.get(fid, 1e-3 if fid.endswith("GDPNQDSMEI") else 1.0)
+        scale = SCALE.get(fid, 1e-9 if fid.endswith("GDPNQDSMEI") else 1.0)
         if scale != 1.0:
             df["value"] = df["value"] * scale
         if fid in INVERT:

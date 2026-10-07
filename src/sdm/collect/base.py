@@ -139,9 +139,11 @@ class Collector(abc.ABC):
     def load_clean(self) -> pd.DataFrame:
         if not self.clean_path.exists():
             return pd.DataFrame(columns=TIDY_COLUMNS)
-        df = pd.read_csv(self.clean_path, parse_dates=["date", "vintage"])
-        df["date"] = df["date"].dt.date
-        df["vintage"] = df["vintage"].dt.date
+        df = pd.read_csv(self.clean_path, dtype={"series_id": str, "country": str, "concept": str})
+        if df.empty:
+            return pd.DataFrame(columns=TIDY_COLUMNS)
+        df["date"] = pd.to_datetime(df["date"]).dt.date
+        df["vintage"] = pd.to_datetime(df["vintage"]).dt.date
         return df
 
     def merge_series(self, existing: pd.DataFrame, new: pd.DataFrame) -> tuple[pd.DataFrame, int, int]:
@@ -253,11 +255,18 @@ def load_all_clean(latest_only: bool = True) -> pd.DataFrame:
     """Every clean series from every source, optionally collapsed to the latest vintage."""
     frames = []
     for path in sorted(DATA_CLEAN.glob("*.csv")):
-        df = pd.read_csv(path, parse_dates=["date", "vintage"])
+        if path.name.startswith(("panel", "indicators", "transitions")):
+            continue
+        df = pd.read_csv(path, dtype={"series_id": str, "country": str, "concept": str})
+        if df.empty:
+            continue
         frames.append(df)
     if not frames:
         return pd.DataFrame(columns=TIDY_COLUMNS)
     df = pd.concat(frames, ignore_index=True)
+    df["date"] = pd.to_datetime(df["date"], errors="coerce")
+    df["vintage"] = pd.to_datetime(df["vintage"], errors="coerce")
+    df = df.dropna(subset=["date", "value"])
     df["date"] = df["date"].dt.date
     df["vintage"] = df["vintage"].dt.date
     if latest_only:

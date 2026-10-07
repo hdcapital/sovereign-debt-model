@@ -25,12 +25,12 @@ SERIES = [
         1.0,
     ),
     (
-        "gg_net_lending_gdp",
+        "gg_net_lending_lcu",
         f"{PSF}/j5ii/pusf/data",
         "months",
         "GBP bn",
-        "J5II: PSNB ex, £m monthly; sign flipped so surplus is positive; converted to % GDP in indicators",
-        -1e-3,
+        "J5II: public sector net lending ex banks, £m monthly (ONS stores borrowing as negative)",
+        1e-3,
     ),
     (
         "gg_interest_lcu",

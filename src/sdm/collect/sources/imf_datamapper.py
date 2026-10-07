@@ -21,11 +21,7 @@ BASE = "https://www.imf.org/external/datamapper/api/v1"
 # DataMapper indicator -> (concept, units, note)
 INDICATORS: dict[str, tuple[str, str, str]] = {
     "GGXWDG_NGDP": ("gg_debt_gdp", "% GDP", "WEO general government gross debt"),
-    "GGXONLB_NGDP": (
-        "gg_primary_balance_gdp",
-        "% GDP",
-        "WEO general government primary net lending/borrowing",
-    ),
+    "pb": ("gg_primary_balance_gdp", "% GDP", "IMF Global Debt Database / Fiscal Monitor: primary balance"),
     "GGXCNL_NGDP": ("gg_net_lending_gdp", "% GDP", "WEO general government net lending/borrowing"),
     "rev": ("gg_revenue_gdp", "% GDP", "IMF Global Debt Database / Fiscal Monitor: revenue"),
     "NGDP_RPCH": ("rgdp_growth", "% y/y", "WEO real GDP growth"),

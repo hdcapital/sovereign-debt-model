@@ -57,10 +57,41 @@ def cmd_update(args: argparse.Namespace) -> int:
     return 0 if total and failed < total else 1
 
 
+def cmd_indicators(args: argparse.Namespace) -> int:
+    """Build the quarterly panel and compute every indicator for every country."""
+    import pandas as pd
+
+    from sdm.config import load_universe
+    from sdm.indicators.compute import compute_all, latest_wide
+    from sdm.indicators.panel import build_panel
+
+    panel = build_panel()
+    all_ind, latest, transitions = compute_all(panel)
+    uni = load_universe()
+    cols = [
+        "debt_gdp",
+        "primary_balance_gdp",
+        "r_effective",
+        "g_nominal",
+        "marginal_yield",
+        "avg_coupon_gap",
+        "forward_r_5y",
+        "forward_r_minus_g_5y",
+        "captivity_score",
+        "stage_estimate",
+        "quadrant",
+    ]
+    wide = latest_wide(latest).reindex(uni.core)
+    pd.set_option("display.width", 200)
+    print(wide[[c for c in cols if c in wide.columns]].round(2).to_string())
+    print(f"\n{len(all_ind)} country-quarters, {len(transitions)} transitions -> data/clean/")
+    return 0
+
+
 COMMANDS: dict[str, tuple[Callable[[argparse.Namespace], int], str]] = {
     "check": (cmd_check, "validate configuration"),
     "update": (cmd_update, "refresh all data sources incrementally"),
-    "indicators": (_not_implemented(3), "compute the quarterly indicator table"),
+    "indicators": (cmd_indicators, "compute the quarterly indicator table"),
     "backtest": (_not_implemented(4), "run the backtest and write BACKTEST.md"),
     "dashboard": (_not_implemented(5), "build the HTML dashboard"),
     "report": (_not_implemented(6), "generate the narrative quarterly report"),

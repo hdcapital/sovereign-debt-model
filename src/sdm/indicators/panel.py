@@ -90,6 +90,25 @@ def to_quarterly(series: pd.Series, kind: str, max_ffill: int = 1) -> pd.Series:
     return out.dropna()
 
 
+def splice(primary: pd.Series, secondary: pd.Series, kind: str, overlap_quarters: int = 4) -> pd.Series:
+    """Shift a lower-priority series so it joins the primary without a level break.
+
+    Stocks and flows are scaled by the ratio of the two over their last overlapping
+    quarters; rates and ratios are shifted additively. Without any overlap the secondary
+    is used as is."""
+    common = primary.index.intersection(secondary.index)
+    if len(common) == 0:
+        return secondary
+    common = common.sort_values()[-overlap_quarters:]
+    a, b = primary.loc[common], secondary.loc[common]
+    if kind in ("stock", "flow") and (b.abs() > 0).all() and (a.abs() > 0).all():
+        factor = float((a / b).mean())
+        if 0.2 < factor < 5.0:
+            return secondary * factor
+        return secondary
+    return secondary + float((a - b).mean())
+
+
 def _priority_for(concept: str, cfg: dict[str, list[str]]) -> list[str]:
     return list(cfg.get(concept, cfg["default"]))
 
@@ -120,6 +139,7 @@ def build_panel(clean: pd.DataFrame | None = None, write: bool = True) -> Panel:
             if merged is None:
                 merged, merged_src = qs, tag
             else:
+                qs = splice(merged, qs, KIND.get(concept, "rate"))
                 new_idx = qs.index.difference(merged.index)
                 merged = pd.concat([merged, qs.loc[new_idx]]).sort_index()
                 merged_src = pd.concat([merged_src, tag.loc[new_idx]]).sort_index()

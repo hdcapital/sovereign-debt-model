@@ -143,6 +143,11 @@ class BisCollector(Collector):
         df = pd.read_csv(io.StringIO(text))
         if "TIME_PERIOD" not in df.columns:
             raise ValueError(f"unexpected columns {list(df.columns)[:8]}")
+        if "UNIT_MEASURE" in df.columns and (df["UNIT_MEASURE"] == "XDC").any():
+            df = df[df["UNIT_MEASURE"] == "XDC"]  # local currency rows only (the file also carries USD)
+        if "COMP_METHOD" in df.columns and (df["COMP_METHOD"] == "B").any():
+            df = df[df["COMP_METHOD"] == "B"]  # break-adjusted
+        df = df.drop_duplicates("TIME_PERIOD", keep="last")
         value = pd.to_numeric(df["OBS_VALUE"], errors="coerce")
         if spec.params.get("unit_mult") and "UNIT_MULT" in df.columns:
             # express in billions whatever the source multiplier
