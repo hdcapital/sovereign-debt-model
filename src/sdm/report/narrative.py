@@ -200,6 +200,11 @@ def call_claude(system: str, user: str) -> str:
     if message.stop_reason == "max_tokens":
         log.warning("report hit max_tokens; output may be truncated")
     text = "".join(block.text for block in message.content if block.type == "text")
+    if len(text.split()) < 200:
+        raise RuntimeError(
+            f"model returned {len(text.split())} words (stop_reason={message.stop_reason}, "
+            f"output_tokens={message.usage.output_tokens}); not sending an empty report"
+        )
     log.info(
         "report: %d output tokens, %d input (%d cached)",
         message.usage.output_tokens,

@@ -297,7 +297,11 @@ GB.avg_maturity_years.MANUAL,manual,GB,avg_maturity_years,MANUAL,data/manual/,A,
 GB.avg_maturity_years.UK_DMO,dmo,GB,avg_maturity_years,UK_DMO,https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D1A,Q,years,2026-10-06,2026-10-06,2026-10-07 00:00:00,1,Gilts in issue: amount-weighted years to redemption (snapshot per run)
 GB.bill_share.UK_DMO,dmo,GB,bill_share,UK_DMO,https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D1A,Q,%,2026-10-06,2026-10-06,2026-10-07 00:00:00,1,Gilts redeeming within 1 year as % of gilts in issue (T-bills excluded; snapshot per run)
 GB.bond_total_return.JST,jst,GB,bond_total_return,JST,https://www.macrohistory.net/app/download/9834512469/JSTdatasetR6.xlsx,A,%,1870-12-31,2020-12-31,2026-10-07 00:00:00,151,JST R6 bond_tr: total return on long government bonds
+<<<<<<< HEAD
 GB.breakeven_10y.BOE,boe,GB,breakeven_10y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1985-01-02,2026-10-05,2026-10-07 08:41:32,10554,IUDMIIF: 10-year implied inflation from gilts
+=======
+GB.breakeven_10y.BOE,boe,GB,breakeven_10y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1985-01-02,2026-10-05,2026-10-07 08:36:15,10554,IUDMIIF: 10-year implied inflation from gilts
+>>>>>>> origin/main
 GB.cb_gov_share.IMF_AT,arslanalp_tsuda,GB,cb_gov_share,IMF_AT,https://www.imf.org/external/pubs/ft/wp/2012/Data/wp12284.zip,Q,% of general government debt,2004-03-31,2016-06-30,2026-10-07 00:00:00,50,"Arslanalp-Tsuda (2012 WP, 2016 vintage): Table 3.1 DomesticCentralBank / Total, United Kingdom"
 GB.cb_gov_share.MANUAL,manual,GB,cb_gov_share,MANUAL,data/manual/,A,,1975-12-31,2025-09-30,2026-10-07 00:00:00,7,hand-maintained; BoE Issue Department holdings
 GB.cb_total_assets_lcu.BIS,bis,GB,cb_total_assets_lcu,BIS,https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.GB,M,LCU bn,1844-09-30,2026-07-31,2026-10-07 00:00:00,2183,"BIS central bank total assets, break-adjusted (source units scaled by UNIT_MULT)"
@@ -335,17 +339,28 @@ GB.ngdp_lcu.FRED.UKNGDP,fred,GB,ngdp_lcu,FRED,https://fred.stlouisfed.org/series
 GB.ngdp_lcu.JST,jst,GB,ngdp_lcu,JST,https://www.macrohistory.net/app/download/9834512469/JSTdatasetR6.xlsx,A,LCU bn (JST units),1870-12-31,2020-12-31,2026-10-07 00:00:00,151,"JST R6 gdp: nominal GDP, local currency (JST units; see ReadMe)"
 GB.ngdp_lcu.ONS,ons,GB,ngdp_lcu,ONS,https://www.ons.gov.uk/economy/grossdomesticproductgdp/timeseries/ybha/qna/data,Q,GBP bn,1955-03-31,2026-06-30,2026-10-07 00:00:00,286,"YBHA: GDP at current market prices, SA, £m"
 GB.policy_rate.BIS,bis,GB,policy_rate,BIS,https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.GB,M,%,1946-01-31,2026-08-31,2026-10-07 00:00:00,968,"BIS central bank policy rates, end of month"
+<<<<<<< HEAD
 GB.policy_rate.BOE,boe,GB,policy_rate,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1975-01-02,2026-10-06,2026-10-07 08:40:38,13085,IUDBEDR: Bank Rate
 GB.real_yield_10y.BOE,boe,GB,real_yield_10y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1985-01-02,2026-10-05,2026-10-07 08:41:38,10554,IUDMRZC: 10-year real zero-coupon gilt yield
+=======
+GB.policy_rate.BOE,boe,GB,policy_rate,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1975-01-02,2026-10-06,2026-10-07 08:35:49,13085,IUDBEDR: Bank Rate
+GB.real_yield_10y.BOE,boe,GB,real_yield_10y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1985-01-02,2026-10-05,2026-10-07 08:36:18,10554,IUDMRZC: 10-year real zero-coupon gilt yield
+>>>>>>> origin/main
 GB.reer_broad.BIS,bis,GB,reer_broad,BIS,https://stats.bis.org/api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.GB,M,index 2020=100,1994-01-31,2026-08-31,2026-10-07 00:00:00,392,"BIS real effective exchange rate, broad basket, CPI-based"
 GB.rgdp_growth.IMF_WEO,imf_datamapper,GB,rgdp_growth,IMF_WEO,https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH/GBR,A,% y/y,1980-12-31,2025-12-31,2026-10-07 00:00:00,46,WEO real GDP growth
-GB.yield_10y.BOE,boe,GB,yield_10y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1993-11-01,2026-10-02,2026-10-07 00:00:00,8319,IUDMNPY: 10-year nominal par gilt yield
+GB.yield_10y.BOE,boe,GB,yield_10y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1993-11-01,2026-10-05,2026-10-07 08:35:55,8320,IUDMNPY: 10-year nominal par gilt yield
 GB.yield_10y.FRED,,GB,yield_10y,FRED,https://fred.stlouisfed.org/series/IRLTLT01GBM156N,M,%,1960-01-01,2026-08-01,2026-10-07 00:00:00,800,IRLTLT01GBM156N: OECD MEI long-term government bond yield
 GB.yield_10y.FRED.IRLTLT01GBM156N,fred,GB,yield_10y,FRED,https://fred.stlouisfed.org/series/IRLTLT01GBM156N,M,%,1960-01-01,2026-08-01,2026-10-07 05:10:58,800,IRLTLT01GBM156N: OECD MEI long-term government bond yield
 GB.yield_10y.JST,jst,GB,yield_10y,JST,https://www.macrohistory.net/app/download/9834512469/JSTdatasetR6.xlsx,A,%,1870-12-31,2020-12-31,2026-10-07 00:00:00,151,JST R6 ltrate: long-term government bond yield
+<<<<<<< HEAD
 GB.yield_30y.BOE,boe,GB,yield_30y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,2000-01-04,2026-10-05,2026-10-07 08:41:30,6761,IUDLNPY: 20-year nominal par gilt yield (long slot)
 GB.yield_3m.JST,jst,GB,yield_3m,JST,https://www.macrohistory.net/app/download/9834512469/JSTdatasetR6.xlsx,A,%,1870-12-31,2020-12-31,2026-10-07 00:00:00,151,JST R6 stir: short-term interest rate (bills / money market)
 GB.yield_5y.BOE,boe,GB,yield_5y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1993-12-01,2026-10-05,2026-10-07 08:41:24,8298,IUDSNPY: 5-year nominal par gilt yield
+=======
+GB.yield_30y.BOE,boe,GB,yield_30y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,2000-01-04,2026-10-05,2026-10-07 08:36:07,6761,IUDLNPY: 20-year nominal par gilt yield (long slot)
+GB.yield_3m.JST,jst,GB,yield_3m,JST,https://www.macrohistory.net/app/download/9834512469/JSTdatasetR6.xlsx,A,%,1870-12-31,2020-12-31,2026-10-07 00:00:00,151,JST R6 stir: short-term interest rate (bills / money market)
+GB.yield_5y.BOE,boe,GB,yield_5y,BOE,https://www.bankofengland.co.uk/boeapps/iadb/fromshowcolumns.asp,D,%,1993-12-01,2026-10-05,2026-10-07 08:36:04,8298,IUDSNPY: 5-year nominal par gilt yield
+>>>>>>> origin/main
 GR.avg_maturity_years.MANUAL,manual,GR,avg_maturity_years,MANUAL,data/manual/,A,,2016-12-31,2024-12-31,2026-10-07 00:00:00,3,hand-maintained; PDMA (weighted average maturity incl. official loans)
 GR.bills_outstanding_lcu.ECB,ecb,GR,bills_outstanding_lcu,ECB,https://data-api.ecb.europa.eu/service/data/SEC/M.GR.1300.F33100.N.1.Z01.E.Z,M,EUR bn,1995-01-31,2022-03-31,2026-10-07 00:00:00,327,"Short-term debt securities issued by general government, outstanding, EUR m scaled"
 GR.cb_gov_holdings_lcu.ECB_PSPP,ecb,GR,cb_gov_holdings_lcu,ECB_PSPP,https://www.ecb.europa.eu/mopo/pdf/PSPP_breakdown_history.csv,M,EUR bn,,,,0,"Cumulative PSPP net purchases of the member's public sector securities (book value, EUR m scaled); PEPP excluded | LAST ERROR: ValueError: Greece not in PSPP table: ['Austria', 'Belgium', 'Cyprus', 'Germany', 'Estonia', 'Spain', 'Finland', 'France', 'Ireland', 'Italy']"
@@ -701,4 +716,8 @@ US.yield_3m.FRED.DGS3MO,fred,US,yield_3m,FRED,https://fred.stlouisfed.org/series
 US.yield_3m.JST,jst,US,yield_3m,JST,https://www.macrohistory.net/app/download/9834512469/JSTdatasetR6.xlsx,A,%,1870-12-31,2020-12-31,2026-10-07 00:00:00,151,JST R6 stir: short-term interest rate (bills / money market)
 XX.gold_usd.LBMA_DATAHUB,gold,XX,gold_usd,LBMA_DATAHUB,https://raw.githubusercontent.com/datasets/gold-prices/main/data/monthly.csv,M,USD/oz,1833-01-31,2026-09-30,2026-10-07 00:00:00,2325,LBMA monthly average via datasets/gold-prices
 XX.gold_usd.WB_CMO,gold,XX,gold_usd,WB_CMO,https://thedocs.worldbank.org/en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx,M,USD/oz,1960-01-31,2024-12-31,2026-10-07 00:00:00,780,World Bank Pink Sheet monthly gold price
+<<<<<<< HEAD
 XX.gold_usd.YAHOO,gold,XX,gold_usd,YAHOO,https://query1.finance.yahoo.com/v8/finance/chart/GC=F,M,USD/oz,2000-09-30,2026-10-31,2026-10-07 08:40:30,268,COMEX gold front future monthly close (GC=F)
+=======
+XX.gold_usd.YAHOO,gold,XX,gold_usd,YAHOO,https://query1.finance.yahoo.com/v8/finance/chart/GC=F,M,USD/oz,2000-09-30,2026-10-31,2026-10-07 09:51:08,268,COMEX gold front future monthly close (GC=F)
+>>>>>>> origin/main
