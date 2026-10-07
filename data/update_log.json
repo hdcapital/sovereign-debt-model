@@ -1678,5 +1678,230 @@
     "changed": []
    }
   }
+ },
+ {
+  "run_at": "2026-10-07T05:12:33+00:00",
+  "sources": {
+   "bis": {
+    "ok": 87,
+    "failed": [
+     "AR.gg_debt_gdp.BIS",
+     "RU.cb_total_assets_lcu.BIS",
+     "RU.gg_debt_gdp.BIS",
+     "BR.gg_debt_gdp.BIS",
+     "MX.gg_debt_gdp.BIS"
+    ],
+    "errors": {
+     "AR.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.AR.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "RU.cb_total_assets_lcu.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.RU?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "RU.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.RU.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "BR.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.BR.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "MX.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.MX.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for"
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "imf_datamapper": {
+    "ok": 123,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "fred": {
+    "ok": 51,
+    "failed": [],
+    "errors": {},
+    "new_obs": 195917,
+    "revised_obs": 0,
+    "changed": [
+     "US.yield_10y.FRED.DGS10",
+     "US.yield_2y.FRED.DGS2",
+     "US.yield_3m.FRED.DGS3MO",
+     "US.yield_30y.FRED.DGS30",
+     "US.real_yield_10y.FRED.DFII10",
+     "US.breakeven_10y.FRED.T10YIE",
+     "US.term_premium_10y.FRED.THREEFYTP10",
+     "US.cpi_index.FRED.CPIAUCSL",
+     "US.cb_gov_holdings_lcu.FRED.FDHBFRBN",
+     "US.foreign_gov_holdings_lcu.FRED.FDHBFIN",
+     "US.cg_debt_lcu.FRED.FYGFDPUN",
+     "US.gg_debt_gdp.FRED.GFDEGDQ188S",
+     "US.ngdp_lcu.FRED.GDP",
+     "US.cg_interest_lcu.FRED.A091RC1Q027SBEA",
+     "US.cg_receipts_lcu.FRED.FGRECPT",
+     "US.cg_outlays_lcu.FRED.FGEXPND",
+     "US.household_fin_assets_lcu.FRED.BOGZ1FL194090005Q",
+     "US.niip_gdp.FRED.IIPUSNETIQ",
+     "GB.fx_lcu_per_usd.FRED.DEXUSUK",
+     "JP.fx_lcu_per_usd.FRED.DEXJPUS",
+     "AU.fx_lcu_per_usd.FRED.DEXUSAL",
+     "CA.fx_lcu_per_usd.FRED.DEXCAUS",
+     "CH.fx_lcu_per_usd.FRED.DEXSZUS",
+     "EA.fx_lcu_per_usd.FRED.DEXUSEU",
+     "BR.fx_lcu_per_usd.FRED.DEXBZUS",
+     "MX.fx_lcu_per_usd.FRED.DEXMXUS",
+     "SE.fx_lcu_per_usd.FRED.DEXSDUS",
+     "EA.cb_total_assets_lcu.FRED.ECBASSETSW",
+     "JP.cb_total_assets_lcu.FRED.JPNASSETS",
+     "GB.ngdp_lcu.FRED.UKNGDP",
+     "JP.ngdp_lcu.FRED.JPNNGDP",
+     "GB.yield_10y.FRED.IRLTLT01GBM156N",
+     "JP.yield_10y.FRED.IRLTLT01JPM156N",
+     "AU.yield_10y.FRED.IRLTLT01AUM156N",
+     "CA.yield_10y.FRED.IRLTLT01CAM156N",
+     "CH.yield_10y.FRED.IRLTLT01CHM156N",
+     "EA.yield_10y.FRED.IRLTLT01EZM156N",
+     "DE.yield_10y.FRED.IRLTLT01DEM156N",
+     "FR.yield_10y.FRED.IRLTLT01FRM156N",
+     "IT.yield_10y.FRED.IRLTLT01ITM156N",
+     "NL.yield_10y.FRED.IRLTLT01NLM156N",
+     "GR.yield_10y.FRED.IRLTLT01GRM156N",
+     "SE.yield_10y.FRED.IRLTLT01SEM156N",
+     "MX.yield_10y.FRED.IRLTLT01MXM156N",
+     "RU.yield_10y.FRED.IRLTLT01RUM156N",
+     "GB.ngdp_lcu.FRED.GBRGDPNQDSMEI",
+     "JP.ngdp_lcu.FRED.JPNGDPNQDSMEI",
+     "AU.ngdp_lcu.FRED.AUSGDPNQDSMEI",
+     "CA.ngdp_lcu.FRED.CANGDPNQDSMEI",
+     "CH.ngdp_lcu.FRED.CHEGDPNQDSMEI",
+     "DE.ngdp_lcu.FRED.DEUGDPNQDSMEI"
+    ]
+   },
+   "fiscaldata": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "gold": {
+    "ok": 3,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 1,
+    "changed": [
+     "XX.gold_usd.YAHOO"
+    ]
+   },
+   "boe": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "ons": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "dmo": {
+    "ok": 4,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "mof_jp": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "rba": {
+    "ok": 8,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "boc": {
+    "ok": 5,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "snb": {
+    "ok": 4,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "ecb": {
+    "ok": 51,
+    "failed": [
+     "GR.cb_gov_holdings_lcu.ECB_PSPP"
+    ],
+    "errors": {
+     "GR.cb_gov_holdings_lcu.ECB_PSPP": "ValueError: Greece not in PSPP table: ['Austria', 'Belgium', 'Cyprus', 'Germany', 'Estonia', 'Spain', 'Finland', 'France', 'Ireland', 'Italy']"
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "eurostat": {
+    "ok": 21,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "worldbank": {
+    "ok": 39,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "arslanalp_tsuda": {
+    "ok": 48,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "jst": {
+    "ok": 108,
+    "failed": [
+     "CA.bond_total_return.JST",
+     "CA.equity_total_return.JST"
+    ],
+    "errors": {
+     "CA.bond_total_return.JST": "ValueError: no observations parsed",
+     "CA.equity_total_return.JST": "ValueError: no observations parsed"
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "manual": {
+    "ok": 42,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   }
+  }
  }
 ]
