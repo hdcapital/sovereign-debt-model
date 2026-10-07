@@ -22,7 +22,7 @@ def debt_level(ctx: Ctx) -> pd.Series:
     """Gross government debt in local currency: the reported level where a source gives it,
     otherwise debt/GDP times trailing GDP."""
     lvl = ctx.col("gg_debt_lcu").combine_first(ctx.col("cg_debt_lcu"))
-    derived = ctx.i("debt_gdp") / 100.0 * ctx.i("ngdp_4q")
+    derived = debt_gdp(ctx) / 100.0 * ngdp_4q(ctx)
     return lvl.combine_first(derived)
 
 

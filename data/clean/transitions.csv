@@ -1,1 +1,13 @@
 country,quarter,kind,from,to
+US,2015-09-30,quadrant,sustainable_free,sustainable_captive
+US,2015-12-31,quadrant,sustainable_captive,sustainable_free
+JP,2024-03-31,stage,0.0,4.0
+IT,2024-12-31,quadrant,unsustainable_free,sustainable_free
+IT,2024-03-31,stage,0.0,3.0
+IT,2024-12-31,stage,3.0,6.0
+IT,2025-03-31,stage,6.0,0.0
+GR,2016-03-31,stage,0.0,3.0
+GR,2016-12-31,stage,3.0,6.0
+GR,2017-03-31,stage,6.0,0.0
+GR,2024-03-31,stage,0.0,6.0
+GR,2024-06-30,stage,6.0,0.0

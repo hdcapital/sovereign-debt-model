@@ -92,10 +92,7 @@ class MofJpCollector(Collector):
         cols = [
             (j, str(h).split("\n")[-1].strip()) for j, h in enumerate(header) if j >= 3 and str(h).strip()
         ]
-        dates = {
-            j: pd.Period(pd.to_datetime(lbl, format="%Y %b"), freq="M").end_time.normalize()
-            for j, lbl in cols
-        }
+        dates = {j: pd.Period(pd.to_datetime(lbl), freq="M").end_time.normalize() for j, lbl in cols}
 
         def row_by_label(fragment: str, start: int = 0) -> list[float]:
             for i in range(start, sh.nrows):

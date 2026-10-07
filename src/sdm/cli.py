@@ -88,11 +88,23 @@ def cmd_indicators(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_backtest(args: argparse.Namespace) -> int:
+    """Run the backtest against data/events.csv and write reports/backtest/BACKTEST.md."""
+    from sdm.backtest.run import run_backtest
+
+    res = run_backtest()
+    print(res.lead_summary.round(2).to_string())
+    print()
+    print(res.forward_r.round(2).to_string() if len(res.forward_r) else "forward-r test: not enough history")
+    print("\nreports/backtest/BACKTEST.md written")
+    return 0
+
+
 COMMANDS: dict[str, tuple[Callable[[argparse.Namespace], int], str]] = {
     "check": (cmd_check, "validate configuration"),
     "update": (cmd_update, "refresh all data sources incrementally"),
     "indicators": (cmd_indicators, "compute the quarterly indicator table"),
-    "backtest": (_not_implemented(4), "run the backtest and write BACKTEST.md"),
+    "backtest": (cmd_backtest, "run the backtest and write BACKTEST.md"),
     "dashboard": (_not_implemented(5), "build the HTML dashboard"),
     "report": (_not_implemented(6), "generate the narrative quarterly report"),
     "email": (_not_implemented(7), "send (or --dry-run) the latest report"),

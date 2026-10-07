@@ -3,6 +3,46 @@
 Every judgement call, newest first. Reversible choices are made here and noted; irreversible
 ones are asked first.
 
+## Phase 2–3 (2026-10-07)
+
+- **Data pulls run on GitHub Actions, not in the development container.** The container's
+  egress policy blocks every data host; GitHub runners do not. A probe workflow records raw
+  responses for development; the update workflow commits refreshed data to the branch.
+- **Raw cache keeps the latest response only** (`data/raw/<source>/<id>.<ext>`); revisions
+  are kept in the clean store, where a changed value is appended with a new vintage and the
+  old row remains. Latest vintage wins when reading.
+- **Clean store is CSV per source**, long format, so diffs and spot checks need no tooling.
+  The quarterly panel (`panel.csv`) and the indicator table are derived files.
+- **Concept vocabulary** (`sdm.collect.concepts`) is the contract between collectors and
+  indicators; a collector cannot emit an unknown concept and a `KIND` (stock/flow/rate)
+  decides how it aggregates to quarters.
+- **Annual observations cover their own four quarters** (flows split by four). That is the
+  observation's period, not a forward fill. Beyond the last observation at most one quarter
+  is carried, per the brief.
+- **Source priority with level splicing.** `source_priority` in `config/indicators.yaml`
+  picks the primary source per concept; lower sources fill gaps after being shifted to the
+  primary's level at the junction. Documented seams in DATA_GAPS.md.
+- **FRED without a key** uses the public fredgraph CSV export; the API is used when
+  `FRED_API_KEY` is set. Same series ids either way.
+- **Gold** from three sources (LBMA mirror, World Bank Pink Sheet, Yahoo futures) in that
+  priority, because stooq and LBMA are bot-blocked.
+- **IMF primary balance, revenue and interest** come from the Global Debt Database ids
+  (`pb`, `rev`, `ie`) because the WEO ids return nothing from DataMapper.
+- **US fiscal flows are federal** (Fiscal Data, NIPA), not general government; the US
+  debt level is debt held by the public. This matches how the US debate is conducted and
+  the sources the brief named.
+- **ECB holdings by member = cumulative PSPP net purchases** (book value). PEPP by
+  jurisdiction is published bi-monthly and is not yet parsed, so member central-bank shares
+  are understated from 2020.
+- **Stage estimate is undefined until the fuel stage can be decided** (12 quarters of
+  primary balance history); otherwise it is the highest firing stage with prerequisites.
+- **Trend g is a 10-year trailing mean** of four-quarter nominal growth. In 2026 this still
+  carries the 2021–23 inflation burst, which makes forward r − g look benign for the US;
+  the report should say so, and a 20-year window is a one-line config change.
+- **Manual tables carry a confidence flag** (`approximate` / `high`) that is propagated to
+  the catalog notes; approximate values are read from annual reports and must be verified
+  before any number is quoted externally.
+
 ## Phase 1 (2026-10-07)
 
 - **Package layout.** The brief names `src/collect/`, `src/indicators/`, `src/backtest/`,

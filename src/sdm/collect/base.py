@@ -11,7 +11,7 @@ Tidy schema (one row per observation)::
     concept     str   name from sdm.collect.concepts
     date        date  period end
     value       float
-    vintage     date  date the observation was downloaded; a revision adds a new row
+    vintage     datetime (UTC, seconds) when the observation was downloaded; a revision adds a new row
 
 Collectors never forward-fill. Resampling happens in sdm.indicators.panel under the
 explicit rules in config/indicators.yaml.
@@ -35,6 +35,12 @@ from sdm.collect.http import Http
 from sdm.paths import CATALOG, DATA_CLEAN, DATA_RAW
 
 log = logging.getLogger(__name__)
+
+
+def now_vintage() -> pd.Timestamp:
+    """Download timestamp, UTC to the second, naive (CSV friendly)."""
+    return pd.Timestamp.now(tz="UTC").tz_localize(None).floor("s")
+
 
 TIDY_COLUMNS = ["series_id", "country", "concept", "date", "value", "vintage"]
 CATALOG_COLUMNS = [
@@ -125,7 +131,9 @@ class Collector(abc.ABC):
 
     # ---------------------------------------------------------------- tidy + store
     @staticmethod
-    def tidy(spec: SeriesSpec, frame: pd.DataFrame, vintage: date | None = None) -> pd.DataFrame:
+    def tidy(
+        spec: SeriesSpec, frame: pd.DataFrame, vintage: date | pd.Timestamp | None = None
+    ) -> pd.DataFrame:
         out = frame[["date", "value"]].copy()
         out["date"] = pd.to_datetime(out["date"]).dt.date
         out["value"] = pd.to_numeric(out["value"], errors="coerce")
@@ -133,7 +141,7 @@ class Collector(abc.ABC):
         out["series_id"] = spec.series_id
         out["country"] = spec.country
         out["concept"] = spec.concept
-        out["vintage"] = vintage or date.today()
+        out["vintage"] = pd.Timestamp(vintage) if vintage is not None else now_vintage()
         return out[TIDY_COLUMNS].sort_values("date").reset_index(drop=True)
 
     def load_clean(self) -> pd.DataFrame:
@@ -143,7 +151,7 @@ class Collector(abc.ABC):
         if df.empty:
             return pd.DataFrame(columns=TIDY_COLUMNS)
         df["date"] = pd.to_datetime(df["date"]).dt.date
-        df["vintage"] = pd.to_datetime(df["vintage"]).dt.date
+        df["vintage"] = pd.to_datetime(df["vintage"])
         return df
 
     def merge_series(self, existing: pd.DataFrame, new: pd.DataFrame) -> tuple[pd.DataFrame, int, int]:
@@ -157,7 +165,11 @@ class Collector(abc.ABC):
         rest = existing[existing["series_id"] != sid] if sid else existing
         if old.empty:
             return pd.concat([rest, new], ignore_index=True), len(new), 0
-        latest = old.sort_values("vintage").drop_duplicates("date", keep="last").set_index("date")["value"]
+        latest = (
+            old.sort_values("vintage", kind="stable")
+            .drop_duplicates("date", keep="last")
+            .set_index("date")["value"]
+        )
         add_rows = []
         n_new = n_rev = 0
         for row in new.itertuples(index=False):
@@ -173,7 +185,10 @@ class Collector(abc.ABC):
 
     def write_clean(self, df: pd.DataFrame) -> None:
         DATA_CLEAN.mkdir(parents=True, exist_ok=True)
-        df = df.sort_values(["series_id", "date", "vintage"]).reset_index(drop=True)
+        df = df.copy()
+        df["vintage"] = pd.to_datetime(df["vintage"])
+        df = df.sort_values(["series_id", "date", "vintage"], kind="stable").reset_index(drop=True)
+        df["vintage"] = df["vintage"].dt.strftime("%Y-%m-%dT%H:%M:%S")
         df.to_csv(self.clean_path, index=False)
 
     # ---------------------------------------------------------------- run
@@ -219,7 +234,7 @@ def update_catalog(collector: Collector, store: pd.DataFrame, results: list[Fetc
         s = store[store["series_id"] == spec.series_id]
         res = by_spec.get(spec.series_id)
         prev = rows.get(spec.series_id, {})
-        latest = s.sort_values("vintage").drop_duplicates("date", keep="last") if len(s) else s
+        latest = s.sort_values("vintage", kind="stable").drop_duplicates("date", keep="last") if len(s) else s
         rows[spec.series_id] = {
             "series_id": spec.series_id,
             "country": spec.country,
@@ -244,7 +259,7 @@ def update_catalog(collector: Collector, store: pd.DataFrame, results: list[Fetc
 def latest_vintage_frame(df: pd.DataFrame) -> pd.DataFrame:
     """Collapse a multi-vintage tidy frame to the most recent value per (series, date)."""
     return (
-        df.sort_values("vintage")
+        df.sort_values("vintage", kind="stable")
         .drop_duplicates(subset=["series_id", "date"], keep="last")
         .sort_values(["series_id", "date"])
         .reset_index(drop=True)
@@ -268,7 +283,6 @@ def load_all_clean(latest_only: bool = True) -> pd.DataFrame:
     df["vintage"] = pd.to_datetime(df["vintage"], errors="coerce")
     df = df.dropna(subset=["date", "value"])
     df["date"] = df["date"].dt.date
-    df["vintage"] = df["vintage"].dt.date
     if latest_only:
         return latest_vintage_frame(df)
     return df.sort_values(["series_id", "date"]).reset_index(drop=True)
