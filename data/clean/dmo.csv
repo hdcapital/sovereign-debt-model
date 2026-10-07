@@ -1,5 +1,5 @@
 series_id,country,concept,date,value,vintage
-GB.avg_maturity_years.UK_DMO,GB,avg_maturity_years,2026-10-06,13.27938609419099,2026-10-07
-GB.bill_share.UK_DMO,GB,bill_share,2026-10-06,4.946416405415036,2026-10-07
-GB.linker_share.UK_DMO,GB,linker_share,2026-10-06,24.15672366451488,2026-10-07
-GB.marketable_debt_lcu.UK_DMO,GB,marketable_debt_lcu,2026-10-06,2938.877504143378,2026-10-07
+GB.avg_maturity_years.UK_DMO,GB,avg_maturity_years,2026-10-06,13.27938609419099,2026-10-07T00:00:00
+GB.bill_share.UK_DMO,GB,bill_share,2026-10-06,4.946416405415036,2026-10-07T00:00:00
+GB.linker_share.UK_DMO,GB,linker_share,2026-10-06,24.15672366451488,2026-10-07T00:00:00
+GB.marketable_debt_lcu.UK_DMO,GB,marketable_debt_lcu,2026-10-06,2938.877504143378,2026-10-07T00:00:00
