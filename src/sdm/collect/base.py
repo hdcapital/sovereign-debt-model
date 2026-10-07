@@ -45,6 +45,7 @@ def now_vintage() -> pd.Timestamp:
 TIDY_COLUMNS = ["series_id", "country", "concept", "date", "value", "vintage"]
 CATALOG_COLUMNS = [
     "series_id",
+    "collector",
     "country",
     "concept",
     "source",
@@ -237,6 +238,9 @@ def update_catalog(collector: Collector, store: pd.DataFrame, results: list[Fetc
             for r in csv.DictReader(fh):
                 rows[r["series_id"]] = r
     by_spec = {r.spec.series_id: r for r in results}
+    current = {spec.series_id for spec in collector.series()}
+    # drop rows this collector used to maintain but no longer does
+    rows = {sid: r for sid, r in rows.items() if r.get("collector", "") != collector.name or sid in current}
     for spec in collector.series():
         s = store[store["series_id"] == spec.series_id]
         res = by_spec.get(spec.series_id)
@@ -244,6 +248,7 @@ def update_catalog(collector: Collector, store: pd.DataFrame, results: list[Fetc
         latest = s.sort_values("vintage", kind="stable").drop_duplicates("date", keep="last") if len(s) else s
         rows[spec.series_id] = {
             "series_id": spec.series_id,
+            "collector": collector.name,
             "country": spec.country,
             "concept": spec.concept,
             "source": spec.source,

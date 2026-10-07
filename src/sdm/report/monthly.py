@@ -12,6 +12,7 @@ from datetime import date
 import pandas as pd
 
 from sdm.config import load_indicator_config, load_universe
+from sdm.indicators import blocks  # noqa: F401
 from sdm.indicators.compute import INDICATORS_PATH, LATEST_PATH, TRANSITIONS_PATH, last_complete_quarter
 from sdm.indicators.registry import REGISTRY
 from sdm.paths import DATA

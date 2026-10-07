@@ -28,4 +28,4 @@ email:
     - reports/dashboard/latest.html
     - data/clean/indicators_latest.csv
   include_data_issues_section: true     # stale/broken series are always listed; never silently use old data
-  stale_after_days: 120
+  stale_after_quarters: 4      # a series is listed as stale when its latest value is more than a year behind the last complete quarter

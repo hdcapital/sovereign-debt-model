@@ -103,8 +103,9 @@ def data_issues_text() -> str:
     if "applies" in core:
         core = core[core["applies"].astype(bool)]
     num = pd.to_numeric(core["value"], errors="coerce")
+    stale_after = int(load_report_config()["email"].get("stale_after_quarters", 4))
     stale = core[
-        (pd.to_numeric(core["stale_quarters"], errors="coerce") > 2)
+        (pd.to_numeric(core["stale_quarters"], errors="coerce") > stale_after)
         | (num.isna() & (core["indicator"] != "quadrant"))
     ]
     lines = [

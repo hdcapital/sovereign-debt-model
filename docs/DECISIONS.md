@@ -43,6 +43,13 @@ ones are asked first.
   the catalog notes; approximate values are read from annual reports and must be verified
   before any number is quoted externally.
 
+- **"Stale" means more than four quarters behind the last complete quarter.** Annual
+  IMF series legitimately lag two to three quarters; listing them every time would bury the
+  real failures. The full staleness count is still in `indicators_latest.csv`.
+- **Indicators that do not apply to a market** (spreads for floaters, the currency for
+  union members, auction tails outside the US, reserves outside pegs) are neither shown nor
+  counted as missing (`sdm.indicators.applicability`).
+
 ## Phase 1 (2026-10-07)
 
 - **Package layout.** The brief names `src/collect/`, `src/indicators/`, `src/backtest/`,

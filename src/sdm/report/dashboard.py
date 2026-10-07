@@ -13,7 +13,7 @@ from datetime import date
 import numpy as np
 import pandas as pd
 
-from sdm.config import load_indicator_config, load_universe
+from sdm.config import load_indicator_config, load_report_config, load_universe
 from sdm.indicators import blocks  # noqa: F401
 from sdm.indicators.applicability import indicator_applies
 from sdm.indicators.compute import INDICATORS_PATH, LATEST_PATH, TRANSITIONS_PATH
@@ -118,11 +118,16 @@ def build_payload() -> dict:
             else None,
         }
     issues = []
+    stale_after = int(load_report_config()["email"].get("stale_after_quarters", 4))
     core_latest = latest[latest["tier"] == "core"]
     for r in core_latest.itertuples(index=False):
         if r.indicator in meta and (
             pd.isna(r.value)
-            or (r.stale_quarters is not None and not pd.isna(r.stale_quarters) and r.stale_quarters > 2)
+            or (
+                r.stale_quarters is not None
+                and not pd.isna(r.stale_quarters)
+                and r.stale_quarters > stale_after
+            )
         ):
             issues.append(
                 {
