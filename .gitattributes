@@ -1,0 +1,2 @@
+data/update_log.json merge=union
+data/*.log merge=union

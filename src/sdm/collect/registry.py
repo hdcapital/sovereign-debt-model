@@ -83,9 +83,14 @@ def write_update_log(results: dict[str, list[FetchResult]]) -> Path:
             for name, rs in results.items()
         },
     }
-    history = []
+    history: list = []
     if UPDATE_LOG.exists():
-        history = json.loads(UPDATE_LOG.read_text())
+        try:
+            history = json.loads(UPDATE_LOG.read_text())
+        except json.JSONDecodeError as e:
+            # a merge of two runs' logs can leave conflict markers; keep a copy, start fresh
+            log.warning("update_log.json unreadable (%s); archiving it and starting a new log", e)
+            UPDATE_LOG.rename(UPDATE_LOG.with_suffix(".corrupt.json"))
     history = (history + [entry])[-50:]
     UPDATE_LOG.write_text(json.dumps(history, indent=1))
     return UPDATE_LOG
