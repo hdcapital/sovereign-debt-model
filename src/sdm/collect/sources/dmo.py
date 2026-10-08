@@ -16,8 +16,14 @@ from sdm.collect.base import Collector, SeriesSpec
 URL = "https://www.dmo.gov.uk/data/XmlDataReport?reportCode=D1A"
 
 
+class BotChallengeError(RuntimeError):
+    """The DMO site served a ShieldSquare captcha instead of data (intermittent for cloud IPs)."""
+
+
 def parse_d1a(xml: bytes) -> pd.DataFrame:
     text = xml.decode("utf-8", errors="replace")
+    if "ShieldSquare" in text[:2000] or "<Data" not in text[:5000]:
+        raise BotChallengeError("DMO returned a bot-protection challenge, not data; previous values kept")
     text = re.sub(r"<\?xml[^>]*\?>", "", text, count=1)
     root = ET.fromstring(text)
     rows = []

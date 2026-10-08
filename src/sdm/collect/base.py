@@ -99,9 +99,18 @@ class Collector(abc.ABC):
     """Base class. Subclasses set ``name`` and implement ``series`` and ``fetch``."""
 
     name: str = "base"
+    # series ids the source does not publish (verified 404 or empty); skipped rather than failing every run
+    excluded: frozenset[str] = frozenset()
 
     def __init__(self, http: Http | None = None) -> None:
         self.http = http or Http()
+        if self.excluded:
+            produce = type(self).series
+
+            def series(this: Collector = self) -> list[SeriesSpec]:
+                return [spec for spec in produce(this) if spec.series_id not in this.excluded]
+
+            self.series = series  # type: ignore[method-assign]
 
     @property
     def raw_dir(self) -> Path:

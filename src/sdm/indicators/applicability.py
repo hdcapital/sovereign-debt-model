@@ -15,6 +15,11 @@ def indicator_applies(name: str, ccfg: Any) -> bool:
     regime = ccfg.monetary_regime
     if name == "spread_to_anchor_bp" and ccfg.anchor == ccfg.code:
         return False  # the anchor's spread to itself is zero by construction
+    if (
+        name in ("cb_balance_sheet_gdp", "cb_balance_sheet_growth_minus_g")
+        and regime == "currency_union_member"
+    ):
+        return False  # the Eurosystem balance sheet belongs to the bloc and is read there
     if name in UNION_ONLY:
         return (
             regime == "currency_union_member"

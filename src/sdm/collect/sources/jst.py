@@ -44,6 +44,8 @@ COLS = {
 
 class JstCollector(Collector):
     name = "jst"
+    # JST R6 has no Canadian return series
+    excluded = frozenset({"CA.bond_total_return.JST", "CA.equity_total_return.JST"})
     _df: pd.DataFrame | None = None
 
     def series(self) -> list[SeriesSpec]:

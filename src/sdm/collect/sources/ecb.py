@@ -22,6 +22,8 @@ PSPP_NAMES = {"DE": "Germany", "FR": "France", "IT": "Italy", "NL": "the Netherl
 
 class EcbCollector(Collector):
     name = "ecb"
+    # Greece was never PSPP-eligible (PEPP only)
+    excluded = frozenset({"GR.cb_gov_holdings_lcu.ECB_PSPP"})
     _pspp: pd.DataFrame | None = None
 
     def series(self) -> list[SeriesSpec]:

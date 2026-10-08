@@ -62,6 +62,16 @@ def parse_period(p: str) -> pd.Timestamp:
 
 class BisCollector(Collector):
     name = "bis"
+    # BIS total credit has no general-government series for these EMs; no central bank assets for RU
+    excluded = frozenset(
+        {
+            "AR.gg_debt_gdp.BIS",
+            "RU.gg_debt_gdp.BIS",
+            "BR.gg_debt_gdp.BIS",
+            "MX.gg_debt_gdp.BIS",
+            "RU.cb_total_assets_lcu.BIS",
+        }
+    )
 
     def series(self) -> list[SeriesSpec]:
         out: list[SeriesSpec] = []

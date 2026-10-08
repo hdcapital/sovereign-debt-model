@@ -80,6 +80,10 @@ ones are asked first.
 - **Union members' term premium uses the bloc's AAA 2-year** as the expected-policy leg, the same leg
   the euro area uses, and their gold price uses the euro.
 - **Known gaps** (no free source) are listed once in the report with the reason, not as failures.
+- **Primary balance excludes gross interest paid**, consistent with `r_effective` being gross interest
+  over gross debt. For Japan this gives a small primary surplus in 2025, where the IMF's primary
+  balance (which excludes net interest) shows a deficit of about 0.9% of GDP; the gap is Japan's
+  large interest income on government assets.
 
 ## Phase 1 (2026-10-07)
 

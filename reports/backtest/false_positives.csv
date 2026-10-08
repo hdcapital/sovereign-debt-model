@@ -1,3 +1,4 @@
 country,start,end,quarters,event_followed,event_id,false_positive
-IT,2024-03-31,2024-09-30,3,False,,False
-JP,2015-03-31,2015-12-31,4,False,,False
+FR,2023-03-31,2023-03-31,1,True,FR-2024,False
+IT,2020-06-30,2024-09-30,18,False,,True
+JP,2015-03-31,2016-06-30,6,False,,False
