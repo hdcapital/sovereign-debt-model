@@ -6,7 +6,7 @@ subject_template: "Sovereign Debt Monitor — {period}"      # period = YYYY-Qn
 narrative:
   provider: anthropic
   model: claude-sonnet-5-5         # most recent Sonnet at build time; see docs/DECISIONS.md
-  max_tokens: 64000              # thinking shares this cap with the text; streaming keeps the request alive
+  max_tokens: 100000             # thinking shares this cap with the text; a Q3 run used ~59k; model max is 128k
   effort: high            # adaptive thinking depth: low | medium | high | xhigh | max
   system_prompt_file: docs/MODEL.md
   instructions_file: prompts/report_instructions.md

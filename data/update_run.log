@@ -1269,6 +1269,1278 @@
 2026-10-08 05:30:53,400 INFO sdm.collect.base: TR.cb_gov_share.MANUAL: 2 obs, 0 new, 0 revised, last 2020-12-31
 2026-10-08 05:30:53,413 INFO sdm.collect.base: TR.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2020-12-31
 2026-10-08 05:30:53,426 INFO sdm.collect.base: US.avg_maturity_years.MANUAL: 6 obs, 0 new, 0 revised, last 2025-06-30
+2026-10-08 05:26:15,364 INFO sdm.collect.registry: == bis
+2026-10-08 05:26:15,436 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): stats.bis.org:443
+2026-10-08 05:26:15,784 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.US?format=csv HTTP/1.1" 200 4273
+2026-10-08 05:26:15,854 INFO sdm.collect.base: US.policy_rate.BIS: 866 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:15,966 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.US?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:16,183 INFO sdm.collect.base: US.cb_total_assets_lcu.BIS: 1341 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:16,308 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.US?format=csv HTTP/1.1" 200 2585
+2026-10-08 05:26:16,344 INFO sdm.collect.base: US.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:16,468 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.US.628?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:16,565 INFO sdm.collect.base: US.cpi_index.BIS: 1363 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:16,672 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.US.G.A.M.770.A?format=csv HTTP/1.1" 200 2122
+2026-10-08 05:26:16,706 INFO sdm.collect.base: US.gg_debt_gdp.BIS: 314 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:16,836 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.GB?format=csv HTTP/1.1" 200 4662
+2026-10-08 05:26:16,910 INFO sdm.collect.base: GB.policy_rate.BIS: 968 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:17,025 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.GB?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:17,312 INFO sdm.collect.base: GB.cb_total_assets_lcu.BIS: 2183 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:17,420 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.GB.GBP.A?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:17,608 INFO sdm.collect.base: GB.fx_lcu_per_usd.BIS: 2828 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:17,729 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.GB?format=csv HTTP/1.1" 200 2618
+2026-10-08 05:26:17,765 INFO sdm.collect.base: GB.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:17,882 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.GB.628?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:17,994 INFO sdm.collect.base: GB.cpi_index.BIS: 1340 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:18,101 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.GB.G.A.M.770.A?format=csv HTTP/1.1" 200 1703
+2026-10-08 05:26:18,130 INFO sdm.collect.base: GB.gg_debt_gdp.BIS: 241 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:18,267 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.JP?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:18,343 INFO sdm.collect.base: JP.policy_rate.BIS: 852 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:18,462 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.JP?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:18,549 INFO sdm.collect.base: JP.cb_total_assets_lcu.BIS: 883 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:18,656 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.JP.JPY.A?format=csv HTTP/1.1" 200 6955
+2026-10-08 05:26:18,721 INFO sdm.collect.base: JP.fx_lcu_per_usd.BIS: 836 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:18,854 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.JP?format=csv HTTP/1.1" 200 2637
+2026-10-08 05:26:18,891 INFO sdm.collect.base: JP.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:19,249 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.JP.628?format=csv HTTP/1.1" 200 5917
+2026-10-08 05:26:19,320 INFO sdm.collect.base: JP.cpi_index.BIS: 960 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:19,430 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.JP.G.A.M.770.A?format=csv HTTP/1.1" 200 1003
+2026-10-08 05:26:19,450 INFO sdm.collect.base: JP.gg_debt_gdp.BIS: 114 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:19,581 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.AU?format=csv HTTP/1.1" 200 4651
+2026-10-08 05:26:19,632 INFO sdm.collect.base: AU.policy_rate.BIS: 605 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:19,745 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.AU?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:19,815 INFO sdm.collect.base: AU.cb_total_assets_lcu.BIS: 684 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:26:19,927 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.AU.AUD.A?format=csv HTTP/1.1" 200 5897
+2026-10-08 05:26:19,991 INFO sdm.collect.base: AU.fx_lcu_per_usd.BIS: 836 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:20,121 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.AU?format=csv HTTP/1.1" 200 2648
+2026-10-08 05:26:20,157 INFO sdm.collect.base: AU.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:20,268 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.AU.628?format=csv HTTP/1.1" 200 5149
+2026-10-08 05:26:20,357 INFO sdm.collect.base: AU.cpi_index.BIS: 1251 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:26:20,490 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.AU.G.A.M.770.A?format=csv HTTP/1.1" 200 1188
+2026-10-08 05:26:20,512 INFO sdm.collect.base: AU.gg_debt_gdp.BIS: 152 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:20,627 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.CA?format=csv HTTP/1.1" 200 5826
+2026-10-08 05:26:20,690 INFO sdm.collect.base: CA.policy_rate.BIS: 794 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:20,799 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.CA?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:20,893 INFO sdm.collect.base: CA.cb_total_assets_lcu.BIS: 1097 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:21,011 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.CA.CAD.A?format=csv HTTP/1.1" 200 7219
+2026-10-08 05:26:21,083 INFO sdm.collect.base: CA.fx_lcu_per_usd.BIS: 980 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:21,200 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.CA?format=csv HTTP/1.1" 200 2545
+2026-10-08 05:26:21,235 INFO sdm.collect.base: CA.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:21,342 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.CA.628?format=csv HTTP/1.1" 200 8070
+2026-10-08 05:26:21,438 INFO sdm.collect.base: CA.cpi_index.BIS: 1352 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:21,566 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.CA.G.A.M.770.A?format=csv HTTP/1.1" 200 1175
+2026-10-08 05:26:21,588 INFO sdm.collect.base: CA.gg_debt_gdp.BIS: 145 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:21,699 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.CH?format=csv HTTP/1.1" 200 4132
+2026-10-08 05:26:21,772 INFO sdm.collect.base: CH.policy_rate.BIS: 968 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:21,882 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.CH?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:21,970 INFO sdm.collect.base: CH.cb_total_assets_lcu.BIS: 943 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:22,098 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.CH.CHF.A?format=csv HTTP/1.1" 200 6871
+2026-10-08 05:26:22,164 INFO sdm.collect.base: CH.fx_lcu_per_usd.BIS: 876 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:22,274 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.CH?format=csv HTTP/1.1" 200 2532
+2026-10-08 05:26:22,310 INFO sdm.collect.base: CH.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:22,419 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.CH.628?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:22,508 INFO sdm.collect.base: CH.cpi_index.BIS: 1268 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:23,170 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.CH.G.A.M.770.A?format=csv HTTP/1.1" 200 989
+2026-10-08 05:26:23,192 INFO sdm.collect.base: CH.gg_debt_gdp.BIS: 122 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:23,302 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.XM?format=csv HTTP/1.1" 200 2385
+2026-10-08 05:26:23,335 INFO sdm.collect.base: EA.policy_rate.BIS: 332 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:23,464 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.XM?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:23,507 INFO sdm.collect.base: EA.cb_total_assets_lcu.BIS: 332 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:23,617 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.XM.EUR.A?format=csv HTTP/1.1" 200 4922
+2026-10-08 05:26:23,668 INFO sdm.collect.base: EA.fx_lcu_per_usd.BIS: 627 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:23,775 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.XM?format=csv HTTP/1.1" 200 2606
+2026-10-08 05:26:23,811 INFO sdm.collect.base: EA.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:23,923 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.XM.628?format=csv HTTP/1.1" 200 2539
+2026-10-08 05:26:23,962 INFO sdm.collect.base: EA.cpi_index.BIS: 440 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:24,070 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.XM.G.A.M.770.A?format=csv HTTP/1.1" 200 931
+2026-10-08 05:26:24,089 INFO sdm.collect.base: EA.gg_debt_gdp.BIS: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:24,196 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.DE?format=csv HTTP/1.1" 200 2524
+2026-10-08 05:26:24,233 INFO sdm.collect.base: DE.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:24,363 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.DE.628?format=csv HTTP/1.1" 200 6242
+2026-10-08 05:26:24,431 INFO sdm.collect.base: DE.cpi_index.BIS: 932 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:24,552 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.DE.G.A.M.770.A?format=csv HTTP/1.1" 200 936
+2026-10-08 05:26:24,571 INFO sdm.collect.base: DE.gg_debt_gdp.BIS: 110 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:24,680 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.FR?format=csv HTTP/1.1" 200 2470
+2026-10-08 05:26:24,716 INFO sdm.collect.base: FR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:24,826 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.FR.628?format=csv HTTP/1.1" 200 7022
+2026-10-08 05:26:24,893 INFO sdm.collect.base: FR.cpi_index.BIS: 908 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:25,016 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.FR.G.A.M.770.A?format=csv HTTP/1.1" 200 942
+2026-10-08 05:26:25,035 INFO sdm.collect.base: FR.gg_debt_gdp.BIS: 110 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:25,146 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.IT?format=csv HTTP/1.1" 200 2444
+2026-10-08 05:26:25,182 INFO sdm.collect.base: IT.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:25,303 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.IT.628?format=csv HTTP/1.1" 200 6932
+2026-10-08 05:26:25,375 INFO sdm.collect.base: IT.cpi_index.BIS: 956 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:25,483 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.IT.G.A.M.770.A?format=csv HTTP/1.1" 200 1051
+2026-10-08 05:26:25,504 INFO sdm.collect.base: IT.gg_debt_gdp.BIS: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:25,618 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.NL?format=csv HTTP/1.1" 200 2520
+2026-10-08 05:26:25,654 INFO sdm.collect.base: NL.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:25,765 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.NL.628?format=csv HTTP/1.1" 200 4991
+2026-10-08 05:26:25,821 INFO sdm.collect.base: NL.cpi_index.BIS: 739 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:25,938 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.NL.G.A.M.770.A?format=csv HTTP/1.1" 200 933
+2026-10-08 05:26:25,957 INFO sdm.collect.base: NL.gg_debt_gdp.BIS: 110 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:26,063 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.AR?format=csv HTTP/1.1" 200 5142
+2026-10-08 05:26:26,101 INFO sdm.collect.base: AR.policy_rate.BIS: 386 obs, 0 new, 0 revised, last 2025-06-30
+2026-10-08 05:26:26,219 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.AR?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:26,258 INFO sdm.collect.base: AR.cb_total_assets_lcu.BIS: 343 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:26,365 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.AR.ARS.A?format=csv HTTP/1.1" 200 7333
+2026-10-08 05:26:26,442 INFO sdm.collect.base: AR.fx_lcu_per_usd.BIS: 1040 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:26,554 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.AR?format=csv HTTP/1.1" 200 2813
+2026-10-08 05:26:26,589 INFO sdm.collect.base: AR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:27,481 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.AR.628?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:27,556 INFO sdm.collect.base: AR.cpi_index.BIS: 1004 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:27,677 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.TR?format=csv HTTP/1.1" 200 1942
+2026-10-08 05:26:27,707 INFO sdm.collect.base: TR.policy_rate.BIS: 295 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:27,829 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.TR?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:27,978 INFO sdm.collect.base: TR.cb_total_assets_lcu.BIS: 487 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:28,125 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.TR.TRY.A?format=csv HTTP/1.1" 200 7795
+2026-10-08 05:26:28,193 INFO sdm.collect.base: TR.fx_lcu_per_usd.BIS: 920 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:28,307 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.TR?format=csv HTTP/1.1" 200 2688
+2026-10-08 05:26:28,342 INFO sdm.collect.base: TR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:28,451 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.TR.628?format=csv HTTP/1.1" 200 7347
+2026-10-08 05:26:28,508 INFO sdm.collect.base: TR.cpi_index.BIS: 752 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:28,627 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.TR.G.A.M.770.A?format=csv HTTP/1.1" 200 891
+2026-10-08 05:26:28,648 INFO sdm.collect.base: TR.gg_debt_gdp.BIS: 101 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:28,776 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.RU?format=csv HTTP/1.1" 200 1868
+2026-10-08 05:26:28,814 INFO sdm.collect.base: RU.policy_rate.BIS: 416 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:28,925 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.RU.RUB.A?format=csv HTTP/1.1" 200 3949
+2026-10-08 05:26:28,961 INFO sdm.collect.base: RU.fx_lcu_per_usd.BIS: 411 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:29,071 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.RU?format=csv HTTP/1.1" 200 2643
+2026-10-08 05:26:29,107 INFO sdm.collect.base: RU.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:29,215 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.RU.628?format=csv HTTP/1.1" 200 2781
+2026-10-08 05:26:29,246 INFO sdm.collect.base: RU.cpi_index.BIS: 308 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:29,361 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.BR?format=csv HTTP/1.1" 200 5037
+2026-10-08 05:26:29,406 INFO sdm.collect.base: BR.policy_rate.BIS: 483 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:29,516 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.BR?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:29,558 INFO sdm.collect.base: BR.cb_total_assets_lcu.BIS: 384 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:26:29,685 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.BR.BRL.A?format=csv HTTP/1.1" 200 7812
+2026-10-08 05:26:29,753 INFO sdm.collect.base: BR.fx_lcu_per_usd.BIS: 884 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:30,278 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.BR?format=csv HTTP/1.1" 200 2689
+2026-10-08 05:26:30,315 INFO sdm.collect.base: BR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:30,424 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.BR.628?format=csv HTTP/1.1" 200 5950
+2026-10-08 05:26:30,469 INFO sdm.collect.base: BR.cpi_index.BIS: 560 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:30,591 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.MX?format=csv HTTP/1.1" 200 2270
+2026-10-08 05:26:30,624 INFO sdm.collect.base: MX.policy_rate.BIS: 334 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:30,731 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.MX?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:30,894 INFO sdm.collect.base: MX.cb_total_assets_lcu.BIS: 595 obs, 0 new, 0 revised, last 2026-07-31
+2026-10-08 05:26:31,003 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.MX.MXN.A?format=csv HTTP/1.1" 200 5895
+2026-10-08 05:26:31,068 INFO sdm.collect.base: MX.fx_lcu_per_usd.BIS: 869 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:31,180 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.MX?format=csv HTTP/1.1" 200 2661
+2026-10-08 05:26:31,215 INFO sdm.collect.base: MX.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:31,346 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.MX.628?format=csv HTTP/1.1" 200 5697
+2026-10-08 05:26:31,401 INFO sdm.collect.base: MX.cpi_index.BIS: 692 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:31,509 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.GR?format=csv HTTP/1.1" 200 2453
+2026-10-08 05:26:31,546 INFO sdm.collect.base: GR.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:31,656 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.GR.628?format=csv HTTP/1.1" 200 6165
+2026-10-08 05:26:31,717 INFO sdm.collect.base: GR.cpi_index.BIS: 812 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:31,847 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.GR.G.A.M.770.A?format=csv HTTP/1.1" 200 982
+2026-10-08 05:26:31,868 INFO sdm.collect.base: GR.gg_debt_gdp.BIS: 114 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:31,977 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBPOL/1.0/M.SE?format=csv HTTP/1.1" 200 4434
+2026-10-08 05:26:32,050 INFO sdm.collect.base: SE.policy_rate.BIS: 968 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:32,171 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.SE?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:32,309 INFO sdm.collect.base: SE.cb_total_assets_lcu.BIS: 322 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:26:32,457 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_XRU/1.0/M.SE.SEK.A?format=csv HTTP/1.1" 200 7120
+2026-10-08 05:26:32,522 INFO sdm.collect.base: SE.fx_lcu_per_usd.BIS: 876 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:32,642 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_EER/1.0/M.R.B.SE?format=csv HTTP/1.1" 200 2589
+2026-10-08 05:26:32,678 INFO sdm.collect.base: SE.reer_broad.BIS: 392 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:32,800 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_LONG_CPI/1.0/M.SE.628?format=csv HTTP/1.1" 200 None
+2026-10-08 05:26:32,892 INFO sdm.collect.base: SE.cpi_index.BIS: 1012 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:26:33,000 DEBUG urllib3.connectionpool: https://stats.bis.org:443 "GET /api/v2/data/dataflow/BIS/WS_TC/2.0/Q.SE.G.A.M.770.A?format=csv HTTP/1.1" 200 994
+2026-10-08 05:26:33,020 INFO sdm.collect.base: SE.gg_debt_gdp.BIS: 121 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:26:33,713 INFO sdm.collect.registry: == imf_datamapper
+2026-10-08 05:26:33,746 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.imf.org:443
+2026-10-08 05:26:34,010 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/USA HTTP/1.1" 200 27701
+2026-10-08 05:26:34,035 INFO sdm.collect.base: US.gg_debt_gdp.IMF_WEO: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:34,333 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/USA HTTP/1.1" 200 None
+2026-10-08 05:26:34,356 INFO sdm.collect.base: US.gg_primary_balance_gdp.IMF_WEO: 96 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:34,639 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/USA HTTP/1.1" 200 24807
+2026-10-08 05:26:34,656 INFO sdm.collect.base: US.gg_net_lending_gdp.IMF_WEO: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:34,998 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/USA HTTP/1.1" 200 None
+2026-10-08 05:26:35,022 INFO sdm.collect.base: US.gg_revenue_gdp.IMF_WEO: 96 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:35,289 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/USA HTTP/1.1" 200 29883
+2026-10-08 05:26:35,307 INFO sdm.collect.base: US.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:35,598 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/USA HTTP/1.1" 200 30247
+2026-10-08 05:26:35,616 INFO sdm.collect.base: US.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:35,919 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/USA HTTP/1.1" 200 None
+2026-10-08 05:26:35,942 INFO sdm.collect.base: US.gg_interest_gdp.IMF_WEO: 96 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:36,168 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/USA HTTP/1.1" 200 None
+2026-10-08 05:26:36,226 INFO sdm.collect.base: US.gg_primary_balance_gdp.IMF_FM: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:36,472 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/USA HTTP/1.1" 200 None
+2026-10-08 05:26:36,494 INFO sdm.collect.base: US.gg_net_lending_gdp.IMF_FM: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:36,787 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/USA HTTP/1.1" 200 None
+2026-10-08 05:26:36,870 INFO sdm.collect.base: US.gg_revenue_gdp.IMF_FM: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:37,113 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/USA HTTP/1.1" 200 None
+2026-10-08 05:26:37,367 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/USA HTTP/1.1" 200 None
+2026-10-08 05:26:37,391 INFO sdm.collect.base: US.gg_interest_gdp.IMF_FM: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:37,614 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/GBR HTTP/1.1" 200 27701
+2026-10-08 05:26:37,630 INFO sdm.collect.base: GB.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:37,947 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/GBR HTTP/1.1" 200 None
+2026-10-08 05:26:37,972 INFO sdm.collect.base: GB.gg_primary_balance_gdp.IMF_WEO: 195 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:38,226 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/GBR HTTP/1.1" 200 24807
+2026-10-08 05:26:38,242 INFO sdm.collect.base: GB.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:38,558 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/GBR HTTP/1.1" 200 None
+2026-10-08 05:26:38,583 INFO sdm.collect.base: GB.gg_revenue_gdp.IMF_WEO: 195 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:38,843 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/GBR HTTP/1.1" 200 29883
+2026-10-08 05:26:38,861 INFO sdm.collect.base: GB.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:39,130 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/GBR HTTP/1.1" 200 30247
+2026-10-08 05:26:39,148 INFO sdm.collect.base: GB.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:39,447 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/GBR HTTP/1.1" 200 None
+2026-10-08 05:26:39,559 INFO sdm.collect.base: GB.gg_interest_gdp.IMF_WEO: 225 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:39,778 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/GBR HTTP/1.1" 200 None
+2026-10-08 05:26:39,864 INFO sdm.collect.base: GB.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:40,132 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/GBR HTTP/1.1" 200 None
+2026-10-08 05:26:40,156 INFO sdm.collect.base: GB.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:40,401 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/GBR HTTP/1.1" 200 None
+2026-10-08 05:26:40,540 INFO sdm.collect.base: GB.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:40,854 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/GBR HTTP/1.1" 200 None
+2026-10-08 05:26:41,214 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/GBR HTTP/1.1" 200 None
+2026-10-08 05:26:41,235 INFO sdm.collect.base: GB.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:41,476 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/JPN HTTP/1.1" 200 27701
+2026-10-08 05:26:41,492 INFO sdm.collect.base: JP.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:41,989 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/JPN HTTP/1.1" 200 None
+2026-10-08 05:26:42,013 INFO sdm.collect.base: JP.gg_primary_balance_gdp.IMF_WEO: 147 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:42,249 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/JPN HTTP/1.1" 200 24807
+2026-10-08 05:26:42,265 INFO sdm.collect.base: JP.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:42,727 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/JPN HTTP/1.1" 200 None
+2026-10-08 05:26:42,752 INFO sdm.collect.base: JP.gg_revenue_gdp.IMF_WEO: 147 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:43,095 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/JPN HTTP/1.1" 200 29883
+2026-10-08 05:26:43,113 INFO sdm.collect.base: JP.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:43,492 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/JPN HTTP/1.1" 200 30247
+2026-10-08 05:26:43,510 INFO sdm.collect.base: JP.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:43,817 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/JPN HTTP/1.1" 200 None
+2026-10-08 05:26:43,840 INFO sdm.collect.base: JP.gg_interest_gdp.IMF_WEO: 147 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:44,188 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/JPN HTTP/1.1" 200 None
+2026-10-08 05:26:44,208 INFO sdm.collect.base: JP.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:44,530 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/JPN HTTP/1.1" 200 None
+2026-10-08 05:26:44,551 INFO sdm.collect.base: JP.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:44,822 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/JPN HTTP/1.1" 200 None
+2026-10-08 05:26:44,842 INFO sdm.collect.base: JP.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:45,067 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/JPN HTTP/1.1" 200 None
+2026-10-08 05:26:45,349 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/JPN HTTP/1.1" 200 None
+2026-10-08 05:26:45,370 INFO sdm.collect.base: JP.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:45,691 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/AUS HTTP/1.1" 200 27701
+2026-10-08 05:26:45,716 INFO sdm.collect.base: AU.gg_debt_gdp.IMF_WEO: 37 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:46,162 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/AUS HTTP/1.1" 200 None
+2026-10-08 05:26:46,184 INFO sdm.collect.base: AU.gg_primary_balance_gdp.IMF_WEO: 112 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:46,479 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/AUS HTTP/1.1" 200 24807
+2026-10-08 05:26:46,496 INFO sdm.collect.base: AU.gg_net_lending_gdp.IMF_WEO: 38 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:46,839 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/AUS HTTP/1.1" 200 None
+2026-10-08 05:26:46,864 INFO sdm.collect.base: AU.gg_revenue_gdp.IMF_WEO: 124 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:47,188 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/AUS HTTP/1.1" 200 29883
+2026-10-08 05:26:47,206 INFO sdm.collect.base: AU.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:47,495 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/AUS HTTP/1.1" 200 30247
+2026-10-08 05:26:47,513 INFO sdm.collect.base: AU.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:47,824 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/AUS HTTP/1.1" 200 None
+2026-10-08 05:26:47,874 INFO sdm.collect.base: AU.gg_interest_gdp.IMF_WEO: 112 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:48,129 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/AUS HTTP/1.1" 200 None
+2026-10-08 05:26:48,149 INFO sdm.collect.base: AU.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:48,373 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/AUS HTTP/1.1" 200 None
+2026-10-08 05:26:48,394 INFO sdm.collect.base: AU.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:48,667 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/AUS HTTP/1.1" 200 None
+2026-10-08 05:26:48,687 INFO sdm.collect.base: AU.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:48,939 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/AUS HTTP/1.1" 200 None
+2026-10-08 05:26:49,196 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/AUS HTTP/1.1" 200 None
+2026-10-08 05:26:49,218 INFO sdm.collect.base: AU.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:49,467 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/CAN HTTP/1.1" 200 27701
+2026-10-08 05:26:49,483 INFO sdm.collect.base: CA.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:49,838 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/CAN HTTP/1.1" 200 None
+2026-10-08 05:26:49,862 INFO sdm.collect.base: CA.gg_primary_balance_gdp.IMF_WEO: 155 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:50,216 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/CAN HTTP/1.1" 200 24807
+2026-10-08 05:26:50,233 INFO sdm.collect.base: CA.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:50,546 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/CAN HTTP/1.1" 200 None
+2026-10-08 05:26:50,571 INFO sdm.collect.base: CA.gg_revenue_gdp.IMF_WEO: 155 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:50,850 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/CAN HTTP/1.1" 200 29883
+2026-10-08 05:26:50,868 INFO sdm.collect.base: CA.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:51,166 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/CAN HTTP/1.1" 200 30247
+2026-10-08 05:26:51,184 INFO sdm.collect.base: CA.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:51,724 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/CAN HTTP/1.1" 200 None
+2026-10-08 05:26:51,747 INFO sdm.collect.base: CA.gg_interest_gdp.IMF_WEO: 155 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:54,299 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/CAN HTTP/1.1" 200 None
+2026-10-08 05:26:54,318 INFO sdm.collect.base: CA.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:54,564 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/CAN HTTP/1.1" 200 None
+2026-10-08 05:26:54,585 INFO sdm.collect.base: CA.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:54,862 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/CAN HTTP/1.1" 200 None
+2026-10-08 05:26:54,882 INFO sdm.collect.base: CA.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:55,119 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/CAN HTTP/1.1" 200 None
+2026-10-08 05:26:55,442 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/CAN HTTP/1.1" 200 None
+2026-10-08 05:26:55,464 INFO sdm.collect.base: CA.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:55,719 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/CHE HTTP/1.1" 200 27701
+2026-10-08 05:26:55,735 INFO sdm.collect.base: CH.gg_debt_gdp.IMF_WEO: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:56,104 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/CHE HTTP/1.1" 200 None
+2026-10-08 05:26:56,127 INFO sdm.collect.base: CH.gg_primary_balance_gdp.IMF_WEO: 111 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:56,429 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/CHE HTTP/1.1" 200 24807
+2026-10-08 05:26:56,446 INFO sdm.collect.base: CH.gg_net_lending_gdp.IMF_WEO: 43 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:56,887 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/CHE HTTP/1.1" 200 None
+2026-10-08 05:26:56,912 INFO sdm.collect.base: CH.gg_revenue_gdp.IMF_WEO: 111 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:57,175 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/CHE HTTP/1.1" 200 29883
+2026-10-08 05:26:57,193 INFO sdm.collect.base: CH.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:57,459 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/CHE HTTP/1.1" 200 30247
+2026-10-08 05:26:57,527 INFO sdm.collect.base: CH.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:57,923 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/CHE HTTP/1.1" 200 None
+2026-10-08 05:26:57,949 INFO sdm.collect.base: CH.gg_interest_gdp.IMF_WEO: 111 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:26:58,174 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/CHE HTTP/1.1" 200 None
+2026-10-08 05:26:58,194 INFO sdm.collect.base: CH.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:58,427 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/CHE HTTP/1.1" 200 None
+2026-10-08 05:26:58,449 INFO sdm.collect.base: CH.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:58,700 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/CHE HTTP/1.1" 200 None
+2026-10-08 05:26:58,720 INFO sdm.collect.base: CH.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:59,021 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/CHE HTTP/1.1" 200 None
+2026-10-08 05:26:59,322 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/CHE HTTP/1.1" 200 None
+2026-10-08 05:26:59,344 INFO sdm.collect.base: CH.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:26:59,651 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/EURO HTTP/1.1" 200 27701
+2026-10-08 05:26:59,667 INFO sdm.collect.base: EA.gg_debt_gdp.IMF_WEO: 31 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:02,911 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/EURO HTTP/1.1" 200 24807
+2026-10-08 05:27:02,927 INFO sdm.collect.base: EA.gg_net_lending_gdp.IMF_WEO: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:03,496 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/EURO HTTP/1.1" 200 29883
+2026-10-08 05:27:03,514 INFO sdm.collect.base: EA.rgdp_growth.IMF_WEO: 34 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:06,044 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/EURO HTTP/1.1" 200 30247
+2026-10-08 05:27:06,062 INFO sdm.collect.base: EA.cpi_yoy.IMF_WEO: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:06,468 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/DEU HTTP/1.1" 200 27701
+2026-10-08 05:27:06,484 INFO sdm.collect.base: DE.gg_debt_gdp.IMF_WEO: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:07,021 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/DEU HTTP/1.1" 200 None
+2026-10-08 05:27:07,045 INFO sdm.collect.base: DE.gg_primary_balance_gdp.IMF_WEO: 119 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:07,892 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/DEU HTTP/1.1" 200 24807
+2026-10-08 05:27:07,909 INFO sdm.collect.base: DE.gg_net_lending_gdp.IMF_WEO: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:08,494 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/DEU HTTP/1.1" 200 None
+2026-10-08 05:27:08,519 INFO sdm.collect.base: DE.gg_revenue_gdp.IMF_WEO: 119 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:11,334 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/DEU HTTP/1.1" 200 29883
+2026-10-08 05:27:11,352 INFO sdm.collect.base: DE.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:12,198 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/DEU HTTP/1.1" 200 30247
+2026-10-08 05:27:12,217 INFO sdm.collect.base: DE.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:12,681 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/DEU HTTP/1.1" 200 None
+2026-10-08 05:27:12,705 INFO sdm.collect.base: DE.gg_interest_gdp.IMF_WEO: 119 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:12,964 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/DEU HTTP/1.1" 200 None
+2026-10-08 05:27:12,985 INFO sdm.collect.base: DE.gg_primary_balance_gdp.IMF_FM: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:13,486 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/DEU HTTP/1.1" 200 None
+2026-10-08 05:27:13,506 INFO sdm.collect.base: DE.gg_net_lending_gdp.IMF_FM: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:13,833 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/DEU HTTP/1.1" 200 None
+2026-10-08 05:27:13,853 INFO sdm.collect.base: DE.gg_revenue_gdp.IMF_FM: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:14,450 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/DEU HTTP/1.1" 200 None
+2026-10-08 05:27:15,036 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/DEU HTTP/1.1" 200 None
+2026-10-08 05:27:15,058 INFO sdm.collect.base: DE.gg_interest_gdp.IMF_FM: 35 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:15,341 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/FRA HTTP/1.1" 200 27701
+2026-10-08 05:27:15,357 INFO sdm.collect.base: FR.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:15,766 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/FRA HTTP/1.1" 200 None
+2026-10-08 05:27:15,789 INFO sdm.collect.base: FR.gg_primary_balance_gdp.IMF_WEO: 126 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:16,027 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/FRA HTTP/1.1" 200 24807
+2026-10-08 05:27:16,044 INFO sdm.collect.base: FR.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:16,372 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/FRA HTTP/1.1" 200 None
+2026-10-08 05:27:16,397 INFO sdm.collect.base: FR.gg_revenue_gdp.IMF_WEO: 132 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:16,681 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/FRA HTTP/1.1" 200 29883
+2026-10-08 05:27:16,700 INFO sdm.collect.base: FR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:16,976 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/FRA HTTP/1.1" 200 30247
+2026-10-08 05:27:16,994 INFO sdm.collect.base: FR.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:17,315 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/FRA HTTP/1.1" 200 None
+2026-10-08 05:27:17,338 INFO sdm.collect.base: FR.gg_interest_gdp.IMF_WEO: 127 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:17,598 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/FRA HTTP/1.1" 200 None
+2026-10-08 05:27:17,618 INFO sdm.collect.base: FR.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:17,908 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/FRA HTTP/1.1" 200 None
+2026-10-08 05:27:17,931 INFO sdm.collect.base: FR.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:18,182 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/FRA HTTP/1.1" 200 None
+2026-10-08 05:27:18,208 INFO sdm.collect.base: FR.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:18,651 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/FRA HTTP/1.1" 200 None
+2026-10-08 05:27:19,030 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/FRA HTTP/1.1" 200 None
+2026-10-08 05:27:19,051 INFO sdm.collect.base: FR.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:19,290 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/ITA HTTP/1.1" 200 27701
+2026-10-08 05:27:19,306 INFO sdm.collect.base: IT.gg_debt_gdp.IMF_WEO: 38 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:19,617 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/ITA HTTP/1.1" 200 None
+2026-10-08 05:27:19,642 INFO sdm.collect.base: IT.gg_primary_balance_gdp.IMF_WEO: 163 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:19,886 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/ITA HTTP/1.1" 200 24807
+2026-10-08 05:27:19,902 INFO sdm.collect.base: IT.gg_net_lending_gdp.IMF_WEO: 38 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:20,214 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/ITA HTTP/1.1" 200 None
+2026-10-08 05:27:20,239 INFO sdm.collect.base: IT.gg_revenue_gdp.IMF_WEO: 163 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:20,581 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/ITA HTTP/1.1" 200 29883
+2026-10-08 05:27:20,599 INFO sdm.collect.base: IT.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:21,024 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/ITA HTTP/1.1" 200 30247
+2026-10-08 05:27:21,042 INFO sdm.collect.base: IT.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:21,436 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/ITA HTTP/1.1" 200 None
+2026-10-08 05:27:21,473 INFO sdm.collect.base: IT.gg_interest_gdp.IMF_WEO: 163 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:21,737 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/ITA HTTP/1.1" 200 None
+2026-10-08 05:27:21,758 INFO sdm.collect.base: IT.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:22,000 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/ITA HTTP/1.1" 200 None
+2026-10-08 05:27:22,021 INFO sdm.collect.base: IT.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:22,280 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/ITA HTTP/1.1" 200 None
+2026-10-08 05:27:22,300 INFO sdm.collect.base: IT.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:22,521 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/ITA HTTP/1.1" 200 None
+2026-10-08 05:27:22,758 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/ITA HTTP/1.1" 200 None
+2026-10-08 05:27:22,779 INFO sdm.collect.base: IT.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:23,014 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/NLD HTTP/1.1" 200 27701
+2026-10-08 05:27:23,030 INFO sdm.collect.base: NL.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:23,328 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/NLD HTTP/1.1" 200 None
+2026-10-08 05:27:23,352 INFO sdm.collect.base: NL.gg_primary_balance_gdp.IMF_WEO: 127 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:23,585 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/NLD HTTP/1.1" 200 24807
+2026-10-08 05:27:23,601 INFO sdm.collect.base: NL.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:23,914 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/NLD HTTP/1.1" 200 None
+2026-10-08 05:27:23,939 INFO sdm.collect.base: NL.gg_revenue_gdp.IMF_WEO: 127 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:24,203 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/NLD HTTP/1.1" 200 29883
+2026-10-08 05:27:24,222 INFO sdm.collect.base: NL.rgdp_growth.IMF_WEO: 45 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:24,501 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/NLD HTTP/1.1" 200 30247
+2026-10-08 05:27:24,519 INFO sdm.collect.base: NL.cpi_yoy.IMF_WEO: 45 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:24,832 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/NLD HTTP/1.1" 200 None
+2026-10-08 05:27:24,856 INFO sdm.collect.base: NL.gg_interest_gdp.IMF_WEO: 136 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:25,165 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/NLD HTTP/1.1" 200 None
+2026-10-08 05:27:25,185 INFO sdm.collect.base: NL.gg_primary_balance_gdp.IMF_FM: 31 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:25,439 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/NLD HTTP/1.1" 200 None
+2026-10-08 05:27:25,529 INFO sdm.collect.base: NL.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:25,810 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/NLD HTTP/1.1" 200 None
+2026-10-08 05:27:25,830 INFO sdm.collect.base: NL.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:26,068 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/NLD HTTP/1.1" 200 None
+2026-10-08 05:27:26,324 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/NLD HTTP/1.1" 200 None
+2026-10-08 05:27:26,345 INFO sdm.collect.base: NL.gg_interest_gdp.IMF_FM: 31 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:26,576 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/ARG HTTP/1.1" 200 27701
+2026-10-08 05:27:26,591 INFO sdm.collect.base: AR.gg_debt_gdp.IMF_WEO: 34 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:26,922 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/ARG HTTP/1.1" 200 None
+2026-10-08 05:27:26,946 INFO sdm.collect.base: AR.gg_primary_balance_gdp.IMF_WEO: 160 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:27,196 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/ARG HTTP/1.1" 200 24807
+2026-10-08 05:27:27,213 INFO sdm.collect.base: AR.gg_net_lending_gdp.IMF_WEO: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:27,554 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/ARG HTTP/1.1" 200 None
+2026-10-08 05:27:27,579 INFO sdm.collect.base: AR.gg_revenue_gdp.IMF_WEO: 161 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:27,868 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/ARG HTTP/1.1" 200 29883
+2026-10-08 05:27:27,886 INFO sdm.collect.base: AR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:28,285 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/ARG HTTP/1.1" 200 30247
+2026-10-08 05:27:28,303 INFO sdm.collect.base: AR.cpi_yoy.IMF_WEO: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:28,648 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/ARG HTTP/1.1" 200 None
+2026-10-08 05:27:28,671 INFO sdm.collect.base: AR.gg_interest_gdp.IMF_WEO: 160 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:28,893 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/ARG HTTP/1.1" 200 None
+2026-10-08 05:27:28,912 INFO sdm.collect.base: AR.gg_primary_balance_gdp.IMF_FM: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:29,161 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/ARG HTTP/1.1" 200 None
+2026-10-08 05:27:29,181 INFO sdm.collect.base: AR.gg_net_lending_gdp.IMF_FM: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:29,412 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/ARG HTTP/1.1" 200 None
+2026-10-08 05:27:29,432 INFO sdm.collect.base: AR.gg_revenue_gdp.IMF_FM: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:29,656 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/ARG HTTP/1.1" 200 None
+2026-10-08 05:27:29,891 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/ARG HTTP/1.1" 200 None
+2026-10-08 05:27:29,912 INFO sdm.collect.base: AR.gg_interest_gdp.IMF_FM: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:30,269 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/TUR HTTP/1.1" 200 27701
+2026-10-08 05:27:30,285 INFO sdm.collect.base: TR.gg_debt_gdp.IMF_WEO: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:30,636 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/TUR HTTP/1.1" 200 None
+2026-10-08 05:27:30,660 INFO sdm.collect.base: TR.gg_primary_balance_gdp.IMF_WEO: 55 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:30,986 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/TUR HTTP/1.1" 200 24807
+2026-10-08 05:27:31,002 INFO sdm.collect.base: TR.gg_net_lending_gdp.IMF_WEO: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:31,310 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/TUR HTTP/1.1" 200 None
+2026-10-08 05:27:31,336 INFO sdm.collect.base: TR.gg_revenue_gdp.IMF_WEO: 81 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:31,607 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/TUR HTTP/1.1" 200 29883
+2026-10-08 05:27:31,625 INFO sdm.collect.base: TR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:31,906 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/TUR HTTP/1.1" 200 30247
+2026-10-08 05:27:31,925 INFO sdm.collect.base: TR.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:32,258 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/TUR HTTP/1.1" 200 None
+2026-10-08 05:27:32,331 INFO sdm.collect.base: TR.gg_interest_gdp.IMF_WEO: 55 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:32,564 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/TUR HTTP/1.1" 200 None
+2026-10-08 05:27:32,584 INFO sdm.collect.base: TR.gg_primary_balance_gdp.IMF_FM: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:32,912 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/TUR HTTP/1.1" 200 None
+2026-10-08 05:27:32,933 INFO sdm.collect.base: TR.gg_net_lending_gdp.IMF_FM: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:33,173 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/TUR HTTP/1.1" 200 None
+2026-10-08 05:27:33,194 INFO sdm.collect.base: TR.gg_revenue_gdp.IMF_FM: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:33,483 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/TUR HTTP/1.1" 200 None
+2026-10-08 05:27:33,746 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/TUR HTTP/1.1" 200 None
+2026-10-08 05:27:33,767 INFO sdm.collect.base: TR.gg_interest_gdp.IMF_FM: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:34,058 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/RUS HTTP/1.1" 200 27701
+2026-10-08 05:27:34,074 INFO sdm.collect.base: RU.gg_debt_gdp.IMF_WEO: 29 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:34,375 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/RUS HTTP/1.1" 200 None
+2026-10-08 05:27:34,400 INFO sdm.collect.base: RU.gg_primary_balance_gdp.IMF_WEO: 60 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:34,643 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/RUS HTTP/1.1" 200 24807
+2026-10-08 05:27:34,659 INFO sdm.collect.base: RU.gg_net_lending_gdp.IMF_WEO: 28 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:35,007 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/RUS HTTP/1.1" 200 None
+2026-10-08 05:27:35,031 INFO sdm.collect.base: RU.gg_revenue_gdp.IMF_WEO: 68 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:35,314 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/RUS HTTP/1.1" 200 29883
+2026-10-08 05:27:35,333 INFO sdm.collect.base: RU.rgdp_growth.IMF_WEO: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:35,600 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/RUS HTTP/1.1" 200 30247
+2026-10-08 05:27:35,618 INFO sdm.collect.base: RU.cpi_yoy.IMF_WEO: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:35,942 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/RUS HTTP/1.1" 200 None
+2026-10-08 05:27:35,965 INFO sdm.collect.base: RU.gg_interest_gdp.IMF_WEO: 60 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:36,272 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/RUS HTTP/1.1" 200 None
+2026-10-08 05:27:36,308 INFO sdm.collect.base: RU.gg_primary_balance_gdp.IMF_FM: 28 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:36,569 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/RUS HTTP/1.1" 200 None
+2026-10-08 05:27:36,590 INFO sdm.collect.base: RU.gg_net_lending_gdp.IMF_FM: 28 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:36,945 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/RUS HTTP/1.1" 200 None
+2026-10-08 05:27:37,019 INFO sdm.collect.base: RU.gg_revenue_gdp.IMF_FM: 28 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:37,257 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/RUS HTTP/1.1" 200 None
+2026-10-08 05:27:37,521 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/RUS HTTP/1.1" 200 None
+2026-10-08 05:27:37,542 INFO sdm.collect.base: RU.gg_interest_gdp.IMF_FM: 28 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:37,879 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/BRA HTTP/1.1" 200 27701
+2026-10-08 05:27:37,895 INFO sdm.collect.base: BR.gg_debt_gdp.IMF_WEO: 26 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:38,193 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/BRA HTTP/1.1" 200 None
+2026-10-08 05:27:38,217 INFO sdm.collect.base: BR.gg_primary_balance_gdp.IMF_WEO: 95 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:38,474 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/BRA HTTP/1.1" 200 24807
+2026-10-08 05:27:38,490 INFO sdm.collect.base: BR.gg_net_lending_gdp.IMF_WEO: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:38,821 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/BRA HTTP/1.1" 200 None
+2026-10-08 05:27:38,846 INFO sdm.collect.base: BR.gg_revenue_gdp.IMF_WEO: 136 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:39,119 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/BRA HTTP/1.1" 200 29883
+2026-10-08 05:27:39,138 INFO sdm.collect.base: BR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:39,387 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/BRA HTTP/1.1" 200 30247
+2026-10-08 05:27:39,406 INFO sdm.collect.base: BR.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:39,767 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/BRA HTTP/1.1" 200 None
+2026-10-08 05:27:39,790 INFO sdm.collect.base: BR.gg_interest_gdp.IMF_WEO: 95 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:40,056 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/BRA HTTP/1.1" 200 None
+2026-10-08 05:27:40,076 INFO sdm.collect.base: BR.gg_primary_balance_gdp.IMF_FM: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:40,402 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/BRA HTTP/1.1" 200 None
+2026-10-08 05:27:40,423 INFO sdm.collect.base: BR.gg_net_lending_gdp.IMF_FM: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:40,703 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/BRA HTTP/1.1" 200 None
+2026-10-08 05:27:40,724 INFO sdm.collect.base: BR.gg_revenue_gdp.IMF_FM: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:40,967 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/BRA HTTP/1.1" 200 None
+2026-10-08 05:27:41,262 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/BRA HTTP/1.1" 200 None
+2026-10-08 05:27:41,283 INFO sdm.collect.base: BR.gg_interest_gdp.IMF_FM: 25 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:41,675 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/MEX HTTP/1.1" 200 27701
+2026-10-08 05:27:41,691 INFO sdm.collect.base: MX.gg_debt_gdp.IMF_WEO: 30 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:42,273 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/MEX HTTP/1.1" 200 None
+2026-10-08 05:27:42,297 INFO sdm.collect.base: MX.gg_primary_balance_gdp.IMF_WEO: 100 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:42,907 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/MEX HTTP/1.1" 200 24807
+2026-10-08 05:27:42,923 INFO sdm.collect.base: MX.gg_net_lending_gdp.IMF_WEO: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:43,410 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/MEX HTTP/1.1" 200 None
+2026-10-08 05:27:43,435 INFO sdm.collect.base: MX.gg_revenue_gdp.IMF_WEO: 122 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:44,105 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/MEX HTTP/1.1" 200 29883
+2026-10-08 05:27:44,123 INFO sdm.collect.base: MX.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:44,693 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/MEX HTTP/1.1" 200 30247
+2026-10-08 05:27:44,711 INFO sdm.collect.base: MX.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:45,431 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/MEX HTTP/1.1" 200 None
+2026-10-08 05:27:45,454 INFO sdm.collect.base: MX.gg_interest_gdp.IMF_WEO: 100 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:45,803 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/MEX HTTP/1.1" 200 None
+2026-10-08 05:27:45,823 INFO sdm.collect.base: MX.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:46,070 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/MEX HTTP/1.1" 200 None
+2026-10-08 05:27:46,092 INFO sdm.collect.base: MX.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:46,401 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/MEX HTTP/1.1" 200 None
+2026-10-08 05:27:46,422 INFO sdm.collect.base: MX.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:47,042 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/MEX HTTP/1.1" 200 None
+2026-10-08 05:27:47,341 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/MEX HTTP/1.1" 200 None
+2026-10-08 05:27:47,363 INFO sdm.collect.base: MX.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:47,878 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/GRC HTTP/1.1" 200 27701
+2026-10-08 05:27:47,894 INFO sdm.collect.base: GR.gg_debt_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:48,788 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/GRC HTTP/1.1" 200 None
+2026-10-08 05:27:48,812 INFO sdm.collect.base: GR.gg_primary_balance_gdp.IMF_WEO: 122 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:49,100 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/GRC HTTP/1.1" 200 24807
+2026-10-08 05:27:49,120 INFO sdm.collect.base: GR.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:49,465 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/GRC HTTP/1.1" 200 None
+2026-10-08 05:27:49,491 INFO sdm.collect.base: GR.gg_revenue_gdp.IMF_WEO: 124 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:49,821 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/GRC HTTP/1.1" 200 29883
+2026-10-08 05:27:49,840 INFO sdm.collect.base: GR.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:50,478 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/GRC HTTP/1.1" 200 30247
+2026-10-08 05:27:50,496 INFO sdm.collect.base: GR.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:50,889 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/GRC HTTP/1.1" 200 None
+2026-10-08 05:27:50,937 INFO sdm.collect.base: GR.gg_interest_gdp.IMF_WEO: 122 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:51,316 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/GRC HTTP/1.1" 200 None
+2026-10-08 05:27:51,336 INFO sdm.collect.base: GR.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:51,687 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/GRC HTTP/1.1" 200 None
+2026-10-08 05:27:51,708 INFO sdm.collect.base: GR.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:52,426 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/GRC HTTP/1.1" 200 None
+2026-10-08 05:27:52,446 INFO sdm.collect.base: GR.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:52,772 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/GRC HTTP/1.1" 200 None
+2026-10-08 05:27:53,039 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/GRC HTTP/1.1" 200 None
+2026-10-08 05:27:53,061 INFO sdm.collect.base: GR.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:53,355 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXWDG_NGDP/SWE HTTP/1.1" 200 27701
+2026-10-08 05:27:53,372 INFO sdm.collect.base: SE.gg_debt_gdp.IMF_WEO: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:53,806 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/pb/SWE HTTP/1.1" 200 None
+2026-10-08 05:27:53,830 INFO sdm.collect.base: SE.gg_primary_balance_gdp.IMF_WEO: 225 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:54,127 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_NGDP/SWE HTTP/1.1" 200 24807
+2026-10-08 05:27:54,144 INFO sdm.collect.base: SE.gg_net_lending_gdp.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:54,539 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/rev/SWE HTTP/1.1" 200 None
+2026-10-08 05:27:54,565 INFO sdm.collect.base: SE.gg_revenue_gdp.IMF_WEO: 225 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:54,913 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/NGDP_RPCH/SWE HTTP/1.1" 200 29883
+2026-10-08 05:27:54,931 INFO sdm.collect.base: SE.rgdp_growth.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:55,363 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/PCPIPCH/SWE HTTP/1.1" 200 30247
+2026-10-08 05:27:55,382 INFO sdm.collect.base: SE.cpi_yoy.IMF_WEO: 46 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:55,687 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/ie/SWE HTTP/1.1" 200 None
+2026-10-08 05:27:55,711 INFO sdm.collect.base: SE.gg_interest_gdp.IMF_WEO: 225 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:27:56,063 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/SWE HTTP/1.1" 200 None
+2026-10-08 05:27:56,093 INFO sdm.collect.base: SE.gg_primary_balance_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:56,468 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/SWE HTTP/1.1" 200 None
+2026-10-08 05:27:56,489 INFO sdm.collect.base: SE.gg_net_lending_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:56,993 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGR_G01_GDP_PT/SWE HTTP/1.1" 200 None
+2026-10-08 05:27:57,014 INFO sdm.collect.base: SE.gg_revenue_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:57,542 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXONLB_G01_GDP_PT/SWE HTTP/1.1" 200 None
+2026-10-08 05:27:57,821 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/datamapper/api/v1/GGXCNL_G01_GDP_PT/SWE HTTP/1.1" 200 None
+2026-10-08 05:27:57,842 INFO sdm.collect.base: SE.gg_interest_gdp.IMF_FM: 36 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:27:58,080 INFO sdm.collect.registry: == fred
+2026-10-08 05:27:58,270 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): fred.stlouisfed.org:443
+2026-10-08 05:27:58,564 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DGS10 HTTP/1.1" 200 268967
+2026-10-08 05:27:58,680 INFO sdm.collect.base: US.yield_10y.FRED.DGS10: 16176 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:27:58,697 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DGS2 HTTP/1.1" 200 209140
+2026-10-08 05:27:58,780 INFO sdm.collect.base: US.yield_2y.FRED.DGS2: 12584 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:27:58,796 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DGS3MO HTTP/1.1" 200 186691
+2026-10-08 05:27:58,871 INFO sdm.collect.base: US.yield_3m.FRED.DGS3MO: 11274 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:27:58,882 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DGS30 HTTP/1.1" 200 206561
+2026-10-08 05:27:58,962 INFO sdm.collect.base: US.yield_30y.FRED.DGS30: 12406 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:27:58,984 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DFII10 HTTP/1.1" 200 99147
+2026-10-08 05:27:59,031 INFO sdm.collect.base: US.real_yield_10y.FRED.DFII10: 5945 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:27:59,043 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=T10YIE HTTP/1.1" 200 98208
+2026-10-08 05:27:59,091 INFO sdm.collect.base: US.breakeven_10y.FRED.T10YIE: 5946 obs, 0 new, 0 revised, last 2026-10-07
+2026-10-08 05:27:59,113 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=THREEFYTP10 HTTP/1.1" 200 171331
+2026-10-08 05:27:59,182 INFO sdm.collect.base: US.term_premium_10y.FRED.THREEFYTP10: 9175 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:27:59,194 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=CPIAUCSL HTTP/1.1" 200 17744
+2026-10-08 05:27:59,218 INFO sdm.collect.base: US.cpi_index.FRED.CPIAUCSL: 955 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:27:59,307 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=FDHBFRBN HTTP/1.1" 200 4354
+2026-10-08 05:27:59,326 INFO sdm.collect.base: US.cb_gov_holdings_lcu.FRED.FDHBFRBN: 226 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:27:59,342 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=FDHBFIN HTTP/1.1" 200 3935
+2026-10-08 05:27:59,360 INFO sdm.collect.base: US.foreign_gov_holdings_lcu.FRED.FDHBFIN: 225 obs, 0 new, 0 revised, last 2026-01-01
+2026-10-08 05:27:59,417 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=FYGFDPUN HTTP/1.1" 200 6558
+2026-10-08 05:27:59,436 INFO sdm.collect.base: US.cg_debt_lcu.FRED.FYGFDPUN: 225 obs, 0 new, 0 revised, last 2026-01-01
+2026-10-08 05:27:59,469 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=GFDEGDQ188S HTTP/1.1" 200 4899
+2026-10-08 05:27:59,487 INFO sdm.collect.base: US.gg_debt_gdp.FRED.GFDEGDQ188S: 241 obs, 0 new, 0 revised, last 2026-01-01
+2026-10-08 05:27:59,502 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=GDP HTTP/1.1" 200 6398
+2026-10-08 05:27:59,521 INFO sdm.collect.base: US.ngdp_lcu.FRED.GDP: 318 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:27:59,543 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=A091RC1Q027SBEA HTTP/1.1" 200 5909
+2026-10-08 05:27:59,561 INFO sdm.collect.base: US.cg_interest_lcu.FRED.A091RC1Q027SBEA: 318 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:27:59,629 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=FGRECPT HTTP/1.1" 200 6157
+2026-10-08 05:27:59,647 INFO sdm.collect.base: US.cg_receipts_lcu.FRED.FGRECPT: 318 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:27:59,668 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=FGEXPND HTTP/1.1" 200 6172
+2026-10-08 05:27:59,686 INFO sdm.collect.base: US.cg_outlays_lcu.FRED.FGEXPND: 318 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:27:59,707 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=BOGZ1FL194090005Q HTTP/1.1" 200 3157
+2026-10-08 05:27:59,726 INFO sdm.collect.base: US.household_fin_assets_lcu.FRED.BOGZ1FL194090005Q: 155 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:27:59,767 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IIPUSNETIQ HTTP/1.1" 200 1698
+2026-10-08 05:27:59,784 INFO sdm.collect.base: US.niip_gdp.FRED.IIPUSNETIQ: 82 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:27:59,796 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DEXUSUK HTTP/1.1" 200 258451
+2026-10-08 05:27:59,911 INFO sdm.collect.base: GB.fx_lcu_per_usd.FRED.DEXUSUK: 13981 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:27:59,933 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DEXJPUS HTTP/1.1" 200 256901
+2026-10-08 05:28:00,019 INFO sdm.collect.base: JP.fx_lcu_per_usd.FRED.DEXJPUS: 13975 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:28:00,032 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DEXUSAL HTTP/1.1" 200 258409
+2026-10-08 05:28:00,118 INFO sdm.collect.base: AU.fx_lcu_per_usd.FRED.DEXUSAL: 13974 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:28:00,130 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DEXCAUS HTTP/1.1" 200 258487
+2026-10-08 05:28:00,223 INFO sdm.collect.base: CA.fx_lcu_per_usd.FRED.DEXCAUS: 13987 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:28:00,234 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DEXSZUS HTTP/1.1" 200 258451
+2026-10-08 05:28:00,321 INFO sdm.collect.base: CH.fx_lcu_per_usd.FRED.DEXSZUS: 13981 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:28:00,333 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DEXUSEU HTTP/1.1" 200 128665
+2026-10-08 05:28:00,385 INFO sdm.collect.base: EA.fx_lcu_per_usd.FRED.DEXUSEU: 6960 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:28:00,398 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DEXBZUS HTTP/1.1" 200 147229
+2026-10-08 05:28:00,455 INFO sdm.collect.base: BR.fx_lcu_per_usd.FRED.DEXBZUS: 7964 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:28:00,467 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DEXMXUS HTTP/1.1" 200 158629
+2026-10-08 05:28:00,526 INFO sdm.collect.base: MX.fx_lcu_per_usd.FRED.DEXMXUS: 8249 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:28:00,571 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=DEXSDUS HTTP/1.1" 200 259502
+2026-10-08 05:28:00,679 INFO sdm.collect.base: SE.fx_lcu_per_usd.FRED.DEXSDUS: 13980 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:28:00,699 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=ECBASSETSW HTTP/1.1" 200 40213
+2026-10-08 05:28:00,723 INFO sdm.collect.base: EA.cb_total_assets_lcu.FRED.ECBASSETSW: 1448 obs, 0 new, 0 revised, last 2026-09-25
+2026-10-08 05:28:00,754 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=JPNASSETS HTTP/1.1" 200 6496
+2026-10-08 05:28:00,771 INFO sdm.collect.base: JP.cb_total_assets_lcu.FRED.JPNASSETS: 342 obs, 0 new, 0 revised, last 2026-09-01
+2026-10-08 05:28:00,795 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=UKNGDP HTTP/1.1" 200 5004
+2026-10-08 05:28:00,814 INFO sdm.collect.base: GB.ngdp_lcu.FRED.UKNGDP: 286 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:28:00,841 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=JPNNGDP HTTP/1.1" 200 2625
+2026-10-08 05:28:00,858 INFO sdm.collect.base: JP.ngdp_lcu.FRED.JPNNGDP: 130 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:28:00,876 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01GBM156N HTTP/1.1" 200 14623
+2026-10-08 05:28:00,897 INFO sdm.collect.base: GB.yield_10y.FRED.IRLTLT01GBM156N: 800 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:00,916 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01JPM156N HTTP/1.1" 200 7741
+2026-10-08 05:28:00,935 INFO sdm.collect.base: JP.yield_10y.FRED.IRLTLT01JPM156N: 452 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:00,956 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01AUM156N HTTP/1.1" 200 19421
+2026-10-08 05:28:00,977 INFO sdm.collect.base: AU.yield_10y.FRED.IRLTLT01AUM156N: 686 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,079 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01CAM156N HTTP/1.1" 200 25074
+2026-10-08 05:28:01,100 INFO sdm.collect.base: CA.yield_10y.FRED.IRLTLT01CAM156N: 860 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,122 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01CHM156N HTTP/1.1" 200 14725
+2026-10-08 05:28:01,143 INFO sdm.collect.base: CH.yield_10y.FRED.IRLTLT01CHM156N: 860 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,280 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01EZM156N HTTP/1.1" 200 20359
+2026-10-08 05:28:01,307 INFO sdm.collect.base: EA.yield_10y.FRED.IRLTLT01EZM156N: 673 obs, 0 new, 0 revised, last 2026-01-01
+2026-10-08 05:28:01,332 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01DEM156N HTTP/1.1" 200 24564
+2026-10-08 05:28:01,353 INFO sdm.collect.base: DE.yield_10y.FRED.IRLTLT01DEM156N: 844 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,371 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01FRM156N HTTP/1.1" 200 13001
+2026-10-08 05:28:01,392 INFO sdm.collect.base: FR.yield_10y.FRED.IRLTLT01FRM156N: 800 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,442 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01ITM156N HTTP/1.1" 200 8179
+2026-10-08 05:28:01,461 INFO sdm.collect.base: IT.yield_10y.FRED.IRLTLT01ITM156N: 426 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,492 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01NLM156N HTTP/1.1" 200 13903
+2026-10-08 05:28:01,513 INFO sdm.collect.base: NL.yield_10y.FRED.IRLTLT01NLM156N: 812 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,547 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01GRM156N HTTP/1.1" 200 5692
+2026-10-08 05:28:01,565 INFO sdm.collect.base: GR.yield_10y.FRED.IRLTLT01GRM156N: 350 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,592 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01SEM156N HTTP/1.1" 200 10142
+2026-10-08 05:28:01,611 INFO sdm.collect.base: SE.yield_10y.FRED.IRLTLT01SEM156N: 477 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,628 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01MXM156N HTTP/1.1" 200 4626
+2026-10-08 05:28:01,646 INFO sdm.collect.base: MX.yield_10y.FRED.IRLTLT01MXM156N: 236 obs, 0 new, 0 revised, last 2026-08-01
+2026-10-08 05:28:01,670 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=IRLTLT01RUM156N HTTP/1.1" 200 3856
+2026-10-08 05:28:01,688 INFO sdm.collect.base: RU.yield_10y.FRED.IRLTLT01RUM156N: 234 obs, 0 new, 0 revised, last 2018-06-01
+2026-10-08 05:28:01,740 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=NGDPSAXDCAUQ HTTP/1.1" 200 4687
+2026-10-08 05:28:01,760 INFO sdm.collect.base: AU.ngdp_lcu.FRED.NGDPSAXDCAUQ: 268 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:28:01,778 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=NGDPSAXDCCAQ HTTP/1.1" 200 4658
+2026-10-08 05:28:01,795 INFO sdm.collect.base: CA.ngdp_lcu.FRED.NGDPSAXDCCAQ: 262 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:28:01,848 DEBUG urllib3.connectionpool: https://fred.stlouisfed.org:443 "GET /graph/fredgraph.csv?id=CPMNACSCAB1GQCH HTTP/1.1" 200 2553
+2026-10-08 05:28:01,866 INFO sdm.collect.base: CH.ngdp_lcu.FRED.CPMNACSCAB1GQCH: 126 obs, 0 new, 0 revised, last 2026-04-01
+2026-10-08 05:28:03,017 INFO sdm.collect.registry: == fiscaldata
+2026-10-08 05:28:03,023 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.fiscaldata.treasury.gov:443
+2026-10-08 05:28:03,374 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v2/accounting/od/avg_interest_rates?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=security_desc%3Aeq%3ATotal+Marketable&sort=record_date HTTP/1.1" 200 4782
+2026-10-08 05:28:03,386 INFO sdm.collect.base: US.avg_interest_rate.US_TREASURY: 307 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:03,775 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_1?page%5Bsize%5D=10000&page%5Bnumber%5D=1&sort=record_date&fields=record_date%2Csecurity_type_desc%2Csecurity_class_desc%2Cdebt_held_public_mil_amt%2Ctotal_mil_amt HTTP/1.1" 200 84306
+2026-10-08 05:28:03,923 INFO sdm.collect.base: US.marketable_debt_lcu.US_TREASURY: 309 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:04,199 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_1?page%5Bsize%5D=10000&page%5Bnumber%5D=1&sort=record_date&fields=record_date%2Csecurity_type_desc%2Csecurity_class_desc%2Cdebt_held_public_mil_amt%2Ctotal_mil_amt HTTP/1.1" 200 84306
+2026-10-08 05:28:04,286 INFO sdm.collect.base: US.bills_outstanding_lcu.US_TREASURY: 309 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:04,602 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_1?page%5Bsize%5D=10000&page%5Bnumber%5D=1&sort=record_date&fields=record_date%2Csecurity_type_desc%2Csecurity_class_desc%2Cdebt_held_public_mil_amt%2Ctotal_mil_amt HTTP/1.1" 200 84306
+2026-10-08 05:28:04,688 INFO sdm.collect.base: US.linkers_outstanding_lcu.US_TREASURY: 268 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:05,243 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v2/accounting/od/interest_expense?page%5Bsize%5D=10000&page%5Bnumber%5D=1&sort=record_date&filter=expense_catg_desc%3Aeq%3AINTEREST+EXPENSE+ON+PUBLIC+ISSUES HTTP/1.1" 200 117718
+2026-10-08 05:28:05,421 INFO sdm.collect.base: US.cg_interest_lcu.US_TREASURY: 197 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:05,561 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/accounting/od/auctions_query?page%5Bsize%5D=10000&page%5Bnumber%5D=1&sort=auction_date&filter=security_term%3Aeq%3A10-Year&fields=auction_date%2Csecurity_type%2Csecurity_term%2Cbid_to_cover_ratio HTTP/1.1" 200 1725
+2026-10-08 05:28:05,572 INFO sdm.collect.base: US.auction_bid_to_cover.US_TREASURY: 154 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:05,759 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282001-03-31%2C2001-06-30%2C2001-09-30%2C2001-12-31%2C2002-03-31%2C2002-06-30%2C2002-09-30%2C2002-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 12595
+2026-10-08 05:28:05,957 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282003-03-31%2C2003-06-30%2C2003-09-30%2C2003-12-31%2C2004-03-31%2C2004-06-30%2C2004-09-30%2C2004-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 12165
+2026-10-08 05:28:06,171 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282005-03-31%2C2005-06-30%2C2005-09-30%2C2005-12-31%2C2006-03-31%2C2006-06-30%2C2006-09-30%2C2006-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 13709
+2026-10-08 05:28:06,347 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282007-03-31%2C2007-06-30%2C2007-09-30%2C2007-12-31%2C2008-03-31%2C2008-06-30%2C2008-09-30%2C2008-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 16137
+/home/runner/work/sovereign-debt-model/sovereign-debt-model/src/sdm/collect/sources/fiscaldata.py:204: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df["mat"] = pd.to_datetime(df["maturity_date"], errors="coerce")
+2026-10-08 05:28:06,587 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282009-03-31%2C2009-06-30%2C2009-09-30%2C2009-12-31%2C2010-03-31%2C2010-06-30%2C2010-09-30%2C2010-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 24926
+2026-10-08 05:28:06,780 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282011-03-31%2C2011-06-30%2C2011-09-30%2C2011-12-31%2C2012-03-31%2C2012-06-30%2C2012-09-30%2C2012-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 29754
+2026-10-08 05:28:07,048 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282013-03-31%2C2013-06-30%2C2013-09-30%2C2013-12-31%2C2014-03-31%2C2014-06-30%2C2014-09-30%2C2014-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 34234
+2026-10-08 05:28:07,330 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282015-03-31%2C2015-06-30%2C2015-09-30%2C2015-12-31%2C2016-03-31%2C2016-06-30%2C2016-09-30%2C2016-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 37683
+2026-10-08 05:28:07,661 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282017-03-31%2C2017-06-30%2C2017-09-30%2C2017-12-31%2C2018-03-31%2C2018-06-30%2C2018-09-30%2C2018-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 38958
+2026-10-08 05:28:08,028 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282019-03-31%2C2019-06-30%2C2019-09-30%2C2019-12-31%2C2020-03-31%2C2020-06-30%2C2020-09-30%2C2020-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 41705
+2026-10-08 05:28:08,366 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282021-03-31%2C2021-06-30%2C2021-09-30%2C2021-12-31%2C2022-03-31%2C2022-06-30%2C2022-09-30%2C2022-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 44295
+2026-10-08 05:28:08,753 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282023-03-31%2C2023-06-30%2C2023-09-30%2C2023-12-31%2C2024-03-31%2C2024-06-30%2C2024-09-30%2C2024-12-31%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 46132
+2026-10-08 05:28:09,202 DEBUG urllib3.connectionpool: https://api.fiscaldata.treasury.gov:443 "GET /services/api/fiscal_service/v1/debt/mspd/mspd_table_3?page%5Bsize%5D=10000&page%5Bnumber%5D=1&filter=record_date%3Ain%3A%282025-03-31%2C2025-06-30%2C2025-09-30%2C2025-12-31%2C2026-03-31%2C2026-06-30%2C2026-09-30%29%2Csecurity_type_desc%3Aeq%3AMarketable&fields=record_date%2Csecurity_class1_desc%2Cmaturity_date%2Coutstanding_amt HTTP/1.1" 200 41874
+2026-10-08 05:28:09,225 INFO sdm.collect.base: US.avg_maturity_years.US_TREASURY: 103 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:09,251 INFO sdm.collect.registry: == gold
+2026-10-08 05:28:09,258 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): raw.githubusercontent.com:443
+2026-10-08 05:28:09,319 DEBUG urllib3.connectionpool: https://raw.githubusercontent.com:443 "GET /datasets/gold-prices/main/data/monthly.csv HTTP/1.1" 200 6679
+2026-10-08 05:28:09,350 INFO sdm.collect.base: XX.gold_usd.LBMA_DATAHUB: 2325 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:09,351 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): thedocs.worldbank.org:443
+2026-10-08 05:28:09,628 DEBUG urllib3.connectionpool: https://thedocs.worldbank.org:443 "GET /en/doc/5d903e848db1d1b83e0ec8f744e55570-0350012021/related/CMO-Historical-Data-Monthly.xlsx HTTP/1.1" 200 None
+2026-10-08 05:28:09,913 INFO sdm.collect.base: XX.gold_usd.WB_CMO: 780 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:09,914 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): query1.finance.yahoo.com:443
+2026-10-08 05:28:09,984 DEBUG urllib3.connectionpool: https://query1.finance.yahoo.com:443 "GET /v8/finance/chart/GC=F?range=max&interval=1mo HTTP/1.1" 200 None
+2026-10-08 05:28:09,995 INFO sdm.collect.base: XX.gold_usd.YAHOO: 268 obs, 0 new, 1 revised, last 2026-10-31
+2026-10-08 05:28:10,027 INFO sdm.collect.registry: == boe
+2026-10-08 05:28:10,080 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.bankofengland.co.uk:443
+2026-10-08 05:28:10,304 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDBEDR&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 302 0
+2026-10-08 05:28:11,748 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/database/_iadb-FromShowColumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDBEDR&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 200 29230
+2026-10-08 05:28:11,868 INFO sdm.collect.base: GB.policy_rate.BOE: 13085 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:28:11,879 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDMNPY&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 302 0
+2026-10-08 05:28:13,018 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/database/_iadb-FromShowColumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDMNPY&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 200 40754
+2026-10-08 05:28:13,091 INFO sdm.collect.base: GB.yield_10y.BOE: 8320 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-08 05:28:13,103 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDSNPY&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 302 0
+2026-10-08 05:28:13,937 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/database/_iadb-FromShowColumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDSNPY&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 200 40578
+2026-10-08 05:28:14,005 INFO sdm.collect.base: GB.yield_5y.BOE: 8298 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-08 05:28:14,019 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDLNPY&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 302 0
+2026-10-08 05:28:14,840 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/database/_iadb-FromShowColumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDLNPY&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 200 33010
+2026-10-08 05:28:14,898 INFO sdm.collect.base: GB.yield_30y.BOE: 6761 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-08 05:28:14,909 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDMIIF&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 302 0
+2026-10-08 05:28:16,318 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/database/_iadb-FromShowColumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDMIIF&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 200 None
+2026-10-08 05:28:16,403 INFO sdm.collect.base: GB.breakeven_10y.BOE: 10554 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-08 05:28:16,415 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/iadb/fromshowcolumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDMRZC&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 302 0
+2026-10-08 05:28:17,405 DEBUG urllib3.connectionpool: https://www.bankofengland.co.uk:443 "GET /boeapps/database/_iadb-FromShowColumns.asp?csv.x=yes&Datefrom=01%2FJan%2F1970&Dateto=now&SeriesCodes=IUDMRZC&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N HTTP/1.1" 200 None
+2026-10-08 05:28:17,512 INFO sdm.collect.base: GB.real_yield_10y.BOE: 10554 obs, 0 new, 0 revised, last 2026-10-05
+2026-10-08 05:28:17,835 INFO sdm.collect.registry: == ons
+2026-10-08 05:28:17,841 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.ons.gov.uk:443
+2026-10-08 05:28:17,987 DEBUG urllib3.connectionpool: https://www.ons.gov.uk:443 "GET /economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/hf6x/pusf/data HTTP/1.1" 200 None
+2026-10-08 05:28:18,062 INFO sdm.collect.base: GB.gg_debt_gdp.ONS: 402 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:18,081 DEBUG urllib3.connectionpool: https://www.ons.gov.uk:443 "GET /economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/j5ii/pusf/data HTTP/1.1" 200 None
+2026-10-08 05:28:18,156 INFO sdm.collect.base: GB.gg_net_lending_lcu.ONS: 404 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:18,174 DEBUG urllib3.connectionpool: https://www.ons.gov.uk:443 "GET /economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/jw2p/pusf/data HTTP/1.1" 200 None
+2026-10-08 05:28:18,241 INFO sdm.collect.base: GB.gg_interest_lcu.ONS: 353 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:18,257 DEBUG urllib3.connectionpool: https://www.ons.gov.uk:443 "GET /economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/anbv/pusf/data HTTP/1.1" 200 None
+2026-10-08 05:28:18,332 INFO sdm.collect.base: GB.cg_receipts_lcu.ONS: 353 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:18,347 DEBUG urllib3.connectionpool: https://www.ons.gov.uk:443 "GET /economy/grossdomesticproductgdp/timeseries/ybha/qna/data HTTP/1.1" 200 None
+2026-10-08 05:28:18,378 INFO sdm.collect.base: GB.ngdp_lcu.ONS: 286 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:18,531 DEBUG urllib3.connectionpool: https://www.ons.gov.uk:443 "GET /economy/inflationandpriceindices/timeseries/d7bt/mm23/data HTTP/1.1" 200 None
+2026-10-08 05:28:18,615 INFO sdm.collect.base: GB.cpi_index.ONS: 464 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:18,642 INFO sdm.collect.registry: == dmo
+2026-10-08 05:28:18,645 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.dmo.gov.uk:443
+2026-10-08 05:28:19,117 DEBUG urllib3.connectionpool: https://www.dmo.gov.uk:443 "GET /data/XmlDataReport?reportCode=D1A HTTP/1.1" 200 None
+2026-10-08 05:28:19,170 WARNING sdm.collect.base: GB.avg_maturity_years.UK_DMO: FAILED DMO returned a bot-protection challenge, not data; previous values kept
+2026-10-08 05:28:19,268 DEBUG urllib3.connectionpool: https://www.dmo.gov.uk:443 "GET /data/XmlDataReport?reportCode=D1A HTTP/1.1" 302 None
+2026-10-08 05:28:19,269 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): validate.perfdrive.com:443
+2026-10-08 05:28:19,509 DEBUG urllib3.connectionpool: https://validate.perfdrive.com:443 "GET /5e975472fcf167bd1130d74f0fb9a2f7/?ssa=6642e995-5772-4b7d-9b98-4decd703d8f0&ssb=15372208970&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD1A&ssi=2ded2d25-bhbz-4cad-9700-bc2ad272ca14&ssk=support@shieldsquare.com&ssm=39911831516760148139287432015155&ssn=e5c05f201923beffe0a8ff7c38dbaa5b9776cb6eeca1-7dd6-4e97-8b9817&sso=47b7fac8-0b8c04485ad97ba352bc79ede752cd92736dffb7caec26bd&ssp=24403025541791409490179140836651699&ssq=89700663729960728708737299058953063116885&ssr=MTcyLjIxMC42MS4yMTE=&sst=sovereign-debt-monitor/0.1%20(+https://github.com/hdcapital/sovereign-debt-model)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwZWNhYzZkOTQtYmU2MC00ODM5LTkyMzgtMmIwMzg2ZGFjMThkMS0xNzkxNDM3Mjk5MDQ1MTc5LTAwOGIxNjgwNzQ3OWE2OTQ1MDYxMyIsIl9fdXptZiI6IjdmOTAwMGNiNmVlY2ExLTdkZDYtNGU5Ny04YWM4LTBiOGMwNDQ4NWFkOTEtMTc5MTQzNzI5OTA0NTE3OS0wMDVkODA4ZGI0NDk1YWI4M2ZlMTMiLCJyZCI6ImRtby5nb3YudWsifQ== HTTP/1.1" 200 5557
+2026-10-08 05:28:19,510 WARNING sdm.collect.base: GB.linker_share.UK_DMO: FAILED DMO returned a bot-protection challenge, not data; previous values kept
+2026-10-08 05:28:19,603 DEBUG urllib3.connectionpool: https://www.dmo.gov.uk:443 "GET /data/XmlDataReport?reportCode=D1A HTTP/1.1" 302 None
+2026-10-08 05:28:19,710 DEBUG urllib3.connectionpool: https://validate.perfdrive.com:443 "GET /5e975472fcf167bd1130d74f0fb9a2f7/?ssa=c06f439b-ee5c-45db-9712-79ded64e41c3&ssb=15372208970&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD1A&ssi=b6d93ea9-bhbz-49ee-be9c-955c8fb774ac&ssk=support@shieldsquare.com&ssm=39911831516760148169287432015155&ssn=e5c05f20ade38de74a63b73e028aaa5b9776cb6eeca1-7dd6-4e97-8b9817&sso=47b7fac8-0b8c04485ad97ba352bc343ea5998d05dc008b27caec26bd&ssp=24403025541791409490179140836651699&ssq=89700663729960728708737299058953063116885&ssr=MTcyLjIxMC42MS4yMTE=&sst=sovereign-debt-monitor/0.1%20(+https://github.com/hdcapital/sovereign-debt-model)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwZWNhYzZkOTQtYmU2MC00ODM5LTkyMzgtMmIwMzg2ZGFjMThkMS0xNzkxNDM3Mjk5MDQ1NTEzLTAwODI2NjMxZWYzZGZjMzE2N2MxNiIsIl9fdXptZiI6IjdmOTAwMGNiNmVlY2ExLTdkZDYtNGU5Ny04YWM4LTBiOGMwNDQ4NWFkOTEtMTc5MTQzNzI5OTA0NTUxMy0wMDU4NjcyZDljZmE3MTRmMGE4MTYiLCJyZCI6ImRtby5nb3YudWsifQ== HTTP/1.1" 200 5559
+2026-10-08 05:28:19,711 WARNING sdm.collect.base: GB.bill_share.UK_DMO: FAILED DMO returned a bot-protection challenge, not data; previous values kept
+2026-10-08 05:28:19,803 DEBUG urllib3.connectionpool: https://www.dmo.gov.uk:443 "GET /data/XmlDataReport?reportCode=D1A HTTP/1.1" 302 None
+2026-10-08 05:28:19,892 DEBUG urllib3.connectionpool: https://validate.perfdrive.com:443 "GET /5e975472fcf167bd1130d74f0fb9a2f7/?ssa=a553f292-6f53-4bb2-a8e7-d5af0c65dc8d&ssb=15372208970&ssc=https%3A%2F%2Fwww.dmo.gov.uk%2Fdata%2FXmlDataReport%3FreportCode%3DD1A&ssi=cd194d2f-bhbz-4d6b-b73c-b9b3ae3977a0&ssk=support@shieldsquare.com&ssm=39911831516760148199287432015155&ssn=e5c05f200b29d751bed78f1eb3fbaa5b9776cb6eeca1-7dd6-4e97-8b9817&sso=47b7fac8-0b8c04485ad97ba352bcf52f16f4c5735c8fcda5caec26bd&ssp=24403025541791409490179140836651699&ssq=89700663729960728708737299058953063116885&ssr=MTcyLjIxMC42MS4yMTE=&sst=sovereign-debt-monitor/0.1%20(+https://github.com/hdcapital/sovereign-debt-model)&ssu=&ssv=&ssw=&ssx=eyJ1em14IjoiN2ZjMDAwZWNhYzZkOTQtYmU2MC00ODM5LTkyMzgtMmIwMzg2ZGFjMThkMS0xNzkxNDM3Mjk5MDQ1NzE0LTAwOGUzMTI2YzI1YmRlY2QzNjExOSIsIl9fdXptZiI6IjdmOTAwMGNiNmVlY2ExLTdkZDYtNGU5Ny04YWM4LTBiOGMwNDQ4NWFkOTEtMTc5MTQzNzI5OTA0NTcxNC0wMDU3NTU0NDk3YmQyZDM3ZDI1MTkiLCJyZCI6ImRtby5nb3YudWsifQ== HTTP/1.1" 200 5558
+2026-10-08 05:28:19,893 WARNING sdm.collect.base: GB.marketable_debt_lcu.UK_DMO: FAILED DMO returned a bot-protection challenge, not data; previous values kept
+2026-10-08 05:28:19,907 INFO sdm.collect.registry: == mof_jp
+2026-10-08 05:28:19,949 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.mof.go.jp:443
+2026-10-08 05:28:20,504 DEBUG urllib3.connectionpool: https://www.mof.go.jp:443 "GET /english/policy/jgbs/reference/interest_rate/historical/jgbcme_all.csv HTTP/1.1" 200 None
+2026-10-08 05:28:24,056 DEBUG urllib3.connectionpool: Resetting dropped connection: www.mof.go.jp
+2026-10-08 05:28:24,448 DEBUG urllib3.connectionpool: https://www.mof.go.jp:443 "GET /english/policy/jgbs/reference/interest_rate/jgbcme.csv HTTP/1.1" 200 None
+2026-10-08 05:28:24,532 INFO sdm.collect.base: JP.yield_2y.JP_MOF: 12953 obs, 0 new, 0 revised, last 2026-10-07
+2026-10-08 05:28:24,603 INFO sdm.collect.base: JP.yield_5y.JP_MOF: 13314 obs, 0 new, 0 revised, last 2026-10-07
+2026-10-08 05:28:24,684 INFO sdm.collect.base: JP.yield_10y.JP_MOF: 9953 obs, 0 new, 0 revised, last 2026-10-07
+2026-10-08 05:28:24,730 INFO sdm.collect.base: JP.yield_30y.JP_MOF: 6637 obs, 0 new, 0 revised, last 2026-10-07
+2026-10-08 05:28:24,731 DEBUG urllib3.connectionpool: Resetting dropped connection: www.mof.go.jp
+2026-10-08 05:28:24,952 DEBUG urllib3.connectionpool: https://www.mof.go.jp:443 "GET /english/policy/jgbs/reference/gbb/suii.xls HTTP/1.1" 200 69120
+2026-10-08 05:28:25,391 INFO sdm.collect.base: JP.bill_share.JP_MOF: 20 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:25,392 DEBUG urllib3.connectionpool: Resetting dropped connection: www.mof.go.jp
+2026-10-08 05:28:26,157 DEBUG urllib3.connectionpool: https://www.mof.go.jp:443 "GET /english/policy/jgbs/reference/gbb/suii.xls HTTP/1.1" 200 69120
+2026-10-08 05:28:26,762 INFO sdm.collect.base: JP.marketable_debt_lcu.JP_MOF: 20 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:27,003 INFO sdm.collect.registry: == rba
+2026-10-08 05:28:27,028 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.rba.gov.au:443
+2026-10-08 05:28:27,622 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/csv/f2-data.csv HTTP/1.1" 200 201065
+2026-10-08 05:28:27,995 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/xls-hist/f02dhist.xls HTTP/1.1" 200 598016
+2026-10-08 05:28:28,374 INFO sdm.collect.base: AU.yield_2y.RBA: 4925 obs, 0 new, 0 revised, last 2026-05-29
+2026-10-08 05:28:28,635 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/csv/f2-data.csv HTTP/1.1" 200 201065
+2026-10-08 05:28:28,982 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/xls-hist/f02dhist.xls HTTP/1.1" 200 598016
+2026-10-08 05:28:29,302 INFO sdm.collect.base: AU.yield_5y.RBA: 4925 obs, 0 new, 0 revised, last 2026-05-29
+2026-10-08 05:28:29,554 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/csv/f2-data.csv HTTP/1.1" 200 201065
+2026-10-08 05:28:29,893 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/xls-hist/f02dhist.xls HTTP/1.1" 200 598016
+2026-10-08 05:28:30,260 INFO sdm.collect.base: AU.yield_10y.RBA: 4936 obs, 0 new, 0 revised, last 2026-05-29
+2026-10-08 05:28:30,474 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/csv/f2-data.csv HTTP/1.1" 200 201065
+2026-10-08 05:28:30,751 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/xls-hist/f02dhist.xls HTTP/1.1" 200 598016
+2026-10-08 05:28:31,098 INFO sdm.collect.base: AU.real_yield_10y.RBA: 4904 obs, 0 new, 0 revised, last 2026-05-29
+2026-10-08 05:28:31,400 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/csv/f1-data.csv HTTP/1.1" 200 307646
+2026-10-08 05:28:31,445 INFO sdm.collect.base: AU.policy_rate.RBA: 3990 obs, 0 new, 0 revised, last 2026-10-07
+2026-10-08 05:28:31,744 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/csv/a1-data.csv HTTP/1.1" 200 64023
+2026-10-08 05:28:31,763 INFO sdm.collect.base: AU.cb_total_assets_lcu.RBA: 692 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:32,016 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/csv/g1-data.csv HTTP/1.1" 200 39905
+2026-10-08 05:28:32,031 INFO sdm.collect.base: AU.cpi_index.RBA: 417 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:32,248 DEBUG urllib3.connectionpool: https://www.rba.gov.au:443 "GET /statistics/tables/csv/f11-data.csv HTTP/1.1" 200 34083
+2026-10-08 05:28:32,263 INFO sdm.collect.base: AU.fx_lcu_per_usd.RBA: 201 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:32,416 INFO sdm.collect.registry: == boc
+2026-10-08 05:28:32,447 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.bankofcanada.ca:443
+2026-10-08 05:28:32,490 DEBUG urllib3.connectionpool: https://www.bankofcanada.ca:443 "GET /valet/observations/BD.CDN.2YR.DQ.YLD/json?start_date=1970-01-01 HTTP/1.1" 200 31789
+2026-10-08 05:28:32,582 INFO sdm.collect.base: CA.yield_2y.BOC: 6441 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:28:32,595 DEBUG urllib3.connectionpool: https://www.bankofcanada.ca:443 "GET /valet/observations/BD.CDN.5YR.DQ.YLD/json?start_date=1970-01-01 HTTP/1.1" 200 32254
+2026-10-08 05:28:32,662 INFO sdm.collect.base: CA.yield_5y.BOC: 6441 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:28:32,674 DEBUG urllib3.connectionpool: https://www.bankofcanada.ca:443 "GET /valet/observations/BD.CDN.10YR.DQ.YLD/json?start_date=1970-01-01 HTTP/1.1" 200 32907
+2026-10-08 05:28:32,739 INFO sdm.collect.base: CA.yield_10y.BOC: 6442 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:28:32,752 DEBUG urllib3.connectionpool: https://www.bankofcanada.ca:443 "GET /valet/observations/BD.CDN.LONG.DQ.YLD/json?start_date=1970-01-01 HTTP/1.1" 200 32259
+2026-10-08 05:28:32,818 INFO sdm.collect.base: CA.yield_30y.BOC: 6441 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:28:32,835 DEBUG urllib3.connectionpool: https://www.bankofcanada.ca:443 "GET /valet/observations/BD.CDN.RRB.DQ.YLD/json?start_date=1970-01-01 HTTP/1.1" 200 30660
+2026-10-08 05:28:32,921 INFO sdm.collect.base: CA.real_yield_10y.BOC: 6441 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:28:33,104 INFO sdm.collect.registry: == snb
+2026-10-08 05:28:33,109 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): data.snb.ch:443
+2026-10-08 05:28:33,784 DEBUG urllib3.connectionpool: https://data.snb.ch:443 "GET /api/cube/rendoblim/data/csv/en HTTP/1.1" 200 142138
+2026-10-08 05:28:34,100 INFO sdm.collect.base: CH.yield_10y.SNB: 451 obs, 0 new, 0 revised, last 2025-07-31
+2026-10-08 05:28:34,292 DEBUG urllib3.connectionpool: https://data.snb.ch:443 "GET /api/cube/rendoblim/data/csv/en HTTP/1.1" 200 142138
+2026-10-08 05:28:34,424 INFO sdm.collect.base: CH.yield_2y.SNB: 451 obs, 0 new, 0 revised, last 2025-07-31
+2026-10-08 05:28:34,619 DEBUG urllib3.connectionpool: https://data.snb.ch:443 "GET /api/cube/rendoblim/data/csv/en HTTP/1.1" 200 142138
+2026-10-08 05:28:34,661 INFO sdm.collect.base: CH.yield_5y.SNB: 451 obs, 0 new, 0 revised, last 2025-07-31
+2026-10-08 05:28:34,875 DEBUG urllib3.connectionpool: https://data.snb.ch:443 "GET /api/cube/snbbipo/data/csv/en HTTP/1.1" 200 280486
+2026-10-08 05:28:35,003 INFO sdm.collect.base: CH.cb_total_assets_lcu.SNB: 357 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:35,026 INFO sdm.collect.registry: == ecb
+2026-10-08 05:28:35,047 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): data-api.ecb.europa.eu:443
+2026-10-08 05:28:35,767 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/IRS/M.DE.L.L40.CI.0000.EUR.N.Z?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:35,989 INFO sdm.collect.base: DE.yield_10y.ECB: 440 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:36,173 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/IRS/M.FR.L.L40.CI.0000.EUR.N.Z?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:36,306 INFO sdm.collect.base: FR.yield_10y.ECB: 488 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:37,320 DEBUG urllib3.connectionpool: Starting new HTTPS connection (2): data-api.ecb.europa.eu:443
+2026-10-08 05:28:37,882 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/IRS/M.IT.L.L40.CI.0000.EUR.N.Z?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:38,098 INFO sdm.collect.base: IT.yield_10y.ECB: 426 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:38,250 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/IRS/M.NL.L.L40.CI.0000.EUR.N.Z?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:38,380 INFO sdm.collect.base: NL.yield_10y.ECB: 485 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:38,612 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/IRS/M.GR.L.L40.CI.0000.EUR.N.Z?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:38,648 INFO sdm.collect.base: GR.yield_10y.ECB: 406 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:38,812 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/IRS/M.U2.L.L40.CI.0000.EUR.N.Z?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:38,850 INFO sdm.collect.base: EA.yield_10y.ECB: 429 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:39,097 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/TGB/M.DE.N.A094T.U2.EUR.E?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:39,120 INFO sdm.collect.base: DE.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:39,427 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.DE.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:39,445 INFO sdm.collect.base: DE.gg_debt_lcu.ECB: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:39,747 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.DE.W0.S13.S1.C.D.D41._Z._Z._T.XDC._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:39,765 INFO sdm.collect.base: DE.gg_interest_lcu.ECB: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:40,182 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.DE.W0.S13.S1._Z.B.B9._Z._Z._Z.XDC_R_B1GQ._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:40,200 INFO sdm.collect.base: DE.gg_net_lending_gdp.ECB: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:40,377 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/MNA/Q.Y.DE.W2.S1.S1.B.B1GQ._Z._Z._Z.EUR.V.N?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:40,397 INFO sdm.collect.base: DE.ngdp_lcu.ECB: 142 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:40,709 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.DE.W0.S13.S1.C.L.LE.F3.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:40,727 INFO sdm.collect.base: DE.marketable_debt_lcu.ECB.GFS: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:41,023 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.DE.W0.S13.S1.C.L.LE.F3.S._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:41,041 INFO sdm.collect.base: DE.bills_outstanding_lcu.ECB.GFS: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:41,042 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.ecb.europa.eu:443
+2026-10-08 05:28:41,630 DEBUG urllib3.connectionpool: https://www.ecb.europa.eu:443 "GET /mopo/pdf/PSPP_breakdown_history.csv HTTP/1.1" 200 None
+2026-10-08 05:28:41,674 INFO sdm.collect.base: DE.cb_gov_holdings_lcu.ECB_PSPP: 139 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:41,846 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/TGB/M.FR.N.A094T.U2.EUR.E?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:41,870 INFO sdm.collect.base: FR.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:42,322 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.FR.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:42,341 INFO sdm.collect.base: FR.gg_debt_lcu.ECB: 122 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:42,621 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.FR.W0.S13.S1.C.D.D41._Z._Z._T.XDC._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:42,644 INFO sdm.collect.base: FR.gg_interest_lcu.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:43,060 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.FR.W0.S13.S1._Z.B.B9._Z._Z._Z.XDC_R_B1GQ._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:43,078 INFO sdm.collect.base: FR.gg_net_lending_gdp.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:43,251 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/MNA/Q.Y.FR.W2.S1.S1.B.B1GQ._Z._Z._Z.EUR.V.N?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:43,277 INFO sdm.collect.base: FR.ngdp_lcu.ECB: 222 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:43,613 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.FR.W0.S13.S1.C.L.LE.F3.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:43,632 INFO sdm.collect.base: FR.marketable_debt_lcu.ECB.GFS: 122 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:43,953 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.FR.W0.S13.S1.C.L.LE.F3.S._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:43,972 INFO sdm.collect.base: FR.bills_outstanding_lcu.ECB.GFS: 122 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:43,979 INFO sdm.collect.base: FR.cb_gov_holdings_lcu.ECB_PSPP: 139 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:44,108 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/TGB/M.IT.N.A094T.U2.EUR.E?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:44,131 INFO sdm.collect.base: IT.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:44,425 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.IT.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:44,446 INFO sdm.collect.base: IT.gg_debt_lcu.ECB: 146 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:44,699 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.IT.W0.S13.S1.C.D.D41._Z._Z._T.XDC._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:44,717 INFO sdm.collect.base: IT.gg_interest_lcu.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:44,997 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.IT.W0.S13.S1._Z.B.B9._Z._Z._Z.XDC_R_B1GQ._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:45,015 INFO sdm.collect.base: IT.gg_net_lending_gdp.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:45,166 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/MNA/Q.Y.IT.W2.S1.S1.B.B1GQ._Z._Z._Z.EUR.V.N?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:45,185 INFO sdm.collect.base: IT.ngdp_lcu.ECB: 126 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:45,535 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.IT.W0.S13.S1.C.L.LE.F3.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:45,556 INFO sdm.collect.base: IT.marketable_debt_lcu.ECB.GFS: 146 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:45,853 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.IT.W0.S13.S1.C.L.LE.F3.S._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:45,874 INFO sdm.collect.base: IT.bills_outstanding_lcu.ECB.GFS: 146 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:45,881 INFO sdm.collect.base: IT.cb_gov_holdings_lcu.ECB_PSPP: 139 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:46,032 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/TGB/M.NL.N.A094T.U2.EUR.E?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:46,056 INFO sdm.collect.base: NL.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:46,532 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.NL.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:46,551 INFO sdm.collect.base: NL.gg_debt_lcu.ECB: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:46,852 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.NL.W0.S13.S1.C.D.D41._Z._Z._T.XDC._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:46,871 INFO sdm.collect.base: NL.gg_interest_lcu.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:47,214 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.NL.W0.S13.S1._Z.B.B9._Z._Z._Z.XDC_R_B1GQ._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:47,232 INFO sdm.collect.base: NL.gg_net_lending_gdp.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:47,378 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/MNA/Q.Y.NL.W2.S1.S1.B.B1GQ._Z._Z._Z.EUR.V.N?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:47,397 INFO sdm.collect.base: NL.ngdp_lcu.ECB: 126 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:47,667 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.NL.W0.S13.S1.C.L.LE.F3.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:47,686 INFO sdm.collect.base: NL.marketable_debt_lcu.ECB.GFS: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:48,032 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.NL.W0.S13.S1.C.L.LE.F3.S._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:48,050 INFO sdm.collect.base: NL.bills_outstanding_lcu.ECB.GFS: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:48,057 INFO sdm.collect.base: NL.cb_gov_holdings_lcu.ECB_PSPP: 139 obs, 0 new, 0 revised, last 2026-09-30
+2026-10-08 05:28:48,188 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/TGB/M.GR.N.A094T.U2.EUR.E?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:48,211 INFO sdm.collect.base: GR.target2_balance_lcu.ECB: 220 obs, 0 new, 0 revised, last 2026-08-31
+2026-10-08 05:28:48,546 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.GR.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:48,565 INFO sdm.collect.base: GR.gg_debt_lcu.ECB: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:48,904 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.GR.W0.S13.S1.C.D.D41._Z._Z._T.XDC._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:48,923 INFO sdm.collect.base: GR.gg_interest_lcu.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:49,235 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.GR.W0.S13.S1._Z.B.B9._Z._Z._Z.XDC_R_B1GQ._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:49,254 INFO sdm.collect.base: GR.gg_net_lending_gdp.ECB: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:49,408 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/MNA/Q.Y.GR.W2.S1.S1.B.B1GQ._Z._Z._Z.EUR.V.N?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:49,426 INFO sdm.collect.base: GR.ngdp_lcu.ECB: 126 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:49,761 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.GR.W0.S13.S1.C.L.LE.F3.T._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:49,779 INFO sdm.collect.base: GR.marketable_debt_lcu.ECB.GFS: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:50,138 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.GR.W0.S13.S1.C.L.LE.F3.S._Z.XDC._T.F.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:50,156 INFO sdm.collect.base: GR.bills_outstanding_lcu.ECB.GFS: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:50,334 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/FM/B.U2.EUR.4F.KR.DFR.LEV?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:50,344 INFO sdm.collect.base: EA.policy_rate.ECB: 69 obs, 0 new, 0 revised, last 2026-09-16
+2026-10-08 05:28:51,273 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/YC/B.U2.EUR.4F.G_N_A.SV_C_YM.SR_2Y?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:51,789 INFO sdm.collect.base: EA.yield_2y.ECB: 5646 obs, 0 new, 0 revised, last 2026-10-06
+2026-10-08 05:28:51,920 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/ILM/W.U2.C.T000000.Z5.Z01?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:51,944 INFO sdm.collect.base: EA.cb_total_assets_lcu.ECB: 1449 obs, 0 new, 0 revised, last 2026-10-02
+2026-10-08 05:28:52,184 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/MNA/Q.Y.I9.W2.S1.S1.B.B1GQ._Z._Z._Z.EUR.V.N?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:52,203 INFO sdm.collect.base: EA.ngdp_lcu.ECB: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:52,529 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.I9.W0.S13.S1.C.D.D41._Z._Z._T.XDC._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:52,546 INFO sdm.collect.base: EA.gg_interest_lcu.ECB: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:52,886 DEBUG urllib3.connectionpool: https://data-api.ecb.europa.eu:443 "GET /service/data/GFS/Q.N.I9.W0.S13.S1._Z.B.B9._Z._Z._Z.XDC_R_B1GQ._Z.S.V.N._T?format=csvdata HTTP/1.1" 200 None
+2026-10-08 05:28:52,904 INFO sdm.collect.base: EA.gg_net_lending_gdp.ECB: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:53,047 INFO sdm.collect.registry: == eurostat
+2026-10-08 05:28:53,055 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): ec.europa.eu:443
+2026-10-08 05:28:53,463 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggdebt?geo=DE&unit=PC_GDP&sector=S13&na_item=GD HTTP/1.1" 200 None
+2026-10-08 05:28:53,478 INFO sdm.collect.base: DE.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:53,605 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=DE&unit=PC_GDP&sector=S13&na_item=D41PAY&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:53,622 INFO sdm.collect.base: DE.gg_interest_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:53,749 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=DE&unit=PC_GDP&sector=S13&na_item=B9&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:53,763 INFO sdm.collect.base: DE.gg_net_lending_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:53,892 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=DE&unit=PC_GDP&sector=S13&na_item=TR&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:53,907 INFO sdm.collect.base: DE.gg_revenue_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:54,032 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggdebt?geo=FR&unit=PC_GDP&sector=S13&na_item=GD HTTP/1.1" 200 None
+2026-10-08 05:28:54,047 INFO sdm.collect.base: FR.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:54,176 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=FR&unit=PC_GDP&sector=S13&na_item=D41PAY&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:54,193 INFO sdm.collect.base: FR.gg_interest_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:54,311 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=FR&unit=PC_GDP&sector=S13&na_item=B9&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:54,327 INFO sdm.collect.base: FR.gg_net_lending_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:54,453 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=FR&unit=PC_GDP&sector=S13&na_item=TR&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:54,469 INFO sdm.collect.base: FR.gg_revenue_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:54,589 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggdebt?geo=IT&unit=PC_GDP&sector=S13&na_item=GD HTTP/1.1" 200 None
+2026-10-08 05:28:54,604 INFO sdm.collect.base: IT.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:54,721 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=IT&unit=PC_GDP&sector=S13&na_item=D41PAY&s_adj=NSA HTTP/1.1" 200 8178
+2026-10-08 05:28:54,736 INFO sdm.collect.base: IT.gg_interest_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:54,854 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=IT&unit=PC_GDP&sector=S13&na_item=B9&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:54,869 INFO sdm.collect.base: IT.gg_net_lending_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:54,988 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=IT&unit=PC_GDP&sector=S13&na_item=TR&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:55,004 INFO sdm.collect.base: IT.gg_revenue_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:55,344 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggdebt?geo=NL&unit=PC_GDP&sector=S13&na_item=GD HTTP/1.1" 200 None
+2026-10-08 05:28:55,359 INFO sdm.collect.base: NL.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:55,482 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=NL&unit=PC_GDP&sector=S13&na_item=D41PAY&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:55,498 INFO sdm.collect.base: NL.gg_interest_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:55,621 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=NL&unit=PC_GDP&sector=S13&na_item=B9&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:55,636 INFO sdm.collect.base: NL.gg_net_lending_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:55,757 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=NL&unit=PC_GDP&sector=S13&na_item=TR&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:55,772 INFO sdm.collect.base: NL.gg_revenue_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:55,893 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggdebt?geo=EL&unit=PC_GDP&sector=S13&na_item=GD HTTP/1.1" 200 None
+2026-10-08 05:28:55,907 INFO sdm.collect.base: GR.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:56,029 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=EL&unit=PC_GDP&sector=S13&na_item=D41PAY&s_adj=NSA HTTP/1.1" 200 8186
+2026-10-08 05:28:56,044 INFO sdm.collect.base: GR.gg_interest_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:56,169 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=EL&unit=PC_GDP&sector=S13&na_item=B9&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:56,184 INFO sdm.collect.base: GR.gg_net_lending_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:56,311 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=EL&unit=PC_GDP&sector=S13&na_item=TR&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:56,327 INFO sdm.collect.base: GR.gg_revenue_gdp.EUROSTAT: 109 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:56,451 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggdebt?geo=SE&unit=PC_GDP&sector=S13&na_item=GD HTTP/1.1" 200 None
+2026-10-08 05:28:56,468 INFO sdm.collect.base: SE.gg_debt_gdp.EUROSTAT: 121 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:56,593 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=SE&unit=PC_GDP&sector=S13&na_item=D41PAY&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:56,610 INFO sdm.collect.base: SE.gg_interest_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:56,727 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=SE&unit=PC_GDP&sector=S13&na_item=B9&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:56,744 INFO sdm.collect.base: SE.gg_net_lending_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:56,865 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=SE&unit=PC_GDP&sector=S13&na_item=TR&s_adj=NSA HTTP/1.1" 200 None
+2026-10-08 05:28:56,881 INFO sdm.collect.base: SE.gg_revenue_gdp.EUROSTAT: 125 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:56,998 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggdebt?geo=EA20&unit=PC_GDP&sector=S13&na_item=GD HTTP/1.1" 200 None
+2026-10-08 05:28:57,013 INFO sdm.collect.base: EA.gg_debt_gdp.EUROSTAT: 105 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:57,132 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=EA20&unit=PC_GDP&sector=S13&na_item=D41PAY&s_adj=NSA HTTP/1.1" 200 8083
+2026-10-08 05:28:57,146 INFO sdm.collect.base: EA.gg_interest_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:57,271 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=EA20&unit=PC_GDP&sector=S13&na_item=B9&s_adj=NSA HTTP/1.1" 200 8180
+2026-10-08 05:28:57,286 INFO sdm.collect.base: EA.gg_net_lending_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:57,410 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/gov_10q_ggnfa?geo=EA20&unit=PC_GDP&sector=S13&na_item=TR&s_adj=NSA HTTP/1.1" 200 8183
+2026-10-08 05:28:57,425 INFO sdm.collect.base: EA.gg_revenue_gdp.EUROSTAT: 97 obs, 0 new, 0 revised, last 2026-03-31
+2026-10-08 05:28:57,549 DEBUG urllib3.connectionpool: https://ec.europa.eu:443 "GET /eurostat/api/dissemination/statistics/1.0/data/namq_10_gdp?geo=CH&unit=CP_MNAC&s_adj=SCA&na_item=B1GQ HTTP/1.1" 200 None
+2026-10-08 05:28:57,565 INFO sdm.collect.base: CH.ngdp_lcu.EUROSTAT: 126 obs, 0 new, 0 revised, last 2026-06-30
+2026-10-08 05:28:57,616 INFO sdm.collect.registry: == worldbank
+2026-10-08 05:28:57,622 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): api.worldbank.org:443
+2026-10-08 05:28:57,918 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/ARG/indicator/NY.GDP.MKTP.CN?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:57,927 INFO sdm.collect.base: AR.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:57,947 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/ARG/indicator/FP.CPI.TOTL.ZG?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:57,955 INFO sdm.collect.base: AR.cpi_yoy.WORLDBANK: 7 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:57,975 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/ARG/indicator/GC.XPN.INTP.RV.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:57,983 INFO sdm.collect.base: AR.interest_to_revenue.WORLDBANK: 26 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,003 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/ARG/indicator/PA.NUS.FCRF?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,011 INFO sdm.collect.base: AR.fx_lcu_per_usd.WORLDBANK: 63 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,032 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/ARG/indicator/FI.RES.TOTL.CD?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,040 INFO sdm.collect.base: AR.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,063 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/TUR/indicator/GC.DOD.TOTL.GD.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,071 INFO sdm.collect.base: TR.gg_debt_gdp.WORLDBANK: 26 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,091 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/TUR/indicator/NY.GDP.MKTP.CN?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,098 INFO sdm.collect.base: TR.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,118 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/TUR/indicator/FP.CPI.TOTL.ZG?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,125 INFO sdm.collect.base: TR.cpi_yoy.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,145 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/TUR/indicator/GC.XPN.INTP.RV.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,152 INFO sdm.collect.base: TR.interest_to_revenue.WORLDBANK: 43 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,175 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/TUR/indicator/PA.NUS.FCRF?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,182 INFO sdm.collect.base: TR.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,204 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/TUR/indicator/FI.RES.TOTL.CD?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,212 INFO sdm.collect.base: TR.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,234 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/RUS/indicator/GC.DOD.TOTL.GD.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,242 INFO sdm.collect.base: RU.gg_debt_gdp.WORLDBANK: 25 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,261 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/RUS/indicator/NY.GDP.MKTP.CN?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,269 INFO sdm.collect.base: RU.ngdp_lcu.WORLDBANK: 38 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,292 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/RUS/indicator/FP.CPI.TOTL.ZG?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,300 INFO sdm.collect.base: RU.cpi_yoy.WORLDBANK: 33 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,319 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/RUS/indicator/GC.XPN.INTP.RV.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,327 INFO sdm.collect.base: RU.interest_to_revenue.WORLDBANK: 22 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:28:58,345 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/RUS/indicator/PA.NUS.FCRF?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,353 INFO sdm.collect.base: RU.fx_lcu_per_usd.WORLDBANK: 30 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,373 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/RUS/indicator/FI.RES.TOTL.CD?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,381 INFO sdm.collect.base: RU.fx_reserves_usd.WORLDBANK: 32 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,401 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/BRA/indicator/GC.DOD.TOTL.GD.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,409 INFO sdm.collect.base: BR.gg_debt_gdp.WORLDBANK: 15 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,427 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/BRA/indicator/NY.GDP.MKTP.CN?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,435 INFO sdm.collect.base: BR.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,453 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/BRA/indicator/FP.CPI.TOTL.ZG?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,461 INFO sdm.collect.base: BR.cpi_yoy.WORLDBANK: 45 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,483 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/BRA/indicator/GC.XPN.INTP.RV.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,491 INFO sdm.collect.base: BR.interest_to_revenue.WORLDBANK: 15 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,508 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/BRA/indicator/PA.NUS.FCRF?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,516 INFO sdm.collect.base: BR.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,535 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/BRA/indicator/FI.RES.TOTL.CD?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,543 INFO sdm.collect.base: BR.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,563 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/MEX/indicator/GC.DOD.TOTL.GD.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,570 INFO sdm.collect.base: MX.gg_debt_gdp.WORLDBANK: 17 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,591 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/MEX/indicator/NY.GDP.MKTP.CN?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,598 INFO sdm.collect.base: MX.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,619 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/MEX/indicator/FP.CPI.TOTL.ZG?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,627 INFO sdm.collect.base: MX.cpi_yoy.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,648 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/MEX/indicator/GC.XPN.INTP.RV.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,656 INFO sdm.collect.base: MX.interest_to_revenue.WORLDBANK: 46 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,677 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/MEX/indicator/PA.NUS.FCRF?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,684 INFO sdm.collect.base: MX.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,706 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/MEX/indicator/FI.RES.TOTL.CD?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,714 INFO sdm.collect.base: MX.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,735 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/GRC/indicator/NY.GDP.MKTP.CN?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,743 INFO sdm.collect.base: GR.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,763 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/GRC/indicator/FP.CPI.TOTL.ZG?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,771 INFO sdm.collect.base: GR.cpi_yoy.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,791 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/GRC/indicator/GC.XPN.INTP.RV.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,799 INFO sdm.collect.base: GR.interest_to_revenue.WORLDBANK: 47 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,819 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/GRC/indicator/PA.NUS.FCRF?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,827 INFO sdm.collect.base: GR.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,846 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/GRC/indicator/FI.RES.TOTL.CD?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,854 INFO sdm.collect.base: GR.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,878 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/SWE/indicator/NY.GDP.MKTP.CN?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,886 INFO sdm.collect.base: SE.ngdp_lcu.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,910 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/SWE/indicator/FP.CPI.TOTL.ZG?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,917 INFO sdm.collect.base: SE.cpi_yoy.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,940 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/SWE/indicator/GC.XPN.INTP.RV.ZS?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,947 INFO sdm.collect.base: SE.interest_to_revenue.WORLDBANK: 53 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:28:58,966 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/SWE/indicator/PA.NUS.FCRF?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:58,974 INFO sdm.collect.base: SE.fx_lcu_per_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:58,996 DEBUG urllib3.connectionpool: https://api.worldbank.org:443 "GET /v2/country/SWE/indicator/FI.RES.TOTL.CD?format=json&per_page=1000 HTTP/1.1" 200 None
+2026-10-08 05:28:59,004 INFO sdm.collect.base: SE.fx_reserves_usd.WORLDBANK: 66 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:28:59,056 INFO sdm.collect.registry: == arslanalp_tsuda
+2026-10-08 05:28:59,063 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.imf.org:443
+2026-10-08 05:28:59,629 DEBUG urllib3.connectionpool: https://www.imf.org:443 "GET /external/pubs/ft/wp/2012/Data/wp12284.zip HTTP/1.1" 200 878862
+2026-10-08 05:29:00,173 INFO sdm.collect.base: US.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,183 INFO sdm.collect.base: US.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,192 INFO sdm.collect.base: US.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,201 INFO sdm.collect.base: US.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,211 INFO sdm.collect.base: GB.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,220 INFO sdm.collect.base: GB.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,230 INFO sdm.collect.base: GB.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,239 INFO sdm.collect.base: GB.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,248 INFO sdm.collect.base: JP.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,258 INFO sdm.collect.base: JP.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,267 INFO sdm.collect.base: JP.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,276 INFO sdm.collect.base: JP.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,286 INFO sdm.collect.base: AU.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,295 INFO sdm.collect.base: AU.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,304 INFO sdm.collect.base: AU.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,314 INFO sdm.collect.base: AU.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,323 INFO sdm.collect.base: CA.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,332 INFO sdm.collect.base: CA.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,342 INFO sdm.collect.base: CA.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,351 INFO sdm.collect.base: CA.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,360 INFO sdm.collect.base: CH.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,369 INFO sdm.collect.base: CH.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,379 INFO sdm.collect.base: CH.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,388 INFO sdm.collect.base: CH.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,398 INFO sdm.collect.base: DE.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,407 INFO sdm.collect.base: DE.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,417 INFO sdm.collect.base: DE.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,426 INFO sdm.collect.base: DE.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,435 INFO sdm.collect.base: FR.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,444 INFO sdm.collect.base: FR.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,454 INFO sdm.collect.base: FR.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,463 INFO sdm.collect.base: FR.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,472 INFO sdm.collect.base: IT.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,481 INFO sdm.collect.base: IT.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,491 INFO sdm.collect.base: IT.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,500 INFO sdm.collect.base: IT.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,509 INFO sdm.collect.base: NL.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,519 INFO sdm.collect.base: NL.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,528 INFO sdm.collect.base: NL.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,537 INFO sdm.collect.base: NL.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,546 INFO sdm.collect.base: GR.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,556 INFO sdm.collect.base: GR.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,565 INFO sdm.collect.base: GR.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,574 INFO sdm.collect.base: GR.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,584 INFO sdm.collect.base: SE.foreign_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,593 INFO sdm.collect.base: SE.cb_gov_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,602 INFO sdm.collect.base: SE.domestic_bank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,611 INFO sdm.collect.base: SE.domestic_nonbank_share.IMF_AT: 50 obs, 0 new, 0 revised, last 2016-06-30
+2026-10-08 05:29:00,674 INFO sdm.collect.registry: == jst
+2026-10-08 05:29:00,693 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): www.macrohistory.net:443
+2026-10-08 05:29:00,934 DEBUG urllib3.connectionpool: https://www.macrohistory.net:443 "GET /app/download/9834512469/JSTdatasetR6.xlsx HTTP/1.1" 302 None
+2026-10-08 05:29:00,935 DEBUG urllib3.connectionpool: Starting new HTTPS connection (1): sfff5b3ac9317c4be.jimcontent.com:443
+2026-10-08 05:29:01,136 DEBUG urllib3.connectionpool: https://sfff5b3ac9317c4be.jimcontent.com:443 "GET /download/version/0/module/9834512469/name/JSTdatasetR6.xlsx HTTP/1.1" 200 1098335
+2026-10-08 05:29:01,168 INFO sdm.collect.base: US.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,177 INFO sdm.collect.base: US.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,185 INFO sdm.collect.base: US.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,193 INFO sdm.collect.base: US.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,201 INFO sdm.collect.base: US.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,209 INFO sdm.collect.base: US.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,217 INFO sdm.collect.base: US.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,225 INFO sdm.collect.base: US.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,233 INFO sdm.collect.base: US.bond_total_return.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,242 INFO sdm.collect.base: US.equity_total_return.JST: 149 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,250 INFO sdm.collect.base: GB.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,258 INFO sdm.collect.base: GB.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,266 INFO sdm.collect.base: GB.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,274 INFO sdm.collect.base: GB.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,282 INFO sdm.collect.base: GB.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,290 INFO sdm.collect.base: GB.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,298 INFO sdm.collect.base: GB.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,306 INFO sdm.collect.base: GB.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,314 INFO sdm.collect.base: GB.bond_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,322 INFO sdm.collect.base: GB.equity_total_return.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,330 INFO sdm.collect.base: JP.gg_debt_gdp.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,339 INFO sdm.collect.base: JP.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,347 INFO sdm.collect.base: JP.yield_3m.JST: 124 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,355 INFO sdm.collect.base: JP.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,363 INFO sdm.collect.base: JP.ngdp_lcu.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,371 INFO sdm.collect.base: JP.gg_revenue_lcu.JST: 150 obs, 0 new, 0 revised, last 2019-12-31
+2026-10-08 05:29:01,379 INFO sdm.collect.base: JP.gg_expenditure_lcu.JST: 150 obs, 0 new, 0 revised, last 2019-12-31
+2026-10-08 05:29:01,387 INFO sdm.collect.base: JP.fx_lcu_per_usd.JST: 149 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,395 INFO sdm.collect.base: JP.bond_total_return.JST: 140 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,403 INFO sdm.collect.base: JP.equity_total_return.JST: 133 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,411 INFO sdm.collect.base: AU.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,420 INFO sdm.collect.base: AU.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,428 INFO sdm.collect.base: AU.yield_3m.JST: 148 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,436 INFO sdm.collect.base: AU.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,444 INFO sdm.collect.base: AU.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,452 INFO sdm.collect.base: AU.gg_revenue_lcu.JST: 118 obs, 0 new, 0 revised, last 2019-12-31
+2026-10-08 05:29:01,460 INFO sdm.collect.base: AU.gg_expenditure_lcu.JST: 118 obs, 0 new, 0 revised, last 2019-12-31
+2026-10-08 05:29:01,468 INFO sdm.collect.base: AU.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,477 INFO sdm.collect.base: AU.bond_total_return.JST: 121 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,485 INFO sdm.collect.base: AU.equity_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,493 INFO sdm.collect.base: CA.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,501 INFO sdm.collect.base: CA.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,509 INFO sdm.collect.base: CA.yield_3m.JST: 87 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,517 INFO sdm.collect.base: CA.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,524 INFO sdm.collect.base: CA.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,532 INFO sdm.collect.base: CA.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,540 INFO sdm.collect.base: CA.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,548 INFO sdm.collect.base: CA.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,557 INFO sdm.collect.base: CH.gg_debt_gdp.JST: 141 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,565 INFO sdm.collect.base: CH.yield_10y.JST: 141 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,574 INFO sdm.collect.base: CH.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,582 INFO sdm.collect.base: CH.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,590 INFO sdm.collect.base: CH.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,598 INFO sdm.collect.base: CH.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,606 INFO sdm.collect.base: CH.gg_expenditure_lcu.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,614 INFO sdm.collect.base: CH.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,622 INFO sdm.collect.base: CH.bond_total_return.JST: 120 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,630 INFO sdm.collect.base: CH.equity_total_return.JST: 121 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,638 INFO sdm.collect.base: DE.gg_debt_gdp.JST: 131 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,646 INFO sdm.collect.base: DE.yield_10y.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,654 INFO sdm.collect.base: DE.yield_3m.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,662 INFO sdm.collect.base: DE.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,670 INFO sdm.collect.base: DE.ngdp_lcu.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,679 INFO sdm.collect.base: DE.gg_revenue_lcu.JST: 128 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,687 INFO sdm.collect.base: DE.gg_expenditure_lcu.JST: 127 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,695 INFO sdm.collect.base: DE.fx_lcu_per_usd.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,703 INFO sdm.collect.base: DE.bond_total_return.JST: 146 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,711 INFO sdm.collect.base: DE.equity_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,719 INFO sdm.collect.base: FR.gg_debt_gdp.JST: 125 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,728 INFO sdm.collect.base: FR.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,736 INFO sdm.collect.base: FR.yield_3m.JST: 144 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,744 INFO sdm.collect.base: FR.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,752 INFO sdm.collect.base: FR.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,760 INFO sdm.collect.base: FR.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,768 INFO sdm.collect.base: FR.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,776 INFO sdm.collect.base: FR.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,784 INFO sdm.collect.base: FR.bond_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,792 INFO sdm.collect.base: FR.equity_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,800 INFO sdm.collect.base: IT.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,808 INFO sdm.collect.base: IT.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,816 INFO sdm.collect.base: IT.yield_3m.JST: 131 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,824 INFO sdm.collect.base: IT.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,832 INFO sdm.collect.base: IT.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,840 INFO sdm.collect.base: IT.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,848 INFO sdm.collect.base: IT.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,856 INFO sdm.collect.base: IT.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,865 INFO sdm.collect.base: IT.bond_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,873 INFO sdm.collect.base: IT.equity_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,882 INFO sdm.collect.base: NL.gg_debt_gdp.JST: 145 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,890 INFO sdm.collect.base: NL.yield_10y.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,899 INFO sdm.collect.base: NL.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,907 INFO sdm.collect.base: NL.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,915 INFO sdm.collect.base: NL.ngdp_lcu.JST: 139 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,924 INFO sdm.collect.base: NL.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,932 INFO sdm.collect.base: NL.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,940 INFO sdm.collect.base: NL.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,948 INFO sdm.collect.base: NL.bond_total_return.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,956 INFO sdm.collect.base: NL.equity_total_return.JST: 121 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,964 INFO sdm.collect.base: SE.gg_debt_gdp.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,972 INFO sdm.collect.base: SE.yield_10y.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,980 INFO sdm.collect.base: SE.yield_3m.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,988 INFO sdm.collect.base: SE.cpi_index.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:01,996 INFO sdm.collect.base: SE.ngdp_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:02,004 INFO sdm.collect.base: SE.gg_revenue_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:02,012 INFO sdm.collect.base: SE.gg_expenditure_lcu.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:02,020 INFO sdm.collect.base: SE.fx_lcu_per_usd.JST: 151 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:02,028 INFO sdm.collect.base: SE.bond_total_return.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:02,036 INFO sdm.collect.base: SE.equity_total_return.JST: 150 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:02,228 INFO sdm.collect.registry: == manual
+2026-10-08 05:29:02,253 INFO sdm.collect.base: AR.cb_gov_share.MANUAL: 2 obs, 0 new, 0 revised, last 2017-12-31
+2026-10-08 05:29:02,262 INFO sdm.collect.base: AR.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2017-12-31
+2026-10-08 05:29:02,271 INFO sdm.collect.base: AU.avg_maturity_years.MANUAL: 4 obs, 0 new, 0 revised, last 2024-06-30
+2026-10-08 05:29:02,280 INFO sdm.collect.base: AU.cb_gov_share.MANUAL: 6 obs, 0 new, 0 revised, last 2025-06-30
+2026-10-08 05:29:02,289 INFO sdm.collect.base: AU.foreign_share.MANUAL: 4 obs, 0 new, 0 revised, last 2024-06-30
+2026-10-08 05:29:02,297 INFO sdm.collect.base: BR.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 2014-12-31
+2026-10-08 05:29:02,306 INFO sdm.collect.base: BR.foreign_share.MANUAL: 1 obs, 0 new, 0 revised, last 2014-12-31
+2026-10-08 05:29:02,315 INFO sdm.collect.base: CA.avg_maturity_years.MANUAL: 4 obs, 0 new, 0 revised, last 2024-03-31
+2026-10-08 05:29:02,324 INFO sdm.collect.base: CA.cb_gov_share.MANUAL: 6 obs, 0 new, 0 revised, last 2025-06-30
+2026-10-08 05:29:02,333 INFO sdm.collect.base: CA.foreign_share.MANUAL: 4 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,342 INFO sdm.collect.base: CH.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,351 INFO sdm.collect.base: CH.cb_gov_share.MANUAL: 2 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,360 INFO sdm.collect.base: CH.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,369 INFO sdm.collect.base: DE.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,377 INFO sdm.collect.base: DE.foreign_share.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,386 INFO sdm.collect.base: EA.ecb_backstop_active.MANUAL: 8 obs, 0 new, 0 revised, last 2025-12-31
+2026-10-08 05:29:02,395 INFO sdm.collect.base: FR.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,404 INFO sdm.collect.base: FR.foreign_share.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,413 INFO sdm.collect.base: GB.avg_maturity_years.MANUAL: 4 obs, 0 new, 0 revised, last 2023-12-31
+2026-10-08 05:29:02,422 INFO sdm.collect.base: GB.cb_gov_share.MANUAL: 7 obs, 0 new, 0 revised, last 2025-09-30
+2026-10-08 05:29:02,431 INFO sdm.collect.base: GB.foreign_share.MANUAL: 4 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,440 INFO sdm.collect.base: GR.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,449 INFO sdm.collect.base: GR.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 2009-12-31
+2026-10-08 05:29:02,458 INFO sdm.collect.base: GR.foreign_share.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,466 INFO sdm.collect.base: IT.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,475 INFO sdm.collect.base: IT.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 1991-12-31
+2026-10-08 05:29:02,484 INFO sdm.collect.base: IT.foreign_share.MANUAL: 4 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,493 INFO sdm.collect.base: JP.avg_maturity_years.MANUAL: 4 obs, 0 new, 0 revised, last 2024-03-31
+2026-10-08 05:29:02,502 INFO sdm.collect.base: JP.cb_gov_share.MANUAL: 6 obs, 0 new, 0 revised, last 2025-03-31
+2026-10-08 05:29:02,511 INFO sdm.collect.base: JP.foreign_share.MANUAL: 5 obs, 0 new, 0 revised, last 2025-03-31
+2026-10-08 05:29:02,520 INFO sdm.collect.base: MX.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 1994-06-30
+2026-10-08 05:29:02,529 INFO sdm.collect.base: MX.foreign_share.MANUAL: 1 obs, 0 new, 0 revised, last 1994-06-30
+2026-10-08 05:29:02,538 INFO sdm.collect.base: NL.avg_maturity_years.MANUAL: 3 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,546 INFO sdm.collect.base: NL.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,555 INFO sdm.collect.base: RU.cb_gov_share.MANUAL: 2 obs, 0 new, 0 revised, last 2014-06-30
+2026-10-08 05:29:02,564 INFO sdm.collect.base: RU.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2014-06-30
+2026-10-08 05:29:02,573 INFO sdm.collect.base: SE.avg_maturity_years.MANUAL: 2 obs, 0 new, 0 revised, last 2024-12-31
+2026-10-08 05:29:02,582 INFO sdm.collect.base: SE.cb_gov_share.MANUAL: 1 obs, 0 new, 0 revised, last 1991-12-31
+2026-10-08 05:29:02,591 INFO sdm.collect.base: SE.foreign_share.MANUAL: 1 obs, 0 new, 0 revised, last 1991-12-31
+2026-10-08 05:29:02,600 INFO sdm.collect.base: TR.cb_gov_share.MANUAL: 2 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:02,609 INFO sdm.collect.base: TR.foreign_share.MANUAL: 2 obs, 0 new, 0 revised, last 2020-12-31
+2026-10-08 05:29:02,618 INFO sdm.collect.base: US.avg_maturity_years.MANUAL: 6 obs, 0 new, 0 revised, last 2025-06-30
 bis              ok= 87 failed=  0 new=     0 revised=    0
 imf_datamapper   ok=191 failed=  0 new=     0 revised=    0
 fred             ok= 48 failed=  0 new=     0 revised=    0
