@@ -478,5 +478,166 @@
     "changed": []
    }
   }
+ },
+ {
+  "run_at": "2026-10-08T05:30:53+00:00",
+  "sources": {
+   "bis": {
+    "ok": 87,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "imf_datamapper": {
+    "ok": 191,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "fred": {
+    "ok": 48,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "fiscaldata": {
+    "ok": 7,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "gold": {
+    "ok": 3,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 1,
+    "changed": [
+     "XX.gold_usd.YAHOO"
+    ]
+   },
+   "boe": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "ons": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "dmo": {
+    "ok": 0,
+    "failed": [
+     "GB.avg_maturity_years.UK_DMO",
+     "GB.linker_share.UK_DMO",
+     "GB.bill_share.UK_DMO",
+     "GB.marketable_debt_lcu.UK_DMO"
+    ],
+    "errors": {
+     "GB.avg_maturity_years.UK_DMO": "BotChallengeError: DMO returned a bot-protection challenge, not data; previous values kept",
+     "GB.linker_share.UK_DMO": "BotChallengeError: DMO returned a bot-protection challenge, not data; previous values kept",
+     "GB.bill_share.UK_DMO": "BotChallengeError: DMO returned a bot-protection challenge, not data; previous values kept",
+     "GB.marketable_debt_lcu.UK_DMO": "BotChallengeError: DMO returned a bot-protection challenge, not data; previous values kept"
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "mof_jp": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "rba": {
+    "ok": 8,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "boc": {
+    "ok": 5,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "snb": {
+    "ok": 4,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "ecb": {
+    "ok": 51,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "eurostat": {
+    "ok": 29,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "worldbank": {
+    "ok": 39,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "arslanalp_tsuda": {
+    "ok": 48,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "jst": {
+    "ok": 108,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "manual": {
+    "ok": 42,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   }
+  }
  }
 ]
