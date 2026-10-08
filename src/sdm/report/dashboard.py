@@ -15,7 +15,7 @@ import pandas as pd
 
 from sdm.config import load_indicator_config, load_report_config, load_universe
 from sdm.indicators import blocks  # noqa: F401
-from sdm.indicators.applicability import indicator_applies
+from sdm.indicators.applicability import indicator_applies, is_known_gap
 from sdm.indicators.compute import INDICATORS_PATH, LATEST_PATH, TRANSITIONS_PATH
 from sdm.indicators.registry import REGISTRY
 from sdm.paths import CATALOG, REPORTS
@@ -54,7 +54,10 @@ def _clean(v: object) -> object:
 def build_payload() -> dict:
     uni = load_universe()
     cfg = load_indicator_config()
+    from sdm.indicators.compute import last_complete_quarter
+
     ind = pd.read_csv(INDICATORS_PATH, index_col=[0, 1], parse_dates=[1])
+    ind = ind[ind.index.get_level_values(1) <= last_complete_quarter()]
     latest = pd.read_csv(LATEST_PATH)
     latest["num"] = pd.to_numeric(latest["value"], errors="coerce")
     for col in ("chg_1y", "chg_5y", "stale_quarters"):
@@ -121,7 +124,11 @@ def build_payload() -> dict:
     stale_after = int(load_report_config()["email"].get("stale_after_quarters", 4))
     core_latest = latest[latest["tier"] == "core"]
     for r in core_latest.itertuples(index=False):
-        if r.indicator in meta and (
+        if (
+            r.indicator in meta
+            and indicator_applies(r.indicator, uni[r.country])
+            and not is_known_gap(r.country, r.indicator)
+        ) and (
             pd.isna(r.value)
             or (
                 r.stale_quarters is not None
@@ -148,6 +155,8 @@ def build_payload() -> dict:
                     "problem": str(r.notes).split("LAST ERROR:")[-1].strip()[:140],
                 }
             )
+    if len(transitions):
+        transitions = transitions[pd.to_datetime(transitions["quarter"]) <= last_complete_quarter()]
     trans = transitions.sort_values("quarter", ascending=False).head(40) if len(transitions) else transitions
     trans = trans[trans["country"].isin(uni.core)] if len(trans) else trans
     return {

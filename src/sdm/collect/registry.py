@@ -65,7 +65,26 @@ def run_update(names: set[str] | None = None, only: set[str] | None = None) -> d
             log.error("collector %s crashed: %s", collector.name, e)
             results[collector.name] = []
     write_update_log(results)
+    if names is None and only is None:
+        prune_catalog(load_collectors())
     return results
+
+
+def prune_catalog(collectors: list[Collector]) -> int:
+    """Remove catalog rows for series no current collector produces (renamed or retired ids)."""
+    import pandas as pd
+
+    from sdm.paths import CATALOG
+
+    if not CATALOG.exists():
+        return 0
+    live = {spec.series_id for c in collectors for spec in c.series()}
+    cat = pd.read_csv(CATALOG)
+    keep = cat["series_id"].isin(live)
+    if (~keep).any():
+        log.info("catalog: pruning %d retired series", int((~keep).sum()))
+        cat[keep].to_csv(CATALOG, index=False)
+    return int((~keep).sum())
 
 
 def write_update_log(results: dict[str, list[FetchResult]]) -> Path:

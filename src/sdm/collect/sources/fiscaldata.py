@@ -80,6 +80,16 @@ class FiscalDataCollector(Collector):
                 "Average bid-to-cover across 10-year note auctions in the month",
                 params={"kind": "auctions"},
             ),
+            SeriesSpec(
+                "US",
+                "avg_maturity_years",
+                s,
+                f"{BASE}/v1/debt/mspd/mspd_table_3",
+                "Q",
+                "years",
+                "MSPD table 3: amount-weighted years to maturity of all marketable securities, quarter ends",
+                params={"kind": "wam"},
+            ),
         ]
 
     def _get_all(self, url: str, extra: dict[str, str]) -> list[dict]:
@@ -167,4 +177,37 @@ class FiscalDataCollector(Collector):
             sel = df[df["classification_desc"].str.strip() == month_name]
             v = pd.to_numeric(sel[spec.params["col"]], errors="coerce") * 1e-9
             return pd.DataFrame({"date": sel["record_date"], "value": v})
+        if kind == "wam":
+            return self._wam(spec)
         raise ValueError(kind)
+
+    def _wam(self, spec: SeriesSpec) -> pd.DataFrame:
+        """Weighted average maturity at each quarter end from 2001. Table 3 lists every security;
+        a reopened CUSIP repeats with outstanding_amt only on its first row, so sum by row."""
+        today = pd.Timestamp.today()
+        quarter_ends = pd.date_range("2001-03-31", today, freq="QE")
+        out = []
+        for i in range(0, len(quarter_ends), 8):
+            chunk = ",".join(d.strftime("%Y-%m-%d") for d in quarter_ends[i : i + 8])
+            rows = self._get_all(
+                spec.url,
+                {
+                    "filter": f"record_date:in:({chunk}),security_type_desc:eq:Marketable",
+                    "fields": "record_date,security_class1_desc,maturity_date,outstanding_amt",
+                },
+            )
+            if not rows:
+                continue
+            df = pd.DataFrame(rows)
+            df["amt"] = pd.to_numeric(df["outstanding_amt"], errors="coerce")
+            df["rec"] = pd.to_datetime(df["record_date"], errors="coerce")
+            df["mat"] = pd.to_datetime(df["maturity_date"], errors="coerce")
+            df = df.dropna(subset=["amt", "rec", "mat"])
+            df = df[(df["amt"] > 0) & (df["mat"] >= df["rec"])]
+            df["years"] = (df["mat"] - df["rec"]).dt.days / 365.25
+            for rec, g in df.groupby("rec"):
+                out.append((rec, float((g["years"] * g["amt"]).sum() / g["amt"].sum())))
+        self.cache_raw("mspd_wam", [(d.isoformat(), v) for d, v in out], "json")
+        if not out:
+            raise ValueError("no MSPD table 3 rows parsed")
+        return pd.DataFrame(out, columns=["date", "value"])

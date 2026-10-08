@@ -103,11 +103,12 @@ class EcbCollector(Collector):
                     cc,
                     "marketable_debt_lcu",
                     "ECB",
-                    f"{BASE}/SEC/M.{area}.1300.F33000.N.1.Z01.E.Z",
-                    "M",
+                    f"{BASE}/GFS/Q.N.{area}.W0.S13.S1.C.L.LE.F3.T._Z.XDC._T.F.V.N._T",
+                    "Q",
                     "EUR bn",
-                    "Debt securities issued by general government, outstanding, EUR m scaled",
+                    "General government debt securities, all original maturities, face value, EUR m scaled",
                     params={"scale": 1e-3},
+                    variant="GFS",
                 )
             )
             out.append(
@@ -115,11 +116,12 @@ class EcbCollector(Collector):
                     cc,
                     "bills_outstanding_lcu",
                     "ECB",
-                    f"{BASE}/SEC/M.{area}.1300.F33100.N.1.Z01.E.Z",
-                    "M",
+                    f"{BASE}/GFS/Q.N.{area}.W0.S13.S1.C.L.LE.F3.S._Z.XDC._T.F.V.N._T",
+                    "Q",
                     "EUR bn",
-                    "Short-term debt securities issued by general government, outstanding, EUR m scaled",
+                    "General government short-term debt securities (original maturity < 1y), face value, EUR m scaled",
                     params={"scale": 1e-3},
+                    variant="GFS",
                 )
             )
             out.append(

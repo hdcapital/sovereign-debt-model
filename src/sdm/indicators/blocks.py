@@ -31,16 +31,16 @@ def interest_4q(ctx: Ctx) -> pd.Series:
     """Interest paid over the trailing four quarters, in local currency."""
     flow = ctx.col("gg_interest_lcu").combine_first(ctx.col("cg_interest_lcu"))
     from_flow = rolling_sum4(flow)
-    from_ratio = ctx.col("gg_interest_gdp") / 100.0 * ctx.i("ngdp_4q")
+    # ratios are % of the period's own GDP (annual IMF or quarterly Eurostat); average over 4 quarters
+    from_ratio = ctx.col("gg_interest_gdp").rolling(4, min_periods=4).mean() / 100.0 * ctx.i("ngdp_4q")
     return from_flow.combine_first(from_ratio)
 
 
 @indicator("helper", "%", helper=True)
 def cpi_yoy(ctx: Ctx) -> pd.Series:
     """Consumer price inflation, year on year."""
-    idx = ctx.col("cpi_index")
-    yoy = pct_change_n(idx, 4)
-    return yoy.combine_first(ctx.col("cpi_yoy"))
+    native = ctx.col("cpi_yoy")  # computed at monthly frequency in the panel, IMF annual as fallback
+    return native.combine_first(pct_change_n(ctx.col("cpi_index"), 4))
 
 
 @indicator("helper", "%", helper=True)
@@ -172,7 +172,8 @@ def forward_r_5y(ctx: Ctx) -> pd.Series:
     reprices at the marginal yield, plus all deficit issuance. More informative than
     today's r, which is a lagging average."""
     horizon = int(ctx.cfg.raw["trajectory"]["forward_r"]["horizon_years"])
-    r0, y, m = ctx.i("r_effective"), ctx.i("marginal_yield"), ctx.col("avg_maturity_years")
+    r0, y = ctx.i("r_effective"), ctx.i("marginal_yield")
+    m = ctx.i("avg_maturity_years").combine_first(ctx.col("avg_maturity_years"))
     pb, d = ctx.i("primary_balance_gdp"), ctx.i("debt_gdp")
     out = pd.Series(np.nan, index=ctx.c.index)
     for t in ctx.c.index:
@@ -209,7 +210,8 @@ def debt_gdp_projection_10y(ctx: Ctx) -> pd.Series:
     """Debt/GDP ten years out under forward r, trend g and the current primary balance:
     the identity iterated annually. Where the stock goes if nothing changes."""
     horizon = int(ctx.cfg.raw["trajectory"]["debt_projection"]["horizon_years"])
-    r0, y, m = ctx.i("r_effective"), ctx.i("marginal_yield"), ctx.col("avg_maturity_years")
+    r0, y = ctx.i("r_effective"), ctx.i("marginal_yield")
+    m = ctx.i("avg_maturity_years").combine_first(ctx.col("avg_maturity_years"))
     pb, d0, g = ctx.i("primary_balance_gdp"), ctx.i("debt_gdp"), ctx.i("g_trend")
     out = pd.Series(np.nan, index=ctx.c.index)
     for t in ctx.c.index:
@@ -341,9 +343,10 @@ def captivity_score(ctx: Ctx) -> pd.Series:
     weighted = (comps.fillna(0) * w).sum(axis=1)
     wsum = (avail * w).sum(axis=1)
     score = weighted / wsum.where(wsum > 0)
-    # require the two anchor components; otherwise the score is not meaningful
-    score = score.where(comps["domestic_share"].notna())
-    return score
+    # require the core components (holders, central bank, maturity); bill/linker share is optional because
+    # several markets publish none. Without this rule the score jumps when a component appears or vanishes.
+    core = comps[["domestic_share", "central_bank_share", "avg_maturity"]].notna().all(axis=1)
+    return score.where(core)
 
 
 # ----------------------------------------------------------------------------- pressure
@@ -355,7 +358,11 @@ def term_premium_proxy(ctx: Ctx) -> pd.Series:
     exists (US), otherwise 10-year minus 2-year yield, labelled a proxy. Rising term premium
     is the pricing stage: the market starting to charge for the risk."""
     tp = ctx.col("term_premium_10y")
-    short = ctx.col("yield_2y").combine_first(ctx.col("yield_3m")).combine_first(ctx.i("policy_rate"))
+    short = ctx.col("yield_2y")
+    if ctx.bloc is not None and "yield_2y" in ctx.bloc:
+        # union members: the bloc's AAA 2-year is the expected policy path, the same leg the bloc uses
+        short = short.combine_first(ctx.bloc["yield_2y"].reindex(ctx.c.index))
+    short = short.combine_first(ctx.col("yield_3m")).combine_first(ctx.i("policy_rate"))
     proxy = ctx.col("yield_10y") - short
     return tp.combine_first(proxy)
 
@@ -431,8 +438,9 @@ def gold_local_ccy(ctx: Ctx) -> pd.Series:
     fx = ctx.col("fx_lcu_per_usd")
     if ctx.country_cfg.currency == "USD":
         return gold
-    if fx.notna().sum() == 0 and ctx.bloc is not None and "fx_lcu_per_usd" in ctx.bloc:
-        fx = ctx.bloc["fx_lcu_per_usd"].reindex(ctx.c.index)
+    if ctx.bloc is not None and "fx_lcu_per_usd" in ctx.bloc:
+        # union members price gold in the shared currency; their own pre-union rate only fills earlier years
+        fx = ctx.bloc["fx_lcu_per_usd"].reindex(ctx.c.index).combine_first(fx)
     return gold * fx
 
 
@@ -498,6 +506,6 @@ def interest_to_revenue(ctx: Ctx) -> pd.Series:
     """Interest as a share of government revenue. The political temperature: the share of
     the budget already spoken for by past borrowing."""
     rep = ctx.col("interest_to_revenue")
-    rev = ctx.col("gg_revenue_gdp") / 100.0 * ctx.i("ngdp_4q")
+    rev = ctx.col("gg_revenue_gdp").rolling(4, min_periods=4).mean() / 100.0 * ctx.i("ngdp_4q")
     rev = rev.combine_first(rolling_sum4(ctx.col("cg_receipts_lcu")))
     return rep.combine_first(ctx.i("interest_4q") / rev * 100.0)

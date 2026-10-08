@@ -54,6 +54,33 @@ ones are asked first.
   for the Gmail API with OAuth; the owner chose the app-password route for simplicity on
   2026-10-07. `GMAIL_APP_PASSWORD` selects SMTP; without it the OAuth path runs.
 
+## Gap fixes after the first live report (2026-10-08)
+
+- **Reports cover complete quarters only.** The latest table, history, dashboard and transitions stop
+  at the last complete quarter; a quarter in progress was showing up dated 2026-12-31. The monthly
+  check still reads the quarter in progress so intra-quarter moves can trigger an alert.
+- **Inflation is computed month on month a year apart** before aggregating to quarters. Comparing
+  the latest month in a part-filled quarter with the last month of the year-ago quarter had put
+  French CPI at 3.4% instead of 2.4%.
+- **Structural series are interpolated between observations and carried at most four quarters**
+  (`structural` in `config/indicators.yaml`). This relaxes the one-period forward-fill rule for
+  holder shares and average maturity only, because they are published annually or less often.
+  Every filled cell is tagged in `panel_sources.csv` and listed in the report.
+- **The captivity score needs holders, central bank and maturity.** Re-weighting over whatever
+  components happened to exist made the US score jump six points when maturity dropped out.
+- **US average maturity is computed from MSPD table 3** (every marketable security, quarter ends),
+  replacing the hand-maintained approximation.
+- **Euro-area short-term debt share comes from ECB GFS** (debt securities by original maturity)
+  because the SEC series ended in 2022.
+- **Australia, Canada and Switzerland nominal GDP** come from IMF and Eurostat series on FRED; the
+  OECD MEI series ended in 2023-Q3.
+- **IMF Fiscal Monitor** extends Japan, Australia and Switzerland fiscal data through the last
+  completed year. Its interest figure is net (primary minus overall balance), so it is spliced onto
+  the gross series at the junction rather than replacing it.
+- **Union members' term premium uses the bloc's AAA 2-year** as the expected-policy leg, the same leg
+  the euro area uses, and their gold price uses the euro.
+- **Known gaps** (no free source) are listed once in the report with the reason, not as failures.
+
 ## Phase 1 (2026-10-07)
 
 - **Package layout.** The brief names `src/collect/`, `src/indicators/`, `src/backtest/`,

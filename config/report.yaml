@@ -29,3 +29,20 @@ email:
     - data/clean/indicators_latest.csv
   include_data_issues_section: true     # stale/broken series are always listed; never silently use old data
   stale_after_quarters: 4      # a series is listed as stale when its latest value is more than a year behind the last complete quarter
+
+# Documented gaps: no free source exists. Listed once in the report's data-issues section with the
+# reason, not repeated as failures. Remove an entry once a source is wired in.
+known_gaps:
+  "*.household_savings_to_debt": "household financial accounts wired for the US only (Fed Z.1)"
+  "*.net_foreign_asset_position_gdp": "NIIP wired for the US only (FRED); IMF IIP not in DataMapper"
+  "JP.breakeven_10y": "no free JGBi breakeven series"
+  "CH.breakeven_10y": "Switzerland issues no inflation-linked bonds"
+  "EA.breakeven_10y": "no free euro inflation-swap or linker breakeven series"
+  "DE.breakeven_10y": "no free Bund linker breakeven series"
+  "FR.breakeven_10y": "no free OATi breakeven series"
+  "IT.breakeven_10y": "no free BTP Italia breakeven series"
+  "NL.breakeven_10y": "the Netherlands issues no linkers"
+  "*.linker_share": "linker share wired for the US and UK only"
+  "GB.issuance_shortening": "UK bill share starts with the 2026 DMO snapshot; needs 8 quarters of history"
+  "AU.auction_tail": "auction data wired for the US only"
+  "EA.interest_to_revenue": "no euro-area aggregate revenue series before Eurostat TR is collected"

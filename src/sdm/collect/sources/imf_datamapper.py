@@ -29,6 +29,20 @@ INDICATORS: dict[str, tuple[str, str, str]] = {
     "ie": ("gg_interest_gdp", "% GDP", "IMF Global Debt Database: interest paid on public debt"),
 }
 
+# IMF Fiscal Monitor (April vintage): carries estimates for the last completed year, which the
+# Global Debt Database ids above do not yet have. Interest is derived as primary minus overall
+# balance (net interest), and is spliced onto the gross series at the junction by the panel.
+FISCAL_MONITOR: dict[str, tuple[str, str, str]] = {
+    "GGXONLB_G01_GDP_PT": ("gg_primary_balance_gdp", "% GDP", "Fiscal Monitor primary net lending/borrowing"),
+    "GGXCNL_G01_GDP_PT": ("gg_net_lending_gdp", "% GDP", "Fiscal Monitor net lending/borrowing"),
+    "GGR_G01_GDP_PT": ("gg_revenue_gdp", "% GDP", "Fiscal Monitor revenue"),
+    "pb_minus_nl": (
+        "gg_interest_gdp",
+        "% GDP",
+        "Fiscal Monitor net interest = primary minus overall balance",
+    ),
+}
+
 ISO3_OVERRIDE = {"EA": "EURO"}  # DataMapper code for the euro area aggregate
 
 
@@ -55,9 +69,35 @@ class ImfDataMapperCollector(Collector):
                         params={"indicator": ind, "iso3": iso3},
                     )
                 )
+            if cc == "EA":
+                continue
+            for ind, (concept, units, note) in FISCAL_MONITOR.items():
+                url = f"{BASE}/{'GGXONLB_G01_GDP_PT' if ind == 'pb_minus_nl' else ind}/{iso3}"
+                out.append(
+                    SeriesSpec(
+                        cc, concept, "IMF_FM", url, "A", units, note, params={"indicator": ind, "iso3": iso3}
+                    )
+                )
         return out
 
+    def _values(self, ind: str, iso3: str, name: str) -> dict[str, float]:
+        payload = self.http.get_json(f"{BASE}/{ind}/{iso3}")
+        self.cache_raw(name, payload, "json")
+        values = payload.get("values", {}).get(ind, {}).get(iso3)
+        if not values:
+            raise ValueError(
+                f"no values for {ind}/{iso3}: keys={list(payload.get('values', {}).get(ind, {}))[:5]}"
+            )
+        return {y: v for y, v in values.items() if v is not None}
+
     def fetch(self, spec: SeriesSpec) -> pd.DataFrame:
+        if spec.params["indicator"] == "pb_minus_nl":
+            iso3 = spec.params["iso3"]
+            pb = self._values("GGXONLB_G01_GDP_PT", iso3, f"{spec.country}.fm_pb")
+            nl = self._values("GGXCNL_G01_GDP_PT", iso3, f"{spec.country}.fm_nl")
+            cutoff = date.today().year - 1
+            rows = [(pd.Timestamp(f"{y}-12-31"), pb[y] - nl[y]) for y in pb if y in nl and int(y) <= cutoff]
+            return pd.DataFrame(rows, columns=["date", "value"])
         payload = self.http.get_json(spec.url)
         self.cache_raw(spec.series_id, payload, "json")
         ind, iso3 = spec.params["indicator"], spec.params["iso3"]

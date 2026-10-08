@@ -103,7 +103,16 @@ MEI_LONG = {
     "MX": "MX",
     "RU": "RU",
 }
-MEI_GDP = {"GB": "GBR", "JP": "JPN", "AU": "AUS", "CA": "CAN", "CH": "CHE", "DE": "DEU"}
+# OECD MEI nominal GDP was discontinued in 2023; these quarterly levels (millions, SA, not annualised)
+# replace it for the markets with no national-statistics feed wired in.
+CURRENT_GDP = {
+    "AU": ("NGDPSAXDCAUQ", "Australia nominal GDP, SA, AUD m (IMF via FRED)"),
+    "CA": ("NGDPSAXDCCAQ", "Canada nominal GDP, SA, CAD m (IMF via FRED)"),
+    "CH": (
+        "CPMNACSCAB1GQCH",
+        "Switzerland GDP at market prices, current prices, SCA, CHF m (Eurostat via FRED)",
+    ),
+}
 SCALE = {
     "FYGFDPUN": 1e-3,
     "ECBASSETSW": 1e-3,
@@ -126,17 +135,8 @@ def _all_series() -> list[tuple[str, str, str, str, str, str]]:
         out.append(
             (cc, "yield_10y", f"IRLTLT01{a}M156N", "M", "%", "OECD MEI long-term government bond yield")
         )
-    for cc, a in MEI_GDP.items():
-        out.append(
-            (
-                cc,
-                "ngdp_lcu",
-                f"{a}GDPNQDSMEI",
-                "Q",
-                "LCU bn",
-                "OECD MEI nominal GDP, SA, national currency units scaled to bn",
-            )
-        )
+    for cc, (fid, note) in CURRENT_GDP.items():
+        out.append((cc, "ngdp_lcu", fid, "Q", "LCU bn", note))
     return out
 
 
@@ -175,7 +175,7 @@ class FredCollector(Collector):
             df.columns = ["date", "value"]
         df["value"] = pd.to_numeric(df["value"], errors="coerce")
         df = df.dropna()
-        scale = SCALE.get(fid, 1e-9 if fid.endswith("GDPNQDSMEI") else 1.0)
+        scale = SCALE.get(fid, 1e-3 if fid in {g for g, _ in CURRENT_GDP.values()} else 1.0)
         if scale != 1.0:
             df["value"] = df["value"] * scale
         if fid in INVERT:

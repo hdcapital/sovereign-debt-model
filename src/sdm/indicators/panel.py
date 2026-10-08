@@ -58,6 +58,10 @@ def to_quarterly(series: pd.Series, kind: str, max_ffill: int = 1) -> pd.Series:
     s = series.dropna().sort_index()
     if s.empty:
         return s
+    if len(s) == 1:
+        # a single snapshot (e.g. the DMO gilt portfolio on one day) belongs to its own quarter only
+        q = s.index.to_period("Q").to_timestamp(how="end").normalize()
+        return pd.Series(s.values, index=pd.DatetimeIndex(q))
     freq = infer_freq(pd.Series(s.index))
     q = s.index.to_period("Q")
     if freq == "A":
@@ -109,6 +113,64 @@ def splice(primary: pd.Series, secondary: pd.Series, kind: str, overlap_quarters
     return secondary + float((a - b).mean())
 
 
+def native_yoy(s: pd.Series) -> pd.Series:
+    """Year-on-year % change computed at the series' own frequency, so a quarter whose latest
+    month is August is compared with the August a year earlier, not the previous September."""
+    s = s.dropna().sort_index()
+    freq = infer_freq(pd.Series(s.index))
+    lag = {"M": 12, "Q": 4, "A": 1}.get(freq)
+    if lag is not None:
+        return (s / s.shift(lag) - 1.0) * 100.0
+    prior = s.reindex(s.index - pd.DateOffset(years=1), method="nearest", tolerance=pd.Timedelta(days=7))
+    return pd.Series((s.values / prior.values - 1.0) * 100.0, index=s.index)
+
+
+def with_derived_yoy(df: pd.DataFrame, concepts: dict[str, str]) -> pd.DataFrame:
+    """Append native-frequency yoy rows (e.g. cpi_index -> cpi_yoy) for every source series."""
+    extra = []
+    for src_concept, out_concept in concepts.items():
+        for sid, g in df[df["concept"] == src_concept].groupby("series_id"):
+            yoy = native_yoy(g.set_index("date")["value"]).dropna()
+            if yoy.empty:
+                continue
+            cc, _, src, *rest = sid.split(".")
+            new_id = ".".join([cc, out_concept, src, *(rest or []), "yoy"])
+            extra.append(
+                pd.DataFrame(
+                    {
+                        "series_id": new_id,
+                        "country": cc,
+                        "concept": out_concept,
+                        "date": yoy.index,
+                        "value": yoy.values,
+                        "vintage": g["vintage"].max(),
+                    }
+                )
+            )
+    return pd.concat([df, *extra], ignore_index=True) if extra else df
+
+
+def fill_structural(s: pd.Series, src: pd.Series, carry: int) -> tuple[pd.Series, pd.Series]:
+    """Slow-moving structural series (holder shares, average maturity): interpolate linearly
+    between observed quarters and carry the last value at most ``carry`` quarters forward.
+    The source tag records which cells were filled, so nothing is filled silently."""
+    if s.empty:
+        return s, src
+    end = s.index.max() + pd.offsets.QuarterEnd(carry)
+    full = pd.date_range(s.index.min(), end, freq="QE")
+    out = s.reindex(full)
+    observed = out.notna()
+    out = out.interpolate(limit_area="inside")
+    inside = out.notna() & ~observed
+    out = out.ffill(limit=carry)
+    carried = out.notna() & ~observed & ~inside
+    tag = src.reindex(full).ffill()
+    tag[inside] = tag[inside] + "+interp"
+    tag[carried] = tag[carried] + "+carry"
+    out = out.dropna()
+    return out, tag.reindex(out.index)
+
+
 def _priority_for(concept: str, cfg: dict[str, list[str]]) -> list[str]:
     return list(cfg.get(concept, cfg["default"]))
 
@@ -120,8 +182,12 @@ def build_panel(clean: pd.DataFrame | None = None, write: bool = True) -> Panel:
     df = clean if clean is not None else load_all_clean()
     if df.empty:
         raise RuntimeError("clean store is empty; run `sdm update` first")
-    df["source"] = df["series_id"].str.split(".").str[2]
     df["date"] = pd.to_datetime(df["date"])
+    df = with_derived_yoy(df, {"cpi_index": "cpi_yoy"})
+    df["source"] = df["series_id"].str.split(".").str[2]
+    structural = cfg.raw.get("structural", {})
+    structural_concepts = set(structural.get("concepts", []))
+    carry = int(structural.get("carry_quarters", 4))
 
     cells: dict[tuple[str, str], pd.Series] = {}
     srcs: dict[tuple[str, str], pd.Series] = {}
@@ -147,6 +213,8 @@ def build_panel(clean: pd.DataFrame | None = None, write: bool = True) -> Panel:
                 merged = pd.concat([merged, qs.loc[new_idx]]).sort_index()
                 merged_src = pd.concat([merged_src, tag.loc[new_idx]]).sort_index()
         if merged is not None:
+            if concept in structural_concepts:
+                merged, merged_src = fill_structural(merged, merged_src, carry)
             cells[(country, concept)] = merged
             srcs[(country, concept)] = merged_src
 

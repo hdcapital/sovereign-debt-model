@@ -64,6 +64,38 @@ class EurostatCollector(Collector):
                     },
                 )
             )
+            out.append(
+                SeriesSpec(
+                    cc,
+                    "gg_revenue_gdp",
+                    "EUROSTAT",
+                    f"{BASE}/gov_10q_ggnfa",
+                    "Q",
+                    "% GDP",
+                    "Quarterly total revenue (TR), % of quarterly GDP",
+                    params={
+                        "geo": geo,
+                        "q": {"unit": "PC_GDP", "sector": "S13", "na_item": "TR", "s_adj": "NSA"},
+                    },
+                )
+            )
+        # Switzerland reports national accounts to Eurostat; replaces the discontinued OECD MEI series
+        out.append(
+            SeriesSpec(
+                "CH",
+                "ngdp_lcu",
+                "EUROSTAT",
+                f"{BASE}/namq_10_gdp",
+                "Q",
+                "CHF bn",
+                "GDP at market prices, current prices, SCA, CHF m (scaled)",
+                params={
+                    "geo": "CH",
+                    "q": {"unit": "CP_MNAC", "s_adj": "SCA", "na_item": "B1GQ"},
+                    "scale": 1e-3,
+                },
+            )
+        )
         return out
 
     def fetch(self, spec: SeriesSpec) -> pd.DataFrame:
@@ -83,4 +115,6 @@ class EurostatCollector(Collector):
                 rows.append((pd.Period(f"{y}Q{q}", freq="Q").end_time.normalize(), v))
         if not rows:
             raise ValueError("no values")
-        return pd.DataFrame(rows, columns=["date", "value"])
+        df = pd.DataFrame(rows, columns=["date", "value"])
+        df["value"] = df["value"] * spec.params.get("scale", 1.0)
+        return df

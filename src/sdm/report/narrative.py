@@ -67,6 +67,7 @@ def latest_core_csv() -> str:
 def history_csv(quarters: int) -> str:
     uni = load_universe()
     ind = pd.read_csv(INDICATORS_PATH, index_col=[0, 1], parse_dates=[1])
+    ind = ind[ind.index.get_level_values(1) <= last_complete_quarter()]
     cols = [c for c in shown_indicators() if c in ind.columns]
     frames = []
     for code in uni.core:
@@ -84,7 +85,8 @@ def transitions_text(quarters: int = 8) -> str:
     uni = load_universe()
     t = t[t["country"].isin(uni.core)]
     cutoff = (last_complete_quarter() - pd.offsets.QuarterEnd(quarters)).date()
-    t = t[pd.to_datetime(t["quarter"]).dt.date >= cutoff]
+    qd = pd.to_datetime(t["quarter"]).dt.date
+    t = t[(qd >= cutoff) & (qd <= last_complete_quarter().date())]
     return t.to_csv(index=False) if len(t) else "none in the last eight quarters"
 
 
@@ -98,37 +100,69 @@ def backtest_text() -> str:
 
 
 def data_issues_text() -> str:
+    """Stale or missing indicators, failed series, filled structural values and known gaps,
+    grouped so the reader sees what is broken separately from what is simply unavailable."""
+    from sdm.indicators.applicability import is_known_gap
+    from sdm.indicators.panel import SOURCES_PATH
+    from sdm.paths import CATALOG
+
     latest = pd.read_csv(LATEST_PATH)
     core = latest[(latest["tier"] == "core") & latest["indicator"].isin(shown_indicators())]
     if "applies" in core:
         core = core[core["applies"].astype(bool)]
     num = pd.to_numeric(core["value"], errors="coerce")
     stale_after = int(load_report_config()["email"].get("stale_after_quarters", 4))
-    stale = core[
+    flagged = core[
         (pd.to_numeric(core["stale_quarters"], errors="coerce") > stale_after)
         | (num.isna() & (core["indicator"] != "quadrant"))
     ]
-    lines = [
-        f"{r.country} {r.indicator}: "
-        + (
-            "no data"
-            if pd.isna(r.value)
-            else f"last value {r.quarter}, {int(r.stale_quarters)} quarters stale"
+    problems, known = [], {}
+    for r in flagged.itertuples(index=False):
+        reason = is_known_gap(r.country, r.indicator)
+        if reason:
+            known.setdefault(reason, []).append(f"{r.country} {r.indicator}")
+            continue
+        problems.append(
+            f"{r.country} {r.indicator}: "
+            + (
+                "no data"
+                if pd.isna(r.value)
+                else f"last value {r.quarter}, {int(r.stale_quarters)} quarters stale"
+            )
         )
-        for r in stale.itertuples(index=False)
-    ]
-    from sdm.paths import CATALOG
-
     if CATALOG.exists():
         cat = pd.read_csv(CATALOG)
         bad = cat[cat["notes"].astype(str).str.contains("LAST ERROR")]
-        lines += [
+        problems += [
             f"{r.series_id}: failed to update ({str(r.notes).split('LAST ERROR:')[-1].strip()[:100]})"
             for r in bad.itertuples(index=False)
         ]
-        approx = cat[cat["notes"].astype(str).str.contains("approximate")]
-        lines += [f"{r.series_id}: hand-maintained approximate value" for r in approx.itertuples(index=False)]
-    return "\n".join(lines) if lines else "none"
+    filled = []
+    if SOURCES_PATH.exists():
+        src = pd.read_csv(SOURCES_PATH, index_col=[0, 1], parse_dates=[1])
+        ref = last_complete_quarter()
+        uni = load_universe()
+        for cc in uni.core:
+            if (cc, ref) not in src.index:
+                continue
+            row = src.loc[(cc, ref)]
+            for concept, tag in row.dropna().items():
+                if "+carry" in str(tag) or "+interp" in str(tag):
+                    how = "carried forward" if "+carry" in str(tag) else "interpolated"
+                    filled.append(f"{cc} {concept}: {how} ({str(tag).split('+')[0]})")
+    out = []
+    out.append("Problems:\n" + ("\n".join(problems) if problems else "none"))
+    out.append(
+        "Structural values filled for the report quarter (hand-maintained or annual series, interpolated "
+        "between observations or carried at most four quarters):\n"
+        + ("\n".join(filled) if filled else "none")
+    )
+    if known:
+        out.append(
+            "Known gaps, no free source (not failures):\n"
+            + "\n".join(f"{reason}: {', '.join(items)}" for reason, items in known.items())
+        )
+    return "\n\n".join(out)
 
 
 def assemble_prompt(label: str) -> tuple[str, str]:

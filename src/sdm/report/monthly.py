@@ -13,7 +13,7 @@ import pandas as pd
 
 from sdm.config import load_indicator_config, load_universe
 from sdm.indicators import blocks  # noqa: F401
-from sdm.indicators.compute import INDICATORS_PATH, LATEST_PATH, TRANSITIONS_PATH, last_complete_quarter
+from sdm.indicators.compute import INDICATORS_PATH, TRANSITIONS_PATH, last_complete_quarter
 from sdm.indicators.registry import REGISTRY
 from sdm.paths import DATA
 
@@ -23,7 +23,12 @@ SNAPSHOT = DATA / "monthly_snapshot.json"
 
 
 def current_values() -> dict[str, float]:
-    latest = pd.read_csv(LATEST_PATH)
+    """Latest value of every core indicator including the quarter in progress, so a market move
+    inside the quarter is visible to the monthly check."""
+    from sdm.indicators.compute import latest_table
+
+    ind = pd.read_csv(INDICATORS_PATH, index_col=[0, 1], parse_dates=[1])
+    latest = latest_table(ind, through=ind.index.get_level_values(1).max())
     core = latest[latest["tier"] == "core"]
     out = {}
     for r in core.itertuples(index=False):

@@ -45,9 +45,11 @@ def _country_frame(panel: Panel, code: str) -> pd.DataFrame | None:
     # global series (gold) are attached to every country
     if "XX" in panel.values.index.get_level_values(0):
         g = panel.values.loc["XX"]
+        g.index = pd.DatetimeIndex(g.index)
         for col in g.columns:
-            if col not in df.columns:
-                df[col] = g[col].reindex(df.index)
+            if g[col].notna().any():
+                glob = g[col].reindex(df.index)
+                df[col] = df[col].combine_first(glob) if col in df.columns else glob
     return df.sort_index()
 
 
@@ -126,16 +128,18 @@ def _bloc_aggregate_shares(panel: Panel, bloc_ind: pd.DataFrame, members: tuple[
     return out
 
 
-def _finish_bloc(panel: Panel, code: str, ind: pd.DataFrame) -> pd.DataFrame:
-    """Fill the bloc's holder shares from members and recompute what depends on them."""
-    uni = load_universe()
-    cfg = load_indicator_config()
-    ind = _bloc_aggregate_shares(panel, ind, uni[code].members)
-    c = _country_frame(panel, code)
-    ctx = Ctx(country=code, c=c, ind=ind, country_cfg=uni[code], cfg=cfg)
-    for name in ("domestic_private_share", "captivity_score", "cb_holdings_change_4q", "issuance_shortening"):
-        ind[name] = REGISTRY[name].fn(ctx).reindex(c.index)
-        ctx.ind = ind
+BLOC_DEPENDENTS = (
+    "domestic_private_share",
+    "captivity_score",
+    "cb_holdings_change_4q",
+    "issuance_shortening",
+    "forward_r_5y",
+    "forward_r_minus_g_5y",
+    "debt_gdp_projection_10y",
+)
+
+
+def _quadrant_columns(ind: pd.DataFrame, cfg: object) -> pd.DataFrame:
     q = cfg.quadrant
     unsus = (ind["forward_r_minus_g_5y"] > q["unsustainable"]["forward_r_minus_g_5y_gt"]) & (
         ind["primary_balance_gdp"] < q["unsustainable"]["primary_balance_gdp_lt"]
@@ -152,6 +156,23 @@ def _finish_bloc(panel: Panel, code: str, ind: pd.DataFrame) -> pd.DataFrame:
         QUADRANTS[(bool(u), bool(k))] if ok else None for u, k, ok in zip(unsus, captive, known, strict=True)
     ]
     return ind
+
+
+def _finish_bloc(panel: Panel, code: str, ind: pd.DataFrame) -> pd.DataFrame:
+    """Fill the bloc's holder shares and maturity from its members, then recompute everything
+    that depends on them (captivity, forward r, projection), the stages and the quadrant."""
+    uni = load_universe()
+    cfg = load_indicator_config()
+    ind = _bloc_aggregate_shares(panel, ind, uni[code].members)
+    c = _country_frame(panel, code)
+    ctx = Ctx(country=code, c=c, ind=ind, country_cfg=uni[code], cfg=cfg)
+    for name in BLOC_DEPENDENTS:
+        ind[name] = REGISTRY[name].fn(ctx).reindex(c.index)
+        ctx.ind = ind
+    stage_cols = estimate_stages(ind, uni[code].monetary_regime, load_stage_rules())
+    for col in stage_cols.columns:
+        ind[col] = stage_cols[col]
+    return _quadrant_columns(ind, cfg)
 
 
 def transitions_for(ind: pd.DataFrame) -> pd.DataFrame:
@@ -215,11 +236,14 @@ def last_complete_quarter(today: date | None = None) -> pd.Timestamp:
     return (t.to_period("Q") - 1).end_time.normalize()
 
 
-def latest_table(all_ind: pd.DataFrame, stale_quarters: int = 2) -> pd.DataFrame:
-    """One row per (country, indicator): latest non-null value, its quarter, 1y/5y change.
-    ``stale_quarters`` counts how far the latest value lags the last complete quarter."""
+def latest_table(all_ind: pd.DataFrame, through: pd.Timestamp | None = None) -> pd.DataFrame:
+    """One row per (country, indicator): latest non-null value up to ``through`` (default: the last
+    complete quarter, so a quarter still in progress never appears as data), its quarter, 1y/5y
+    change, and how many quarters it lags the last complete quarter."""
     uni = load_universe()
     ref_q = last_complete_quarter()
+    through = through if through is not None else ref_q
+    all_ind = all_ind[all_ind.index.get_level_values(1) <= through]
     shown = [n for n, m in REGISTRY.items() if not m.helper] + ["stage_estimate", "captivity_score"]
     shown = list(dict.fromkeys(shown))
     rows = []

@@ -52,7 +52,7 @@ class MofJpCollector(Collector):
                 SUII,
                 "Q",
                 "%",
-                "Short-term (<=1y) general + FILP bonds as % of JGBs outstanding, MoF 'suii' table (last 5 years)",
+                "T-bills (short-term general and FILP bonds) plus Financing Bills as % of JGBs + FBs, MoF 'suii' table",
                 params={"k": "bill"},
             )
         )
@@ -64,7 +64,7 @@ class MofJpCollector(Collector):
                 SUII,
                 "Q",
                 "JPY bn",
-                "JGBs outstanding (general + FILP), 100m yen scaled to bn",
+                "JGBs plus Financing Bills outstanding, 100m yen scaled to bn",
                 params={"k": "total"},
             )
         )
@@ -85,6 +85,9 @@ class MofJpCollector(Collector):
         return self._yields_cache
 
     def _suii(self) -> pd.DataFrame:
+        """Quarterly outstanding by instrument (100 million yen). Rows are matched on their English
+        labels: JGBs total, the two "Short-term (one year or less)" bond rows above "Borrowings",
+        and Financing Bills. Marketable = JGBs + Financing Bills; short = short bonds + FBs."""
         raw = self.http.get_bytes(SUII)
         self.cache_raw("suii", raw, "xls")
         sh = xlrd.open_workbook(file_contents=raw).sheet_by_index(0)
@@ -94,27 +97,25 @@ class MofJpCollector(Collector):
         ]
         dates = {j: pd.Period(pd.to_datetime(lbl), freq="M").end_time.normalize() for j, lbl in cols}
 
-        def row_by_label(fragment: str, start: int = 0) -> list[float]:
-            for i in range(start, sh.nrows):
-                if any(fragment in str(c) for c in sh.row_values(i)[:3]):
-                    return [
-                        float(v) if v not in ("", "―") else 0.0
-                        for j, v in enumerate(sh.row_values(i))
-                        if j in dates
-                    ]
-            raise ValueError(f"row {fragment!r} not found")
+        def label(i: int) -> str:
+            return " ".join(str(c) for c in sh.row_values(i)[:3]).replace("\n", " ")
 
-        total = row_by_label("国債\n")  # domestic bonds total (row 3)
-        short_general = row_by_label("短期国債", 4)
-        short_filp = row_by_label("短期国債", 11)
-        df = pd.DataFrame(
-            {
-                "date": list(dates.values()),
-                "total": total,
-                "short": [a + b for a, b in zip(short_general, short_filp, strict=True)],
-            }
-        )
-        return df
+        def values(i: int) -> list[float]:
+            r = sh.row_values(i)
+            return [float(r[j]) if r[j] not in ("", "―") else 0.0 for j in dates]
+
+        rows = {i: label(i) for i in range(sh.nrows)}
+        jgb = next(i for i, t in rows.items() if "Government Bonds (JGBs)" in t)
+        borrow = next(i for i, t in rows.items() if "Borrowings" in t)
+        fbs = next(i for i, t in rows.items() if "Financing Bills" in t)
+        shorts = [i for i, t in rows.items() if "Short-term (one year or less)" in t and jgb < i < borrow]
+        if not shorts:
+            raise ValueError("no short-term JGB rows found")
+        total = [a + b for a, b in zip(values(jgb), values(fbs), strict=True)]
+        short = values(fbs)
+        for i in shorts:
+            short = [a + b for a, b in zip(short, values(i), strict=True)]
+        return pd.DataFrame({"date": list(dates.values()), "total": total, "short": short})
 
     def fetch(self, spec: SeriesSpec) -> pd.DataFrame:
         if "col" in spec.params:

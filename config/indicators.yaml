@@ -11,6 +11,15 @@ resample:
   annual:  {rule: step, max_ffill_periods: 1, note: "annual value placed at Q4; carried at most one quarter; never interpolated silently"}
 max_forward_fill_periods: 1   # global guard: never forward-fill more than one period
 
+# Slow-moving structural series. These are observed rarely (annual reports, hand-maintained
+# tables), so the panel interpolates linearly between observations and carries the last one
+# at most `carry_quarters` forward. Every filled cell is tagged "+interp" or "+carry" in
+# data/clean/panel_sources.csv and listed in the report's data-issues section.
+structural:
+  concepts: [avg_maturity_years, foreign_share, cb_gov_share, domestic_bank_share, domestic_nonbank_share,
+             household_fin_assets_lcu, niip_gdp, ecb_backstop_active]
+  carry_quarters: 4
+
 trajectory:
   r_effective:
     numerator: interest_paid_4q_sum
@@ -92,7 +101,7 @@ thresholds:
 # Which source wins when several report the same (country, concept). First match with data
 # for a quarter wins; later sources fill the quarters it lacks. Per-concept lists override.
 source_priority:
-  default: [US_TREASURY, UK_DMO, JP_MOF, RBA, BOC, SNB, BOE, ONS, ECB, ECB_PSPP, EUROSTAT, FRED, BIS, IMF_AT, IMF_WEO, WORLDBANK, LBMA_DATAHUB, WB_CMO, YAHOO, MANUAL, JST]
+  default: [US_TREASURY, UK_DMO, JP_MOF, RBA, BOC, SNB, BOE, ONS, ECB, ECB_PSPP, EUROSTAT, FRED, BIS, IMF_AT, IMF_WEO, IMF_FM, WORLDBANK, LBMA_DATAHUB, WB_CMO, YAHOO, MANUAL, JST]
   gg_debt_gdp: [BIS, EUROSTAT, IMF_WEO, FRED, ONS, JST, WORLDBANK]
   policy_rate: [BIS, BOE, RBA, ECB, FRED]
   cpi_index: [BIS, FRED, ONS, RBA, JST]
