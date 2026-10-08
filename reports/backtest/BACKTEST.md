@@ -161,7 +161,7 @@ Means by quadrant:
 | 10 | real_gold_return_ann | mean:sustainable_free | 7.55 | 91 |
 | 10 | real_gold_return_ann | mean:unsustainable_captive | 12.71 | 3 |
 | 10 | real_gold_return_ann | mean:unsustainable_free | 14.41 | 6 |
-| 10 | gold_minus_bond_ann | mean:sustainable_captive | 12.76 | 15 |
+| 10 | gold_minus_bond_ann | mean:sustainable_captive | 12.75 | 15 |
 | 10 | gold_minus_bond_ann | mean:sustainable_free | 7.77 | 94 |
 | 10 | gold_minus_bond_ann | mean:unsustainable_captive | 12.56 | 4 |
 | 10 | gold_minus_bond_ann | mean:unsustainable_free | 16.86 | 6 |
@@ -181,7 +181,7 @@ Regression:
 | 5 | gold_minus_bond_ann | const | 15.08 | 4.44 | 3.40 | 345 | 17.20 |
 | 5 | gold_minus_bond_ann | sustainable_free | -4.31 | 4.92 | -0.88 | 345 | 17.20 |
 | 5 | gold_minus_bond_ann | unsustainable_captive | -8.26 | 11.74 | -0.70 | 345 | 17.20 |
-| 5 | gold_minus_bond_ann | unsustainable_free | -2.03 | 10.87 | -0.19 | 345 | 17.20 |
+| 5 | gold_minus_bond_ann | unsustainable_free | -2.02 | 10.87 | -0.19 | 345 | 17.20 |
 | 10 | real_bond_return_ann | const | -2.49 | 3.47 | -0.72 | 114 | 5.00 |
 | 10 | real_bond_return_ann | sustainable_free | 2.45 | 3.73 | 0.66 | 114 | 5.00 |
 | 10 | real_bond_return_ann | unsustainable_captive | 4.87 | 8.26 | 0.59 | 114 | 5.00 |
@@ -190,7 +190,7 @@ Regression:
 | 10 | real_gold_return_ann | sustainable_free | -2.64 | 6.52 | -0.40 | 114 | 5.00 |
 | 10 | real_gold_return_ann | unsustainable_captive | 2.53 | 14.44 | 0.17 | 114 | 5.00 |
 | 10 | real_gold_return_ann | unsustainable_free | 4.22 | 11.08 | 0.38 | 114 | 5.00 |
-| 10 | gold_minus_bond_ann | const | 12.76 | 7.10 | 1.80 | 119 | 5.00 |
+| 10 | gold_minus_bond_ann | const | 12.75 | 7.10 | 1.80 | 119 | 5.00 |
 | 10 | gold_minus_bond_ann | sustainable_free | -4.99 | 7.65 | -0.65 | 119 | 5.00 |
 | 10 | gold_minus_bond_ann | unsustainable_captive | -0.19 | 15.48 | -0.01 | 119 | 5.00 |
 | 10 | gold_minus_bond_ann | unsustainable_free | 4.11 | 13.28 | 0.31 | 119 | 5.00 |

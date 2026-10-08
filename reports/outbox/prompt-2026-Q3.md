@@ -837,10 +837,10 @@ US,83,1.4863354332772394,2.0269176211099182,-0.3357849057350531,1.01277797731335
 ## 6. Data issues
 
 Problems:
-GB.avg_maturity_years.UK_DMO: failed to update (ValueError: no gilts parsed from D1A)
-GB.bill_share.UK_DMO: failed to update (ParseError: not well-formed (invalid token): line 18, column 2398)
-GB.linker_share.UK_DMO: failed to update (ValueError: no gilts parsed from D1A)
-GB.marketable_debt_lcu.UK_DMO: failed to update (ParseError: not well-formed (invalid token): line 18, column 2398)
+GB.avg_maturity_years.UK_DMO: failed to update (BotChallengeError: DMO returned a bot-protection challenge, not data; previous values kept)
+GB.bill_share.UK_DMO: failed to update (BotChallengeError: DMO returned a bot-protection challenge, not data; previous values kept)
+GB.linker_share.UK_DMO: failed to update (BotChallengeError: DMO returned a bot-protection challenge, not data; previous values kept)
+GB.marketable_debt_lcu.UK_DMO: failed to update (BotChallengeError: DMO returned a bot-protection challenge, not data; previous values kept)
 
 Structural values filled for the report quarter (hand-maintained or annual series, interpolated between observations or carried at most four quarters):
 US household_fin_assets_lcu: carried forward (FRED)
