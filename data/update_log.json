@@ -173,5 +173,310 @@
     "changed": []
    }
   }
+ },
+ {
+  "run_at": "2026-10-08T05:23:04+00:00",
+  "sources": {
+   "bis": {
+    "ok": 87,
+    "failed": [
+     "AR.gg_debt_gdp.BIS",
+     "RU.cb_total_assets_lcu.BIS",
+     "RU.gg_debt_gdp.BIS",
+     "BR.gg_debt_gdp.BIS",
+     "MX.gg_debt_gdp.BIS"
+    ],
+    "errors": {
+     "AR.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.AR.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "RU.cb_total_assets_lcu.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_CBTA/1.0/M.RU?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "RU.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.RU.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "BR.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.BR.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for",
+     "MX.gg_debt_gdp.BIS": "HttpError: HTTP 404 for https://stats.bis.org/api/v2/data/dataflow/BIS/WS_TC/2.0/Q.MX.G.A.M.770.A?format=csv: <?xml version=\"1.0\" ?>\n<message:Error xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:message=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message\" xmlns:com=\"http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common\">\n  <message:ErrorMessage code=\"100\">\n    <com:Text>No results for"
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "imf_datamapper": {
+    "ok": 191,
+    "failed": [],
+    "errors": {},
+    "new_obs": 2262,
+    "revised_obs": 0,
+    "changed": [
+     "US.gg_primary_balance_gdp.IMF_FM",
+     "US.gg_net_lending_gdp.IMF_FM",
+     "US.gg_revenue_gdp.IMF_FM",
+     "US.gg_interest_gdp.IMF_FM",
+     "GB.gg_primary_balance_gdp.IMF_FM",
+     "GB.gg_net_lending_gdp.IMF_FM",
+     "GB.gg_revenue_gdp.IMF_FM",
+     "GB.gg_interest_gdp.IMF_FM",
+     "JP.gg_primary_balance_gdp.IMF_FM",
+     "JP.gg_net_lending_gdp.IMF_FM",
+     "JP.gg_revenue_gdp.IMF_FM",
+     "JP.gg_interest_gdp.IMF_FM",
+     "AU.gg_primary_balance_gdp.IMF_FM",
+     "AU.gg_net_lending_gdp.IMF_FM",
+     "AU.gg_revenue_gdp.IMF_FM",
+     "AU.gg_interest_gdp.IMF_FM",
+     "CA.gg_primary_balance_gdp.IMF_FM",
+     "CA.gg_net_lending_gdp.IMF_FM",
+     "CA.gg_revenue_gdp.IMF_FM",
+     "CA.gg_interest_gdp.IMF_FM",
+     "CH.gg_primary_balance_gdp.IMF_FM",
+     "CH.gg_net_lending_gdp.IMF_FM",
+     "CH.gg_revenue_gdp.IMF_FM",
+     "CH.gg_interest_gdp.IMF_FM",
+     "DE.gg_primary_balance_gdp.IMF_FM",
+     "DE.gg_net_lending_gdp.IMF_FM",
+     "DE.gg_revenue_gdp.IMF_FM",
+     "DE.gg_interest_gdp.IMF_FM",
+     "FR.gg_primary_balance_gdp.IMF_FM",
+     "FR.gg_net_lending_gdp.IMF_FM",
+     "FR.gg_revenue_gdp.IMF_FM",
+     "FR.gg_interest_gdp.IMF_FM",
+     "IT.gg_primary_balance_gdp.IMF_FM",
+     "IT.gg_net_lending_gdp.IMF_FM",
+     "IT.gg_revenue_gdp.IMF_FM",
+     "IT.gg_interest_gdp.IMF_FM",
+     "NL.gg_primary_balance_gdp.IMF_FM",
+     "NL.gg_net_lending_gdp.IMF_FM",
+     "NL.gg_revenue_gdp.IMF_FM",
+     "NL.gg_interest_gdp.IMF_FM",
+     "AR.gg_primary_balance_gdp.IMF_FM",
+     "AR.gg_net_lending_gdp.IMF_FM",
+     "AR.gg_revenue_gdp.IMF_FM",
+     "AR.gg_interest_gdp.IMF_FM",
+     "TR.gg_primary_balance_gdp.IMF_FM",
+     "TR.gg_net_lending_gdp.IMF_FM",
+     "TR.gg_revenue_gdp.IMF_FM",
+     "TR.gg_interest_gdp.IMF_FM",
+     "RU.gg_primary_balance_gdp.IMF_FM",
+     "RU.gg_net_lending_gdp.IMF_FM",
+     "RU.gg_revenue_gdp.IMF_FM",
+     "RU.gg_interest_gdp.IMF_FM",
+     "BR.gg_primary_balance_gdp.IMF_FM",
+     "BR.gg_net_lending_gdp.IMF_FM",
+     "BR.gg_revenue_gdp.IMF_FM",
+     "BR.gg_interest_gdp.IMF_FM",
+     "MX.gg_primary_balance_gdp.IMF_FM",
+     "MX.gg_net_lending_gdp.IMF_FM",
+     "MX.gg_revenue_gdp.IMF_FM",
+     "MX.gg_interest_gdp.IMF_FM",
+     "GR.gg_primary_balance_gdp.IMF_FM",
+     "GR.gg_net_lending_gdp.IMF_FM",
+     "GR.gg_revenue_gdp.IMF_FM",
+     "GR.gg_interest_gdp.IMF_FM",
+     "SE.gg_primary_balance_gdp.IMF_FM",
+     "SE.gg_net_lending_gdp.IMF_FM",
+     "SE.gg_revenue_gdp.IMF_FM",
+     "SE.gg_interest_gdp.IMF_FM"
+    ]
+   },
+   "fred": {
+    "ok": 48,
+    "failed": [],
+    "errors": {},
+    "new_obs": 663,
+    "revised_obs": 0,
+    "changed": [
+     "US.yield_10y.FRED.DGS10",
+     "US.yield_2y.FRED.DGS2",
+     "US.yield_3m.FRED.DGS3MO",
+     "US.yield_30y.FRED.DGS30",
+     "US.real_yield_10y.FRED.DFII10",
+     "US.breakeven_10y.FRED.T10YIE",
+     "JP.cb_total_assets_lcu.FRED.JPNASSETS",
+     "AU.ngdp_lcu.FRED.NGDPSAXDCAUQ",
+     "CA.ngdp_lcu.FRED.NGDPSAXDCCAQ",
+     "CH.ngdp_lcu.FRED.CPMNACSCAB1GQCH"
+    ]
+   },
+   "fiscaldata": {
+    "ok": 7,
+    "failed": [],
+    "errors": {},
+    "new_obs": 103,
+    "revised_obs": 0,
+    "changed": [
+     "US.avg_maturity_years.US_TREASURY"
+    ]
+   },
+   "gold": {
+    "ok": 3,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 1,
+    "changed": [
+     "XX.gold_usd.YAHOO"
+    ]
+   },
+   "boe": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "ons": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "dmo": {
+    "ok": 0,
+    "failed": [
+     "GB.avg_maturity_years.UK_DMO",
+     "GB.linker_share.UK_DMO",
+     "GB.bill_share.UK_DMO",
+     "GB.marketable_debt_lcu.UK_DMO"
+    ],
+    "errors": {
+     "GB.avg_maturity_years.UK_DMO": "ValueError: no gilts parsed from D1A",
+     "GB.linker_share.UK_DMO": "ValueError: no gilts parsed from D1A",
+     "GB.bill_share.UK_DMO": "ParseError: not well-formed (invalid token): line 18, column 2398",
+     "GB.marketable_debt_lcu.UK_DMO": "ParseError: not well-formed (invalid token): line 18, column 2398"
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "mof_jp": {
+    "ok": 6,
+    "failed": [],
+    "errors": {},
+    "new_obs": 4,
+    "revised_obs": 40,
+    "changed": [
+     "JP.yield_2y.JP_MOF",
+     "JP.yield_5y.JP_MOF",
+     "JP.yield_10y.JP_MOF",
+     "JP.yield_30y.JP_MOF",
+     "JP.bill_share.JP_MOF",
+     "JP.marketable_debt_lcu.JP_MOF"
+    ]
+   },
+   "rba": {
+    "ok": 8,
+    "failed": [],
+    "errors": {},
+    "new_obs": 1,
+    "revised_obs": 0,
+    "changed": [
+     "AU.policy_rate.RBA"
+    ]
+   },
+   "boc": {
+    "ok": 5,
+    "failed": [],
+    "errors": {},
+    "new_obs": 5,
+    "revised_obs": 0,
+    "changed": [
+     "CA.yield_2y.BOC",
+     "CA.yield_5y.BOC",
+     "CA.yield_10y.BOC",
+     "CA.yield_30y.BOC",
+     "CA.real_yield_10y.BOC"
+    ]
+   },
+   "snb": {
+    "ok": 4,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "ecb": {
+    "ok": 51,
+    "failed": [
+     "GR.cb_gov_holdings_lcu.ECB_PSPP"
+    ],
+    "errors": {
+     "GR.cb_gov_holdings_lcu.ECB_PSPP": "ValueError: Greece not in PSPP table: ['Austria', 'Belgium', 'Cyprus', 'Germany', 'Estonia', 'Spain', 'Finland', 'France', 'Ireland', 'Italy']"
+    },
+    "new_obs": 1171,
+    "revised_obs": 0,
+    "changed": [
+     "DE.marketable_debt_lcu.ECB.GFS",
+     "DE.bills_outstanding_lcu.ECB.GFS",
+     "DE.cb_gov_holdings_lcu.ECB_PSPP",
+     "FR.marketable_debt_lcu.ECB.GFS",
+     "FR.bills_outstanding_lcu.ECB.GFS",
+     "FR.cb_gov_holdings_lcu.ECB_PSPP",
+     "IT.marketable_debt_lcu.ECB.GFS",
+     "IT.bills_outstanding_lcu.ECB.GFS",
+     "IT.cb_gov_holdings_lcu.ECB_PSPP",
+     "NL.marketable_debt_lcu.ECB.GFS",
+     "NL.bills_outstanding_lcu.ECB.GFS",
+     "NL.cb_gov_holdings_lcu.ECB_PSPP",
+     "GR.marketable_debt_lcu.ECB.GFS",
+     "GR.bills_outstanding_lcu.ECB.GFS",
+     "EA.cb_total_assets_lcu.ECB"
+    ]
+   },
+   "eurostat": {
+    "ok": 29,
+    "failed": [],
+    "errors": {},
+    "new_obs": 897,
+    "revised_obs": 0,
+    "changed": [
+     "DE.gg_revenue_gdp.EUROSTAT",
+     "FR.gg_revenue_gdp.EUROSTAT",
+     "IT.gg_revenue_gdp.EUROSTAT",
+     "NL.gg_revenue_gdp.EUROSTAT",
+     "GR.gg_revenue_gdp.EUROSTAT",
+     "SE.gg_revenue_gdp.EUROSTAT",
+     "EA.gg_revenue_gdp.EUROSTAT",
+     "CH.ngdp_lcu.EUROSTAT"
+    ]
+   },
+   "worldbank": {
+    "ok": 39,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "arslanalp_tsuda": {
+    "ok": 48,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "jst": {
+    "ok": 108,
+    "failed": [
+     "CA.bond_total_return.JST",
+     "CA.equity_total_return.JST"
+    ],
+    "errors": {
+     "CA.bond_total_return.JST": "ValueError: no observations parsed",
+     "CA.equity_total_return.JST": "ValueError: no observations parsed"
+    },
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   },
+   "manual": {
+    "ok": 42,
+    "failed": [],
+    "errors": {},
+    "new_obs": 0,
+    "revised_obs": 0,
+    "changed": []
+   }
+  }
  }
 ]
