@@ -5,7 +5,7 @@
   "per_page": 1000,
   "total": 66,
   "sourceid": "2",
-  "lastupdated": "2026-07-13"
+  "lastupdated": "2026-10-08"
  },
  [
   {
@@ -19,7 +19,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2025",
-   "value": 2.48209745378857,
+   "value": 2.48162694360829,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -35,7 +35,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2024",
-   "value": 2.74101875679486,
+   "value": 2.74197509290368,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -51,7 +51,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2023",
-   "value": 3.46480128513405,
+   "value": 3.46456960141384,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -67,7 +67,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2022",
-   "value": 9.64525981280632,
+   "value": 9.64486176520366,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -83,7 +83,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2021",
-   "value": 1.22382501019854,
+   "value": 1.22394673806362,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -99,7 +99,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2020",
-   "value": -1.24798355581405,
+   "value": -1.24746757345197,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -115,7 +115,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2019",
-   "value": 0.253007522038157,
+   "value": 0.255275185263553,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -131,7 +131,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2018",
-   "value": 0.62562141345364,
+   "value": 0.625108501423381,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -147,7 +147,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2017",
-   "value": 1.12125452031419,
+   "value": 1.12096202512904,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -163,7 +163,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2016",
-   "value": -0.825653978390973,
+   "value": -0.837681877998503,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -179,7 +179,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2015",
-   "value": -1.73588804765284,
+   "value": -1.72561164771509,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -195,7 +195,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2014",
-   "value": -1.31226096405506,
+   "value": -1.31257583692997,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -211,7 +211,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2013",
-   "value": -0.921269454256994,
+   "value": -0.921269454256993,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -227,7 +227,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2012",
-   "value": 1.50152696177758,
+   "value": 1.50152696177757,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -323,7 +323,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2006",
-   "value": 3.19594684144545,
+   "value": 3.19594684144544,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -339,7 +339,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2005",
-   "value": 3.54507273335078,
+   "value": 3.54507273335077,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -355,7 +355,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2004",
-   "value": 2.8988481075817,
+   "value": 2.89884810758169,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -371,7 +371,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2003",
-   "value": 3.53065027765552,
+   "value": 3.53065027765551,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -387,7 +387,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2002",
-   "value": 3.62935871878874,
+   "value": 3.62935871878873,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -419,7 +419,7 @@
    },
    "countryiso3code": "GRC",
    "date": "2000",
-   "value": 3.1511816249383,
+   "value": 3.15118162493829,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -451,7 +451,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1998",
-   "value": 4.76622572397641,
+   "value": 4.7662257239764,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -483,7 +483,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1996",
-   "value": 8.19455217632728,
+   "value": 8.19455217632727,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -515,7 +515,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1994",
-   "value": 10.8740756809132,
+   "value": 10.8740756809131,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -579,7 +579,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1990",
-   "value": 20.433499109463,
+   "value": 20.4334991094629,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -611,7 +611,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1988",
-   "value": 13.5288583215049,
+   "value": 13.5288583215048,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -627,7 +627,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1987",
-   "value": 16.3968631635363,
+   "value": 16.3968631635362,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -691,7 +691,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1983",
-   "value": 20.1794812892138,
+   "value": 20.1794812892137,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -787,7 +787,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1977",
-   "value": 12.3697970875078,
+   "value": 12.3697970875077,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -835,7 +835,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1974",
-   "value": 26.5608465867349,
+   "value": 26.5608465867348,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -851,7 +851,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1973",
-   "value": 15.3846240702128,
+   "value": 15.3846240702127,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -915,7 +915,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1969",
-   "value": 2.63891868835485,
+   "value": 2.63891868835484,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -963,7 +963,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1966",
-   "value": 4.90341596130601,
+   "value": 4.903415961306,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -995,7 +995,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1964",
-   "value": 0.617302978512524,
+   "value": 0.617302978512523,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -1027,7 +1027,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1962",
-   "value": -0.475428291049914,
+   "value": -0.475428291049913,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -1043,7 +1043,7 @@
    },
    "countryiso3code": "GRC",
    "date": "1961",
-   "value": 2.10357934997025,
+   "value": 2.10357934997024,
    "unit": "",
    "obs_status": "",
    "decimal": 1

@@ -5,7 +5,7 @@
   "per_page": 1000,
   "total": 66,
   "sourceid": "2",
-  "lastupdated": "2026-07-13"
+  "lastupdated": "2026-10-08"
  },
  [
   {
@@ -35,7 +35,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2024",
-   "value": 29559610350.7831,
+   "value": 29559610350.783,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -115,7 +115,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2019",
-   "value": 44880566052.3703,
+   "value": 44880566052.3702,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -147,7 +147,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2017",
-   "value": 55314409205.2189,
+   "value": 55314409205.2188,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -163,7 +163,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2016",
-   "value": 38414518491.6132,
+   "value": 38414518491.6131,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -211,7 +211,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2013",
-   "value": 30533919650.6264,
+   "value": 30533919650.6263,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -243,7 +243,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2011",
-   "value": 46265800525.8807,
+   "value": 46265800525.8806,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -323,7 +323,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2006",
-   "value": 32022297112.9806,
+   "value": 32022297112.9805,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -371,7 +371,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2003",
-   "value": 14157284136.3645,
+   "value": 14157284136.3644,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -387,7 +387,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2002",
-   "value": 10492424818.7375,
+   "value": 10492424818.7374,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -419,7 +419,7 @@
    },
    "countryiso3code": "ARG",
    "date": "2000",
-   "value": 25152117244.4134,
+   "value": 25152117244.4133,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -483,7 +483,7 @@
    },
    "countryiso3code": "ARG",
    "date": "1996",
-   "value": 19719017351.0624,
+   "value": 19719017351.0623,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -515,7 +515,7 @@
    },
    "countryiso3code": "ARG",
    "date": "1994",
-   "value": 16003265688.189,
+   "value": 16003265688.1889,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -531,7 +531,7 @@
    },
    "countryiso3code": "ARG",
    "date": "1993",
-   "value": 15499431243.972,
+   "value": 15499431243.9719,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -723,7 +723,7 @@
    },
    "countryiso3code": "ARG",
    "date": "1981",
-   "value": 5006226776.17427,
+   "value": 5006226776.17426,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -755,7 +755,7 @@
    },
    "countryiso3code": "ARG",
    "date": "1979",
-   "value": 11626505760.1271,
+   "value": 11626505760.127,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -771,7 +771,7 @@
    },
    "countryiso3code": "ARG",
    "date": "1978",
-   "value": 5933322541.78131,
+   "value": 5933322541.7813,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -803,7 +803,7 @@
    },
    "countryiso3code": "ARG",
    "date": "1976",
-   "value": 1983316224.28095,
+   "value": 1983316224.28094,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -819,7 +819,7 @@
    },
    "countryiso3code": "ARG",
    "date": "1975",
-   "value": 848224746.10848,
+   "value": 848224746.108479,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -851,7 +851,7 @@
    },
    "countryiso3code": "ARG",
    "date": "1973",
-   "value": 1597255505.79734,
+   "value": 1597255505.79733,
    "unit": "",
    "obs_status": "",
    "decimal": 0

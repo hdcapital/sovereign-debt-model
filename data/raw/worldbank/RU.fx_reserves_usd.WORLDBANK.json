@@ -5,7 +5,7 @@
   "per_page": 1000,
   "total": 66,
   "sourceid": "2",
-  "lastupdated": "2026-07-13"
+  "lastupdated": "2026-10-08"
  },
  [
   {
@@ -51,7 +51,7 @@
    },
    "countryiso3code": "RUS",
    "date": "2023",
-   "value": 597217063819.197,
+   "value": 597217063819.196,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -115,7 +115,7 @@
    },
    "countryiso3code": "RUS",
    "date": "2019",
-   "value": 555179461638.925,
+   "value": 555179461638.924,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -131,7 +131,7 @@
    },
    "countryiso3code": "RUS",
    "date": "2018",
-   "value": 468645216082.719,
+   "value": 468645216082.718,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -179,7 +179,7 @@
    },
    "countryiso3code": "RUS",
    "date": "2015",
-   "value": 368042950258.841,
+   "value": 368042950258.84,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -211,7 +211,7 @@
    },
    "countryiso3code": "RUS",
    "date": "2013",
-   "value": 509692074388.888,
+   "value": 509692074388.887,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -227,7 +227,7 @@
    },
    "countryiso3code": "RUS",
    "date": "2012",
-   "value": 537816372807.129,
+   "value": 537816372807.128,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -243,7 +243,7 @@
    },
    "countryiso3code": "RUS",
    "date": "2011",
-   "value": 497410212789.354,
+   "value": 497410212789.353,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -355,7 +355,7 @@
    },
    "countryiso3code": "RUS",
    "date": "2004",
-   "value": 126257956295.73,
+   "value": 126257956295.729,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -403,7 +403,7 @@
    },
    "countryiso3code": "RUS",
    "date": "2001",
-   "value": 36302524269.37,
+   "value": 36302524269.3699,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -435,7 +435,7 @@
    },
    "countryiso3code": "RUS",
    "date": "1999",
-   "value": 12325102379.0529,
+   "value": 12325102379.0528,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -483,7 +483,7 @@
    },
    "countryiso3code": "RUS",
    "date": "1996",
-   "value": 16257617319.2203,
+   "value": 16257617319.2202,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -499,7 +499,7 @@
    },
    "countryiso3code": "RUS",
    "date": "1995",
-   "value": 18023640709.9987,
+   "value": 18023640709.9986,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -515,7 +515,7 @@
    },
    "countryiso3code": "RUS",
    "date": "1994",
-   "value": 7206227228.19572,
+   "value": 7206227228.19571,
    "unit": "",
    "obs_status": "",
    "decimal": 0

@@ -3,7 +3,7 @@
  "class": "dataset",
  "label": "Gross domestic product (GDP) and main components (output, expenditure and income) - quarterly data",
  "source": "ESTAT",
- "updated": "2026-10-07T23:00:00+0200",
+ "updated": "2026-10-15T11:00:00+0200",
  "value": {
   "80": 104961.1,
   "81": 105736.2,
@@ -634,7 +634,7 @@
   "datastructure": {
    "id": "NAMQ_10_GDP",
    "agencyId": "ESTAT",
-   "version": "167.0"
+   "version": "168.0"
   },
   "annotation": [
    {
@@ -651,15 +651,15 @@
    },
    {
     "type": "DISSEMINATION_TIMESTAMP_DATA",
-    "date": "2026-10-07T23:00:00+0200"
+    "date": "2026-10-15T11:00:00+0200"
    },
    {
     "type": "DISSEMINATION_TIMESTAMP_GLOBAL",
-    "date": "2026-10-07T23:00:00+0200"
+    "date": "2026-10-15T11:00:00+0200"
    },
    {
     "type": "DISSEMINATION_TIMESTAMP_PLANNED",
-    "date": "2026-10-07T23:00:00+0200"
+    "date": "2026-10-15T11:00:00+0200"
    },
    {
     "type": "ESMS_HTML",
@@ -678,7 +678,7 @@
    },
    {
     "type": "OBS_COUNT",
-    "title": "8287664"
+    "title": "8267582"
    },
    {
     "type": "OBS_PERIOD_OVERALL_LATEST",
@@ -694,11 +694,11 @@
    },
    {
     "type": "UPDATE_DATA",
-    "date": "2026-10-07T23:00:00+0200"
+    "date": "2026-10-15T11:00:00+0200"
    },
    {
     "type": "UPDATE_FOOTNOTES",
-    "date": "2026-09-24T16:00:59Z"
+    "date": "2026-10-09T07:30:02Z"
    },
    {
     "type": "UPDATE_STRUCTURE",

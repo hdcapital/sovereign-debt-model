@@ -5,7 +5,7 @@
   "per_page": 1000,
   "total": 66,
   "sourceid": "2",
-  "lastupdated": "2026-07-13"
+  "lastupdated": "2026-10-08"
  },
  [
   {
@@ -19,7 +19,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2025",
-   "value": 256178680249.028,
+   "value": 256178680249.027,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -51,7 +51,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2023",
-   "value": 214316827085.02,
+   "value": 214316827085.019,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -67,7 +67,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2022",
-   "value": 201118689946.087,
+   "value": 201118689946.086,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -115,7 +115,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2019",
-   "value": 183056094117.556,
+   "value": 183056094117.555,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -131,7 +131,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2018",
-   "value": 176390278595.584,
+   "value": 176390278595.583,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -147,7 +147,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2017",
-   "value": 175469669183.544,
+   "value": 175469669183.543,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -195,7 +195,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2014",
-   "value": 195681624545.922,
+   "value": 195681624545.921,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -291,7 +291,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2008",
-   "value": 95299838182.8513,
+   "value": 95299838182.8512,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -323,7 +323,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2006",
-   "value": 76329367204.2543,
+   "value": 76329367204.2542,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -355,7 +355,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2004",
-   "value": 64201699862.8694,
+   "value": 64201699862.8693,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -371,7 +371,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2003",
-   "value": 59026700311.4513,
+   "value": 59026700311.4512,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -387,7 +387,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2002",
-   "value": 50671452144.9585,
+   "value": 50671452144.9584,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -403,7 +403,7 @@
    },
    "countryiso3code": "MEX",
    "date": "2001",
-   "value": 44804667773.015,
+   "value": 44804667773.0149,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -499,7 +499,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1995",
-   "value": 17045558632.9877,
+   "value": 17045558632.9876,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -531,7 +531,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1993",
-   "value": 25298703698.2609,
+   "value": 25298703698.2608,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -563,7 +563,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1991",
-   "value": 18052066981.6101,
+   "value": 18052066981.61,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -595,7 +595,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1989",
-   "value": 6740245010.71088,
+   "value": 6740245010.71087,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -611,7 +611,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1988",
-   "value": 6326668369.94167,
+   "value": 6326668369.94166,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -627,7 +627,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1987",
-   "value": 13691985453.9268,
+   "value": 13691985453.9267,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -659,7 +659,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1985",
-   "value": 5678880167.02442,
+   "value": 5678880167.02441,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -691,7 +691,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1983",
-   "value": 4793446679.03658,
+   "value": 4793446679.03657,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -707,7 +707,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1982",
-   "value": 1777613441.72025,
+   "value": 1777613441.72024,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -723,7 +723,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1981",
-   "value": 4971260746.35438,
+   "value": 4971260746.35437,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -771,7 +771,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1978",
-   "value": 2269381532.86607,
+   "value": 2269381532.86606,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -787,7 +787,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1977",
-   "value": 1938338554.76707,
+   "value": 1938338554.76706,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -819,7 +819,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1975",
-   "value": 1896784592.90344,
+   "value": 1896784592.90343,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -851,7 +851,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1973",
-   "value": 1679817084.57653,
+   "value": 1679817084.57652,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -867,7 +867,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1972",
-   "value": 1296684257.07604,
+   "value": 1296684257.07603,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -883,7 +883,7 @@
    },
    "countryiso3code": "MEX",
    "date": "1971",
-   "value": 981458344.777804,
+   "value": 981458344.777803,
    "unit": "",
    "obs_status": "",
    "decimal": 0

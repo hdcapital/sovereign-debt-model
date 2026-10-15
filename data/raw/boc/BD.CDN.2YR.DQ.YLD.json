@@ -9,6 +9,11 @@
    "dimension": {
     "key": "d",
     "name": "Date"
+   },
+   "dateFormat": "daily",
+   "metadata": {
+    "unit": "Percent",
+    "frequency": "Business daily"
    }
   }
  },
@@ -38657,6 +38662,30 @@
    "d": "2026-10-06",
    "BD.CDN.2YR.DQ.YLD": {
     "v": "3.23"
+   }
+  },
+  {
+   "d": "2026-10-07",
+   "BD.CDN.2YR.DQ.YLD": {
+    "v": "3.23"
+   }
+  },
+  {
+   "d": "2026-10-08",
+   "BD.CDN.2YR.DQ.YLD": {
+    "v": "3.24"
+   }
+  },
+  {
+   "d": "2026-10-09",
+   "BD.CDN.2YR.DQ.YLD": {
+    "v": "3.18"
+   }
+  },
+  {
+   "d": "2026-10-13",
+   "BD.CDN.2YR.DQ.YLD": {
+    "v": "3.19"
    }
   }
  ]

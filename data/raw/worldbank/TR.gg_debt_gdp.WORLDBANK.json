@@ -5,7 +5,7 @@
   "per_page": 1000,
   "total": 66,
   "sourceid": "2",
-  "lastupdated": "2026-07-13"
+  "lastupdated": "2026-10-08"
  },
  [
   {
@@ -35,7 +35,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2024",
-   "value": 26.6192344930079,
+   "value": 25.5128667788107,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -51,7 +51,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2023",
-   "value": 33.2548360254558,
+   "value": 31.1237728765421,
    "unit": "",
    "obs_status": "",
    "decimal": 1

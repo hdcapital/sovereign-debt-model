@@ -216,7 +216,7 @@ BR-2015,BR,currency,gold_local_ccy_12m,True,True,18.0,0.25
 BR-2015,BR,currency,spread_to_anchor_bp,False,,,
 BR-2015,BR,currency,target2_balance_gdp,False,,,
 TR-2018,TR,currency,debt_gdp,True,False,,0.0
-TR-2018,TR,currency,primary_balance_gdp,True,True,2.0,0.1
+TR-2018,TR,currency,primary_balance_gdp,True,True,7.0,0.35
 TR-2018,TR,currency,r_minus_g,True,False,,0.0
 TR-2018,TR,currency,avg_coupon_gap,False,,,
 TR-2018,TR,currency,forward_r_minus_g_5y,False,,,
@@ -234,7 +234,7 @@ TR-2018,TR,currency,gold_local_ccy_12m,True,True,12.0,0.2
 TR-2018,TR,currency,spread_to_anchor_bp,False,,,
 TR-2018,TR,currency,target2_balance_gdp,False,,,
 TR-2021,TR,currency,debt_gdp,True,False,,0.0
-TR-2021,TR,currency,primary_balance_gdp,True,True,14.0,0.7
+TR-2021,TR,currency,primary_balance_gdp,True,True,19.0,0.95
 TR-2021,TR,currency,r_minus_g,True,False,,0.0
 TR-2021,TR,currency,avg_coupon_gap,False,,,
 TR-2021,TR,currency,forward_r_minus_g_5y,False,,,
@@ -415,7 +415,7 @@ BR-1999,BR,currency,spread_to_anchor_bp,False,,,
 BR-1999,BR,currency,target2_balance_gdp,False,,,
 TR-2001,TR,currency,debt_gdp,True,False,,0.0
 TR-2001,TR,currency,primary_balance_gdp,True,False,,0.0
-TR-2001,TR,currency,r_minus_g,True,True,17.0,0.5
+TR-2001,TR,currency,r_minus_g,True,True,17.0,0.4375
 TR-2001,TR,currency,avg_coupon_gap,False,,,
 TR-2001,TR,currency,forward_r_minus_g_5y,False,,,
 TR-2001,TR,currency,captivity_score,False,,,

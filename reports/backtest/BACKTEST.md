@@ -1,6 +1,6 @@
 # Backtest
 
-Generated 2026-10-08 from `data/events.csv` (28 labelled episodes) and
+Generated 2026-10-15 from `data/events.csv` (28 labelled episodes) and
 `data/clean/indicators.csv`. Everything here is reproducible with `make backtest`. This
 document is written to say where the model is weak, not to sell it.
 
@@ -58,7 +58,7 @@ signal).
 | policy_rate_minus_inflation | 24 | 0.8333333333333334 | 20.00 | 0.42 |
 | gold_local_ccy_12m | 28 | 0.8214285714285714 | 19.00 | 0.34 |
 | avg_coupon_gap | 16 | 0.8125 | 19.00 | 0.40 |
-| primary_balance_gdp | 28 | 0.75 | 20.00 | 0.54 |
+| primary_balance_gdp | 28 | 0.75 | 20.00 | 0.55 |
 | forward_r_minus_g_5y | 4 | 0.75 | 9.00 | 0.31 |
 | r_minus_g | 25 | 0.72 | 20.00 | 0.49 |
 | spread_to_anchor_bp | 7 | 0.7142857142857143 | 20.00 | 0.42 |
@@ -142,58 +142,58 @@ Means by quadrant:
 | horizon_years | return | term | coef | n |
 |---|---|---|---|---|
 | 5 | real_bond_return_ann | mean:sustainable_captive | -3.10 | 57 |
-| 5 | real_bond_return_ann | mean:sustainable_free | -2.44 | 261 |
+| 5 | real_bond_return_ann | mean:sustainable_free | -2.45 | 261 |
 | 5 | real_bond_return_ann | mean:unsustainable_captive | 2.61 | 10 |
-| 5 | real_bond_return_ann | mean:unsustainable_free | -2.60 | 12 |
+| 5 | real_bond_return_ann | mean:unsustainable_free | -2.65 | 12 |
 | 5 | real_gold_return_ann | mean:sustainable_captive | 11.46 | 57 |
 | 5 | real_gold_return_ann | mean:sustainable_free | 8.25 | 261 |
 | 5 | real_gold_return_ann | mean:unsustainable_captive | 9.43 | 10 |
 | 5 | real_gold_return_ann | mean:unsustainable_free | 10.46 | 12 |
 | 5 | gold_minus_bond_ann | mean:sustainable_captive | 15.08 | 60 |
-| 5 | gold_minus_bond_ann | mean:sustainable_free | 10.77 | 263 |
+| 5 | gold_minus_bond_ann | mean:sustainable_free | 10.78 | 263 |
 | 5 | gold_minus_bond_ann | mean:unsustainable_captive | 6.82 | 10 |
-| 5 | gold_minus_bond_ann | mean:unsustainable_free | 13.05 | 12 |
-| 10 | real_bond_return_ann | mean:sustainable_captive | -2.49 | 14 |
-| 10 | real_bond_return_ann | mean:sustainable_free | -0.04 | 91 |
+| 5 | gold_minus_bond_ann | mean:unsustainable_free | 13.10 | 12 |
+| 10 | real_bond_return_ann | mean:sustainable_captive | -2.51 | 14 |
+| 10 | real_bond_return_ann | mean:sustainable_free | -0.05 | 91 |
 | 10 | real_bond_return_ann | mean:unsustainable_captive | 2.38 | 3 |
 | 10 | real_bond_return_ann | mean:unsustainable_free | -2.46 | 6 |
 | 10 | real_gold_return_ann | mean:sustainable_captive | 10.18 | 14 |
 | 10 | real_gold_return_ann | mean:sustainable_free | 7.55 | 91 |
 | 10 | real_gold_return_ann | mean:unsustainable_captive | 12.71 | 3 |
 | 10 | real_gold_return_ann | mean:unsustainable_free | 14.41 | 6 |
-| 10 | gold_minus_bond_ann | mean:sustainable_captive | 12.75 | 15 |
-| 10 | gold_minus_bond_ann | mean:sustainable_free | 7.77 | 94 |
-| 10 | gold_minus_bond_ann | mean:unsustainable_captive | 12.56 | 4 |
+| 10 | gold_minus_bond_ann | mean:sustainable_captive | 12.78 | 15 |
+| 10 | gold_minus_bond_ann | mean:sustainable_free | 7.78 | 94 |
+| 10 | gold_minus_bond_ann | mean:unsustainable_captive | 12.57 | 4 |
 | 10 | gold_minus_bond_ann | mean:unsustainable_free | 16.86 | 6 |
 
 Regression:
 
 | horizon_years | return | term | coef | se_overlap_adj | t | n | effective_n |
 |---|---|---|---|---|---|---|---|
-| 5 | real_bond_return_ann | const | -3.10 | 2.48 | -1.25 | 340 | 17.00 |
+| 5 | real_bond_return_ann | const | -3.10 | 2.49 | -1.25 | 340 | 17.00 |
 | 5 | real_bond_return_ann | sustainable_free | 0.65 | 2.74 | 0.24 | 340 | 17.00 |
-| 5 | real_bond_return_ann | unsustainable_captive | 5.70 | 6.42 | 0.89 | 340 | 17.00 |
-| 5 | real_bond_return_ann | unsustainable_free | 0.50 | 5.95 | 0.08 | 340 | 17.00 |
+| 5 | real_bond_return_ann | unsustainable_captive | 5.70 | 6.44 | 0.89 | 340 | 17.00 |
+| 5 | real_bond_return_ann | unsustainable_free | 0.45 | 5.96 | 0.08 | 340 | 17.00 |
 | 5 | real_gold_return_ann | const | 11.46 | 3.40 | 3.37 | 340 | 17.00 |
 | 5 | real_gold_return_ann | sustainable_free | -3.22 | 3.75 | -0.86 | 340 | 17.00 |
 | 5 | real_gold_return_ann | unsustainable_captive | -2.04 | 8.79 | -0.23 | 340 | 17.00 |
 | 5 | real_gold_return_ann | unsustainable_free | -1.00 | 8.15 | -0.12 | 340 | 17.00 |
-| 5 | gold_minus_bond_ann | const | 15.08 | 4.44 | 3.40 | 345 | 17.20 |
-| 5 | gold_minus_bond_ann | sustainable_free | -4.31 | 4.92 | -0.88 | 345 | 17.20 |
-| 5 | gold_minus_bond_ann | unsustainable_captive | -8.26 | 11.74 | -0.70 | 345 | 17.20 |
-| 5 | gold_minus_bond_ann | unsustainable_free | -2.02 | 10.87 | -0.19 | 345 | 17.20 |
-| 10 | real_bond_return_ann | const | -2.49 | 3.47 | -0.72 | 114 | 5.00 |
-| 10 | real_bond_return_ann | sustainable_free | 2.45 | 3.73 | 0.66 | 114 | 5.00 |
-| 10 | real_bond_return_ann | unsustainable_captive | 4.87 | 8.26 | 0.59 | 114 | 5.00 |
-| 10 | real_bond_return_ann | unsustainable_free | 0.03 | 6.34 | 0.00 | 114 | 5.00 |
+| 5 | gold_minus_bond_ann | const | 15.08 | 4.44 | 3.39 | 345 | 17.20 |
+| 5 | gold_minus_bond_ann | sustainable_free | -4.31 | 4.93 | -0.87 | 345 | 17.20 |
+| 5 | gold_minus_bond_ann | unsustainable_captive | -8.27 | 11.76 | -0.70 | 345 | 17.20 |
+| 5 | gold_minus_bond_ann | unsustainable_free | -1.98 | 10.89 | -0.18 | 345 | 17.20 |
+| 10 | real_bond_return_ann | const | -2.51 | 3.48 | -0.72 | 114 | 5.00 |
+| 10 | real_bond_return_ann | sustainable_free | 2.46 | 3.74 | 0.66 | 114 | 5.00 |
+| 10 | real_bond_return_ann | unsustainable_captive | 4.89 | 8.29 | 0.59 | 114 | 5.00 |
+| 10 | real_bond_return_ann | unsustainable_free | 0.05 | 6.36 | 0.01 | 114 | 5.00 |
 | 10 | real_gold_return_ann | const | 10.18 | 6.07 | 1.68 | 114 | 5.00 |
 | 10 | real_gold_return_ann | sustainable_free | -2.64 | 6.52 | -0.40 | 114 | 5.00 |
 | 10 | real_gold_return_ann | unsustainable_captive | 2.53 | 14.44 | 0.17 | 114 | 5.00 |
 | 10 | real_gold_return_ann | unsustainable_free | 4.22 | 11.08 | 0.38 | 114 | 5.00 |
-| 10 | gold_minus_bond_ann | const | 12.75 | 7.10 | 1.80 | 119 | 5.00 |
-| 10 | gold_minus_bond_ann | sustainable_free | -4.99 | 7.65 | -0.65 | 119 | 5.00 |
-| 10 | gold_minus_bond_ann | unsustainable_captive | -0.19 | 15.48 | -0.01 | 119 | 5.00 |
-| 10 | gold_minus_bond_ann | unsustainable_free | 4.11 | 13.28 | 0.31 | 119 | 5.00 |
+| 10 | gold_minus_bond_ann | const | 12.78 | 7.11 | 1.80 | 119 | 5.00 |
+| 10 | gold_minus_bond_ann | sustainable_free | -5.00 | 7.66 | -0.65 | 119 | 5.00 |
+| 10 | gold_minus_bond_ann | unsustainable_captive | -0.21 | 15.50 | -0.01 | 119 | 5.00 |
+| 10 | gold_minus_bond_ann | unsustainable_free | 4.08 | 13.31 | 0.31 | 119 | 5.00 |
 
 ## 4. Does forward r beat current r as a forecast of r five years later?
 
@@ -203,9 +203,9 @@ enough history.
 
 | country | n | rmse_forward_r | rmse_current_r | bias_forward_r | bias_current_r | forward_better |
 |---|---|---|---|---|---|---|
-| AU | 24 | 1.21 | 1.09 | -0.49 | 0.65 | False |
-| CA | 24 | 1.47 | 0.54 | -1.31 | 0.09 | False |
-| CH | 20 | 0.94 | 0.33 | -0.92 | -0.16 | False |
+| AU | 24 | 1.18 | 1.08 | -0.48 | 0.66 | False |
+| CA | 24 | 1.49 | 0.55 | -1.32 | 0.08 | False |
+| CH | 20 | 0.94 | 0.33 | -0.92 | -0.17 | False |
 | DE | 21 | 1.01 | 0.58 | -0.79 | 0.12 | False |
 | EA | 21 | 1.23 | 0.58 | -1.07 | -0.05 | False |
 | FR | 21 | 0.93 | 0.50 | -0.75 | 0.03 | False |

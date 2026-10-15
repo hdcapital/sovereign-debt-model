@@ -5,7 +5,7 @@
   "per_page": 1000,
   "total": 66,
   "sourceid": "2",
-  "lastupdated": "2026-07-13"
+  "lastupdated": "2026-10-08"
  },
  [
   {
@@ -35,7 +35,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2024",
-   "value": 155548682878.169,
+   "value": 155548682878.168,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -51,7 +51,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2023",
-   "value": 140868480001.696,
+   "value": 140868480001.695,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -67,7 +67,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2022",
-   "value": 128735003395.893,
+   "value": 128735003395.892,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -83,7 +83,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2021",
-   "value": 111184882382.134,
+   "value": 111184882382.133,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -147,7 +147,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2017",
-   "value": 107657025384.516,
+   "value": 107657025384.515,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -227,7 +227,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2012",
-   "value": 119182965975.41,
+   "value": 119182965975.409,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -243,7 +243,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2011",
-   "value": 87937253858.338,
+   "value": 87937253858.3379,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -259,7 +259,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2010",
-   "value": 85959461665.9826,
+   "value": 85959461665.9825,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -275,7 +275,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2009",
-   "value": 74933099954.2986,
+   "value": 74933099954.2985,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -291,7 +291,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2008",
-   "value": 73674684815.6172,
+   "value": 73674684815.6171,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -323,7 +323,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2006",
-   "value": 63264841173.6432,
+   "value": 63264841173.6431,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -371,7 +371,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2003",
-   "value": 35548509276.1176,
+   "value": 35548509276.1175,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -387,7 +387,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2002",
-   "value": 28348030216.9613,
+   "value": 28348030216.9612,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -419,7 +419,7 @@
    },
    "countryiso3code": "TUR",
    "date": "2000",
-   "value": 23514529510.39,
+   "value": 23514529510.3899,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -435,7 +435,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1999",
-   "value": 24432663963.6654,
+   "value": 24432663963.6653,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -483,7 +483,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1996",
-   "value": 17819437052.0218,
+   "value": 17819437052.0217,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -499,7 +499,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1995",
-   "value": 13890900401.5819,
+   "value": 13890900401.5818,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -579,7 +579,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1990",
-   "value": 7626099813.58548,
+   "value": 7626099813.58547,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -627,7 +627,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1987",
-   "value": 3630665151.35595,
+   "value": 3630665151.35594,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -643,7 +643,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1986",
-   "value": 2912507102.56448,
+   "value": 2912507102.56447,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -691,7 +691,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1983",
-   "value": 2728450850.85496,
+   "value": 2728450850.85495,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -755,7 +755,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1979",
-   "value": 2586031059.0781,
+   "value": 2586031059.07809,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -771,7 +771,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1978",
-   "value": 1630117686.01986,
+   "value": 1630117686.01985,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -803,7 +803,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1976",
-   "value": 1471465349.52027,
+   "value": 1471465349.52026,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -835,7 +835,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1974",
-   "value": 2227397998.87672,
+   "value": 2227397998.87671,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -867,7 +867,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1972",
-   "value": 1493838677.45191,
+   "value": 1493838677.4519,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -883,7 +883,7 @@
    },
    "countryiso3code": "TUR",
    "date": "1971",
-   "value": 781035856.944714,
+   "value": 781035856.944713,
    "unit": "",
    "obs_status": "",
    "decimal": 0

@@ -5,7 +5,7 @@
   "per_page": 1000,
   "total": 66,
   "sourceid": "2",
-  "lastupdated": "2026-07-13"
+  "lastupdated": "2026-10-08"
  },
  [
   {
@@ -35,7 +35,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2024",
-   "value": 329732443813.378,
+   "value": 329732443813.377,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -99,7 +99,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2020",
-   "value": 355614251456.14,
+   "value": 355614251456.139,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -115,7 +115,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2019",
-   "value": 356886386911.979,
+   "value": 356886386911.978,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -131,7 +131,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2018",
-   "value": 374709673447.828,
+   "value": 374709673447.827,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -195,7 +195,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2014",
-   "value": 363570226084.661,
+   "value": 363570226084.66,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -211,7 +211,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2013",
-   "value": 358816422466.118,
+   "value": 358816422466.117,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -227,7 +227,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2012",
-   "value": 373160977539.732,
+   "value": 373160977539.731,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -259,7 +259,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2010",
-   "value": 288574623536.622,
+   "value": 288574623536.621,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -291,7 +291,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2008",
-   "value": 193783363540.649,
+   "value": 193783363540.648,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -339,7 +339,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2005",
-   "value": 53799284976.6775,
+   "value": 53799284976.6774,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -355,7 +355,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2004",
-   "value": 52934865185.6722,
+   "value": 52934865185.6721,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -371,7 +371,7 @@
    },
    "countryiso3code": "BRA",
    "date": "2003",
-   "value": 49297286966.3089,
+   "value": 49297286966.3088,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -467,7 +467,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1997",
-   "value": 52208520617.4322,
+   "value": 52208520617.4321,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -483,7 +483,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1996",
-   "value": 60152476087.583,
+   "value": 60152476087.5829,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -499,7 +499,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1995",
-   "value": 51842389630.8018,
+   "value": 51842389630.8017,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -563,7 +563,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1991",
-   "value": 9391631540.11072,
+   "value": 9391631540.11071,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -627,7 +627,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1987",
-   "value": 8134599725.9388,
+   "value": 8134599725.93879,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -659,7 +659,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1985",
-   "value": 11617955161.6872,
+   "value": 11617955161.6871,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -675,7 +675,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1984",
-   "value": 11960814096.9956,
+   "value": 11960814096.9955,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -691,7 +691,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1983",
-   "value": 4561475256.47813,
+   "value": 4561475256.47812,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -707,7 +707,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1982",
-   "value": 3997356017.94856,
+   "value": 3997356017.94855,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -739,7 +739,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1980",
-   "value": 6875231542.0342,
+   "value": 6875231542.03419,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -787,7 +787,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1977",
-   "value": 7441920872.37625,
+   "value": 7441920872.37624,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -803,7 +803,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1976",
-   "value": 6666854181.77382,
+   "value": 6666854181.77381,
    "unit": "",
    "obs_status": "",
    "decimal": 0
@@ -883,7 +883,7 @@
    },
    "countryiso3code": "BRA",
    "date": "1971",
-   "value": 1753865277.94277,
+   "value": 1753865277.94276,
    "unit": "",
    "obs_status": "",
    "decimal": 0

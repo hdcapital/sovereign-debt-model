@@ -5,7 +5,7 @@
   "per_page": 1000,
   "total": 66,
   "sourceid": "2",
-  "lastupdated": "2026-07-13"
+  "lastupdated": "2026-10-08"
  },
  [
   {
@@ -19,7 +19,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2025",
-   "value": 0.679869285243995,
+   "value": 0.679015259300199,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -35,7 +35,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2024",
-   "value": 2.83581658224034,
+   "value": 2.83679582836375,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -51,7 +51,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2023",
-   "value": 8.5486248974891,
+   "value": 8.54678338363812,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -67,7 +67,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2022",
-   "value": 8.36929098869189,
+   "value": 8.36888341476543,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -83,7 +83,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2021",
-   "value": 2.16319736447143,
+   "value": 2.16416666666663,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -99,7 +99,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2020",
-   "value": 0.497367318853572,
+   "value": 0.498304091118424,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -115,7 +115,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2019",
-   "value": 1.78415097403835,
+   "value": 1.78413120567382,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -131,7 +131,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2018",
-   "value": 1.95353530127028,
+   "value": 1.95015121493372,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -147,7 +147,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2017",
-   "value": 1.79449904665599,
+   "value": 1.79945856998777,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -163,7 +163,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2016",
-   "value": 0.984269244577992,
+   "value": 0.98181980613754,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -179,7 +179,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2015",
-   "value": -0.0467847449832812,
+   "value": -0.0464339610847765,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -195,7 +195,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2014",
-   "value": -0.179638494114635,
+   "value": -0.17827377503636,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -211,7 +211,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2013",
-   "value": -0.044292970148682,
+   "value": -0.0463297071428012,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -227,7 +227,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2012",
-   "value": 0.888377506923735,
+   "value": 0.888988764045007,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -243,7 +243,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2011",
-   "value": 2.9611507382214,
+   "value": 2.959686077074,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -259,7 +259,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2010",
-   "value": 1.15798802715626,
+   "value": 1.15997116455861,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -275,7 +275,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2009",
-   "value": -0.494460544378051,
+   "value": -0.495598304532137,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -291,7 +291,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2008",
-   "value": 3.43704910602875,
+   "value": 3.43913814369411,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -307,7 +307,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2007",
-   "value": 2.21216883436733,
+   "value": 2.21014064531381,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -323,7 +323,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2006",
-   "value": 1.36021468627693,
+   "value": 1.36070041629642,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -339,7 +339,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2005",
-   "value": 0.453170852576138,
+   "value": 0.452275416675049,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -355,7 +355,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2004",
-   "value": 0.373659828721824,
+   "value": 0.374448895778391,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -371,7 +371,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2003",
-   "value": 1.92565534892383,
+   "value": 1.91946652987946,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -387,7 +387,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2002",
-   "value": 2.15848213589266,
+   "value": 2.15684836035507,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -403,7 +403,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2001",
-   "value": 2.40595834145436,
+   "value": 2.4084230410097,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -419,7 +419,7 @@
    },
    "countryiso3code": "SWE",
    "date": "2000",
-   "value": 0.899143734041715,
+   "value": 0.895545015485253,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -435,7 +435,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1999",
-   "value": 0.462175756339138,
+   "value": 0.462353542716039,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -451,7 +451,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1998",
-   "value": -0.267132668354971,
+   "value": -0.269070945762687,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -467,7 +467,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1997",
-   "value": 0.658410256243526,
+   "value": 0.661839389272955,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -483,7 +483,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1996",
-   "value": 0.533131978766238,
+   "value": 0.531406800689535,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -499,7 +499,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1995",
-   "value": 2.455148578184,
+   "value": 2.45798366593921,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -515,7 +515,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1994",
-   "value": 2.15813800724629,
+   "value": 2.15704977188365,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -531,7 +531,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1993",
-   "value": 4.72817304626049,
+   "value": 4.72115916913373,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -547,7 +547,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1992",
-   "value": 2.37436725111881,
+   "value": 2.37159506708227,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -563,7 +563,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1991",
-   "value": 9.44462732944189,
+   "value": 9.44528342592093,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -579,7 +579,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1990",
-   "value": 10.3665533879493,
+   "value": 10.3647375704995,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -595,7 +595,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1989",
-   "value": 6.44327587426603,
+   "value": 6.44880243315168,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -611,7 +611,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1988",
-   "value": 5.8248986843944,
+   "value": 5.82180873355129,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -627,7 +627,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1987",
-   "value": 4.18857151771368,
+   "value": 4.1790367084628,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -643,7 +643,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1986",
-   "value": 4.23591011089791,
+   "value": 4.24160780601472,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -659,7 +659,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1985",
-   "value": 7.37257458126243,
+   "value": 7.36875024432199,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -675,7 +675,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1984",
-   "value": 8.04424238994429,
+   "value": 8.04384093932805,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -691,7 +691,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1983",
-   "value": 8.8730215236321,
+   "value": 8.86748206731644,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -707,7 +707,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1982",
-   "value": 8.58918509047119,
+   "value": 8.5933989114696,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -723,7 +723,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1981",
-   "value": 12.1039385302599,
+   "value": 12.0924635491002,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -739,7 +739,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1980",
-   "value": 13.7063223649005,
+   "value": 13.7038192588806,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -755,7 +755,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1979",
-   "value": 7.20978617047804,
+   "value": 7.20979238548934,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -771,7 +771,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1978",
-   "value": 9.99526541717736,
+   "value": 9.99525991515276,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -787,7 +787,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1977",
-   "value": 11.4418051091076,
+   "value": 11.4418107348875,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -803,7 +803,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1976",
-   "value": 10.2492246529784,
+   "value": 10.249215092628,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -819,7 +819,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1975",
-   "value": 9.77987398822576,
+   "value": 9.77988792704304,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -835,7 +835,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1974",
-   "value": 9.91172530113231,
+   "value": 9.91171390641705,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -851,7 +851,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1973",
-   "value": 6.71799739819354,
+   "value": 6.71799422624322,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -867,7 +867,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1972",
-   "value": 6.00738969862494,
+   "value": 6.00739928159489,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -883,7 +883,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1971",
-   "value": 7.39554113837643,
+   "value": 7.39553383753391,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -899,7 +899,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1970",
-   "value": 7.01635885100763,
+   "value": 7.01637631123215,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -915,7 +915,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1969",
-   "value": 2.69199458555708,
+   "value": 2.69198741786227,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -931,7 +931,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1968",
-   "value": 1.94312582473228,
+   "value": 1.94312809845274,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -947,7 +947,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1967",
-   "value": 4.28931922993319,
+   "value": 4.28931588612159,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -963,7 +963,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1966",
-   "value": 6.40480825348423,
+   "value": 6.40480761435003,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -979,7 +979,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1965",
-   "value": 5.01277129643838,
+   "value": 5.01276962001,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -995,7 +995,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1964",
-   "value": 3.38766231088349,
+   "value": 3.38766332182474,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -1011,7 +1011,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1963",
-   "value": 2.87174034485767,
+   "value": 2.87173947166813,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -1027,7 +1027,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1962",
-   "value": 4.76619721905826,
+   "value": 4.76619906440215,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -1043,7 +1043,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1961",
-   "value": 2.15797310981961,
+   "value": 2.15797418296712,
    "unit": "",
    "obs_status": "",
    "decimal": 1
@@ -1059,7 +1059,7 @@
    },
    "countryiso3code": "SWE",
    "date": "1960",
-   "value": 4.14177915090215,
+   "value": 4.14178078997869,
    "unit": "",
    "obs_status": "",
    "decimal": 1
