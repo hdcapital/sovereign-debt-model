@@ -3,7 +3,7 @@
  "class": "dataset",
  "label": "Quarterly non-financial accounts for general government",
  "source": "ESTAT",
- "updated": "2026-07-21T11:00:00+0200",
+ "updated": "2026-10-21T11:00:00+0200",
  "value": {
   "16": 0.4,
   "17": -1.5,
@@ -113,14 +113,16 @@
   "121": -1.0,
   "122": -1.7,
   "123": -3.1,
-  "124": -1.0
+  "124": -0.9,
+  "125": -1.7
  },
  "status": {
   "120": "p",
   "121": "p",
   "122": "p",
   "123": "p",
-  "124": "p"
+  "124": "p",
+  "125": "p"
  },
  "id": [
   "freq",
@@ -138,7 +140,7 @@
   1,
   1,
   1,
-  125
+  126
  ],
  "dimension": {
   "freq": {
@@ -335,7 +337,8 @@
      "2025-Q2": 121,
      "2025-Q3": 122,
      "2025-Q4": 123,
-     "2026-Q1": 124
+     "2026-Q1": 124,
+     "2026-Q2": 125
     },
     "label": {
      "1995-Q1": "1995-Q1",
@@ -462,7 +465,8 @@
      "2025-Q2": "2025-Q2",
      "2025-Q3": "2025-Q3",
      "2025-Q4": "2025-Q4",
-     "2026-Q1": "2026-Q1"
+     "2026-Q1": "2026-Q1",
+     "2026-Q2": "2026-Q2"
     }
    }
   }
@@ -475,7 +479,7 @@
   "datastructure": {
    "id": "GOV_10Q_GGNFA",
    "agencyId": "ESTAT",
-   "version": "75.0"
+   "version": "76.0"
   },
   "annotation": [
    {
@@ -492,15 +496,15 @@
    },
    {
     "type": "DISSEMINATION_TIMESTAMP_DATA",
-    "date": "2026-07-21T11:00:00+0200"
+    "date": "2026-10-21T11:00:00+0200"
    },
    {
     "type": "DISSEMINATION_TIMESTAMP_GLOBAL",
-    "date": "2026-07-21T11:00:00+0200"
+    "date": "2026-10-21T11:00:00+0200"
    },
    {
     "type": "DISSEMINATION_TIMESTAMP_PLANNED",
-    "date": "2026-07-21T11:00:00+0200"
+    "date": "2026-10-21T11:00:00+0200"
    },
    {
     "type": "ESMS_HTML",
@@ -514,11 +518,11 @@
    },
    {
     "type": "OBS_COUNT",
-    "title": "1315409"
+    "title": "1389286"
    },
    {
     "type": "OBS_PERIOD_OVERALL_LATEST",
-    "title": "2026-Q1"
+    "title": "2026-Q2"
    },
    {
     "type": "OBS_PERIOD_OVERALL_OLDEST",
@@ -530,11 +534,11 @@
    },
    {
     "type": "UPDATE_DATA",
-    "date": "2026-07-21T11:00:00+0200"
+    "date": "2026-10-21T11:00:00+0200"
    },
    {
     "type": "UPDATE_STRUCTURE",
-    "date": "2026-07-21T11:00:00+0200"
+    "date": "2026-10-21T11:00:00+0200"
    }
   ],
   "status": {

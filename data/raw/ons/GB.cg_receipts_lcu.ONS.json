@@ -782,23 +782,23 @@
   },
   {
    "date": "2024",
-   "value": "1019866",
+   "value": "1019857",
    "label": "2024",
    "year": "2024",
    "month": "",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025",
-   "value": "1091993",
+   "value": "1091882",
    "label": "2025",
    "year": "2025",
    "month": "",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   }
  ],
  "quarters": [
@@ -3954,73 +3954,83 @@
   },
   {
    "date": "2024 Q4",
-   "value": "248222",
+   "value": "248213",
    "label": "2024 Q4",
    "year": "2024",
    "month": "",
    "quarter": "Q4",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 Q1",
-   "value": "301637",
+   "value": "301606",
    "label": "2025 Q1",
    "year": "2025",
    "month": "",
    "quarter": "Q1",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 Q2",
-   "value": "250743",
+   "value": "250712",
    "label": "2025 Q2",
    "year": "2025",
    "month": "",
    "quarter": "Q2",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 Q3",
-   "value": "272011",
+   "value": "271982",
    "label": "2025 Q3",
    "year": "2025",
    "month": "",
    "quarter": "Q3",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 Q4",
-   "value": "267602",
+   "value": "267582",
    "label": "2025 Q4",
    "year": "2025",
    "month": "",
    "quarter": "Q4",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2026 Q1",
-   "value": "333177",
+   "value": "333332",
    "label": "2026 Q1",
    "year": "2026",
    "month": "",
    "quarter": "Q1",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2026 Q2",
-   "value": "266323",
+   "value": "268703",
    "label": "2026 Q2",
    "year": "2026",
    "month": "",
    "quarter": "Q2",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
+  },
+  {
+   "date": "2026 Q3",
+   "value": "285548",
+   "label": "2026 Q3",
+   "year": "2026",
+   "month": "",
+   "quarter": "Q3",
+   "sourceDataset": "PUSF",
+   "updateDate": "2026-10-20T23:00:00.000Z"
   }
  ],
  "months": [
@@ -7856,123 +7866,123 @@
   },
   {
    "date": "2024 DEC",
-   "value": "86510",
+   "value": "86501",
    "label": "2024 DEC",
    "year": "2024",
    "month": "December",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 JAN",
-   "value": "117431",
+   "value": "117421",
    "label": "2025 JAN",
    "year": "2025",
    "month": "January",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 FEB",
-   "value": "87271",
+   "value": "87261",
    "label": "2025 FEB",
    "year": "2025",
    "month": "February",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 MAR",
-   "value": "96935",
+   "value": "96924",
    "label": "2025 MAR",
    "year": "2025",
    "month": "March",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 APR",
-   "value": "83217",
+   "value": "83207",
    "label": "2025 APR",
    "year": "2025",
    "month": "April",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 MAY",
-   "value": "82135",
+   "value": "82125",
    "label": "2025 MAY",
    "year": "2025",
    "month": "May",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 JUN",
-   "value": "85391",
+   "value": "85380",
    "label": "2025 JUN",
    "year": "2025",
    "month": "June",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 JUL",
-   "value": "99900",
+   "value": "99890",
    "label": "2025 JUL",
    "year": "2025",
    "month": "July",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 AUG",
-   "value": "86486",
+   "value": "86476",
    "label": "2025 AUG",
    "year": "2025",
    "month": "August",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 SEP",
-   "value": "85625",
+   "value": "85616",
    "label": "2025 SEP",
    "year": "2025",
    "month": "September",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 OCT",
-   "value": "86934",
+   "value": "86924",
    "label": "2025 OCT",
    "year": "2025",
    "month": "October",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 NOV",
-   "value": "87563",
+   "value": "87553",
    "label": "2025 NOV",
    "year": "2025",
    "month": "November",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2025 DEC",
@@ -7986,83 +7996,93 @@
   },
   {
    "date": "2026 JAN",
-   "value": "134124",
+   "value": "134061",
    "label": "2026 JAN",
    "year": "2026",
    "month": "January",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2026 FEB",
-   "value": "96424",
+   "value": "96361",
    "label": "2026 FEB",
    "year": "2026",
    "month": "February",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2026 MAR",
-   "value": "102629",
+   "value": "102910",
    "label": "2026 MAR",
    "year": "2026",
    "month": "March",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2026 APR",
-   "value": "85437",
+   "value": "86289",
    "label": "2026 APR",
    "year": "2026",
    "month": "April",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2026 MAY",
-   "value": "87633",
+   "value": "88538",
    "label": "2026 MAY",
    "year": "2026",
    "month": "May",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2026 JUN",
-   "value": "93253",
+   "value": "93876",
    "label": "2026 JUN",
    "year": "2026",
    "month": "June",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2026 JUL",
-   "value": "104619",
+   "value": "105445",
    "label": "2026 JUL",
    "year": "2026",
    "month": "July",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
   },
   {
    "date": "2026 AUG",
-   "value": "89769",
+   "value": "90036",
    "label": "2026 AUG",
    "year": "2026",
    "month": "August",
    "quarter": "",
    "sourceDataset": "PUSF",
-   "updateDate": "2026-09-21T23:00:00.000Z"
+   "updateDate": "2026-10-20T23:00:00.000Z"
+  },
+  {
+   "date": "2026 SEP",
+   "value": "90067",
+   "label": "2026 SEP",
+   "year": "2026",
+   "month": "September",
+   "quarter": "",
+   "sourceDataset": "PUSF",
+   "updateDate": "2026-10-20T23:00:00.000Z"
   }
  ],
  "sourceDatasets": [],
@@ -9084,6 +9104,12 @@
    "updateDate": "2026-09-22T06:00:00.000Z",
    "correctionNotice": "",
    "label": "v136"
+  },
+  {
+   "uri": "/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/anbv/pusf/previous/v137",
+   "updateDate": "2026-10-21T06:00:00.000Z",
+   "correctionNotice": "",
+   "label": "v137"
   }
  ],
  "type": "timeseries",
@@ -9095,16 +9121,16 @@
    "name": "Public Sector Finance Delivery team",
    "telephone": "+44 1633 456402"
   },
-  "releaseDate": "2026-09-21T23:00:00.000Z",
-  "nextRelease": "21 October 2026",
+  "releaseDate": "2026-10-20T23:00:00.000Z",
+  "nextRelease": "20 November 2026",
   "datasetId": "PUSF",
   "datasetUri": "/economy/governmentpublicsectorandtaxes/publicsectorfinance/datasets/publicsectorfinances",
   "cdid": "ANBV",
   "unit": "m",
   "preUnit": "\u00a3",
   "source": "",
-  "date": "2026 AUG",
-  "number": "89769",
+  "date": "2026 SEP",
+  "number": "90067",
   "sampleSize": "0"
  }
 }

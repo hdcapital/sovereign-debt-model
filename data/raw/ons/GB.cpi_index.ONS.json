@@ -1921,6 +1921,16 @@
    "quarter": "Q2",
    "sourceDataset": "MM23",
    "updateDate": "2026-07-21T23:00:00.000Z"
+  },
+  {
+   "date": "2026 Q3",
+   "value": "143.6",
+   "label": "2026 Q3",
+   "year": "2026",
+   "month": "",
+   "quarter": "Q3",
+   "sourceDataset": "MM23",
+   "updateDate": "2026-10-20T23:00:00.000Z"
   }
  ],
  "months": [
@@ -6563,6 +6573,16 @@
    "quarter": "",
    "sourceDataset": "MM23",
    "updateDate": "2026-09-15T23:00:00.000Z"
+  },
+  {
+   "date": "2026 SEP",
+   "value": "144.1",
+   "label": "2026 SEP",
+   "year": "2026",
+   "month": "September",
+   "quarter": "",
+   "sourceDataset": "MM23",
+   "updateDate": "2026-10-20T23:00:00.000Z"
   }
  ],
  "sourceDatasets": [],
@@ -7373,6 +7393,12 @@
    "updateDate": "2026-09-16T06:00:00.000Z",
    "correctionNotice": "",
    "label": "v131"
+  },
+  {
+   "uri": "/economy/inflationandpriceindices/timeseries/d7bt/mm23/previous/v132",
+   "updateDate": "2026-10-21T06:00:00.000Z",
+   "correctionNotice": "",
+   "label": "v132"
   }
  ],
  "type": "timeseries",
@@ -7384,16 +7410,16 @@
    "name": "Consumer Price Inflation team",
    "telephone": "Consumer Price Inflation Enquiries: +44 1633 456900. Consumer Price Inflation recorded message (available after 8am on release day): +44 808 196 1267"
   },
-  "releaseDate": "2026-09-15T23:00:00.000Z",
-  "nextRelease": "21 October 2026",
+  "releaseDate": "2026-10-20T23:00:00.000Z",
+  "nextRelease": "18 November 2026",
   "datasetId": "MM23",
   "datasetUri": "/economy/inflationandpriceindices/datasets/consumerpriceindices",
   "cdid": "D7BT",
   "unit": "Index, base year = 100",
   "preUnit": "",
   "source": "",
-  "date": "2026 AUG",
-  "number": "143.6",
+  "date": "2026 SEP",
+  "number": "144.1",
   "keyNote": "Index, 2015 = 100",
   "sampleSize": "0"
  }

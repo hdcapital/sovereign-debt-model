@@ -218,4 +218,5 @@ TGB.M.IT.N.A094T.U2.EUR.E,M,IT,N,A094T,U2,EUR,E,2026-04,-348792.05,E,F,,,P1M,,E,
 TGB.M.IT.N.A094T.U2.EUR.E,M,IT,N,A094T,U2,EUR,E,2026-05,-358561.54,E,F,,,P1M,,E,Monthly TARGET balances for Italy,,,,2,,,,,TARGET balances (end of month position),,EUR,6
 TGB.M.IT.N.A094T.U2.EUR.E,M,IT,N,A094T,U2,EUR,E,2026-06,-335639.17,E,F,,,P1M,,E,Monthly TARGET balances for Italy,,,,2,,,,,TARGET balances (end of month position),,EUR,6
 TGB.M.IT.N.A094T.U2.EUR.E,M,IT,N,A094T,U2,EUR,E,2026-07,-331168.67,E,F,,,P1M,,E,Monthly TARGET balances for Italy,,,,2,,,,,TARGET balances (end of month position),,EUR,6
-TGB.M.IT.N.A094T.U2.EUR.E,M,IT,N,A094T,U2,EUR,E,2026-08,-344949.42,P,F,,,P1M,,E,Monthly TARGET balances for Italy,,,,2,,,,,TARGET balances (end of month position),,EUR,6
+TGB.M.IT.N.A094T.U2.EUR.E,M,IT,N,A094T,U2,EUR,E,2026-08,-344949.42,E,F,,,P1M,,E,Monthly TARGET balances for Italy,,,,2,,,,,TARGET balances (end of month position),,EUR,6
+TGB.M.IT.N.A094T.U2.EUR.E,M,IT,N,A094T,U2,EUR,E,2026-09,-324189.21,P,F,,,P1M,,E,Monthly TARGET balances for Italy,,,,2,,,,,TARGET balances (end of month position),,EUR,6

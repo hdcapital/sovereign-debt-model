@@ -460,6 +460,7 @@ US.avg_interest_rate.US_TREASURY,US,avg_interest_rate,2026-06-30,3.411,2026-10-0
 US.avg_interest_rate.US_TREASURY,US,avg_interest_rate,2026-07-31,3.443,2026-10-07T00:00:00
 US.avg_interest_rate.US_TREASURY,US,avg_interest_rate,2026-08-31,3.475,2026-10-07T00:00:00
 US.avg_interest_rate.US_TREASURY,US,avg_interest_rate,2026-09-30,3.518,2026-10-07T00:00:00
+US.avg_interest_rate.US_TREASURY,US,avg_interest_rate,2026-10-31,3.57,2026-11-15T13:22:55
 US.avg_maturity_years.US_TREASURY,US,avg_maturity_years,2001-03-31,5.870285032323705,2026-10-08T05:21:46
 US.avg_maturity_years.US_TREASURY,US,avg_maturity_years,2001-06-30,6.047895684908003,2026-10-08T05:21:46
 US.avg_maturity_years.US_TREASURY,US,avg_maturity_years,2001-09-30,5.82606465518633,2026-10-08T05:21:46
@@ -872,6 +873,7 @@ US.bills_outstanding_lcu.US_TREASURY,US,bills_outstanding_lcu,2026-06-30,6690.11
 US.bills_outstanding_lcu.US_TREASURY,US,bills_outstanding_lcu,2026-07-31,6988.2264301000005,2026-10-07T00:00:00
 US.bills_outstanding_lcu.US_TREASURY,US,bills_outstanding_lcu,2026-08-31,7247.8555898,2026-10-07T00:00:00
 US.bills_outstanding_lcu.US_TREASURY,US,bills_outstanding_lcu,2026-09-30,7117.9370671,2026-10-07T00:00:00
+US.bills_outstanding_lcu.US_TREASURY,US,bills_outstanding_lcu,2026-10-31,7381.2820645,2026-11-15T13:22:56
 US.cg_interest_lcu.US_TREASURY,US,cg_interest_lcu,2010-05-31,20.066764004520003,2026-10-07T00:00:00
 US.cg_interest_lcu.US_TREASURY,US,cg_interest_lcu,2010-06-30,18.444038929150004,2026-10-07T00:00:00
 US.cg_interest_lcu.US_TREASURY,US,cg_interest_lcu,2010-07-31,18.62875502457,2026-10-07T00:00:00
@@ -1069,6 +1071,7 @@ US.cg_interest_lcu.US_TREASURY,US,cg_interest_lcu,2026-06-30,100.86673135908,202
 US.cg_interest_lcu.US_TREASURY,US,cg_interest_lcu,2026-07-31,100.51859076716,2026-10-07T00:00:00
 US.cg_interest_lcu.US_TREASURY,US,cg_interest_lcu,2026-08-31,81.72730806822001,2026-10-07T00:00:00
 US.cg_interest_lcu.US_TREASURY,US,cg_interest_lcu,2026-09-30,86.65544078649,2026-10-07T00:00:00
+US.cg_interest_lcu.US_TREASURY,US,cg_interest_lcu,2026-10-31,98.61617967083001,2026-11-15T13:22:57
 US.linkers_outstanding_lcu.US_TREASURY,US,linkers_outstanding_lcu,2004-06-30,200.39089972449003,2026-10-07T00:00:00
 US.linkers_outstanding_lcu.US_TREASURY,US,linkers_outstanding_lcu,2004-07-31,222.60884492147,2026-10-07T00:00:00
 US.linkers_outstanding_lcu.US_TREASURY,US,linkers_outstanding_lcu,2004-08-31,223.33683028372,2026-10-07T00:00:00
@@ -1337,6 +1340,7 @@ US.linkers_outstanding_lcu.US_TREASURY,US,linkers_outstanding_lcu,2026-06-30,216
 US.linkers_outstanding_lcu.US_TREASURY,US,linkers_outstanding_lcu,2026-07-31,2149.4348386521897,2026-10-07T00:00:00
 US.linkers_outstanding_lcu.US_TREASURY,US,linkers_outstanding_lcu,2026-08-31,2151.9569863482297,2026-10-07T00:00:00
 US.linkers_outstanding_lcu.US_TREASURY,US,linkers_outstanding_lcu,2026-09-30,2172.03351840193,2026-10-07T00:00:00
+US.linkers_outstanding_lcu.US_TREASURY,US,linkers_outstanding_lcu,2026-10-31,2156.80970149598,2026-11-15T13:22:57
 US.marketable_debt_lcu.US_TREASURY,US,marketable_debt_lcu,2001-01-31,2961.866452,2026-10-07T00:00:00
 US.marketable_debt_lcu.US_TREASURY,US,marketable_debt_lcu,2001-02-28,2973.797056,2026-10-07T00:00:00
 US.marketable_debt_lcu.US_TREASURY,US,marketable_debt_lcu,2001-03-31,3002.408566,2026-10-07T00:00:00
@@ -1646,3 +1650,4 @@ US.marketable_debt_lcu.US_TREASURY,US,marketable_debt_lcu,2026-06-30,31065.29081
 US.marketable_debt_lcu.US_TREASURY,US,marketable_debt_lcu,2026-07-31,31434.0848446522,2026-10-07T00:00:00
 US.marketable_debt_lcu.US_TREASURY,US,marketable_debt_lcu,2026-08-31,31807.1411103482,2026-10-07T00:00:00
 US.marketable_debt_lcu.US_TREASURY,US,marketable_debt_lcu,2026-09-30,31814.3967570019,2026-10-07T00:00:00
+US.marketable_debt_lcu.US_TREASURY,US,marketable_debt_lcu,2026-10-31,32129.367777495998,2026-11-15T13:22:56

@@ -32709,5 +32709,103 @@
   "security_class_desc": "_",
   "debt_held_public_mil_amt": "32425012.5168903",
   "total_mil_amt": "40171825.1066275"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Marketable",
+  "security_class_desc": "Bills",
+  "debt_held_public_mil_amt": "7381282.0645",
+  "total_mil_amt": "7381670.6965"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Marketable",
+  "security_class_desc": "Notes",
+  "debt_held_public_mil_amt": "16333473.147",
+  "total_mil_amt": "16337017.8865"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Marketable",
+  "security_class_desc": "Bonds",
+  "debt_held_public_mil_amt": "5549858.413",
+  "total_mil_amt": "5562539.833"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Marketable",
+  "security_class_desc": "Treasury Inflation-Protected Securities",
+  "debt_held_public_mil_amt": "2156809.70149598",
+  "total_mil_amt": "2157395.90799809"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Marketable",
+  "security_class_desc": "Floating Rate Notes",
+  "debt_held_public_mil_amt": "707944.4515",
+  "total_mil_amt": "707975.4515"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Marketable",
+  "security_class_desc": "Federal Financing Bank",
+  "debt_held_public_mil_amt": "0",
+  "total_mil_amt": "3590.9655"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Total Marketable",
+  "security_class_desc": "_",
+  "debt_held_public_mil_amt": "32129367.777496",
+  "total_mil_amt": "32150190.7409981"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Nonmarketable",
+  "security_class_desc": "Domestic Series",
+  "debt_held_public_mil_amt": "10710.21994957",
+  "total_mil_amt": "10710.21994957"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Nonmarketable",
+  "security_class_desc": "State and Local Government Series",
+  "debt_held_public_mil_amt": "79174.15115058",
+  "total_mil_amt": "79174.15115058"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Nonmarketable",
+  "security_class_desc": "United States Savings Securities",
+  "debt_held_public_mil_amt": "145200.26475602",
+  "total_mil_amt": "145200.26475602"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Nonmarketable",
+  "security_class_desc": "Government Account Series",
+  "debt_held_public_mil_amt": "369264.79763333",
+  "total_mil_amt": "8134529.84980428"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Nonmarketable",
+  "security_class_desc": "Other",
+  "debt_held_public_mil_amt": "4704.78870074",
+  "total_mil_amt": "4704.78870074"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Total Nonmarketable",
+  "security_class_desc": "_",
+  "debt_held_public_mil_amt": "609054.22219024",
+  "total_mil_amt": "8374319.27436118"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Total Public Debt Outstanding",
+  "security_class_desc": "_",
+  "debt_held_public_mil_amt": "32738421.9996862",
+  "total_mil_amt": "40524510.0153593"
  }
 ]

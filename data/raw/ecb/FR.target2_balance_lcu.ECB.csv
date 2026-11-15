@@ -218,4 +218,5 @@ TGB.M.FR.N.A094T.U2.EUR.E,M,FR,N,A094T,U2,EUR,E,2026-04,-187355.32,E,F,,,P1M,,E,
 TGB.M.FR.N.A094T.U2.EUR.E,M,FR,N,A094T,U2,EUR,E,2026-05,-190430.87,E,F,,,P1M,,E,Monthly TARGET balances for France,,,,2,,,,,TARGET balances (end of month position),,EUR,6
 TGB.M.FR.N.A094T.U2.EUR.E,M,FR,N,A094T,U2,EUR,E,2026-06,-196843.08,E,F,,,P1M,,E,Monthly TARGET balances for France,,,,2,,,,,TARGET balances (end of month position),,EUR,6
 TGB.M.FR.N.A094T.U2.EUR.E,M,FR,N,A094T,U2,EUR,E,2026-07,-182480.77,E,F,,,P1M,,E,Monthly TARGET balances for France,,,,2,,,,,TARGET balances (end of month position),,EUR,6
-TGB.M.FR.N.A094T.U2.EUR.E,M,FR,N,A094T,U2,EUR,E,2026-08,-181336.52,P,F,,,P1M,,E,Monthly TARGET balances for France,,,,2,,,,,TARGET balances (end of month position),,EUR,6
+TGB.M.FR.N.A094T.U2.EUR.E,M,FR,N,A094T,U2,EUR,E,2026-08,-181336.52,E,F,,,P1M,,E,Monthly TARGET balances for France,,,,2,,,,,TARGET balances (end of month position),,EUR,6
+TGB.M.FR.N.A094T.U2.EUR.E,M,FR,N,A094T,U2,EUR,E,2026-09,-183450.38,P,F,,,P1M,,E,Monthly TARGET balances for France,,,,2,,,,,TARGET balances (end of month position),,EUR,6

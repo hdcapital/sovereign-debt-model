@@ -3989,5 +3989,18 @@
   "record_calendar_quarter": "3",
   "record_calendar_month": "09",
   "record_calendar_day": "30"
+ },
+ {
+  "record_date": "2026-10-31",
+  "security_type_desc": "Marketable",
+  "security_desc": "Total Marketable",
+  "avg_interest_rate_amt": "3.570",
+  "src_line_nbr": "7",
+  "record_fiscal_year": "2027",
+  "record_fiscal_quarter": "1",
+  "record_calendar_year": "2026",
+  "record_calendar_quarter": "4",
+  "record_calendar_month": "10",
+  "record_calendar_day": "31"
  }
 ]
